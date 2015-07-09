@@ -5,18 +5,96 @@
     <description></description>
     <link>http://www.sitzextase.de/</link>
     <atom:link href="http://www.sitzextase.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Jul 2015 22:03:04 +0200</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 22:03:04 +0200</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2015 12:53:55 +0300</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2015 12:53:55 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Text Encoding Fundamentals and their Application</title>
+        <description>&lt;p&gt;Context: &lt;a href=&quot;https://www.dhsi.org&quot;&gt;Digital Humanities Summer Institute&lt;/a&gt; 2015, UVic, 1-5 June 2015&lt;/p&gt;
+
+&lt;p&gt;Slides are available &lt;a href=&quot;/slidesDHSI2015/index.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
+
+&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT)(&lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to retrieval of data and publication to the web using XSLT. 
+We will do so on the basis of late nineteenth-century manuscripts of British diplomatic correspondence from Damascus and the first bi-lingual, English and Arabic, weekly newspaper published in the USA, &lt;em&gt;Kawkab America&lt;/em&gt;. Digital images, as well as sample encodings will be provided. 
+Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.
+No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
+        <link>http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI/</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI/</guid>
+        
+        <category>teaching</category>
+        
+        <category>TEI</category>
+        
+        <category>XML</category>
+        
+        <category>XSLT</category>
+        
+        <category>markup</category>
+        
+        <category>newspapers</category>
+        
+        <category>Arabic newspapers</category>
+        
+        
+        <category>teaching</category>
+        
+      </item>
+    
+      <item>
+        <title>From analogue documents to electronic texts: Introduction to TEI XML editing in multilingual environments</title>
+        <description>&lt;p&gt;Context: &lt;a href=&quot;https://dhibeirut.wordpress.com&quot;&gt;Digital Humanities Institute - Beirut&lt;/a&gt; 2015, AUB, 2-6 March 2015&lt;/p&gt;
+
+&lt;p&gt;Slides are available &lt;a href=&quot;/slidesDHIB2015/index.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
+
+&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT)(&lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to the publication of XML files using XSLT. To do so in a meaningful way, each participant will encode a single issue of one of Beirut’s many newspapers covering the restoration of the Ottoman constitution in summer 1908.Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.
+No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
+        <link>http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB/</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB/</guid>
+        
+        <category>teaching</category>
+        
+        <category>TEI</category>
+        
+        <category>XML</category>
+        
+        <category>XSLT</category>
+        
+        <category>markup</category>
+        
+        <category>newspapers</category>
+        
+        <category>Arabic newspapers</category>
+        
+        <category>manuscripts</category>
+        
+        
+        <category>teaching</category>
+        
+      </item>
     
       <item>
         <title>XSLT functions for converting calendars</title>
         <description>&lt;p&gt;Recently I came across the necessity of converting Islamic &lt;em&gt;hijrī&lt;/em&gt; dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the &lt;em&gt;hijrī&lt;/em&gt; calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
-As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on &lt;a href=&quot;&quot;&gt;GitHub&lt;/a&gt; for reuse.&lt;/p&gt;
+As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt; for reuse.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 04 Jul 2015 23:55:19 +0200</pubDate>
-        <link>http://www.sitzextase.de/2015/07/04/xslt-calendar-conversion/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2015/07/04/xslt-calendar-conversion/</guid>
+        <pubDate>Fri, 28 Feb 2014 00:00:00 +0200</pubDate>
+        <link>http://www.sitzextase.de/2014/02/28/xslt-calendar-conversion/</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2014/02/28/xslt-calendar-conversion/</guid>
+        
+        <category>XML</category>
+        
+        <category>XSLT</category>
+        
+        <category>calendars</category>
         
         
       </item>
@@ -31,7 +109,7 @@ As I could not find any available code on the net, I adopted the javascript conv
 
 &lt;p&gt;Unfortunately, I have not had access to different editions of volume 5 (the covers of copies SOAS, Michigan, and Princeton show no differences), but I suspect it too exists in (at least) two editions.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 19 Jan 2014 12:57:30 +0100</pubDate>
+        <pubDate>Sun, 19 Jan 2014 13:57:30 +0200</pubDate>
         <link>http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2/</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2/</guid>
         
@@ -57,7 +135,7 @@ As I could not find any available code on the net, I adopted the javascript conv
 
 &lt;p&gt;A systematic comparison of the two editions, the existence of which hitherto escaped the scholarly community, might reveal and equally systematic targetting of themes to different audiences. This could mean that major scholarly works on the Nahda, the press, and its audience need substantial reworking.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Jan 2014 12:39:09 +0100</pubDate>
+        <pubDate>Sat, 18 Jan 2014 13:39:09 +0200</pubDate>
         <link>http://www.sitzextase.de/2014/01/18/the-puzzle-continues/</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2014/01/18/the-puzzle-continues/</guid>
         
@@ -75,7 +153,7 @@ To illustrate the issue, I quickly built a simple website providingimagery for d
 
 &lt;p&gt;[Update 19 Jan 2013] Safa Saracoglu solved at least part of the riddle, by pointing out that, before &lt;em&gt;Düstur&lt;/em&gt; became a series from 1872 onwards, three independent volumes were published under the same title in in 1851, 1863, and 1866.  Hence, what I thought of as the first edition of the first volume of the first series of &lt;em&gt;Düstur&lt;/em&gt; was indeed the 1863 volume.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 29 Dec 2012 13:24:43 +0100</pubDate>
+        <pubDate>Sat, 29 Dec 2012 14:24:43 +0200</pubDate>
         <link>http://www.sitzextase.de/2012/12/29/the-historians-puzzle/</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2012/12/29/the-historians-puzzle/</guid>
         
@@ -91,14 +169,16 @@ To illustrate the issue, I quickly built a simple website providingimagery for d
 &lt;p&gt;Not yet. At the moment, the presentation tool of the DFG viewer is tailored to the broader public as only the image files are accessible; marked up xml files are &lt;strong&gt;not provided&lt;/strong&gt; for download – heck, they are not even provided to the human eye reading the website. 
 Some of the core collections (e.g. Prussian Gazettes) have been properly marked up with person and place names and the enhanced data is accessible through the &lt;a href=&quot;http://zefys.staatsbibliothek-berlin.de/en/amtspresse/&quot;&gt;ZEFYS own webinterface&lt;/a&gt;. However, again, the xml source files are not available to the public.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 24 Aug 2011 00:00:34 +0200</pubDate>
-        <link>http://www.sitzextase.de/resources/newspapers/2011/08/24/digitsed-german-newspapers/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/resources/newspapers/2011/08/24/digitsed-german-newspapers/</guid>
-        
+        <pubDate>Wed, 24 Aug 2011 01:00:34 +0300</pubDate>
+        <link>http://www.sitzextase.de/2011/08/24/digitsed-german-newspapers/</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2011/08/24/digitsed-german-newspapers/</guid>
         
         <category>resources</category>
         
         <category>newspapers</category>
+        
+        <category>digitized sources</category>
+        
         
       </item>
     
