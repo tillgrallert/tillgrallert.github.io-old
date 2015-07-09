@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>The historian's puzzle: various differences between copies of printed periodicals that ought to be similar</title>
-  <meta name="description" content="Over the course of the recent days I discovered that contrary to myexpectations libraries around the world hold numerous unmarked editionsand print-runs of t...">
+  <title>XSLT functions for converting calendars</title>
+  <meta name="description" content="Recently I came across the necessity of converting Islamic hijrī dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.sitzextase.de/2012/12/29/the-historians-puzzle/">
+  <link rel="canonical" href="http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion/">
   <link rel="alternate" type="application/rss+xml" title="sitzExtase" href="http://www.sitzextase.de/feed.xml" />
 </head>
 
@@ -61,26 +61,30 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"><p>The historian’s puzzle: various differences between copies of printed periodicals that ought to be similar</p>
+    <h1 class="post-title"><p>XSLT functions for converting calendars</p>
 </h1>
-    <p class="post-meta">Dec 29, 2012 • Till Grallert</p>
+    <p class="post-meta">Jul 4, 2013 • Till Grallert</p>
   </header>
 
   <article class="post-content">
-    <p>Over the course of the recent days I discovered that contrary to myexpectations libraries around the world hold numerous unmarked editionsand print-runs of the first series Düstur (<em>tertib-i evvel</em>). Copies vary in pagination,spelling, and content. Yet, neither the people I asked nor the scholarlyworks citing copies of Düstur, seem to be aware of significantdifferences between copies of the same volume.  In consequence, it isalmost impossible to confirm references found in scholarly literature.Over the past years I had come to consider the many seemingly wrongreferences in Aristarchi and Young as, well, erroneous references bycareless printers, copy-editors, even the translators themselves, but asit stands, they could have just used a different copy.
-As I could not readily find any concordance or works dealing with thisissue (which by the way also pertains to nineteenth century Arabicmonthly journals), I wondered whether anybody on various mailing lists could point meto relevant information. Düstur was the official collection of Ottoman legal texts at the time and the differences between the various print-runs had potentially grave consequences. Yet, to my surprise (again) nobody in the scholarly community of Ottomanists seems to be aware of these puzzling divergences and no reply had any answers to offer.
-To illustrate the issue, I quickly built a simple website providingimagery for different versions of the table of contents of the
-<a href="http://sitzextase.de/dustur/dustur-v01.html" target="_blank">first</a>, <a href="http://sitzextase.de/dustur/dustur-v03.html" target="_blank">third</a>, and <a href="http://sitzextase.de/dustur/dustur-v04.html" target="_blank">fourth</a> volume of Düstur, as well as for a page of <a href="http://sitzextase.de/muqtataf/muqtataf-v04-i05.html" target="_blank">al-Muqtaṭaf 4(5)</a>. Please have a look at them and if any of the readers has access to further versions of the mentioned periodicals, I would appreciate a comment below or via <a href="https://twitter.com/tillgrallert">twitter</a>.</p>
-
-<p>[Update 12 Jan 2013] The index to the first series of Düstur, published in 1891 as Ḳaraḳoç, Sarkiz. <em>Miftāḥ-i Ḳavānīn-i ʿOŝmāniye</em>. Der-i Saʿādet: Maḥmūd Bey Maṭbaʿası, 1309 aH [1891], does not contain any information on divergent print-runs and editions.</p>
-
-<p>[Update 19 Jan 2013] Safa Saracoglu solved at least part of the riddle, by pointing out that, before <em>Düstur</em> became a series from 1872 onwards, three independent volumes were published under the same title in in 1851, 1863, and 1866.  Hence, what I thought of as the first edition of the first volume of the first series of <em>Düstur</em> was indeed the 1863 volume.</p>
+    <p>Recently I came across the necessity of converting Islamic <em>hijrī</em> dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the <em>hijrī</em> calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
+As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on <a href="https://github.com/tillgrallert/xslt-calendar-conversion">GitHub</a> for reuse.</p>
 
   </article>
 
   <footer class="post-fooer">
   	<p>Tagged as: 
-  		.</p>
+  		
+          <span class="post-tag">XML, </span>
+          
+          <span class="post-tag">XSLT, </span>
+          
+          <span class="post-tag">calendars, </span>
+          
+          <span class="post-tag">tools, </span>
+          
+          <span class="post-tag">digital humanities, </span>
+          .</p>
   </footer>
 
 </div>

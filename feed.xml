@@ -5,8 +5,8 @@
     <description></description>
     <link>http://www.sitzextase.de/</link>
     <atom:link href="http://www.sitzextase.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Jul 2015 12:53:55 +0300</pubDate>
-    <lastBuildDate>Thu, 09 Jul 2015 12:53:55 +0300</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2015 14:36:15 +0300</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2015 14:36:15 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -82,24 +82,6 @@ No previous programming skills or knowledge of mark-up languages is required, ev
       </item>
     
       <item>
-        <title>XSLT functions for converting calendars</title>
-        <description>&lt;p&gt;Recently I came across the necessity of converting Islamic &lt;em&gt;hijrī&lt;/em&gt; dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the &lt;em&gt;hijrī&lt;/em&gt; calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
-As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt; for reuse.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 Feb 2014 00:00:00 +0200</pubDate>
-        <link>http://www.sitzextase.de/2014/02/28/xslt-calendar-conversion/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2014/02/28/xslt-calendar-conversion/</guid>
-        
-        <category>XML</category>
-        
-        <category>XSLT</category>
-        
-        <category>calendars</category>
-        
-        
-      </item>
-    
-      <item>
         <title>The puzzle continues II: in addition to *al-kabīr* and *al-ṣaghīr*, *al-Muqtaṭaf* published slightly different editions in Beirut and Kairo</title>
         <description>&lt;p&gt;I am just about to fix the references in my thesis, and a possible reason for differences between available copies of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, which I had briefly mentioned in my first post &lt;a href=&quot;http://sitzextase.de/2012/12/29/the-historians-puzzle-various-differences-between-copies-of-printed-periodicals-that-ought-to-be-similar/&quot;&gt;on the issue of differences between copies of printed periodicals that ought to be similar&lt;/a&gt;. As I wrote shortly &lt;a href=&quot;http://sitzextase.de/2013/08/19/the-puzzle-continues-al-muqta%E1%B9%ADaf-was-printed-in-two-different-and-unmarked-editions/&quot;&gt;thereafter&lt;/a&gt;, the scholarly community had just not read &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; close enough to discover the existence of a long (&lt;em&gt;kabīr&lt;/em&gt;) and short (&lt;em&gt;ṣaghīr&lt;/em&gt;) for Volumes 6 to 9, which were most likely targetted at two different markets (the long version at Egypt and Europe and the short one at Beirut, Lebanon, and surrounding areas).&lt;/p&gt;
 
@@ -143,6 +125,237 @@ As I could not find any available code on the net, I adopted the javascript conv
       </item>
     
       <item>
+        <title>New XSLT stylesheets for calendar conversion on Github</title>
+        <description>&lt;p&gt;A couple of months ago a posted &lt;a href=&quot;/2013/07/04/xslt-calendar-conversion/&quot;&gt;a short note&lt;/a&gt; on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (&lt;em&gt;mālī&lt;/em&gt;, &lt;em&gt;sene-yi māliye&lt;/em&gt;) to the brew and uploaded everything under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0 license&lt;/a&gt; to [GitHub](https://github.com/tillgrallert/xslt-calendar-conversion. Feel free to fork and tinker with the code. Enjoy!&lt;/p&gt;
+
+&lt;h2 id=&quot;general-description&quot;&gt;General description&lt;/h2&gt;
+
+&lt;p&gt;The single stylesheet in this repo was conceived as a remedy for the bugs in the XPath specification that prevent the computation of Islamic (Hijrī) dates. As I was, at the same time, working on the transcription of Arabic and Ottoman Turkish sources from the nineteenth century, which made use of Gregorian, Hijrī, Rūmī, and Mālī calendars, into XML files, I also wanted to reliably compute conversions between the various calendars.&lt;/p&gt;
+
+&lt;p&gt;In addition to numerical dates, the stylesheet provides a function that returns the common month names.&lt;/p&gt;
+
+&lt;p&gt;Detailed descriptions of the functions and their parameters can be found inside the stylesheet.&lt;/p&gt;
+
+&lt;h2 id=&quot;characteristics-of-the-non-gregorian-calendars&quot;&gt;Characteristics of the non-Gregorian calendars&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Hijrī&lt;/em&gt;&lt;/strong&gt; reckoning relies on the observation of the lunar year. Year counts began with Muhammad’s exodus (hijrā) from Mecca to Medina. Hijrī dates cannot really be computed as observations of the new moon varied between locations. The stylesheet uses common astronomical computations of the lunar calendar.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Rūmī&lt;/em&gt;&lt;/strong&gt; reckoning is a Julian calendar that adopted 1 January as the beginning of the year. As the rules for leap years are slightly different between Julian and Gregorian calendars, the difference between these two is slowly increasing (currently 13 days).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Mālī&lt;/em&gt;&lt;/strong&gt; reckoning is a combination of the old Julian calendar beginning on 1 March and a Hijrī year count, that was introduced as the fiscal calendar of the Ottoman Empire in 1676. Every 33 lunar years, the year counts between Mālī and Hijrī calendars are synchronised by dropping a year.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;templates&quot;&gt;Templates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Templates for the conversion between calendars:
+    &lt;ul&gt;
+      &lt;li&gt;funcDateG2H&lt;/li&gt;
+      &lt;li&gt;funcDateG2J&lt;/li&gt;
+      &lt;li&gt;funcDateG2JD&lt;/li&gt;
+      &lt;li&gt;funcDateG2M&lt;/li&gt;
+      &lt;li&gt;funcDateH2G&lt;/li&gt;
+      &lt;li&gt;funcDateH2J&lt;/li&gt;
+      &lt;li&gt;funcDateH2JD&lt;/li&gt;
+      &lt;li&gt;funcDateH2M&lt;/li&gt;
+      &lt;li&gt;funcDateJ2G&lt;/li&gt;
+      &lt;li&gt;funcDateJ2H&lt;/li&gt;
+      &lt;li&gt;funcDateJ2JD&lt;/li&gt;
+      &lt;li&gt;funcDateJD2G&lt;/li&gt;
+      &lt;li&gt;funcDateJD2H&lt;/li&gt;
+      &lt;li&gt;funcDateJD2J&lt;/li&gt;
+      &lt;li&gt;funcDateM2G&lt;/li&gt;
+      &lt;li&gt;funcDateM2H&lt;/li&gt;
+      &lt;li&gt;funcDateM2J&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Templates for converting Date formats
+    &lt;ul&gt;
+      &lt;li&gt;funcDateMonthNameNumber&lt;/li&gt;
+      &lt;li&gt;funcDateNormaliseInput&lt;/li&gt;
+      &lt;li&gt;funcDateFormatTei&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;input--output&quot;&gt;Input / Output&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Input and output for all templates converting dates between the various calendars is as follows: “yyyy-mm-dd”&lt;/li&gt;
+  &lt;li&gt;The template “funcDateFormatTei” accepts the same input but produces a &lt;code&gt;&amp;lt;tei:date&amp;gt;&lt;/code&gt; note with &lt;code&gt;@when&lt;/code&gt; or &lt;code&gt;@when&lt;/code&gt;, &lt;code&gt;@when-custom&lt;/code&gt;, &lt;code&gt;@calendar&lt;/code&gt;, and &lt;code&gt;@datingMethod&lt;/code&gt; attributes depending on the input calendar.&lt;/li&gt;
+  &lt;li&gt;The template “funcDateNormaliseInput” can be used to convert variously formatted input  strings to the yyyy-mm-dd required by other templates. Possible input formats are  the common English formats of ‘dd(.) MNn(.) yyyy’, ‘MNn(.) dd(.), yyyy’, i.e. ‘15  Shaʿbān 1324’ or ‘Jan. 15, 2014’. The template requires an input string and a  calendar-language combination as found in funcDateMonthNameNumber.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 04 Jan 2014 00:00:00 +0200</pubDate>
+        <link>http://www.sitzextase.de/2014/01/04/new-calendar-conversion/</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/04/new-calendar-conversion/</guid>
+        
+        <category>XML</category>
+        
+        <category>XLST</category>
+        
+        <category>calendars</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>XSLT functions for converting calendars</title>
+        <description>&lt;p&gt;Recently I came across the necessity of converting Islamic &lt;em&gt;hijrī&lt;/em&gt; dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the &lt;em&gt;hijrī&lt;/em&gt; calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
+As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt; for reuse.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Jul 2013 00:00:00 +0300</pubDate>
+        <link>http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion/</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion/</guid>
+        
+        <category>XML</category>
+        
+        <category>XSLT</category>
+        
+        <category>calendars</category>
+        
+        <category>tools</category>
+        
+        <category>digital humanities</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Historical Currency Converter</title>
+        <description>&lt;p&gt;Conducting historical research, one often encounters odd currencies, measures, and calendars, all of which are bound to space and time. Calender conversion tools can be readily found on the internet (a good example is &lt;a href=&quot;http://www.calendarhome.com/converter/&quot;&gt;CalendarHome&lt;/a&gt;’s adaptation of &lt;a href=&quot;http://www.fourmilab.ch/documents/calendar/&quot;&gt;Fourmilab&lt;/a&gt;’s code), but converters for non-metric currencies and weights are a bit trickier to come by. As I found myself repeatedly computing exchange rates between Ottoman Lira, British Pound Sterling, US Dollars, and French Francs, I wrote a simple javascript and html frontend.&lt;/p&gt;
+
+&lt;p&gt;The javascript is available on &lt;a href=&quot;https://github.com/tillgrallert/historical-currency-converter&quot;&gt;GitHub&lt;/a&gt;. Check the source of this page to look at the implementation.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-quick-and-dirty-implementation&quot;&gt;The quick and dirty implementation&lt;/h2&gt;
+
+&lt;p&gt;These forms are a rough sketch and allow to calculate exchange rates between Pound Sterling, Ottoman Lira, and Metric currencies and to convert any of the three currency types into any other using a supplied rate. The Pound Sterling is computed as £1 = 20s. = &lt;span id=&quot;s1&quot;&gt;&lt;/span&gt;d. and the Ottoman Lira as £T1 = Ps 100 = &lt;span id=&quot;s2&quot;&gt;&lt;/span&gt; Para. When Ottoman is chosen as the output, values are returned on a &lt;strong&gt;piaster (Ps) base&lt;/strong&gt;, following the practice of most contemporaneous sources. This was due to the falling silver prices and the resulting limping gold standard of the late nineteenth century. In consequence, and even though the nominal value of £T1 remained Ps 100,the Ottoman empire established an official exchange rate of £T1= Ps 123 in May 1883.&lt;/p&gt;
+
+&lt;p&gt;Values must be supplied as denominations separated by a dash; i.e. £1 =’1-0-0’, Ps 245”20 = ‘0-245-20’ or ‘2-45-20’. For metric currencies, values are supplied as unit-hundreds-00; i.e. $4.78 = ‘4-78-00’.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://rawgithub.com/tillgrallert/historical-currency-converter/master/CurrencyConverter.js&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;cForm&quot;&gt;
+    &lt;header&gt;Compute an exchange rate&lt;/header&gt;
+    &lt;form id=&quot;fCurRate&quot; action=&quot;javascript:return false;&quot;&gt;
+        &lt;input class=&quot;cAmount&quot; id=&quot;iInput1&quot; type=&quot;text&quot; value=&quot;2-3-5&quot; /&gt;
+        &lt;select id=&quot;iCurInput1&quot;&gt;
+            &lt;option&gt;Sterling&lt;/option&gt;
+            &lt;option&gt;Ottoman&lt;/option&gt;
+            &lt;option&gt;Ottoman (123)&lt;/option&gt;
+            &lt;option&gt;Metric&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;input class=&quot;cAmount&quot; id=&quot;iInput2&quot; type=&quot;text&quot; value=&quot;0-34-28&quot; /&gt;
+        &lt;select id=&quot;iCurInput2&quot;&gt;
+            &lt;option&gt;Ottoman&lt;/option&gt;
+            &lt;option&gt;Ottoman (123)&lt;/option&gt;
+            &lt;option&gt;Sterling&lt;/option&gt;
+            &lt;option&gt;Metric&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;input type=&quot;button&quot; id=&quot;b2&quot; value=&quot;=&quot; /&gt;
+        &lt;span id=&quot;sResult1&quot;&gt;&lt;/span&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;cForm&quot;&gt;
+    &lt;header&gt;Convert amounts using an exchange rate&lt;/header&gt;
+    &lt;form id=&quot;fCurExchange&quot;&gt;
+        &lt;input class=&quot;cAmount&quot; id=&quot;iInput3&quot; type=&quot;text&quot; value=&quot;2-3-5&quot; /&gt;
+        &lt;select id=&quot;iCurInput3&quot;&gt;
+            &lt;option&gt;Sterling&lt;/option&gt;
+            &lt;option&gt;Ottoman&lt;/option&gt;
+            &lt;option&gt;Ottoman (123)&lt;/option&gt;
+            &lt;option&gt;Metric&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;input class=&quot;cRate&quot; id=&quot;iRate&quot; type=&quot;text&quot; value=&quot;15.984644913627639&quot; /&gt;
+        &lt;select id=&quot;iCurInput4&quot;&gt;
+            &lt;option&gt;Ottoman&lt;/option&gt;
+            &lt;option&gt;Ottoman (123)&lt;/option&gt;
+            &lt;option&gt;Sterling&lt;/option&gt;
+            &lt;option&gt;Metric&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;input type=&quot;button&quot; id=&quot;b3&quot; value=&quot;=&quot; /&gt;
+        &lt;span id=&quot;sResult2&quot;&gt;&lt;/span&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cForm&quot;&gt;
+    &lt;header&gt;Compute metric values for non-metric currencies&lt;/header&gt;
+    &lt;form id=&quot;fCurExchange&quot;&gt;
+        &lt;input class=&quot;cAmount&quot; id=&quot;iInput5&quot; type=&quot;text&quot; value=&quot;0-34-28&quot; /&gt;
+        &lt;select id=&quot;iCurInput5&quot;&gt;
+            &lt;option&gt;Ottoman&lt;/option&gt;
+            &lt;option&gt;Ottoman (123)&lt;/option&gt;
+            &lt;option&gt;Sterling&lt;/option&gt;
+            &lt;!-- &lt;option&gt;Metric&lt;/option&gt; --&gt;
+        &lt;/select&gt;
+        &lt;input type=&quot;button&quot; id=&quot;b4&quot; value=&quot;=&quot; /&gt;
+        &lt;span id=&quot;sResult3&quot;&gt;&lt;/span&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+document.getElementById(&quot;s1&quot;).innerHTML=funcCurBase(&#39;Sterling&#39;,1,0,0);
+document.getElementById(&quot;s2&quot;).innerHTML=funcCurBase(&#39;Ottoman&#39;,1,0,0);
+document.getElementById(&quot;b2&quot;).onclick = function funcCalcRate (){
+    var pInput1, pInput2, pCurInput1, pCurInput2;
+    
+    pInput1 = document.getElementById(&#39;iInput1&#39;).value;
+    pInput2 = document.getElementById(&#39;iInput2&#39;).value;
+    pCurInput1 = document.getElementById(&#39;iCurInput1&#39;).value;
+    pCurInput2 = document.getElementById(&#39;iCurInput2&#39;).value;
+    
+    var vResult = funcCurRate (pInput1,pInput2,pCurInput1,pCurInput2);
+    
+    document.getElementById(&quot;sResult1&quot;).innerHTML = vResult;
+};
+document.getElementById(&quot;b3&quot;).onclick = function funcCalcExchange (){
+    var pCurInput,pInput,pCurTarget,pRate;
+    
+    pCurInput = document.getElementById(&#39;iCurInput3&#39;).value;
+    pInput = document.getElementById(&#39;iInput3&#39;).value;
+    pCurTarget = document.getElementById(&#39;iCurInput4&#39;).value;
+    pRate = document.getElementById(&#39;iRate&#39;).value;
+    
+    var vResult = funcCurExchange (pCurInput,pInput,pCurTarget,pRate);
+    
+    document.getElementById(&quot;sResult2&quot;).innerHTML = vResult;
+};
+document.getElementById(&quot;b4&quot;).onclick = function funcCalcMetric (){
+    var pCurInput,pInput;
+    
+    pCurInput = document.getElementById(&#39;iCurInput5&#39;).value;
+    pInput = document.getElementById(&#39;iInput5&#39;).value;
+    
+    var vResult = funcCurMetric (pCurInput,pInput);
+    
+    document.getElementById(&quot;sResult3&quot;).innerHTML = vResult;
+};
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 04 May 2013 00:00:00 +0300</pubDate>
+        <link>http://www.sitzextase.de/2013/05/04/historical-currency-converter/</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2013/05/04/historical-currency-converter/</guid>
+        
+        <category>js</category>
+        
+        <category>19th century</category>
+        
+        <category>20th century</category>
+        
+        <category>currency</category>
+        
+        <category>digital humanities</category>
+        
+        <category>Ottoman</category>
+        
+        <category>social history</category>
+        
+        <category>tools</category>
+        
+        
+      </item>
+    
+      <item>
         <title>The historian&#39;s puzzle: various differences between copies of printed periodicals that ought to be similar</title>
         <description>&lt;p&gt;Over the course of the recent days I discovered that contrary to myexpectations libraries around the world hold numerous unmarked editionsand print-runs of the first series Düstur (&lt;em&gt;tertib-i evvel&lt;/em&gt;). Copies vary in pagination,spelling, and content. Yet, neither the people I asked nor the scholarlyworks citing copies of Düstur, seem to be aware of significantdifferences between copies of the same volume.  In consequence, it isalmost impossible to confirm references found in scholarly literature.Over the past years I had come to consider the many seemingly wrongreferences in Aristarchi and Young as, well, erroneous references bycareless printers, copy-editors, even the translators themselves, but asit stands, they could have just used a different copy.
 As I could not readily find any concordance or works dealing with thisissue (which by the way also pertains to nineteenth century Arabicmonthly journals), I wondered whether anybody on various mailing lists could point meto relevant information. Düstur was the official collection of Ottoman legal texts at the time and the differences between the various print-runs had potentially grave consequences. Yet, to my surprise (again) nobody in the scholarly community of Ottomanists seems to be aware of these puzzling divergences and no reply had any answers to offer.
@@ -161,23 +374,53 @@ To illustrate the issue, I quickly built a simple website providingimagery for d
       </item>
     
       <item>
-        <title>Digitised German newspapers</title>
-        <description>&lt;p&gt;After the relaunch of the &lt;a href=&quot;http//:www.staatsbibliothek-berlin.de&quot;&gt;Staatsbibliothek Berlin&lt;/a&gt;’s website, I stumbled over the &lt;a href=&quot;http//:zefys.staatsbibliothek-berlin.de&quot;&gt;ZEFYS&lt;/a&gt; project or Zeitschrifteninformationssystem, a very long and technically sounding German composite term. Newspaper Information System is, at least to me, a bad choice, when it comes to a digital humanities project and possible search strings needed to be found on the internet. Despite being oddly named, it is truly brilliant: out-of-print German newspapers are digitized and provided through a unified interface to manyfold repositories (i.e. co-operating libraries). In addition, viewing software &lt;a href=&quot;http://dfg-viewer.de/en/&quot;&gt;DFG Viewer&lt;/a&gt; and &lt;a href=&quot;http://dfg-viewer.de/fileadmin/groups/dfgviewer/METS_Anwendungsprofil_2.0.xml&quot;&gt;metadata structure&lt;/a&gt; (METS, MODS XML) are open source and provided under GPL. Thus, a high level of interoperability is provided.&lt;/p&gt;
+        <title>Project Jaraid: our new chronology of nineteenth-century Arabic periodicals is online</title>
+        <description>&lt;p&gt;After some time out, I return to this blog to announce the publication of my first ever paid-for website and digital humanities project. Called “Project Jarāʾid – A chronology of nineteenth century periodicals in Arabic” the website is hosted by the &lt;a href=&quot;http://www.zmo.de/jaraid&quot;&gt;Zentrum Moderner Orient Berlin&lt;/a&gt;. Based on a simple analogue table provided by Adam Mestyan and Philip Sadgrove (both nowadays in Oxford), I developed a static HTML page that provides the chronology in tabular form, including information on date of first publication, names of publishers, places of publication, and known holding information. In addition, we provide indexes of persons, organisations, places, and holding institutions, as well as a density map of all periodicals we could trace. As a further experimental feature, we included an index of all languages besides Arabic, such as Ladino, Ottoman, French, English, Spanish, various Arabic colloquiuals etc. The website, we hope, will help all those researchers interested in periodicals als a source for their historical accounts to a) establish possible sources, and b) to locate them for their actual research.&lt;/p&gt;
 
-&lt;p&gt;Huzzah! Future home for possible post-doc project(s)?&lt;/p&gt;
+&lt;p&gt;At the moment an update cycle of every 3 months is scheduled and we already implemented various contributions from colleagues.&lt;/p&gt;
 
-&lt;p&gt;Not yet. At the moment, the presentation tool of the DFG viewer is tailored to the broader public as only the image files are accessible; marked up xml files are &lt;strong&gt;not provided&lt;/strong&gt; for download – heck, they are not even provided to the human eye reading the website. 
-Some of the core collections (e.g. Prussian Gazettes) have been properly marked up with person and place names and the enhanced data is accessible through the &lt;a href=&quot;http://zefys.staatsbibliothek-berlin.de/en/amtspresse/&quot;&gt;ZEFYS own webinterface&lt;/a&gt;. However, again, the xml source files are not available to the public.&lt;/p&gt;
+&lt;p&gt;All this was done using extensive semi-automatic XML mark-up of the original table employing the TEI P5 standard. The HTML is then provided through a series of XSLT transformations applied to the single TEI source file. This structure provides enough leeway for future improvements of both the interface and the data. An Arabic version, for instance could easily implemented without much changes to the XSLT and the CSS.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 24 Aug 2011 01:00:34 +0300</pubDate>
-        <link>http://www.sitzextase.de/2011/08/24/digitsed-german-newspapers/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2011/08/24/digitsed-german-newspapers/</guid>
+        <pubDate>Sat, 29 Dec 2012 00:00:00 +0200</pubDate>
+        <link>http://www.sitzextase.de/2012/12/29/project-jaraid/</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2012/12/29/project-jaraid/</guid>
         
-        <category>resources</category>
+        <category>19th century</category>
         
-        <category>newspapers</category>
+        <category>Arabic periodicals</category>
         
-        <category>digitized sources</category>
+        <category>digital humanities</category>
+        
+        <category>History of Press</category>
+        
+        <category>Newspapers</category>
+        
+        <category>Ottoman periodicals</category>
+        
+        <category>TEI</category>
+        
+        <category>XML</category>
+        
+        <category>XSLT</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Digitised books, newspapers, and maps at Düsseldorf</title>
+        <description>&lt;p&gt;Today, I discovered that the &lt;a href=&quot;http://www.uni-duesseldorf.de/home/en/home.html&quot;&gt;Heinrich Heine Universitäts- und Landesbibliothek&lt;/a&gt; in Düsseldorf provides a growing body of currently 8.000+ digitised items, including metadata (METS XML), and adhering to the URN scheme of the Deutsche Nationabibliothek for public use.&lt;/p&gt;
+
+&lt;p&gt;For instance, I had searched for a rare report on the German emperor Wilhelm II’s journey to Jerusalem in 1898, previously available as a scan from google books[1]:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://nbn-resolving.de/urn:nbn:de:hbz:061:1-64799&quot;&gt;Mühlmann, Felix. Das Deutsche Kaiserpaar im Heiligen Lande im Herbst 1898. Berlin: E. S. Mittler &amp;amp; Sohn, 1899&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Unfortunately, as is the case with google, they do only provide the scanned pages, but no OCR or transcribed full-text. The corpus also includes some &lt;a href=&quot;http://digital.ub.uni-duesseldorf.de/nav/index/all?&amp;amp;facets=type%3D%22document%2C21%22&quot;&gt;24 newspapers and journals&lt;/a&gt;, predominantly concerned with either the Rhine area or–for whatever reason–fashion, as well as &lt;a href=&quot;http://digital.ub.uni-duesseldorf.de/nav/index/all?&amp;amp;facets=type%3D%22document%2C9%22&quot;&gt;1.600+ maps&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Mar 2012 00:00:00 +0300</pubDate>
+        <link>http://www.sitzextase.de/2012/03/30/digitised-books/</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2012/03/30/digitised-books/</guid>
         
         
       </item>
