@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>XSLT functions for converting calendars</title>
-  <meta name="description" content="Recently I came across the necessity of converting Islamic hijrī dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli...">
+  <title>Ottoman yearbooks online … for the lucky few (and the ones with US IPs)</title>
+  <meta name="description" content="After receiving replies on the availability of digitised Ottoman yearbooks, I thought I’d share the links here.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion/">
+  <link rel="canonical" href="http://www.sitzextase.de/2011/03/31/ottoman-yearbooks-online.html">
   <link rel="alternate" type="application/rss+xml" title="sitzExtase" href="http://www.sitzextase.de/feed.xml" />
 </head>
 
@@ -18,9 +18,9 @@
   <body>
 
     <header class="site-header">
-
-  <div class="wrapper">
-
+<!-- @id is seemingly ignored, thus the background image is included here and not via css -->
+  <div id="div-site-header" class="wrapper" >
+    <img class="img-header" src="/images/header-img.jpg">
     <a class="site-title" href="/">sitzExtase</a>
 
     <nav class="site-nav">
@@ -45,12 +45,11 @@
           
         
           
-          <a class="page-link" href="/teaching/">Teaching</a>
+          <a class="page-link" href="/teaching.html">Teaching</a>
           
         
       </div>
     </nav>
-
   </div>
 
 </header>
@@ -61,30 +60,27 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"><p>XSLT functions for converting calendars</p>
+    <h1 class="post-title"><p>Ottoman yearbooks online … for the lucky few (and the ones with US IPs)</p>
 </h1>
-    <p class="post-meta">Jul 4, 2013 • Till Grallert</p>
+    <p class="post-meta">Mar 31, 2011 • Till Grallert</p>
   </header>
 
   <article class="post-content">
-    <p>Recently I came across the necessity of converting Islamic <em>hijrī</em> dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the <em>hijrī</em> calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
-As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on <a href="https://github.com/tillgrallert/xslt-calendar-conversion">GitHub</a> for reuse.</p>
+    <p>After receiving replies on the availability of digitised Ottoman yearbooks, I thought I’d share the links here.</p>
+
+<h2 id="the-ircica-farabi-digital-libraryhttpe-libraryircicaorg"><a href="http://e-library.ircica.org/">The IRCICA Farabi Digital library</a></h2>
+
+<p>This repository is sponsored by the PM of the UAE and run by the OIC’s  IRCICA Research Center for Islamic History, Art and Culture. The sits has some weird search algorithms that prevent the Salname-yi Vilayeti Suriye from being returned upon querying “Salname AND Suriye”. However, the full text is available and the site even entered some basic headlines etc. for navigating inside the documents.</p>
+
+<h2 id="the-hathi-trust-partnership-communityhttpswwwhathitrustorghome"><a href="https://www.hathitrust.org/home">The Hathi Trust Partnership Community</a></h2>
+
+<p>A collective endeavour of many a well known American university.   The Salnames have been digitised but remain unavailable to most of us for the moment. In a seemingly arbitrary move, most likely based on fears of being sued, the site claims that some copyright restrictions prevent non-American users from accessing works published by an Ottoman provincial press that ceased to exist almost 100 years ago. Yet, if you manage to get a US IP, for instance through such a service as hotspot shield, the restrictions are lifted. Huzza! Still, for downloading the PDF you must be a member of the participating universities.</p>
 
   </article>
 
-  <footer class="post-fooer">
+  <footer class="post-footer">
   	<p>Tagged as: 
-  		
-          <span class="post-tag">XML, </span>
-          
-          <span class="post-tag">XSLT, </span>
-          
-          <span class="post-tag">calendars, </span>
-          
-          <span class="post-tag">tools, </span>
-          
-          <span class="post-tag">digital humanities, </span>
-          .</p>
+  		.</p>
   </footer>
 
 </div>

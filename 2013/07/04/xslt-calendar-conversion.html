@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Digitised German newspapers</title>
-  <meta name="description" content="After the relaunch of the Staatsbibliothek Berlin’s website, I stumbled over the ZEFYS project or Zeitschrifteninformationssystem, a very long and technicall...">
+  <title>XSLT functions for converting calendars</title>
+  <meta name="description" content="Recently I came across the necessity of converting Islamic hijrī dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.sitzextase.de/2011/08/24/digitsed-german-newspapers/">
+  <link rel="canonical" href="http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion.html">
   <link rel="alternate" type="application/rss+xml" title="sitzExtase" href="http://www.sitzextase.de/feed.xml" />
 </head>
 
@@ -18,9 +18,9 @@
   <body>
 
     <header class="site-header">
-
-  <div class="wrapper">
-
+<!-- @id is seemingly ignored, thus the background image is included here and not via css -->
+  <div id="div-site-header" class="wrapper" >
+    <img class="img-header" src="/images/header-img.jpg">
     <a class="site-title" href="/">sitzExtase</a>
 
     <nav class="site-nav">
@@ -45,12 +45,11 @@
           
         
           
-          <a class="page-link" href="/teaching/">Teaching</a>
+          <a class="page-link" href="/teaching.html">Teaching</a>
           
         
       </div>
     </nav>
-
   </div>
 
 </header>
@@ -61,29 +60,29 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"><p>Digitised German newspapers</p>
+    <h1 class="post-title"><p>XSLT functions for converting calendars</p>
 </h1>
-    <p class="post-meta">Aug 24, 2011 • Till Grallert</p>
+    <p class="post-meta">Jul 4, 2013 • Till Grallert</p>
   </header>
 
   <article class="post-content">
-    <p>After the relaunch of the <a href="http//:www.staatsbibliothek-berlin.de">Staatsbibliothek Berlin</a>’s website, I stumbled over the <a href="http//:zefys.staatsbibliothek-berlin.de">ZEFYS</a> project or Zeitschrifteninformationssystem, a very long and technically sounding German composite term. Newspaper Information System is, at least to me, a bad choice, when it comes to a digital humanities project and possible search strings needed to be found on the internet. Despite being oddly named, it is truly brilliant: out-of-print German newspapers are digitized and provided through a unified interface to manyfold repositories (i.e. co-operating libraries). In addition, viewing software <a href="http://dfg-viewer.de/en/">DFG Viewer</a> and <a href="http://dfg-viewer.de/fileadmin/groups/dfgviewer/METS_Anwendungsprofil_2.0.xml">metadata structure</a> (METS, MODS XML) are open source and provided under GPL. Thus, a high level of interoperability is provided.</p>
-
-<p>Huzzah! Future home for possible post-doc project(s)?</p>
-
-<p>Not yet. At the moment, the presentation tool of the DFG viewer is tailored to the broader public as only the image files are accessible; marked up xml files are <strong>not provided</strong> for download – heck, they are not even provided to the human eye reading the website. 
-Some of the core collections (e.g. Prussian Gazettes) have been properly marked up with person and place names and the enhanced data is accessible through the <a href="http://zefys.staatsbibliothek-berlin.de/en/amtspresse/">ZEFYS own webinterface</a>. However, again, the xml source files are not available to the public.</p>
+    <p>Recently I came across the necessity of converting Islamic <em>hijrī</em> dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the <em>hijrī</em> calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
+As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on <a href="https://github.com/tillgrallert/xslt-calendar-conversion">GitHub</a> for reuse.</p>
 
   </article>
 
-  <footer class="post-fooer">
+  <footer class="post-footer">
   	<p>Tagged as: 
   		
-          <span class="post-tag">resources, </span>
+          <span class="post-tag">XML, </span>
           
-          <span class="post-tag">newspapers, </span>
+          <span class="post-tag">XSLT, </span>
           
-          <span class="post-tag">digitized sources, </span>
+          <span class="post-tag">calendars, </span>
+          
+          <span class="post-tag">tools, </span>
+          
+          <span class="post-tag">digital humanities, </span>
           .</p>
   </footer>
 

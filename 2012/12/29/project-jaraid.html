@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Ottoman newspapers and periodicals online for all of us</title>
-  <meta name="description" content="After posting the last comment on the exclusive and excluding collections of Ottoman yearbooks, I just found that the Hakki Tarık Us collection at the Beyazi...">
+  <title>Project Jaraid: our new chronology of nineteenth-century Arabic periodicals is online</title>
+  <meta name="description" content="After some time out, I return to this blog to announce the publication of my first ever paid-for website and digital humanities project. Called “Project Jarā...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.sitzextase.de/2011/04/02/ottoman-newspapers/">
+  <link rel="canonical" href="http://www.sitzextase.de/2012/12/29/project-jaraid.html">
   <link rel="alternate" type="application/rss+xml" title="sitzExtase" href="http://www.sitzextase.de/feed.xml" />
 </head>
 
@@ -18,9 +18,9 @@
   <body>
 
     <header class="site-header">
-
-  <div class="wrapper">
-
+<!-- @id is seemingly ignored, thus the background image is included here and not via css -->
+  <div id="div-site-header" class="wrapper" >
+    <img class="img-header" src="/images/header-img.jpg">
     <a class="site-title" href="/">sitzExtase</a>
 
     <nav class="site-nav">
@@ -45,12 +45,11 @@
           
         
           
-          <a class="page-link" href="/teaching/">Teaching</a>
+          <a class="page-link" href="/teaching.html">Teaching</a>
           
         
       </div>
     </nav>
-
   </div>
 
 </header>
@@ -61,24 +60,40 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"><p>Ottoman newspapers and periodicals online for all of us</p>
+    <h1 class="post-title"><p>Project Jaraid: our new chronology of nineteenth-century Arabic periodicals is online</p>
 </h1>
-    <p class="post-meta">Apr 2, 2011 • Till Grallert</p>
+    <p class="post-meta">Dec 29, 2012 • Till Grallert</p>
   </header>
 
   <article class="post-content">
-    <p>After posting the <a href="/2011/03/31/ottoman-yearbooks-online/">last comment</a> on the exclusive and excluding collections of Ottoman yearbooks, I just found that the <a href="http://www.tufs.ac.jp/common/fs/asw/tur/htu/">Hakki Tarık Us collection</a> at the Beyazit Devlet Kütüphanesi made large parts of its holdings available online in a cooperation with the Tokyo University of Foreign Studies. Yearbooks, private newspapers, and official gazettes are available in the superb DjVu format, free of charge to every member of the public, and with no restrictions on downloads and further use. All you need is the open source DjVu browser plug-in, which has the somewhat undocumented limitation to run only in 32 bit mode. If one happens to run the latest OSX iteration this is achieved by ticking a box in the application’s (Safari, Firefox, etc.) information dialog inside the finder.</p>
+    <p>After some time out, I return to this blog to announce the publication of my first ever paid-for website and digital humanities project. Called “Project Jarāʾid – A chronology of nineteenth century periodicals in Arabic” the website is hosted by the <a href="http://www.zmo.de/jaraid">Zentrum Moderner Orient Berlin</a>. Based on a simple analogue table provided by Adam Mestyan and Philip Sadgrove (both nowadays in Oxford), I developed a static HTML page that provides the chronology in tabular form, including information on date of first publication, names of publishers, places of publication, and known holding information. In addition, we provide indexes of persons, organisations, places, and holding institutions, as well as a density map of all periodicals we could trace. As a further experimental feature, we included an index of all languages besides Arabic, such as Ladino, Ottoman, French, English, Spanish, various Arabic colloquiuals etc. The website, we hope, will help all those researchers interested in periodicals als a source for their historical accounts to a) establish possible sources, and b) to locate them for their actual research.</p>
+
+<p>At the moment an update cycle of every 3 months is scheduled and we already implemented various contributions from colleagues.</p>
+
+<p>All this was done using extensive semi-automatic XML mark-up of the original table employing the TEI P5 standard. The HTML is then provided through a series of XSLT transformations applied to the single TEI source file. This structure provides enough leeway for future improvements of both the interface and the data. An Arabic version, for instance could easily implemented without much changes to the XSLT and the CSS.</p>
 
   </article>
 
-  <footer class="post-fooer">
+  <footer class="post-footer">
   	<p>Tagged as: 
   		
-          <span class="post-tag">digitized resources, </span>
+          <span class="post-tag">19th century, </span>
           
-          <span class="post-tag">newspapers, </span>
+          <span class="post-tag">Arabic periodicals, </span>
+          
+          <span class="post-tag">digital humanities, </span>
+          
+          <span class="post-tag">History of Press, </span>
+          
+          <span class="post-tag">Newspapers, </span>
           
           <span class="post-tag">Ottoman periodicals, </span>
+          
+          <span class="post-tag">TEI, </span>
+          
+          <span class="post-tag">XML, </span>
+          
+          <span class="post-tag">XSLT, </span>
           .</p>
   </footer>
 

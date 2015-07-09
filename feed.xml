@@ -5,8 +5,8 @@
     <description></description>
     <link>http://www.sitzextase.de/</link>
     <atom:link href="http://www.sitzextase.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Jul 2015 14:36:15 +0300</pubDate>
-    <lastBuildDate>Thu, 09 Jul 2015 14:36:15 +0300</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2015 18:30:29 +0300</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2015 18:30:29 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -17,14 +17,17 @@
 
 &lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
 
-&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT)(&lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to retrieval of data and publication to the web using XSLT. 
-We will do so on the basis of late nineteenth-century manuscripts of British diplomatic correspondence from Damascus and the first bi-lingual, English and Arabic, weekly newspaper published in the USA, &lt;em&gt;Kawkab America&lt;/em&gt;. Digital images, as well as sample encodings will be provided. 
-Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.
-No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
+&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT, &lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to retrieval of data and publication to the web using XSLT.&lt;/p&gt;
+
+&lt;p&gt;We will do so on the basis of late nineteenth-century manuscripts of British diplomatic correspondence from Damascus and the first bi-lingual, English and Arabic, weekly newspaper published in the USA, &lt;em&gt;Kawkab America&lt;/em&gt;. Digital images, as well as sample encodings will be provided.&lt;/p&gt;
+
+&lt;p&gt;Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.&lt;/p&gt;
+
+&lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
-        <link>http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI/</guid>
+        <link>http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</guid>
         
         <category>teaching</category>
         
@@ -53,12 +56,13 @@ No previous programming skills or knowledge of mark-up languages is required, ev
 
 &lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
 
-&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT)(&lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to the publication of XML files using XSLT. To do so in a meaningful way, each participant will encode a single issue of one of Beirut’s many newspapers covering the restoration of the Ottoman constitution in summer 1908.Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.
-No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
+&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT, &lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to the publication of XML files using XSLT. To do so in a meaningful way, each participant will encode a single issue of one of Beirut’s many newspapers covering the restoration of the Ottoman constitution in summer 1908.Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.&lt;/p&gt;
+
+&lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
-        <link>http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB/</guid>
+        <link>http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</guid>
         
         <category>teaching</category>
         
@@ -92,8 +96,8 @@ No previous programming skills or knowledge of mark-up languages is required, ev
 &lt;p&gt;Unfortunately, I have not had access to different editions of volume 5 (the covers of copies SOAS, Michigan, and Princeton show no differences), but I suspect it too exists in (at least) two editions.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Jan 2014 13:57:30 +0200</pubDate>
-        <link>http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2/</guid>
+        <link>http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</guid>
         
         
       </item>
@@ -118,15 +122,15 @@ No previous programming skills or knowledge of mark-up languages is required, ev
 &lt;p&gt;A systematic comparison of the two editions, the existence of which hitherto escaped the scholarly community, might reveal and equally systematic targetting of themes to different audiences. This could mean that major scholarly works on the Nahda, the press, and its audience need substantial reworking.&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Jan 2014 13:39:09 +0200</pubDate>
-        <link>http://www.sitzextase.de/2014/01/18/the-puzzle-continues/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/18/the-puzzle-continues/</guid>
+        <link>http://www.sitzextase.de/2014/01/18/the-puzzle-continues.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/18/the-puzzle-continues.html</guid>
         
         
       </item>
     
       <item>
         <title>New XSLT stylesheets for calendar conversion on Github</title>
-        <description>&lt;p&gt;A couple of months ago a posted &lt;a href=&quot;/2013/07/04/xslt-calendar-conversion/&quot;&gt;a short note&lt;/a&gt; on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (&lt;em&gt;mālī&lt;/em&gt;, &lt;em&gt;sene-yi māliye&lt;/em&gt;) to the brew and uploaded everything under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0 license&lt;/a&gt; to [GitHub](https://github.com/tillgrallert/xslt-calendar-conversion. Feel free to fork and tinker with the code. Enjoy!&lt;/p&gt;
+        <description>&lt;p&gt;A couple of months ago a posted &lt;a href=&quot;/2013/07/04/xslt-calendar-conversion.html&quot;&gt;a short note&lt;/a&gt; on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (&lt;em&gt;mālī&lt;/em&gt;, &lt;em&gt;sene-yi māliye&lt;/em&gt;) to the brew and uploaded everything under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0 license&lt;/a&gt; to [GitHub](https://github.com/tillgrallert/xslt-calendar-conversion. Feel free to fork and tinker with the code. Enjoy!&lt;/p&gt;
 
 &lt;h2 id=&quot;general-description&quot;&gt;General description&lt;/h2&gt;
 
@@ -186,8 +190,8 @@ No previous programming skills or knowledge of mark-up languages is required, ev
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 04 Jan 2014 00:00:00 +0200</pubDate>
-        <link>http://www.sitzextase.de/2014/01/04/new-calendar-conversion/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/04/new-calendar-conversion/</guid>
+        <link>http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</guid>
         
         <category>XML</category>
         
@@ -204,8 +208,8 @@ No previous programming skills or knowledge of mark-up languages is required, ev
 As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt; for reuse.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Jul 2013 00:00:00 +0300</pubDate>
-        <link>http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion/</guid>
+        <link>http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion.html</guid>
         
         <category>XML</category>
         
@@ -333,8 +337,8 @@ document.getElementById(&quot;b4&quot;).onclick = function funcCalcMetric (){
 
 </description>
         <pubDate>Sat, 04 May 2013 00:00:00 +0300</pubDate>
-        <link>http://www.sitzextase.de/2013/05/04/historical-currency-converter/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/05/04/historical-currency-converter/</guid>
+        <link>http://www.sitzextase.de/2013/05/04/historical-currency-converter.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2013/05/04/historical-currency-converter.html</guid>
         
         <category>js</category>
         
@@ -367,8 +371,8 @@ To illustrate the issue, I quickly built a simple website providingimagery for d
 &lt;p&gt;[Update 19 Jan 2013] Safa Saracoglu solved at least part of the riddle, by pointing out that, before &lt;em&gt;Düstur&lt;/em&gt; became a series from 1872 onwards, three independent volumes were published under the same title in in 1851, 1863, and 1866.  Hence, what I thought of as the first edition of the first volume of the first series of &lt;em&gt;Düstur&lt;/em&gt; was indeed the 1863 volume.&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Dec 2012 14:24:43 +0200</pubDate>
-        <link>http://www.sitzextase.de/2012/12/29/the-historians-puzzle/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2012/12/29/the-historians-puzzle/</guid>
+        <link>http://www.sitzextase.de/2012/12/29/the-historians-puzzle.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2012/12/29/the-historians-puzzle.html</guid>
         
         
       </item>
@@ -382,8 +386,8 @@ To illustrate the issue, I quickly built a simple website providingimagery for d
 &lt;p&gt;All this was done using extensive semi-automatic XML mark-up of the original table employing the TEI P5 standard. The HTML is then provided through a series of XSLT transformations applied to the single TEI source file. This structure provides enough leeway for future improvements of both the interface and the data. An Arabic version, for instance could easily implemented without much changes to the XSLT and the CSS.&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Dec 2012 00:00:00 +0200</pubDate>
-        <link>http://www.sitzextase.de/2012/12/29/project-jaraid/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2012/12/29/project-jaraid/</guid>
+        <link>http://www.sitzextase.de/2012/12/29/project-jaraid.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2012/12/29/project-jaraid.html</guid>
         
         <category>19th century</category>
         
@@ -419,8 +423,8 @@ To illustrate the issue, I quickly built a simple website providingimagery for d
 &lt;p&gt;Unfortunately, as is the case with google, they do only provide the scanned pages, but no OCR or transcribed full-text. The corpus also includes some &lt;a href=&quot;http://digital.ub.uni-duesseldorf.de/nav/index/all?&amp;amp;facets=type%3D%22document%2C21%22&quot;&gt;24 newspapers and journals&lt;/a&gt;, predominantly concerned with either the Rhine area or–for whatever reason–fashion, as well as &lt;a href=&quot;http://digital.ub.uni-duesseldorf.de/nav/index/all?&amp;amp;facets=type%3D%22document%2C9%22&quot;&gt;1.600+ maps&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 30 Mar 2012 00:00:00 +0300</pubDate>
-        <link>http://www.sitzextase.de/2012/03/30/digitised-books/</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2012/03/30/digitised-books/</guid>
+        <link>http://www.sitzextase.de/2012/03/30/digitised-books.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2012/03/30/digitised-books.html</guid>
         
         
       </item>

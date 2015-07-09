@@ -11,13 +11,17 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "American Typewriter", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
+
+/* set all head lines to headline font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "American Typewriter"; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -110,16 +114,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(1000px - (30px * 2));
+  max-width: calc(1000px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(1000px - (30px));
+      max-width: calc(1000px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -148,12 +152,17 @@ pre {
 .site-header {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
+  /* min-height: 56px; */
+  min-height: 5em;
   position: relative; }
 
+/* #div-site-header {
+    background-image: $header-img;
+} */
 .site-title {
   font-size: 26px;
   line-height: 56px;
+  min-height: inherit;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
@@ -291,23 +300,54 @@ pre {
     .post-title {
       font-size: 36px; } }
 
+/* original settings */
+/* .post-content {
+    margin-bottom: $spacing-unit;
+
+    h1 {
+        font-size: 42px;
+
+        @include media-query($on-laptop) {
+            font-size: 36px;
+        }
+    }
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+} */
 .post-content {
   margin-bottom: 30px; }
+  .post-content h1 {
+    font-size: 2.5em; }
   .post-content h2 {
-    font-size: 32px; }
-    @media screen and (max-width: 800px) {
-      .post-content h2 {
-        font-size: 28px; } }
+    font-size: 2em; }
   .post-content h3 {
-    font-size: 26px; }
-    @media screen and (max-width: 800px) {
-      .post-content h3 {
-        font-size: 22px; } }
+    font-size: 1.8em; }
   .post-content h4 {
-    font-size: 20px; }
-    @media screen and (max-width: 800px) {
-      .post-content h4 {
-        font-size: 18px; } }
+    font-size: 1.5em; }
+
+.post-tag {
+  font-size: 0.7em; }
 
 /**
  * Syntax highlighting styles

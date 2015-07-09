@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>XSLT functions for converting calendars</title>
-  <meta name="description" content="Recently I came across the necessity of converting Islamic hijrī dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli...">
+  <title>Digitised books, newspapers, and maps at Düsseldorf</title>
+  <meta name="description" content="Today, I discovered that the Heinrich Heine Universitäts- und Landesbibliothek in Düsseldorf provides a growing body of currently 8.000+ digitised items, inc...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.sitzextase.de/2014/02/28/xslt-calendar-conversion/">
+  <link rel="canonical" href="http://www.sitzextase.de/2012/03/30/digitised-books.html">
   <link rel="alternate" type="application/rss+xml" title="sitzExtase" href="http://www.sitzextase.de/feed.xml" />
 </head>
 
@@ -18,9 +18,9 @@
   <body>
 
     <header class="site-header">
-
-  <div class="wrapper">
-
+<!-- @id is seemingly ignored, thus the background image is included here and not via css -->
+  <div id="div-site-header" class="wrapper" >
+    <img class="img-header" src="/images/header-img.jpg">
     <a class="site-title" href="/">sitzExtase</a>
 
     <nav class="site-nav">
@@ -44,9 +44,12 @@
         
           
         
+          
+          <a class="page-link" href="/teaching.html">Teaching</a>
+          
+        
       </div>
     </nav>
-
   </div>
 
 </header>
@@ -57,16 +60,28 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"><p>XSLT functions for converting calendars</p>
+    <h1 class="post-title"><p>Digitised books, newspapers, and maps at Düsseldorf</p>
 </h1>
-    <p class="post-meta">Feb 28, 2014 • Till Grallert</p>
+    <p class="post-meta">Mar 30, 2012 • Till Grallert</p>
   </header>
 
   <article class="post-content">
-    <p>Recently I came across the necessity of converting Islamic <em>hijrī</em> dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the <em>hijrī</em> calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
-As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on <a href="https://github.com/tillgrallert/xslt-calendar-conversion">GitHub</a> for reuse.</p>
+    <p>Today, I discovered that the <a href="http://www.uni-duesseldorf.de/home/en/home.html">Heinrich Heine Universitäts- und Landesbibliothek</a> in Düsseldorf provides a growing body of currently 8.000+ digitised items, including metadata (METS XML), and adhering to the URN scheme of the Deutsche Nationabibliothek for public use.</p>
+
+<p>For instance, I had searched for a rare report on the German emperor Wilhelm II’s journey to Jerusalem in 1898, previously available as a scan from google books[1]:</p>
+
+<blockquote>
+  <p><a href="http://nbn-resolving.de/urn:nbn:de:hbz:061:1-64799">Mühlmann, Felix. Das Deutsche Kaiserpaar im Heiligen Lande im Herbst 1898. Berlin: E. S. Mittler &amp; Sohn, 1899</a>.</p>
+</blockquote>
+
+<p>Unfortunately, as is the case with google, they do only provide the scanned pages, but no OCR or transcribed full-text. The corpus also includes some <a href="http://digital.ub.uni-duesseldorf.de/nav/index/all?&amp;facets=type%3D%22document%2C21%22">24 newspapers and journals</a>, predominantly concerned with either the Rhine area or–for whatever reason–fashion, as well as <a href="http://digital.ub.uni-duesseldorf.de/nav/index/all?&amp;facets=type%3D%22document%2C9%22">1.600+ maps</a>.</p>
 
   </article>
+
+  <footer class="post-footer">
+  	<p>Tagged as: 
+  		.</p>
+  </footer>
 
 </div>
 
@@ -91,14 +106,14 @@ As I could not find any available code on the net, I adopted the javascript conv
         <ul class="social-media-list">
           
           <li>
-            <a href="https://github.com/till.grallert">
+            <a href="https://github.com/tillgrallert">
               <span class="icon  icon--github">
                 <svg viewBox="0 0 16 16">
                   <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
                 </svg>
               </span>
 
-              <span class="username">till.grallert</span>
+              <span class="username">tillgrallert</span>
             </a>
           </li>
           
