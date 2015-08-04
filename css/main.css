@@ -67,14 +67,10 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+/* "original" */
 a {
   color: #F46A00;
-  text-decoration: none;
-  /* original
-      &:hover {
-          color: $text-color;
-          text-decoration: underline;
-      } */ }
+  text-decoration: none; }
   a:visited {
     color: #a84900; }
   a:hover {
@@ -317,10 +313,15 @@ pre {
   background-color: #F46A00;
   padding: 0.2em; }
 
-.post-link {
-  display: block;
-  font-size: 24px; }
+/* post links */
+a.post-more {
+  display: inline;
+  content: "more ..."; }
 
+.post-link {
+  display: block; }
+
+/* .tag-list-link {} */
 /**
  * Posts
  */
@@ -381,8 +382,61 @@ pre {
   .post-content h4 {
     font-size: 1.5em; }
 
+/* underlined links in posts */
+/*
+.post-content a {
+    color: $text-color;
+    display: inline;
+    text-decoration: none;
+    border-bottom: 3px solid lighten($brand-color, 10%);
+    box-shadow: 0px -3px 0px lighten($brand-color, 10%) inset;
+    
+    &:visited {
+        color: darken($brand-color, 15%);
+        color: $text-color;
+        text-decoration: inherit;
+        border-bottom: 3px solid $background-color; 
+        box-shadow: 0px -3px 0px $background-color inset;
+    }
+    &:hover {
+        color: $text-color;
+        background-color: lighten($brand-color, 10%);
+        text-decoration: inherit;
+        border-bottom: 3px solid lighten($brand-color, 10%);
+        border-top: 3px solid lighten($brand-color, 10%);
+        box-shadow: 0px -3px 0px lighten($brand-color, 10%) inset;
+    }
+} */
+/* avoid overt decoration for all sorts of structural links */
+.tag-list-link, .post-link, a.post-more {
+  text-decoration: none;
+  border-bottom: none;
+  border-top: none;
+  background-color: white;
+  box-shadow: none; }
+
 .post-tag {
   font-size: 0.7em; }
+
+/* tag and date indexes something is not yet working */
+.right-column {
+  width: 100px;
+  position: relative;
+  float: left;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 0em;
+  font-size: 0.8em; }
+
+/* .tag-index, .date-index{
+    float: left;
+    position: relative;
+} */
+.main-column {
+  max-width: 780px;
+  position: relative;
+  float: left;
+  clear: left; }
 
 /**
  * Syntax highlighting styles

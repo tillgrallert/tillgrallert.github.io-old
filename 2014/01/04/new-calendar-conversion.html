@@ -35,17 +35,143 @@
       <div class="trigger">
         
           
+          <!-- this condition removes the links to the tag index pages -->
+          
           <a class="page-link" href="/about/">About</a>
           
-        
           
         
           
         
           
         
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
           
           <a class="page-link" href="/teaching.html">Teaching</a>
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
           
         
       </div>
@@ -57,7 +183,8 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="post">
+        <div class="main-column">
+          <div class="post">
 
   <header class="post-header">
     <h1 class="post-title"><p>New XSLT stylesheets for calendar conversion on Github</p>
@@ -66,11 +193,11 @@
   </header>
 
   <article class="post-content">
-    <p>A couple of months ago a posted <a href="/2013/07/04/xslt-calendar-conversion.html">a short note</a> on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (<em>mālī</em>, <em>sene-yi māliye</em>) to the brew and uploaded everything under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 license</a> to [GitHub](https://github.com/tillgrallert/xslt-calendar-conversion. Feel free to fork and tinker with the code. Enjoy!</p>
+    <p>A couple of months ago a posted <a href="/2013/07/04/xslt-calendar-conversion.html">a short note</a> on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (<em>mālī</em>, <em>sene-yi māliye</em>) to the brew and uploaded everything under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 license</a> to <a href="https://github.com/tillgrallert/xslt-calendar-conversion">GitHub</a>. Feel free to fork and tinker with the code. Enjoy!</p>
 
 <h2 id="general-description">General description</h2>
 
-<p>The single stylesheet in this repo was conceived as a remedy for the bugs in the XPath specification that prevent the computation of Islamic (Hijrī) dates. As I was, at the same time, working on the transcription of Arabic and Ottoman Turkish sources from the nineteenth century, which made use of Gregorian, Hijrī, Rūmī, and Mālī calendars, into XML files, I also wanted to reliably compute conversions between the various calendars.</p>
+<p>The single stylesheet in this repo was conceived as a remedy for the bugs in the XPath specification that prevent the computation of Islamic (<em>hijrī</em>) dates. As I was, at the same time, working on the transcription of Arabic and Ottoman Turkish sources from the nineteenth century, which made use of Gregorian, <em>hijrī</em>, <em>rūmī</em>, and <em>mālī</em> calendars, into XML files, I also wanted to reliably compute conversions between the various calendars.</p>
 
 <p>In addition to numerical dates, the stylesheet provides a function that returns the common month names.</p>
 
@@ -79,9 +206,9 @@
 <h2 id="characteristics-of-the-non-gregorian-calendars">Characteristics of the non-Gregorian calendars</h2>
 
 <ul>
-  <li><strong><em>Hijrī</em></strong> reckoning relies on the observation of the lunar year. Year counts began with Muhammad’s exodus (hijrā) from Mecca to Medina. Hijrī dates cannot really be computed as observations of the new moon varied between locations. The stylesheet uses common astronomical computations of the lunar calendar.</li>
+  <li><strong><em>Hijrī</em></strong> reckoning relies on the observation of the lunar year. Year counts began with Muhammad’s exodus (<em>hijrā</em>) from Mecca to Medina. <em>Hijrī</em> dates cannot really be computed as observations of the new moon varied between locations. The stylesheet uses common astronomical computations of the lunar calendar.</li>
   <li><strong><em>Rūmī</em></strong> reckoning is a Julian calendar that adopted 1 January as the beginning of the year. As the rules for leap years are slightly different between Julian and Gregorian calendars, the difference between these two is slowly increasing (currently 13 days).</li>
-  <li><strong><em>Mālī</em></strong> reckoning is a combination of the old Julian calendar beginning on 1 March and a Hijrī year count, that was introduced as the fiscal calendar of the Ottoman Empire in 1676. Every 33 lunar years, the year counts between Mālī and Hijrī calendars are synchronised by dropping a year.</li>
+  <li><strong><em>Mālī</em></strong> reckoning is a combination of the old Julian calendar beginning on 1 March and a <em>hijrī</em> year count, that was introduced as the fiscal calendar of the Ottoman Empire in 1676. Every 33 lunar years, the year counts between <em>mālī</em> and <em>hijrī</em> calendars are synchronised by dropping a year.</li>
 </ul>
 
 <h2 id="templates">Templates</h2>
@@ -128,21 +255,221 @@
   </article>
 
   <footer class="post-footer">
-  	<p>Tagged as: 
+  	<p>
   		
-          <span class="post-tag">XML, </span>
-          
-          <span class="post-tag">XLST, </span>
-          
-          <span class="post-tag">calendars, </span>
-          .</p>
+          <!-- <span class="post-tag">xml, </span> -->
+          <!-- this file provides the list of tags for any given post anywhere on the site -->
+
+<span class="post-tag"><a class="tag-list-link" href="/tag/xml">xml</a>/ </span>
+      
+          <!-- <span class="post-tag">xslt, </span> -->
+          <!-- this file provides the list of tags for any given post anywhere on the site -->
+
+<span class="post-tag"><a class="tag-list-link" href="/tag/xslt">xslt</a>/ </span>
+      
+          <!-- <span class="post-tag">tools, </span> -->
+          <!-- this file provides the list of tags for any given post anywhere on the site -->
+
+<span class="post-tag"><a class="tag-list-link" href="/tag/tools">tools</a>/ </span>
+      
+          <!-- <span class="post-tag">digital humanities, </span> -->
+          <!-- this file provides the list of tags for any given post anywhere on the site -->
+
+<span class="post-tag"><a class="tag-list-link" href="/tag/digital humanities">digital humanities</a>/ </span>
+      
+          <!-- <span class="post-tag">calendars, </span> -->
+          <!-- this file provides the list of tags for any given post anywhere on the site -->
+
+<span class="post-tag"><a class="tag-list-link" href="/tag/calendars">calendars</a>/ </span>
+      .</p>
   </footer>
 
 </div>
 
+        </div>
+        <div class="right-column">
+        <!-- this snippet can be included for a tag-cloud -->
+<div class="tag-index">
+	<h4>Tags:</h4>
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/digitized%20resources/index.html">digitized resources</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/newspapers/index.html">newspapers</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/ottoman%20newspapers/index.html">ottoman newspapers</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/periodicals/index.html">periodicals</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/19th%20century/index.html">19th century</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/arabic%20newspapers/index.html">arabic newspapers</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/digital%20humanities/index.html">digital humanities</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/history%20of%20press/index.html">history of press</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/tei/index.html">tei</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/xml/index.html">xml</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/xslt/index.html">xslt</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/ottoman%20periodicals/index.html">ottoman periodicals</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/js/index.html">js</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/20th%20century/index.html">20th century</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/currency/index.html">currency</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/ottoman%20empire/index.html">ottoman empire</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/social%20history/index.html">social history</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/tools/index.html">tools</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/calendars/index.html">calendars</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/digital%20editions/index.html">digital editions</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/workshop/index.html">workshop</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/teaching/index.html">teaching</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/markup/index.html">markup</a>
+    
+  
+    <!-- this condition creates the links to the tag index pages -->
+    
+    <a class="page-link" href="/tag/manuscripts/index.html">manuscripts</a>
+    
+  
+</div>
+        <div class="date-index">
+	<h4>Latest posts:</h4>
+    
+    	<a class="post-link" href="/teaching/2015/06/01/TEI-at-DHSI.html">Jun 1, 2015</a>
+    
+    	<a class="post-link" href="/teaching/2015/03/02/TEI-at-DHIB.html">Mar 2, 2015</a>
+    
+    	<a class="post-link" href="/2015/02/23/workshop-editions-material.html">Feb 23, 2015</a>
+    
+    	<a class="post-link" href="/2014/01/19/the-puzzle-continues-2.html">Jan 19, 2014</a>
+    
+    	<a class="post-link" href="/2014/01/04/new-calendar-conversion.html">Jan 4, 2014</a>
+    
+    	<a class="post-link" href="/2013/08/19/the-puzzle-continues.html">Aug 19, 2013</a>
+    
+    	<a class="post-link" href="/2013/07/04/xslt-calendar-conversion.html">Jul 4, 2013</a>
+    
+    	<a class="post-link" href="/2013/05/04/historical-currency-converter.html">May 4, 2013</a>
+    
+    	<a class="post-link" href="/2013/01/19/the-historians-puzzle-solution.html">Jan 19, 2013</a>
+    
+    	<a class="post-link" href="/2013/01/12/the-historians-puzzle-update.html">Jan 12, 2013</a>
+    
+    	<a class="post-link" href="/2012/12/29/the-historians-puzzle.html">Dec 29, 2012</a>
+    
+    	<a class="post-link" href="/2012/09/02/project-jaraid.html">Sep 2, 2012</a>
+    
+    	<a class="post-link" href="/2012/03/30/digitised-books.html">Mar 30, 2012</a>
+    
+    	<a class="post-link" href="/2011/08/24/digitsed-german-newspapers.html">Aug 24, 2011</a>
+    
+    	<a class="post-link" href="/2011/04/02/ottoman-newspapers.html">Apr 2, 2011</a>
+    
+    	<a class="post-link" href="/2011/03/31/ottoman-yearbooks-online.html">Mar 31, 2011</a>
+    
+    	<a class="post-link" href="/2011/03/27/current-projects.html">Mar 27, 2011</a>
+    
+</div>
+        </div>
       </div>
+      
     </div>
-
     <footer class="site-footer">
 
   <div class="wrapper">

@@ -5,8 +5,8 @@
     <description></description>
     <link>http://www.sitzextase.de/</link>
     <atom:link href="http://www.sitzextase.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jul 2015 21:13:54 +0300</pubDate>
-    <lastBuildDate>Sun, 19 Jul 2015 21:13:54 +0300</lastBuildDate>
+    <pubDate>Tue, 04 Aug 2015 16:41:42 +0200</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2015 16:41:42 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -25,23 +25,23 @@
 
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 +0200</pubDate>
         <link>http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</guid>
         
         <category>teaching</category>
         
-        <category>TEI</category>
+        <category>tei</category>
         
-        <category>XML</category>
+        <category>xml</category>
         
-        <category>XSLT</category>
+        <category>xslt</category>
         
         <category>markup</category>
         
         <category>newspapers</category>
         
-        <category>Arabic newspapers</category>
+        <category>arabic newspapers</category>
         
         
         <category>teaching</category>
@@ -60,23 +60,23 @@
 
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 02 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</guid>
         
         <category>teaching</category>
         
-        <category>TEI</category>
+        <category>tei</category>
         
-        <category>XML</category>
+        <category>xml</category>
         
-        <category>XSLT</category>
+        <category>xslt</category>
         
         <category>markup</category>
         
         <category>newspapers</category>
         
-        <category>Arabic newspapers</category>
+        <category>arabic newspapers</category>
         
         <category>manuscripts</category>
         
@@ -208,7 +208,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 23 Feb 2015 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 23 Feb 2015 00:00:00 +0100</pubDate>
         <link>http://www.sitzextase.de/2015/02/23/workshop-editions-material.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2015/02/23/workshop-editions-material.html</guid>
         
@@ -218,16 +218,16 @@
         
         <category>workshop</category>
         
-        <category>TEI</category>
+        <category>tei</category>
         
-        <category>XML</category>
+        <category>xml</category>
         
         
       </item>
     
       <item>
         <title>The puzzle continues II: in addition to *al-kabīr* and *al-ṣaghīr*, *al-Muqtaṭaf* published slightly different editions in Beirut and Kairo</title>
-        <description>&lt;p&gt;I am just about to fix the references in my thesis, and a possible reason for differences between available copies of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, which I had briefly mentioned in my first post &lt;a href=&quot;http://sitzextase.de/2012/12/29/the-historians-puzzle-various-differences-between-copies-of-printed-periodicals-that-ought-to-be-similar/&quot;&gt;on the issue of differences between copies of printed periodicals that ought to be similar&lt;/a&gt;. As I wrote shortly &lt;a href=&quot;http://sitzextase.de/2013/08/19/the-puzzle-continues-al-muqta%E1%B9%ADaf-was-printed-in-two-different-and-unmarked-editions/&quot;&gt;thereafter&lt;/a&gt;, the scholarly community had just not read &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; close enough to discover the existence of a long (&lt;em&gt;kabīr&lt;/em&gt;) and short (&lt;em&gt;ṣaghīr&lt;/em&gt;) for Volumes 6 to 9, which were most likely targetted at two different markets (the long version at Egypt and Europe and the short one at Beirut, Lebanon, and surrounding areas).&lt;/p&gt;
+        <description>&lt;p&gt;I am just about to fix the references in my thesis, and a possible reason for differences between available copies of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, which I had briefly mentioned in my first post &lt;a href=&quot;/2012/12/29/the-historians-puzzle.html&quot;&gt;on the issue of differences between copies of printed periodicals that ought to be similar&lt;/a&gt;. As I wrote &lt;a href=&quot;/2013/08/19/the-puzzle-continues.html&quot;&gt;some eight months later&lt;/a&gt;, the scholarly community had just not read &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; close enough to discover the existence of a long (&lt;em&gt;kabīr&lt;/em&gt;) and short (&lt;em&gt;ṣaghīr&lt;/em&gt;) for Volumes 6 to 9, which were most likely targetted at two different markets (the long version at Egypt and Europe and the short one at Beirut, Lebanon, and surrounding areas).&lt;/p&gt;
 
 &lt;p&gt;Yet, the original puzzle had been the absence of a short note on the publication of the three new periodicals &lt;em&gt;Dimashq&lt;/em&gt;, &lt;em&gt;al-Salām&lt;/em&gt;, and &lt;em&gt;al-Iʿtidāl&lt;/em&gt; in &lt;a href=&quot;http://sitzextase.de/muqtataf/muqtataf-v04-i05.html&quot;&gt;some copies of the fifth issue of volume 4&lt;/a&gt;. Upon closer inspection of the front covers to copies of volume 4, I found the same difference in annual subscription prices and that those copies lacking the short article, carried the note “Printed at &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; Press in Egypt on the expense of founders and Shāhīn Makāriyūs, the owner of the press”. We can thus establish the existence of an “Egyptian” and a “Syrian” edition already by June 1878 (the publication date of the first issue of volume 4).&lt;/p&gt;
 
@@ -235,46 +235,30 @@
 
 &lt;p&gt;Unfortunately, I have not had access to different editions of volume 5 (the covers of copies SOAS, Michigan, and Princeton show no differences), but I suspect it too exists in (at least) two editions.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 19 Jan 2014 13:57:30 +0200</pubDate>
+        <pubDate>Sun, 19 Jan 2014 12:57:30 +0100</pubDate>
         <link>http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</guid>
         
+        <category>19th century</category>
         
-      </item>
-    
-      <item>
-        <title>The puzzle continues: *al-Muqtaṭaf* was printed in two different and unmarked editions</title>
-        <description>&lt;p&gt;As I noted at the &lt;a href=&quot;http://sitzextase.de/2012/12/29/the-historians-puzzle-various-differences-between-copies-of-printed-periodicals-that-ought-to-be-similar/ (The historian’s puzzle: various differences between copies of printed periodicals that ought to be similar.)&quot;&gt;end of last year&lt;/a&gt;, Ottoman and Arabic periodicals of the late nineteenth and early twentieh century appeared in different editions. Print-runs differed in spelling, pagination, lay-out, and content. However, I was not aware of the extend of this phenomenon.&lt;/p&gt;
-
-&lt;p&gt;I just discovered that the journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, published by Yaʿqūb Ṣarrūf and Fāris Nimr under the directorship of Shahīn Makāriyūs in Beirut until 1884, printed two “first print runs” or first editions” (&lt;em&gt;al-ṭabaʿat al-ūlā&lt;/em&gt;), whose content differed by exactly 32 pages per issue! Copies of the twelve issues of volume 7 (1882-83) available at many European and Middle Eastern libraries comprise 760 consecutively numbered pages, while the copy at Princeton library, digitally available at &lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot;&gt;Hathitrust&lt;/a&gt;, comprises only 344 equally consecutively numbered pages.&lt;/p&gt;
-
-&lt;p&gt;To illustrate the issue, let’s have &lt;a href=&quot;http://sitzextase.de/muqtataf/muqtataf-v07-i01.html&quot;&gt;a look at the first issue of volume seven (June 1882)&lt;/a&gt;. The first 16 pages of the two editions are identical. Page 17 of the copy at the &lt;a href=&quot;http://www.orient-institut.org/&quot;&gt;Orient Institut Beirut&lt;/a&gt; (OIB) is the first page of a lengthy tracte on “women’s rights” (&lt;em&gt;ḥuqūq al-marʾa&lt;/em&gt;) by Wadīʿ Efendi al-Khūrī. In the Princeton copy, the same page 17 comprises four short questions (&lt;em&gt;masāʾil&lt;/em&gt;) and the beginning of the section &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt;. Both pages bear a printer’s mark with information on the volume, the edition, and the binding block. While volume number and edition are marked as identical, the number of the binding block differs: “3 ṣ” at Princeton, “3 k” at the OIB. To my astonishment, the OIB copy continues with the same paragraph of the &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt; section on page 48, after which the two editions are again identical, save for the page numbers.&lt;/p&gt;
-
-&lt;p&gt;The printer’s marks provide a solution to the riddle in the case of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; – or rather, they provide an indicator for the edition one is looking at. After having checked further volumes at the OIB (vol. 6-9), the volumes comprising “extended” issues of 64 pages all bear the Arabic letter &lt;em&gt;kāf&lt;/em&gt; in the printer’s mark, while the “short” issues of 32 pages were marked with the latter &lt;em&gt;ṣād&lt;/em&gt;. In addition, those copies whose index survived the times (at least 6-9), show that the index took account of a “large &lt;em&gt;Muqtaṭaf&lt;/em&gt;” (&lt;em&gt;al-muqtaṭ af al-kabīr&lt;/em&gt; in Arabic and abbreviated by the &lt;em&gt;kāf&lt;/em&gt; in the printer’s mark) and a “small &lt;em&gt;Muqtaṭaf&lt;/em&gt;” (&lt;em&gt;al-muqtaṭaf al-ṣaghīr&lt;/em&gt; in  and abbreviated with a &lt;em&gt;ṣād&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;Upon further investigations, it turned out that the two editions weren’t exactly completely “unmarked” beyond the printer’s mark on the binding blocks and the indexes. The cover sheet for the short and the extended version differ in the quoted prices and location of subscription:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The extended version quoted prices for annual subscriptions “in Europe and the Egyptian lands” at £1, while&lt;/li&gt;
-  &lt;li&gt;the short version quoted annual subscriptions at “Beirut and Lebanon” at Frcs 7 and Frcs 8 for the surrounding areas (&lt;em&gt;al-jihāt&lt;/em&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A systematic comparison of the two editions, the existence of which hitherto escaped the scholarly community, might reveal and equally systematic targetting of themes to different audiences. This could mean that major scholarly works on the Nahda, the press, and its audience need substantial reworking.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Jan 2014 13:39:09 +0200</pubDate>
-        <link>http://www.sitzextase.de/2014/01/18/the-puzzle-continues.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/18/the-puzzle-continues.html</guid>
+        <category>arabic newspapers</category>
+        
+        <category>history of press</category>
+        
+        <category>newspapers</category>
+        
+        <category>periodicals</category>
         
         
       </item>
     
       <item>
         <title>New XSLT stylesheets for calendar conversion on Github</title>
-        <description>&lt;p&gt;A couple of months ago a posted &lt;a href=&quot;/2013/07/04/xslt-calendar-conversion.html&quot;&gt;a short note&lt;/a&gt; on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (&lt;em&gt;mālī&lt;/em&gt;, &lt;em&gt;sene-yi māliye&lt;/em&gt;) to the brew and uploaded everything under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0 license&lt;/a&gt; to [GitHub](https://github.com/tillgrallert/xslt-calendar-conversion. Feel free to fork and tinker with the code. Enjoy!&lt;/p&gt;
+        <description>&lt;p&gt;A couple of months ago a posted &lt;a href=&quot;/2013/07/04/xslt-calendar-conversion.html&quot;&gt;a short note&lt;/a&gt; on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (&lt;em&gt;mālī&lt;/em&gt;, &lt;em&gt;sene-yi māliye&lt;/em&gt;) to the brew and uploaded everything under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0 license&lt;/a&gt; to &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt;. Feel free to fork and tinker with the code. Enjoy!&lt;/p&gt;
 
 &lt;h2 id=&quot;general-description&quot;&gt;General description&lt;/h2&gt;
 
-&lt;p&gt;The single stylesheet in this repo was conceived as a remedy for the bugs in the XPath specification that prevent the computation of Islamic (Hijrī) dates. As I was, at the same time, working on the transcription of Arabic and Ottoman Turkish sources from the nineteenth century, which made use of Gregorian, Hijrī, Rūmī, and Mālī calendars, into XML files, I also wanted to reliably compute conversions between the various calendars.&lt;/p&gt;
+&lt;p&gt;The single stylesheet in this repo was conceived as a remedy for the bugs in the XPath specification that prevent the computation of Islamic (&lt;em&gt;hijrī&lt;/em&gt;) dates. As I was, at the same time, working on the transcription of Arabic and Ottoman Turkish sources from the nineteenth century, which made use of Gregorian, &lt;em&gt;hijrī&lt;/em&gt;, &lt;em&gt;rūmī&lt;/em&gt;, and &lt;em&gt;mālī&lt;/em&gt; calendars, into XML files, I also wanted to reliably compute conversions between the various calendars.&lt;/p&gt;
 
 &lt;p&gt;In addition to numerical dates, the stylesheet provides a function that returns the common month names.&lt;/p&gt;
 
@@ -283,9 +267,9 @@
 &lt;h2 id=&quot;characteristics-of-the-non-gregorian-calendars&quot;&gt;Characteristics of the non-Gregorian calendars&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Hijrī&lt;/em&gt;&lt;/strong&gt; reckoning relies on the observation of the lunar year. Year counts began with Muhammad’s exodus (hijrā) from Mecca to Medina. Hijrī dates cannot really be computed as observations of the new moon varied between locations. The stylesheet uses common astronomical computations of the lunar calendar.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Hijrī&lt;/em&gt;&lt;/strong&gt; reckoning relies on the observation of the lunar year. Year counts began with Muhammad’s exodus (&lt;em&gt;hijrā&lt;/em&gt;) from Mecca to Medina. &lt;em&gt;Hijrī&lt;/em&gt; dates cannot really be computed as observations of the new moon varied between locations. The stylesheet uses common astronomical computations of the lunar calendar.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt;Rūmī&lt;/em&gt;&lt;/strong&gt; reckoning is a Julian calendar that adopted 1 January as the beginning of the year. As the rules for leap years are slightly different between Julian and Gregorian calendars, the difference between these two is slowly increasing (currently 13 days).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Mālī&lt;/em&gt;&lt;/strong&gt; reckoning is a combination of the old Julian calendar beginning on 1 March and a Hijrī year count, that was introduced as the fiscal calendar of the Ottoman Empire in 1676. Every 33 lunar years, the year counts between Mālī and Hijrī calendars are synchronised by dropping a year.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Mālī&lt;/em&gt;&lt;/strong&gt; reckoning is a combination of the old Julian calendar beginning on 1 March and a &lt;em&gt;hijrī&lt;/em&gt; year count, that was introduced as the fiscal calendar of the Ottoman Empire in 1676. Every 33 lunar years, the year counts between &lt;em&gt;mālī&lt;/em&gt; and &lt;em&gt;hijrī&lt;/em&gt; calendars are synchronised by dropping a year.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;templates&quot;&gt;Templates&lt;/h2&gt;
@@ -329,15 +313,55 @@
   &lt;li&gt;The template “funcDateNormaliseInput” can be used to convert variously formatted input  strings to the yyyy-mm-dd required by other templates. Possible input formats are  the common English formats of ‘dd(.) MNn(.) yyyy’, ‘MNn(.) dd(.), yyyy’, i.e. ‘15  Shaʿbān 1324’ or ‘Jan. 15, 2014’. The template requires an input string and a  calendar-language combination as found in funcDateMonthNameNumber.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sat, 04 Jan 2014 00:00:00 +0200</pubDate>
+        <pubDate>Sat, 04 Jan 2014 00:00:00 +0100</pubDate>
         <link>http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</guid>
         
-        <category>XML</category>
+        <category>xml</category>
         
-        <category>XLST</category>
+        <category>xslt</category>
+        
+        <category>tools</category>
+        
+        <category>digital humanities</category>
         
         <category>calendars</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The puzzle continues: *al-Muqtaṭaf* was printed in two different and unmarked editions</title>
+        <description>&lt;p&gt;As I noted at the &lt;a href=&quot;/2012/12/29/the-historians-puzzle.html&quot;&gt;end of last year&lt;/a&gt;, Ottoman and Arabic periodicals of the late nineteenth and early twentieh century appeared in different editions. Print-runs differed in spelling, pagination, lay-out, and content. However, I was not aware of the extend of this phenomenon.&lt;/p&gt;
+
+&lt;p&gt;I just discovered that the journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, published by Yaʿqūb Ṣarrūf and Fāris Nimr under the directorship of Shahīn Makāriyūs in Beirut until 1884, printed two “first print runs” or first editions” (&lt;em&gt;al-ṭabaʿat al-ūlā&lt;/em&gt;), whose content differed by exactly 32 pages per issue! Copies of the twelve issues of volume 7 (1882-83) available at many European and Middle Eastern libraries comprise 760 consecutively numbered pages, while the copy at Princeton library, digitally available at &lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot;&gt;Hathitrust&lt;/a&gt;, comprises only 344 equally consecutively numbered pages.&lt;/p&gt;
+
+&lt;p&gt;To illustrate the issue, let’s have &lt;a href=&quot;http://sitzextase.de/muqtataf/muqtataf-v07-i01.html&quot;&gt;a look at the first issue of volume seven (June 1882)&lt;/a&gt;. The first 16 pages of the two editions are identical. Page 17 of the copy at the &lt;a href=&quot;http://www.orient-institut.org/&quot;&gt;Orient Institut Beirut (OIB)&lt;/a&gt; is the first page of a lengthy tracte on “women’s rights” (&lt;em&gt;ḥuqūq al-marʾa&lt;/em&gt;) by Wadīʿ Efendi al-Khūrī. In the Princeton copy, the same page 17 comprises four short questions (&lt;em&gt;masāʾil&lt;/em&gt;) and the beginning of the section &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt;. Both pages bear a printer’s mark with information on the volume, the edition, and the binding block. While volume number and edition are marked as identical, the number of the binding block differs: “3 ṣ” at Princeton, “3 k” at the OIB. To my astonishment, the OIB copy continues with the same paragraph of the &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt; section on page 48, after which the two editions are again identical, save for the page numbers.&lt;/p&gt;
+
+&lt;p&gt;The printer’s marks provide a solution to the riddle in the case of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; – or rather, they provide an indicator for the edition one is looking at. After having checked further volumes at the OIB (vol. 6-9), the volumes comprising “extended” issues of 64 pages all bear the Arabic letter &lt;em&gt;kāf&lt;/em&gt; in the printer’s mark, while the “short” issues of 32 pages were marked with the latter &lt;em&gt;ṣād&lt;/em&gt;. In addition, those copies whose index survived the times (at least 6-9), show that the index took account of a “large &lt;em&gt;Muqtaṭaf&lt;/em&gt;” (&lt;em&gt;al-muqtaṭ af al-kabīr&lt;/em&gt; in Arabic and abbreviated by the &lt;em&gt;kāf&lt;/em&gt; in the printer’s mark) and a “small &lt;em&gt;Muqtaṭaf&lt;/em&gt;” (&lt;em&gt;al-muqtaṭaf al-ṣaghīr&lt;/em&gt; in  and abbreviated with a &lt;em&gt;ṣād&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Upon further investigations, it turned out that the two editions weren’t exactly completely “unmarked” beyond the printer’s mark on the binding blocks and the indexes. The cover sheet for the short and the extended version differ in the quoted prices and location of subscription:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The extended version quoted prices for annual subscriptions “in Europe and the Egyptian lands” at £1, while&lt;/li&gt;
+  &lt;li&gt;the short version quoted annual subscriptions at “Beirut and Lebanon” at Frcs 7 and Frcs 8 for the surrounding areas (&lt;em&gt;al-jihāt&lt;/em&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A systematic comparison of the two editions, the existence of which hitherto escaped the scholarly community, might reveal and equally systematic targetting of themes to different audiences. This could mean that major scholarly works on the Nahda, the press, and its audience need substantial reworking.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Aug 2013 13:39:09 +0200</pubDate>
+        <link>http://www.sitzextase.de/2013/08/19/the-puzzle-continues.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2013/08/19/the-puzzle-continues.html</guid>
+        
+        <category>19th century</category>
+        
+        <category>arabic newspapers</category>
+        
+        <category>history of press</category>
+        
+        <category>newspapers</category>
+        
+        <category>periodicals</category>
         
         
       </item>
@@ -347,19 +371,19 @@
         <description>&lt;p&gt;Recently I came across the necessity of converting Islamic &lt;em&gt;hijrī&lt;/em&gt; dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the &lt;em&gt;hijrī&lt;/em&gt; calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
 As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt; for reuse.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 04 Jul 2013 00:00:00 +0300</pubDate>
+        <pubDate>Thu, 04 Jul 2013 00:00:00 +0200</pubDate>
         <link>http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion.html</guid>
-        
-        <category>XML</category>
-        
-        <category>XSLT</category>
         
         <category>calendars</category>
         
         <category>tools</category>
         
         <category>digital humanities</category>
+        
+        <category>xml</category>
+        
+        <category>xslt</category>
         
         
       </item>
@@ -476,7 +500,7 @@ document.getElementById(&quot;b4&quot;).onclick = function funcCalcMetric (){
 &lt;/script&gt;
 
 </description>
-        <pubDate>Sat, 04 May 2013 00:00:00 +0300</pubDate>
+        <pubDate>Sat, 04 May 2013 00:00:00 +0200</pubDate>
         <link>http://www.sitzextase.de/2013/05/04/historical-currency-converter.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2013/05/04/historical-currency-converter.html</guid>
         
@@ -490,7 +514,7 @@ document.getElementById(&quot;b4&quot;).onclick = function funcCalcMetric (){
         
         <category>digital humanities</category>
         
-        <category>Ottoman</category>
+        <category>ottoman empire</category>
         
         <category>social history</category>
         
@@ -500,52 +524,47 @@ document.getElementById(&quot;b4&quot;).onclick = function funcCalcMetric (){
       </item>
     
       <item>
-        <title>The historian&#39;s puzzle: various differences between copies of printed periodicals that ought to be similar</title>
-        <description>&lt;p&gt;Over the course of the recent days I discovered that contrary to myexpectations libraries around the world hold numerous unmarked editionsand print-runs of the first series Düstur (&lt;em&gt;tertib-i evvel&lt;/em&gt;). Copies vary in pagination,spelling, and content. Yet, neither the people I asked nor the scholarlyworks citing copies of Düstur, seem to be aware of significantdifferences between copies of the same volume.  In consequence, it isalmost impossible to confirm references found in scholarly literature.Over the past years I had come to consider the many seemingly wrongreferences in Aristarchi and Young as, well, erroneous references bycareless printers, copy-editors, even the translators themselves, but asit stands, they could have just used a different copy.
-As I could not readily find any concordance or works dealing with thisissue (which by the way also pertains to nineteenth century Arabicmonthly journals), I wondered whether anybody on various mailing lists could point meto relevant information. Düstur was the official collection of Ottoman legal texts at the time and the differences between the various print-runs had potentially grave consequences. Yet, to my surprise (again) nobody in the scholarly community of Ottomanists seems to be aware of these puzzling divergences and no reply had any answers to offer.
-To illustrate the issue, I quickly built a simple website providingimagery for different versions of the table of contents of the
-&lt;a href=&quot;http://sitzextase.de/dustur/dustur-v01.html&quot; target=&quot;_blank&quot;&gt;first&lt;/a&gt;, &lt;a href=&quot;http://sitzextase.de/dustur/dustur-v03.html&quot; target=&quot;_blank&quot;&gt;third&lt;/a&gt;, and &lt;a href=&quot;http://sitzextase.de/dustur/dustur-v04.html&quot; target=&quot;_blank&quot;&gt;fourth&lt;/a&gt; volume of Düstur, as well as for a page of &lt;a href=&quot;http://sitzextase.de/muqtataf/muqtataf-v04-i05.html&quot; target=&quot;_blank&quot;&gt;al-Muqtaṭaf 4(5)&lt;/a&gt;. Please have a look at them and if any of the readers has access to further versions of the mentioned periodicals, I would appreciate a comment below or via &lt;a href=&quot;https://twitter.com/tillgrallert&quot;&gt;twitter&lt;/a&gt;.&lt;/p&gt;
+        <title>Solution to the historian&#39;s puzzle?</title>
+        <description>&lt;p&gt;This post is a short update to &lt;a href=&quot;/2012/12/29/the-historians-puzzle.html&quot;&gt;my recent post on different versions of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[Update 12 Jan 2013] The index to the first series of Düstur, published in 1891 as Ḳaraḳoç, Sarkiz. &lt;em&gt;Miftāḥ-i Ḳavānīn-i ʿOŝmāniye&lt;/em&gt;. Der-i Saʿādet: Maḥmūd Bey Maṭbaʿası, 1309 aH [1891], does not contain any information on divergent print-runs and editions.&lt;/p&gt;
-
-&lt;p&gt;[Update 19 Jan 2013] Safa Saracoglu solved at least part of the riddle, by pointing out that, before &lt;em&gt;Düstur&lt;/em&gt; became a series from 1872 onwards, three independent volumes were published under the same title in in 1851, 1863, and 1866.  Hence, what I thought of as the first edition of the first volume of the first series of &lt;em&gt;Düstur&lt;/em&gt; was indeed the 1863 volume.&lt;/p&gt;
+&lt;p&gt;Safa Saracoglu solved at least part of the riddle by pointing out via email that, before &lt;em&gt;Düstur&lt;/em&gt; became a series from 1872 onwards, three independent volumes were published under the same title in in 1851, 1863, and 1866.  Hence, what I thought of as the first edition of the first volume of the first series of &lt;em&gt;Düstur&lt;/em&gt; was indeed the 1863 volume.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 29 Dec 2012 14:24:43 +0200</pubDate>
-        <link>http://www.sitzextase.de/2012/12/29/the-historians-puzzle.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2012/12/29/the-historians-puzzle.html</guid>
+        <pubDate>Sat, 19 Jan 2013 00:00:00 +0100</pubDate>
+        <link>http://www.sitzextase.de/2013/01/19/the-historians-puzzle-solution.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2013/01/19/the-historians-puzzle-solution.html</guid>
+        
+        <category>19th century</category>
+        
+        <category>history of press</category>
+        
+        <category>newspapers</category>
+        
+        <category>ottoman periodicals</category>
+        
+        <category>periodicals</category>
         
         
       </item>
     
       <item>
-        <title>Project Jaraid: our new chronology of nineteenth-century Arabic periodicals is online</title>
-        <description>&lt;p&gt;After some time out, I return to this blog to announce the publication of my first ever paid-for website and digital humanities project. Called “Project Jarāʾid – A chronology of nineteenth century periodicals in Arabic” the website is hosted by the &lt;a href=&quot;http://www.zmo.de/jaraid&quot;&gt;Zentrum Moderner Orient Berlin&lt;/a&gt;. Based on a simple analogue table provided by Adam Mestyan and Philip Sadgrove (both nowadays in Oxford), I developed a static HTML page that provides the chronology in tabular form, including information on date of first publication, names of publishers, places of publication, and known holding information. In addition, we provide indexes of persons, organisations, places, and holding institutions, as well as a density map of all periodicals we could trace. As a further experimental feature, we included an index of all languages besides Arabic, such as Ladino, Ottoman, French, English, Spanish, various Arabic colloquiuals etc. The website, we hope, will help all those researchers interested in periodicals als a source for their historical accounts to a) establish possible sources, and b) to locate them for their actual research.&lt;/p&gt;
+        <title>Update to the historian&#39;s puzzle</title>
+        <description>&lt;p&gt;This post is a short update to &lt;a href=&quot;/2012/12/29/the-historians-puzzle.html&quot;&gt;my recent post on different versions of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;At the moment an update cycle of every 3 months is scheduled and we already implemented various contributions from colleagues.&lt;/p&gt;
-
-&lt;p&gt;All this was done using extensive semi-automatic XML mark-up of the original table employing the TEI P5 standard. The HTML is then provided through a series of XSLT transformations applied to the single TEI source file. This structure provides enough leeway for future improvements of both the interface and the data. An Arabic version, for instance could easily implemented without much changes to the XSLT and the CSS.&lt;/p&gt;
+&lt;p&gt;The index to the first series of &lt;em&gt;Düstur&lt;/em&gt;, published in 1891 as “Ḳaraḳoç, Sarkiz. &lt;em&gt;Miftāḥ-i Ḳavānīn-i ʿOŝmāniye&lt;/em&gt;. Der-i Saʿādet: Maḥmūd Bey Maṭbaʿası, 1309 aH [1891]”, does not contain any information on divergent print-runs and editions.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 29 Dec 2012 00:00:00 +0200</pubDate>
-        <link>http://www.sitzextase.de/2012/12/29/project-jaraid.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2012/12/29/project-jaraid.html</guid>
+        <pubDate>Sat, 12 Jan 2013 00:00:00 +0100</pubDate>
+        <link>http://www.sitzextase.de/2013/01/12/the-historians-puzzle-update.html</link>
+        <guid isPermaLink="true">http://www.sitzextase.de/2013/01/12/the-historians-puzzle-update.html</guid>
         
         <category>19th century</category>
         
-        <category>Arabic periodicals</category>
+        <category>history of press</category>
         
-        <category>digital humanities</category>
+        <category>newspapers</category>
         
-        <category>History of Press</category>
+        <category>ottoman periodicals</category>
         
-        <category>Newspapers</category>
-        
-        <category>Ottoman periodicals</category>
-        
-        <category>TEI</category>
-        
-        <category>XML</category>
-        
-        <category>XSLT</category>
+        <category>periodicals</category>
         
         
       </item>
