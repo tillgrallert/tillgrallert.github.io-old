@@ -195,86 +195,94 @@
   <article class="post-content">
     <h1 id="technische-aspekte-oder-the-d-in-digital-humanities">Technische Aspekte, oder: the D in Digital Humanities</h1>
 
+<h2 id="grundstze">Grundsätze</h2>
+
 <ul>
-  <li><strong>Grundsätze</strong>
+  <li><strong>wenige</strong> und <strong>simple</strong> Formate / Programmiersprachen, die mit einfachsten Texteditoren bearbeitet werden können, damit sie von den Nutzer_innen, und das sind in der Regel Geistes- und Sozialwissenschaftler_innen, gebraucht werden können. D.h. im besten Fall wird ein einziges Format und eine einzige Sprache für den gesamten Editions-/ Publikationsprozess verwandt.</li>
+  <li>Formate / Programmiersprachen müssen <strong>menschen- und maschinenlesbar</strong> sein. Damit wird sichergestellt, dass sogar ein plain-text-Ausdruck auf Papier prinzipiell verständlich ist, auch wenn dabei natürlich viel, wenn nicht gar sämtliche, Funktionalität verloren geht.</li>
+  <li>Sämtliche Sprachen und Programme sollten <strong>open source</strong> und <strong>etabliert</strong> sein, mit einer großen Community. Das verhindert einen lock-in und Abhängigkeit von einem einzelnen Abieter.</li>
+  <li>Sprachen sollten im <strong>Publikationsgewerbe</strong> und <strong>Editionsprojekten</strong> weit verbreitet  sein.</li>
+</ul>
+
+<h2 id="evaluation-aktueller-stand-am-oib">Evaluation aktueller Stand am OIB</h2>
+
+<p>Die <strong>aktuell</strong> von uns (OIB) benutzten Formate und Programme <strong>erfüllen die technischen Grundsätze alle nicht</strong>!</p>
+
+<ul>
+  <li>Viele Produktionsprozesse finden innerhalb von <strong>Microsoft Office</strong> statt und setzen auf Microsoft Dateiformate. Die älteren dieser Formate (.doc, .xls, .ppt …) sind prinzipiell weder dokumentiert noch offen und ohne Lizenz benutzbar. Obwohl seit 2007 Microsoft XML-basierte Formate benutzt (.docx, .xslx, .pptx …), sind diese nicht dokumentiert und müssen, wenn sie außerhalb von Microsoftprodukten benutzt werden sollen, <em>reverse engineered</em> werden.</li>
+  <li>Unser digitaler Output ist häufig ein <strong>PDF</strong>. Dieses ist ein proprietäres Adobe Format und nicht dokumentiert. Sollen PDFs auf einem professionellen Level erstellt werden, sind sehr teure Lizenzen für Adobeanwendungen notwendig. Während es die Darstellung auf allen Anzeigegeräten stabil hält indem es sich nicht oder nur sehr schwer bearbeiten lässt, verhindert es genau dadurch ein gemeinsames Arbeiten an einem Quelltext. Außerdem ist PDF ausschließlich auf die <em>optische Präsentation</em> und nicht die <em>logische Organisation</em> der Inhalte ausgerichtet. Es ist fast unmöglich auch aus einem “guten” PDF wieder eine bearbeitbare Datei zu erzeugen ohne wesentliche Aspekte eines Textes zu verlieren. Für webbasierte Anwendungen ist es prinzipiell nicht gemacht oder geeignet (da es z.B. nicht sequentiell geladen werden kann und damit enorme Bandbreiten verschlingt).</li>
+</ul>
+
+<h2 id="technische-vorschlge-xml">Technische Vorschläge: XML</h2>
+
+<p>Viele Editionsprojekte und Verlage setzen daher auf <strong>XML</strong> und die damit verbundenen Spezifikationen / Techniken, die sämtlich offene Standards oder Recommendations des W3C Konsortiums sind. XML <strong>erfüllt alle oben angeführte Grundsätze</strong>. Um einen Eindruck von den Möglichkeiten zu bekommen, ist es sinnvoll sich unten stehende, beispielhafte Editionsprojekte und -werkzeuge anzuschauen.</p>
+
+<p>Um <a href="http://mws.hypotheses.org/1571">Stefan Müllers Fazit</a> zu zitieren: “Geisteswissenschaftler sollen mit XML umgehen können, weil der Umgang mit Texten, Textstruktur und Textsemantik zum Kernbereich der Geisteswissenschaft gehört, weil die dabei anfallenden Entscheidungen auch nur der Fachwissenschaftler, kein hilfreich herbeieilender Techniker treffen kann und weil der Umgang mit XML auch gar nicht so schwierig ist wie die wirklich harten Probleme ‒ die sind bei einer Edition stets philologischer Natur. Wenn man von der XML-Frage verallgemeinernd absieht, wird der Impetus ein aufklärerischer: Es geht dann um den Ausgang des Geisteswissenschaftlers aus einer selbstverschuldeten Unmündigkeit, was Datenverarbeitung angeht. Besteht diese Unmündigkeit? Und ist sie selbstverschuldet ‒ aus denselben Ursachen, die Kants berühmter Aufsatz nennt? Hier liegt ein Problem, das unangenehmer ist als etwa das vergleichsweise harmlose Ansinnen, die Geisteswissenschaften im Social Web zu verankern.”</p>
+
+<ul>
+  <li><strong>XML</strong> (Extensible Markup Language): <a href="http://www.w3.org/TR/xml11">Spezifikationen</a>, <a href="https://en.wikipedia.org/wiki/XML">Wikipedia</a>. XML ist eine strikt hierarchische Markup-Sprache in der prinzipiell zwischen funktionalem Markup und Inhalt unterschieden wird. Da XML sehr ausführlich/ wortreich ist und sämtliche Dinge explizit beschrieben werden müssen, ist XML menschenlesbar. XML unterstützt Unicode und LnR-Sprachen, wie Arabisch. Die eigentlichen Regeln für das Markup einer Datei weden in sogenannten Schemata festgelegt, über die jedes Projekt selbst entscheiden kann. XML ist international und in Deutschland sowohl für Editionsprojekte als auch im Publikationsgewerbe weit verbreitet (siehe Beispiele unten). Außerdem sind viele von uns allen täglich benutzte Dateiformate XML-Varianten, z.B. sämtliche aktuelle Microsoft Office Formate (enden auf “x”, wie z.B. “.docx”). Allerdings sind nicht alle dieser Schemata und Spezifikationen offen und gut dokumentiert (auch hier ist wieder Microsoft Office zu nennen).
     <ul>
-      <li><strong>wenige</strong> und <strong>simple</strong> Formate / Programmiersprachen, die mit einfachsten Texteditoren bearbeitet werden können, damit sie von den Nutzer_innen, und das sind in der Regel Geistes- und Sozialwissenschaftler_innen, gebraucht werden können. D.h. im besten Fall wird ein einziges Format und eine einzige Sprache für den gesamten Editions-/ Publikationsprozess verwandt.</li>
-      <li>Formate / Programmiersprachen müssen <strong>menschen- und maschinenlesbar</strong> sein. Damit wird sichergestellt, dass sogar ein plain-text-Ausdruck auf Papier prinzipiell verständlich ist, auch wenn dabei natürlich viel, wenn nicht gar sämtliche, Funktionalität verloren geht.</li>
-      <li>Sämtliche Sprachen und Programme sollten <strong>open source</strong> und <strong>etabliert</strong> sein, mit einer großen Community. Das verhindert einen lock-in und Abhängigkeit von einem einzelnen Abieter.</li>
-      <li>Sprachen sollten im <strong>Publikationsgewerbe</strong> und <strong>Editionsprojekten</strong> weit verbreitet  sein.</li>
+      <li><strong>XSLT</strong> (Extensible Stylesheet Language Transformations): <a href="http://www.w3.org/TR/xslt20/">Spezifikation</a>, <a href="https://en.wikipedia.org/wiki/XSLT">Wikipedia</a>. Deklarative Sprache um XML Dokumente in andere XML Dokumente (inklusiver anderer Markup-sprachen, wie z.B. HTML) zu transformieren. Die Sprache selbst wird in XML geschrieben.</li>
+      <li><strong>XPath</strong>: data model, <a href="http://www.w3.org/TR/xpath-datamodel/.">Spezifikationen</a>, <a href="https://en.wikipedia.org/wiki/XPath">Wikipedia</a>. Mit XPath können die einzelnen Elemente innerhalb einer XML-Datei adressiert werden und simple Operationen vorgenommen werden. XPath ist ein subset von XQuery.</li>
+      <li><strong>XQuery</strong>: <a href="http://www.w3.org/XML/Query/">Spezifikationen</a>, <a href="https://en.wikipedia.org/wiki/XQuery">Wikipedia</a></li>
     </ul>
   </li>
-  <li><strong>Evaluation aktueller Stand am OIB</strong>
+  <li><strong><a href="http://www.tei-c.org/index.xml">TEI P5 XML</a></strong>: Die aktuelle Fassung des XML Schemas der Text Encoding Initiative (TEI). Hierbei handelt es sich um einen quasi-Standard, der ursprünglich für die digitale Abbildung und Beschreibung (i.e. Edition) analoger Quelltexte entwickelt worden ist. Allerdings wird TEI auch zunehmend für born-digital Texte verwandt.</li>
+  <li><strong>XML Datenbanken</strong>: auf der Grundlage von XML Datenbanken wie z.B. <a href="http://exist-db.org/exist/apps/homepage/index.html">eXist DB</a> können komplette, dynamische Onlinelösungen in XML und XQuery geschrieben werden. Ein gutes Beispiel ist hierbei die Webseite des <a href="http://history.state.gov/">Office of the Historian of the United States</a>.
     <ul>
-      <li>Die <strong>aktuell</strong> von uns (OIB) benutzten Formate und Programme <strong>erfüllen die technischen Grundsätze alle nicht</strong>!
-        <ul>
-          <li>Viele Produktionsprozesse finden innerhalb von <strong>Microsoft Office</strong> statt und setzen auf Microsoft Dateiformate. Die älteren dieser Formate (.doc, .xls, .ppt …) sind prinzipiell weder dokumentiert noch offen und ohne Lizenz benutzbar. Obwohl seit 2007 Microsoft XML-basierte Formate benutzt (.docx, .xslx, .pptx …), sind diese nicht dokumentiert und müssen, wenn sie außerhalb von Microsoftprodukten benutzt werden sollen, <em>reverse engineered</em> werden.</li>
-          <li>Unser digitaler Output ist häufig ein <strong>PDF</strong>. Dieses ist ein proprietäres Adobe Format und nicht dokumentiert. Sollen PDFs auf einem professionellen Level erstellt werden, sind sehr teure Lizenzen für Adobeanwendungen notwendig. Während es die Darstellung auf allen Anzeigegeräten stabil hält indem es sich nicht oder nur sehr schwer bearbeiten lässt, verhindert es genau dadurch ein gemeinsames Arbeiten an einem Quelltext. Außerdem ist PDF ausschließlich auf die <em>optische Präsentation</em> und nicht die <em>logische Organisation</em> der Inhalte ausgerichtet. Es ist fast unmöglich auch aus einem “guten” PDF wieder eine bearbeitbare Datei zu erzeugen ohne wesentliche Aspekte eines Textes zu verlieren. Für webbasierte Anwendungen ist es prinzipiell nicht gemacht oder geeignet (da es z.B. nicht sequentiell geladen werden kann und damit enorme Bandbreiten verschlingt).</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Technische Vorschläge: XML</strong>
-    <ul>
-      <li>Viele Editionsprojekte und Verlage setzen daher auf <strong>XML</strong> und die damit verbundenen Spezifikationen / Techniken, die sämtlich offene Standards oder Recommendations des W3C Konsortiums sind. XML <strong>erfüllt alle oben angeführte Grundsätze</strong>. Um einen Eindruck von den Möglichkeiten zu bekommen, ist es sinnvoll sich unten stehende, beispielhafte Editionsprojekte und -werkzeuge anzuschauen.</li>
-      <li>Um Stefan Müllers Fazit zu zitieren: “Geisteswissenschaftler sollen mit XML umgehen können, weil der Umgang mit Texten, Textstruktur und Textsemantik zum Kernbereich der Geisteswissenschaft gehört, weil die dabei anfallenden Entscheidungen auch nur der Fachwissenschaftler, kein hilfreich herbeieilender Techniker treffen kann und weil der Umgang mit XML auch gar nicht so schwierig ist wie die wirklich harten Probleme ‒ die sind bei einer Edition stets philologischer Natur. Wenn man von der XML-Frage verallgemeinernd absieht, wird der Impetus ein aufklärerischer: Es geht dann um den Ausgang des Geisteswissenschaftlers aus einer selbstverschuldeten Unmündigkeit, was Datenverarbeitung angeht. Besteht diese Unmündigkeit? Und ist sie selbstverschuldet ‒ aus denselben Ursachen, die Kants berühmter Aufsatz nennt? Hier liegt ein Problem, das unangenehmer ist als etwa das vergleichsweise harmlose Ansinnen, die Geisteswissenschaften im Social Web zu verankern.” <sup id="fnref:2"><a href="#fn:2" class="footnote">1</a></sup>
-        <ul>
-          <li><strong>XML</strong> (Extensible Markup Language): <a href="http://www.w3.org/TR/xml11">Spezifikationen</a>, <a href="https://en.wikipedia.org/wiki/XML">Wikipedia</a>. XML ist eine strikt hierarchische Markup-Sprache in der prinzipiell zwischen funktionalem Markup und Inhalt unterschieden wird. Da XML sehr ausführlich/ wortreich ist und sämtliche Dinge explizit beschrieben werden müssen, ist XML menschenlesbar. XML unterstützt Unicode und LnR-Sprachen, wie Arabisch. Die eigentlichen Regeln für das Markup einer Datei weden in sogenannten Schemata festgelegt, über die jedes Projekt selbst entscheiden kann. XML ist international und in Deutschland sowohl für Editionsprojekte als auch im Publikationsgewerbe weit verbreitet (siehe Beispiele unten). Außerdem sind viele von uns allen täglich benutzte Dateiformate XML-Varianten, z.B. sämtliche aktuelle Microsoft Office Formate (enden auf “x”, wie z.B. “.docx”). Allerdings sind nicht alle dieser Schemata und Spezifikationen offen und gut dokumentiert (auch hier ist wieder Microsoft Office zu nennen).</li>
-          <li><strong>XSLT</strong> (Extensible Stylesheet Language Transformations): <a href="http://www.w3.org/TR/xslt20/">Spezifikation</a>, <a href="https://en.wikipedia.org/wiki/XSLT">Wikipedia</a>. Deklarative Sprache um XML Dokumente in andere XML Dokumente (inklusiver anderer Markup-sprachen, wie z.B. HTML) zu transformieren. Die Sprache selbst wird in XML geschrieben.</li>
-          <li><strong>XPath</strong>: data model, <a href="http://www.w3.org/TR/xpath-datamodel/.">Spezifikationen</a>, <a href="https://en.wikipedia.org/wiki/XPath">Wikipedia</a>. Mit XPath können die einzelnen Elemente innerhalb einer XML-Datei adressiert werden und simple Operationen vorgenommen werden. XPath ist ein subset von XQuery.</li>
-          <li><strong>XQuery</strong>: <a href="http://www.w3.org/XML/Query/">Spezifikationen</a>, <a href="https://en.wikipedia.org/wiki/XQuery">Wikipedia</a></li>
-        </ul>
-      </li>
-      <li><strong><a href="http://www.tei-c.org/index.xml">TEI P5 XML</a></strong>: Die aktuelle Fassung des XML Schemas der Text Encoding Initiative (TEI). Hierbei handelt es sich um einen quasi-Standard, der ursprünglich für die digitale Abbildung und Beschreibung (i.e. Edition) analoger Quelltexte entwickelt worden ist. Allerdings wird TEI auch zunehmend für born-digital Texte verwandt.</li>
-      <li><strong>XML Datenbanken</strong>: auf der Grundlage von XML Datenbanken wie z.B. <a href="http://exist-db.org/exist/apps/homepage/index.html">eXist DB</a> können komplette, dynamische Onlinelösungen in XML und XQuery geschrieben werden. Ein gutes Beispiel ist hierbei die Webseite des <a href="http://history.state.gov/">Office of the Historian of the United States</a>.
-        <ul>
-          <li><a href="http://sourceforge.net/projects/mycore/">MyCoRe repository framework</a>: ein Dokumentenserver; open source, benutzt Java, XML und “different database backends”. Dieses System wird für Herrn Leders Projekt einer “Encyclopaedia of Islamic Political Thought” eingesetzt. Andere Nutzer sind unter anderem das Projekt zur Katalogisierung und Digitalisierung aller <a href="http://www.islamic-manuscripts.net/content/below/index.xml">Islamischer Handschriften der Universitätsbibliothek Leipzig</a>.</li>
-        </ul>
-      </li>
+      <li><a href="http://sourceforge.net/projects/mycore/">MyCoRe repository framework</a>: ein Dokumentenserver; open source, benutzt Java, XML und “different database backends”. Dieses System wird für Herrn Leders Projekt einer “Encyclopaedia of Islamic Political Thought” eingesetzt. Andere Nutzer sind unter anderem das Projekt zur Katalogisierung und Digitalisierung aller <a href="http://www.islamic-manuscripts.net/content/below/index.xml">Islamischer Handschriften der Universitätsbibliothek Leipzig</a>.</li>
     </ul>
   </li>
 </ul>
 
-<h1 id="beispiele--konkrete-vorschlge">Beispiele / Konkrete Vorschläge</h1>
+<h1 id="beispiele-und-konkrete-vorschlge">Beispiele und konkrete Vorschläge</h1>
+
+<p>Damit alle Teilnehmer_innen gebrauch von der folgenden Liste machen können, ist diese vornehmlich in englisch verfasst.</p>
 
 <ul>
-  <li>Werkzeuge/ Forschungsumgebungen:
+  <li>Tools / Research environments:
+  <!-- + **[TextGrid](http://www.textgrid.de/en/)**: eine virtuelle Forschungsumgebung, die sowohl Repositorien als auch Werkzeuge für textbasierte Forschung bietet. Entwickelt u.a. von Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek Göttingen (Projektleitung), Institut für Deutsche Sprache Mannheim, Julius-Maximilians-Universität Würzburg, Max-Planck-Institut für Wissenschaftsgeschichte Berlin, Technische Universität Berlin, Technische Universität Darmstadt.-->
     <ul>
-      <li><strong><a href="http://www.textgrid.de/en/">TextGrid</a></strong>: eine virtuelle Forschungsumgebung, die sowohl Repositorien als auch Werkzeuge für textbasierte Forschung bietet. Entwickelt u.a. von Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek Göttingen (Projektleitung), Institut für Deutsche Sprache Mannheim, Julius-Maximilians-Universität Würzburg, Max-Planck-Institut für Wissenschaftsgeschichte Berlin, Technische Universität Berlin, Technische Universität Darmstadt.</li>
-      <li><strong><a href="http://www.bbaw.de/telota/software/ediarum">Ediarum</a></strong>: eine virtuelle Forshungsumgebung, entwickelt von der BBAW. Basiert auf XML, TEI P5, eXist DB, XQuery etc. und kann sowohl Webauftritt als auch Printeditionen produzieren. Ein Erfahrungsbericht des <a href="http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II">Schleiermacher Projektes</a> mit dieser Software findet sich <a href="http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834/">hier</a>.</li>
-      <li><strong><a href="http://www.bbaw.de/en/telota/projectcollection/archiv-editor">Archiv Editor</a></strong>. XML-Editor, entwickelt von der BBAW</li>
+      <li><strong><a href="http://www.textgrid.de/en/">TextGrid</a></strong>: a virtual research environment, providing a repository for digital texts as well as various editing tools; developed by the <a href="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</a>, Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek Göttingen (Projektleitung), Institut für Deutsche Sprache Mannheim, Julius-Maximilians-Universität Würzburg, Max-Planck-Institut für Wissenschaftsgeschichte Berlin, Technische Universität Berlin, Technische Universität Darmstadt.
+  <!-- + **[Ediarum](http://www.bbaw.de/telota/software/ediarum)**: eine virtuelle Forshungsumgebung, entwickelt von der BBAW. Basiert auf XML, TEI P5, eXist DB, XQuery etc. und kann sowohl Webauftritt als auch Printeditionen produzieren. Ein Erfahrungsbericht des [Schleiermacher Projektes](http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II) mit dieser Software findet sich [hier](http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834/). --></li>
+      <li><strong><a href="http://www.bbaw.de/telota/software/ediarum">Ediarium</a>:</strong> a virtual research environment developed by the BBAW. It is based on XML, TEI P5, eXist DB, XQuery etc. and can be used to generate websites as well as printed editions. The <a href="http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II">Schleiermacher Projekt</a> provides a <a href="http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834/">report</a> on their experiences with this software.</li>
+      <li><strong><a href="http://www.bbaw.de/en/telota/projectcollection/archiv-editor">Archiv Editor</a></strong>. XML-editor, developed by the BBAW.</li>
       <li><strong><a href="http://dfg-viewer.de/ueber-das-projekt/">DFG-Viewer</a></strong>: Plattform zur Anzeige von Digitalisaten mit einer METS/MODS und METS/TEI XML Schnittstelle.</li>
-      <li><a href="http://cte.oeaw.ac.at//">Classical Text Editor</a>: Ziemlich altes Windows-only Programm zur Edition von Texten, dass nicht mehr aktiv weiterentwickelt wird (es gab in den letzten 5 Jahren nur ein winziges Update), produziert TEI XML und HTML. Wird/ wurde am OIB bereits benutzt.
+      <li><strong><a href="http://cte.oeaw.ac.at//">Classical Text Editor</a></strong>: Ziemlich altes Windows-only Programm zur Edition von Texten, dass nicht mehr aktiv weiterentwickelt wird (es gab in den letzten 5 Jahren nur ein winziges Update), produziert TEI XML und HTML. Wird/ wurde am OIB bereits benutzt.
         <ul>
           <li><strong>UPDATE</strong> CTE is under active development and version 9 was just released (20 Feb 2015) — some 6 years after v8.</li>
         </ul>
       </li>
-      <li><a href="http://t-pen.org/TPEN/"><strong>T-Pen</strong> (transcription for paleographical and editorial notation)</a>: Werkzeug zur Transkription von Digitalisaten, erlaubt den Export von XML Dateien.</li>
-      <li><strong><a href="http://transcriptorium.eu">tranScriptorium</a></strong>: Ein Projekten zur Entwicklung von Transkriptionswerkzeugen für historische Dokumente, inklusive sogenannter HandwrittenText Recognition (HTR) Werkzeuge. Der Fokus liegt auf europäischen Sprachen, aber der Ansatz ist für Arabisch durchaus interessant. Das Projekt bietet eine   <a href="http://transcriptorium.eu/demots/htr/index.php">online Demonstration</a> an.</li>
-      <li><strong>DENQ</strong> (Digitale Editionen neuzeitlicher Quellen): Vom DHI in Rom und London entwickelte Editions- und Publikationsumgebung. Setzt auf einer eXistDB Datenbank und TEI XML auf ist allerdings kein offenes Projekt. Es existiert keine Dokumentation vage Beschreibungen sind vier bis sechs Jahre alt.<sup id="fnref:1"><a href="#fn:1" class="footnote">2</a></sup></li>
+      <li><a href="http://t-pen.org/TPEN/"><strong>T-Pen</strong> (transcription for paleographical and editorial notation)</a>: Werkzeug zur Transkription von Digitalisaten, erlaubt den Export von XML Dateien.
+  <!-- + **[tranScriptorium](http://transcriptorium.eu)**: Ein Projekten zur Entwicklung von Transkriptionswerkzeugen für historische Dokumente, inklusive sogenannter HandwrittenText Recognition (HTR) Werkzeuge. Der Fokus liegt auf europäischen Sprachen, aber der Ansatz ist für Arabisch durchaus interessant. Das Projekt bietet eine   [online Demonstration](http://transcriptorium.eu/demots/htr/index.php) an. --></li>
+      <li><strong><a href="http://transcriptorium.eu">tranScriptorium</a></strong>: a project for the development of transcription tools for historical documents, inluding so-called Handwritten Text Recognition (HTR) tools. The project focusses on European languages, but their approach might be interesting for Arabic and other L-to-R scripts as well. They provide a functional <a href="http://transcriptorium.eu/demots/htr/index.php">online demo</a>.
+  <!-- + **DENQ** (Digitale Editionen neuzeitlicher Quellen): Vom DHI in Rom und London entwickelte Editions- und Publikationsumgebung. Setzt auf einer eXistDB Datenbank und TEI XML auf ist allerdings kein offenes Projekt. Es existiert keine Dokumentation vage Beschreibungen sind vier bis sechs Jahre alt.[^1] --></li>
+      <li><strong>DENQ</strong> (Digitale Editionen neuzeitlicher Quellen): editing and publishing tool. Based on eXist DB and TEI XML. Under development by the DHI Rome and London. A rather vague and old description, dating to 2008(!), can be found <a href="http://digiversity.net/2010/denq/">here</a> and <a href="http://www.roman-repertories.net/fileadmin/user_upload/pdf-dateien/Online-Publikationen/Dresden_Histtag/Hist_Grundlagenforschung_Mittelalter_Neuzeit.pdf">here</a>. The project is not open and there is no publicly accessible documentation.</li>
       <li><strong><a href="http://www.juxtasoftware.org/">Juxta</a></strong>: open-source tool for comparing and collating multiple witnesses to a single textual work; XML.</li>
-      <li><a href="http://sourceforge.net/projects/evt-project/"><strong>EVT</strong> (Edition Visualization Technology)</a>: a set of interdependent XSLT stylesheets to publish digital editions marked-up in TEI P5 to a website.<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> EVT was developed for the <a href="http://vbd.humnet.unipi.it/beta/">Vercelli Book Digitale beta edition</a>.</li>
-      <li><a href="http://deutschestextarchiv.de"><strong>DTA</strong> (Deutsches Text Archiv)</a>: they, inter alia, developed the DTABf (DTA-Basisformat) as a strict subset of TEI P5 to ensure a very high level of interoperability for their large corpus of German texts between the 17th-19th centuries<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>. They also supply an oXygen framework.</li>
+      <li><a href="http://sourceforge.net/projects/evt-project/"><strong>EVT</strong> (Edition Visualization Technology)</a>: a set of interdependent XSLT stylesheets to publish digital editions marked-up in TEI P5 to a website. EVT was developed for the <a href="http://vbd.humnet.unipi.it/beta/">Vercelli Book Digitale beta edition</a> and a description was published in <a href="http://jtei.revues.org/1077">JTEI (Rosselli et al. 2014)</a>.</li>
+      <li><a href="http://deutschestextarchiv.de"><strong>DTA</strong> (Deutsches Text Archiv)</a>: they, inter alia, developed the DTABf (DTA-Basisformat) as a strict subset of TEI P5 to ensure a very high level of interoperability for their large corpus of German texts between the 17th-19th centuries. They also supply an oXygen framework. A description was published in <a href="http://jtei.revues.org/1114">JTEI (Haaf et al. 2014)</a>.</li>
     </ul>
   </li>
-  <li>Editionsprojekte
+  <li>Digital editions
     <ul>
-      <li><a href="http://firstfolio.bodleian.ox.ac.uk/">First Folio</a>: digitale Edition Shakespeare Edition. Basiert auf TEI XML.</li>
+      <li><a href="http://firstfolio.bodleian.ox.ac.uk/">First Folio</a>: digital Shakespeare edition. Based on TEI XML.</li>
       <li>Das <a href="http://www.deutschestextarchiv.de/doku/workflow">Deutsche Text Archiv, DTA</a>, XML basiert. Benutzt TEI und eigene Erweiterungen.</li>
-      <li><a href="http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II">Schleiermacher Projekt</a>. Briefedition auf Basis von TEI XML.</li>
-      <li><a href="http://www.refaiya.uni-leipzig.de">Refaiya Library</a>, Leipzig: Katalogisierung und Digitalisate von Manuskripten der Rifāʾiyya Bibliothek. XML basierter Dokumentenserver. Die bibliographischen Metadaten sind in METS/TEI bzw. in METS/MODS erfasst. Die Digitalisate werden über den DFG-Viewer ausgegeben.</li>
-      <li><a href="http://www.dh.uni-leipzig.de/wo/projects/open-greek-and-latin-project/the-leipzig-open-fragmentary-texts-series-lofts/">The Leipzig Open Fragmentary Texts Series (LOFTS)</a>: Producinopen editions of ancient works that survive only through quotations and text re-uses in later texts, including Arabic translations; TEI, XML, RDF.</li>
+      <li><a href="http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II">Schleiermacher Projekt</a>. Briefedition auf Basis von TEI XML.
+  <!-- + [Refaiya Library](http://www.refaiya.uni-leipzig.de), Leipzig: Katalogisierung und Digitalisate von Manuskripten der Rifāʾiyya Bibliothek. XML basierter Dokumentenserver. Die bibliographischen Metadaten sind in METS/TEI bzw. in METS/MODS erfasst. Die Digitalisate werden über den DFG-Viewer ausgegeben. --></li>
+      <li><strong><a href="http://www.refaiya.uni-leipzig.de">Refaiya Library</a></strong>, Leipzig: an XML-based document server providing a catalogue and digitized manuscripts from the Rifāʾiyya library. Bibliographic meta data is recorded in METS/TEI or METS/MODS. Digitised items are served online through the DFG-Viewer software.</li>
+      <li><a href="http://www.dh.uni-leipzig.de/wo/projects/open-greek-and-latin-project/the-leipzig-open-fragmentary-texts-series-lofts/">The Leipzig Open Fragmentary Texts Series (LOFTS)</a>: Producing open editions of ancient works that survive only through quotations and re-uses in later texts, including Arabic translations; TEI, XML, RDF.</li>
       <li><a href="http://tei.ibi.hu-berlin.de/berliner-intellektuelle/">Briefe und Texte aus dem intellektuellen Berlin um 1800</a>. Texteditionen auf Basis von TEI XML.</li>
       <li><a href="http://www.perseus.tufts.edu/hopper/">Perseus Digital Library</a>: Bietet unter anderem eine TEI basierte Onlineversion von <a href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a2002.02.0015">Lane’s Arabic Dictionary</a>.</li>
       <li><a href="http://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html">The Digital Walters</a>: u.a. Bilddigitalisate von Koranmanuskripten und anderen arabischen Handschriften des Walters Art Museum, die Facsimiles werden über TEI XML erschlossen.</li>
     </ul>
   </li>
-  <li>Andere interessant Links
+  <li>Further projects and initiative
     <ul>
-      <li><a href="http://dixit.uni-koeln.de/home.html">DiXit</a>: Digital Scholarly Editions, Initial Training Network</li>
-      <li><a href="http://www.i-d-e.de/">IDE (Institut für Dokumentologie und Editorik)</a>: Publizieren u.a. Listen mit hilfreichen Werkzeugen, eine Schriftenreihe und den <a href="http://ride.i-d-e.de">Review of of digital editions (RIDE)</a>.</li>
-      <li><a href="http://wamcp.bibalex.org/home">Wellcome Arabic Manuscript Cataloguing Project</a>: Entwicklung eines XML Schemas zur Beschreibung arabischer Manuskripte basierend auf TEI/ENRICH XML model. Die Webseite bietet Zugang zu Bilddigitalisaten der Manuskripte.</li>
-      <li><a href="http://www.fihrist.org.uk/home">Fihrist</a>: Unionskatalog arabischer Manuskripte, basiert auf TEI XML.</li>
+      <li><strong><a href="http://dixit.uni-koeln.de/home.html">DiXit</a></strong>: Digital Scholarly Editions, Initial Training Network</li>
+      <li><a href="http://www.i-d-e.de/"><strong>IDE</strong> (Institut für Dokumentologie und Editorik)</a>: <!-- Publizieren u.a. Listen mit hilfreichen Werkzeugen, eine Schriftenreihe und den [Review of of digital editions (RIDE)](http://ride.i-d-e.de). --> network of researchers involved in the development of tools and practices for digital editions. They organise workshops and spring/summer schools. They also publish a book series and a <a href="http://ride.i-d-e.de">Review of digital editions (RIDE)</a>.
+  <!-- + [Wellcome Arabic Manuscript Cataloguing Project](http://wamcp.bibalex.org/home): Entwicklung eines XML Schemas zur Beschreibung arabischer Manuskripte basierend auf TEI/ENRICH XML model. Die Webseite bietet Zugang zu Bilddigitalisaten der Manuskripte. --></li>
+      <li><strong><a href="http://wamcp.bibalex.org/home">Wellcome Arabic Manuscript Cataloguing Project</a></strong>: Developed an XML schema for the description of Arabic manuscripts based on the TEI/ENRICH XML model. The website also provides access to digitised images of the manuscripts.</li>
+      <li><strong><a href="http://www.fihrist.org.uk/home">Fihrist</a></strong>: <!-- Unionskatalog arabischer Manuskripte, basiert auf TEI XML.--> union catalogue of Arabic manuscripts. Based on TEI XML.</li>
     </ul>
   </li>
 </ul>
@@ -282,37 +290,22 @@
 <h1 id="literature--links">Literature / Links</h1>
 
 <ul>
+  <li>Haaf, Susanne, Alexander Geyken, and Frank Wiegand. “<a href="http://jtei.revues.org/1114">The DTA ‘Base Format’: A TEI Subset for the Compilation of a Large Reference Corpus of Printed Text From Multiple Sources</a>.” <em>Journal of the Text Encoding Initiative</em> 8: Selected Papers from the 2013 TEI Conference (2015)</li>
   <li>Hedges, Mark, Heike Neuroth, et al. “<a href="http://jtei.revues.org/774">TextGrid, TEXTvre, and DARIAH: Sustainability of Infrastructures for Textual Scholarship</a>.” <em>Journal of the Text Encoding Initiative</em> 5: TEI Infrastructures (2013): doi:10.4000/jtei.774</li>
-  <li>Hudrisier, Henri, Rachid Zghibi, et al. <em>Promoting the Linguistic Diversity of TEI in the Maghreb and the Arab Region.</em> Presentation at TEI Conference and Members Meeting 2013. The Linked TEI: Text Encoding in the Web. Rome, 2013. http://digilab2.let.uniroma1.it/teiconf2013/wp-content/uploads/2013/09/book-abstracts.pdf#page=65 (accessed October 29, 2014)</li>
-  <li>Müller, Stefan. “Der Veſte Buchſtab. Digitale Editionen, Ihre Erstellung und Darbietung.” Wissen in Verbindung. Bericht über das Arbeitstreffen „digital humanities. Wissenschaftliche Datenbanken und Editionsprojekte“ der Max Weber Stiftung, 29-30 Nov. 2012. http://mws.hypotheses.org/1571 (accessed December 11, 2014)</li>
-  <li>Pearce, Sarah. “Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 1.” http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic.html (accessed December 18, 2014).</li>
-  <li>Pearce, Sarah. “Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 2.” http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic_18.html (accessed December 18, 2014).</li>
+  <li>Hudrisier, Henri, Rachid Zghibi, et al. <em><a href="http://digilab2.let.uniroma1.it/teiconf2013/wp-content/uploads/2013/09/book-abstracts.pdf#page=65">Promoting the Linguistic Diversity of TEI in the Maghreb and the Arab Region</a>.</em> Presentation at TEI Conference and Members Meeting 2013. The Linked TEI: Text Encoding in the Web. Rome, 2013. <!-- http://digilab2.let.uniroma1.it/teiconf2013/wp-content/uploads/2013/09/book-abstracts.pdf#page=65 (accessed October 29, 2014)--></li>
+  <li>Müller, Stefan. “<a href="http://mws.hypotheses.org/1571">Der Veſte Buchſtab. Digitale Editionen, Ihre Erstellung und Darbietung</a>.” Wissen in Verbindung. Bericht über das Arbeitstreffen „digital humanities. Wissenschaftliche Datenbanken und Editionsprojekte“ der Max Weber Stiftung, 29-30 Nov. 2012. <!-- http://mws.hypotheses.org/1571 (accessed December 11, 2014) --></li>
+  <li>Pearce, Sarah. “<a href="http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic.html">Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 1</a>.” <!-- http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic.html (accessed December 18, 2014). --></li>
+  <li>Pearce, Sarah. “<a href="http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic_18.html">Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 2</a>.” <!-- http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic_18.html (accessed December 18, 2014).--></li>
+  <li>Rosselli Del Turco, Roberto, Giancarlo Buomprisco, et al. “<a href="http://jtei.revues.org/1077">Edition Visualization Technology: A Simple Tool to Visualize TEI-based Digital Editions</a>.” <em>Journal of the Text Encoding Initiative</em> 8: Selected Papers from the 2013 TEI Conference (2014)</li>
   <li>Soualah, Mohammed Ourabah and Mohamed Hassoun. “<a href="http://jtei.revues.org/398">A TEI P5 Manuscript Description Adaptation for Cataloguing Digitized Arabic Manuscripts</a>.” <em>Journal of the Text Encoding Initiative</em> 2 (2012): doi:10.4000/jtei.398</li>
 </ul>
 
 <h1 id="resources">Resources</h1>
 
 <ul>
-  <li>http://svnextern.dl.uni-leipzig.de/viewsvn/ providing code for IslamHS and various other projects, including the Refaiya</li>
+  <li><a href="http://svnextern.dl.uni-leipzig.de/viewsvn/">http://svnextern.dl.uni-leipzig.de/viewsvn/</a> providing code for IslamHS and various other projects, including the Refaiya</li>
   <li><a href="https://www.overleaf.com/">overleaf</a>: commercial (?) colaborative publishing platform. Based on LaTeX.</li>
 </ul>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:2">
-      <p>Müller 2012 <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:1">
-      <p><a href="http://digiversity.net/2010/denq/">Bericht zu DENQ auf digiversity von 2010</a>, <a href="http://www.roman-repertories.net/fileadmin/user_upload/pdf-dateien/Online-Publikationen/Dresden_Histtag/Hist_Grundlagenforschung_Mittelalter_Neuzeit.pdf">Bericht vom Historikertag 2008</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>Rosselli Del Turco, Roberto, Giancarlo Buomprisco, et al. “<a href="http://jtei.revues.org/1077">Edition Visualization Technology: A Simple Tool to Visualize TEI-based Digital Editions</a>.” <em>Journal of the Text Encoding Initiative</em> 8: Selected Papers from the 2013 TEI Conference (2014) <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:4">
-      <p>Haaf, Susanne, Alexander Geyken, and Frank Wiegand. “<a href="http://jtei.revues.org/1114">The DTA “Base Format”: A TEI Subset for the Compilation of a Large Reference Corpus of Printed Text From Multiple Sources</a>.” <em>Journal of the Text Encoding Initiative</em> 8: Selected Papers from the 2013 TEI Conference (2015) <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 
   </article>
 
