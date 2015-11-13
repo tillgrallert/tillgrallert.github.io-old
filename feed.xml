@@ -3,17 +3,379 @@
   <channel>
     <title>sitzExtase</title>
     <description></description>
-    <link>http://www.sitzextase.de/</link>
-    <atom:link href="http://www.sitzextase.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Aug 2015 16:41:42 +0200</pubDate>
-    <lastBuildDate>Tue, 04 Aug 2015 16:41:42 +0200</lastBuildDate>
+    <link>https://tillgrallert.github.io/</link>
+    <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 13 Nov 2015 18:23:14 +0200</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2015 18:23:14 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>*Majallat al-Muqtabas*: one of the most important journals of late Ottoman *Bilād al-Shām* as open, reference-able TEI P5 Edition</title>
+        <description>&lt;p&gt;In the context of the current onslaught cultural artifacts in the Middle East face from the iconoclasts of the Islamic State, from the institutional neglect of states and elites, and from poverty and war, digital preservation efforts promise some relief as well as potential counter narratives. They might also be the only resolve for future education and rebuilding efforts once the wars in Syria, Iraq or Yemen come to an end.&lt;/p&gt;
+
+&lt;p&gt;Early Arabic periodicals, such as Butrus al-Bustānī’s &lt;em&gt;al-Jinān&lt;/em&gt; (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs’ &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; (Beirut and Cairo, 1876–1952), Muḥammad Kurd ʿAlī’s &lt;em&gt;al-Muqtabas&lt;/em&gt; (Cairo and Damascus, 1906–16) or Rashīd Riḍā’s &lt;em&gt;al-Manār&lt;/em&gt; (Cairo, 1898–1941) are at the core of the Arabic renaissance (&lt;em&gt;al-nahḍa&lt;/em&gt;), Arab nationalism, and the Islamic reform movement. Due to the state of Arabic OCR and the particular difficulties of low-quality fonts, inks, and paper employed at the turn of the twentieth century, they can only be digitised by human transcription. Yet despite of their cultural significance and unlike for valuable manuscripts and high-brow literature, funds for transcribing the tens to hundreds of thousands of pages of an average mundane periodical are simply not available. Consequently, we still have not a single digital scholarly edition of any of these journals. But some of the best-funded scanning projects, such as &lt;a href=&quot;http://catalog.hathitrust.org/&quot;&gt;Hathitrust&lt;/a&gt;, produced digital imagery of numerous Arabic periodicals, while gray online-libraries of Arabic literature, namely &lt;a href=&quot;http://shamela.ws/&quot;&gt;&lt;em&gt;shamela.ws&lt;/em&gt;&lt;/a&gt;, provide access to a vast body of Arabic texts including transcriptions of unknown provinence, editorial principals, and quality for some of the mentioned periodicals. In addition, these gray “editions” lack information linking the digital representation to material originals, namely bibliographic meta-data and page breaks, which makes them almost impossible to employ for scholarly research.&lt;/p&gt;
+
+&lt;p&gt;With the &lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot; title=&quot;current state of the project&quot;&gt;GitHub-hosted TEI edition of &lt;em&gt;Majallat al-Muqtabas&lt;/em&gt;&lt;/a&gt; we want to show that through re-purposing available and well-established open software and by bridging the gap between immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers and academic scanning efforts as well as editorial expertise, one can produce scholarly editions that remedy the short-comings of either world with very small funds: We use &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;digital texts from &lt;em&gt;shamela.ws&lt;/em&gt;&lt;/a&gt;, transform them into TEI XML, add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link them to facsimiles provided through the &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63&quot;&gt;British Library’s “Endangered Archives Programme”&lt;/a&gt; and &lt;a href=&quot;http://catalog.hathitrust.org/Record/100658549&quot;&gt;HathiTrust&lt;/a&gt; (in the process of which we also make first corrections to the transcription). The digital edition (TEI XML and a basic web display) is then hosted as a GitHub repository with a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0 licence&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By linking images to the digital text, every reader can validate the quality of the transcription against the original, thus overcoming the greatest limitation of crowd-sourced or gray transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Improvements of the transcription and mark-up can be crowd-sourced with clear attribution of authorship and version control using .git and GitHub’s core functionality. Editions are referencable down to the word level for scholarly citations, annotation layers, as well as web-applications through a documented URI scheme. The web-display is implemented through a customised adaptation of the TEI Boilerplate XSLT stylesheets; it can be downloaded, distributed and run locally without any internet connection—a necessity for societies outside the global North. Finally, by sharing all our code (mostly XSLT) in addition to the XML files, we hope to facilitate similar projects and digital editions of further periodicals, namely Rashīd Riḍā’s &lt;em&gt;al-Manār&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;scope-of-the-project&quot;&gt;Scope of the project&lt;/h1&gt;
+
+&lt;p&gt;The purpose and scope of the project is to provide an open, collaborative, referencable, scholarly digital edition of Muḥammad Kurd ʿAlī’s journal &lt;em&gt;al-Muqtabas&lt;/em&gt;, which includes the full text, semantic mark-up, and digital imagery.&lt;/p&gt;
+
+&lt;p&gt;The digital edition will be provided as TEI P5 XML with its own schema. All files are hosted on &lt;a href=&quot;https://www.github.com&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The project will open avenues for re-purposing code for similar projects, i.e. for transforming full-text transcriptions from some HTML or XML source, such as &lt;a href=&quot;http://www.shamela.ws&quot;&gt;&lt;em&gt;al-Maktaba al-Shamela&lt;/em&gt;&lt;/a&gt;, into TEI P5 XML, linking them to digital imagery from other open repositories, such as &lt;a href=&quot;http://eap.bl.uk/&quot;&gt;EAP&lt;/a&gt; and &lt;a href=&quot;https://www.hathitrust.org&quot;&gt;HathiTrust&lt;/a&gt;, and generating a web display by, for instance, adapting the code base of &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The most likely candidates for such follow-up projects are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Muḥammad Rashīd Riḍā’s journal &lt;em&gt;al-Manār&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://shamela.ws/index.php/book/6947&quot;&gt;full text from shamela&lt;/a&gt;: 8605 views&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://catalog.hathitrust.org/Record/008882663&quot;&gt;imagery from hathitrust&lt;/a&gt;,&lt;a href=&quot;https://archive.org/details/almanaralmanar&quot;&gt;imagery / PDFs from the Internet Archive&lt;/a&gt;, which are linked from &lt;a href=&quot;http://waqfeya.com/book.php?bid=7374&quot;&gt;&lt;em&gt;al-Maktaba al-Waqfiyya&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ʿAbdallah al-Nadīm’s &lt;em&gt;majallat al-ustādh&lt;/em&gt;, Cairo, 24 Aug 1892
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://shamela.ws/index.php/book/35118&quot;&gt;full text from shamela&lt;/a&gt;: 11337 views.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ʿAbd al-Qādir bin Muḥammad Salīm al-Kaylānī al-Iskandarānī’s &lt;em&gt;majallat al-ḥaqāʾiq (al-dimashqiyya)&lt;/em&gt;, 1910
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://shamela.ws/index.php/book/29676&quot;&gt;full text from shamela&lt;/a&gt;: 5134 views.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-journal-al-muqtabas&quot;&gt;The journal &lt;em&gt;al-Muqtabas&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Muḥammad Kurd ʿAlī published the monthly journal &lt;em&gt;al-Muqtabas&lt;/em&gt; between 1906 and 1914(1916). The publication schedule followed the Muslim &lt;em&gt;hijrī&lt;/em&gt; calendar and, after the Young Turk Revolution of July 1908, publication moved from Cairo to Damascus in the journal’s third year.&lt;/p&gt;
+
+&lt;p&gt;There is some confusion as to the counting of issues and their publication dates. According to the masthead and the cover sheet, &lt;em&gt;al-Muqtabas&lt;/em&gt; was published following the Islamic &lt;em&gt;hijrī&lt;/em&gt; calendar (from the journal itself it must remain open whether the recorded publication dates were the actual publication dates). Sometimes the printers made errors: issue 2 of volume 4, for instance, carries Rab I 1327 as publication date on the cover sheet, but Ṣaf 1327 in its masthead. The latter would correspond to the official publication schedule.&lt;/p&gt;
+
+&lt;p&gt;Samir Seikaly argues that Muḥammad Kurd ʿAlī was wrong in stating in his memoirs that he published 8 volumes of 12 issues each and two independent issues.^[{Seikaly 1981@128}] But the actual hard copies at the &lt;a href=&quot;http://www.orient-institut.org&quot;&gt;Orient-Institut Beirut&lt;/a&gt; and the digital facsimiles from HathiTrust show that Kurd ʿAlī was right insofar as volume 9 existed and comprised 2 issues only. As it turns out, &lt;em&gt;al-Muqtabas&lt;/em&gt; published a number of double issues: &lt;a href=&quot;https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_41.TEIP5.xml&quot;&gt;Vol. 4 no. 5/6&lt;/a&gt; and &lt;a href=&quot;https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_94.TEIP5.xml&quot;&gt;Vol. 8 no. 11/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to the original edition, at least one reprint appeared: In 1992 Dār Ṣādir in Beirut published a facsimile edition, which is entirely unmarked as such but for the information on the binding itself. Checking this reprint against the original, it appeared to be a facsimile reprint: pagination, font, layout — everything is identical. But as Samir Seikaly remarked in 1981 that he used “two separate compilations of &lt;em&gt;al-Muqtabas&lt;/em&gt; […] in this study” there must be at least one other print edition that I have not yet seen.^[{Seikaly 1981@128}]&lt;/p&gt;
+
+&lt;h1 id=&quot;digital-imagery&quot;&gt;Digital imagery&lt;/h1&gt;
+
+&lt;p&gt;Image files are available from the &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63&quot;&gt;&lt;em&gt;al-Aqṣā&lt;/em&gt; Mosque’s library in Jerusalem through the British Library’s “Endangered Archives Project” (vols. 2-7)&lt;/a&gt;, &lt;a href=&quot;http://catalog.hathitrust.org/Record/100658549&quot;&gt;HathiTrust (vols. 1-6, 8)&lt;/a&gt;, and &lt;a href=&quot;http://ima.bibalex.org/IMA/presentation/periodic/list.jsf?pid=9C82C139F9785E99D30089727B40A269&quot;&gt;Institut du Monde Arabe&lt;/a&gt;. Due to its open access licence, preference is given to facsimiles from EAP.&lt;/p&gt;
+
+&lt;h2 id=&quot;eap119&quot;&gt;EAP119&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;links to volumes:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=809;r=12316&quot;&gt;Vol. 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=812;r=3035&quot;&gt;Vol. 3&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=813;r=22190&quot;&gt;Vol. 4&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=814;r=1842&quot;&gt;Vol. 5&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=810;r=288&quot;&gt;Vol. 6&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=811;r=30106&quot;&gt;Vol. 7&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;access:
+    &lt;ul&gt;
+      &lt;li&gt;the journal is in the public domain and the images can be freely accessed without restrictions. EAP does not provide a download button.&lt;/li&gt;
+      &lt;li&gt;Terms of access for material provided by the British Library can be found &lt;a href=&quot;http://www.bl.uk/aboutus/terms/index.html&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hathitrust&quot;&gt;HathiTrust&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;links to volumes
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968608&quot;&gt;Vol. 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968616&quot;&gt;Vol. 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968624&quot;&gt;Vol. 3&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968632&quot;&gt;Vol. 4&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968640&quot;&gt;Vol. 5&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/njp.32101073250910&quot;&gt;Vol. 6&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007615691&quot;&gt;Vol. 8&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.31951d008457474&quot;&gt;Index&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;access
+    &lt;ul&gt;
+      &lt;li&gt;The journal is in the public domain in the US and can be freely accessed and downloaded&lt;/li&gt;
+      &lt;li&gt;Outside the US, access is restricted.&lt;/li&gt;
+      &lt;li&gt;Formal &lt;a href=&quot;https://www.hathitrust.org/access_use#pd-us-google&quot;&gt;licence&lt;/a&gt;:&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Public Domain or Public Domain in the United States, Google-digitized: In addition to the terms for works that are in the Public Domain or in the Public Domain in the United States above, the following statement applies: The digital images and OCR of this work were produced by Google, Inc. (indicated by a watermark on each page in the PageTurner). Google requests that the images and OCR not be re-hosted, redistributed or used commercially. The images are provided for educational, scholarly, non-commercial purposes.
+Note: There are no restrictions on use of text transcribed from the images, or paraphrased or translated using the images.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;full-text&quot;&gt;Full text&lt;/h1&gt;
+
+&lt;p&gt;Somebody took the pains to create fully searchable text files and uploaded everything to &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;al-Maktaba al-Shamela&lt;/a&gt; and  &lt;a href=&quot;https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1&quot;&gt;WikiSource&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;al-maktaba-al-shmilahttpwwwshamelaws&quot;&gt;&lt;a href=&quot;http://www.shamela.ws&quot;&gt;al-Maktaba al-Shāmila&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Extent: According to the main &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;entry&lt;/a&gt;, &lt;em&gt;shamela&lt;/em&gt; has all 96 issues.&lt;/li&gt;
+  &lt;li&gt;Transcribers, editors: Apparently, they have been typed and copy-edited by unnamed humans.&lt;/li&gt;
+  &lt;li&gt;Features edition: paragraphs, page breaks, headlines.&lt;/li&gt;
+  &lt;li&gt;Features interface:
+    &lt;ul&gt;
+      &lt;li&gt;all issues can be browsed for headlines and searched&lt;/li&gt;
+      &lt;li&gt;all pages can be individually adressed in the browser: &lt;a href=&quot;http://shamela.ws/browse.php/book-26523#page-2290&quot;&gt;http://shamela.ws/browse.php/book-26523#page-2290&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wikisource&quot;&gt;WikiSource&lt;/h2&gt;
+
+&lt;p&gt;It seems that somebody took the pains to upload the tet from &lt;em&gt;shamela&lt;/em&gt; to WikiSource. Unfortunately it is impossible to browse the entire journal. Instead one has to adress each individual and consecutively numbered issue, e.g. Vol. 4, No. 1 is listed as &lt;a href=&quot;https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_37&quot;&gt;No. 37&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;tei-edition&quot;&gt;TEI edition&lt;/h1&gt;
+
+&lt;p&gt;The main challenge is to combine the full text and the images in a TEI edition. As &lt;em&gt;al-maktabat al-shāmila&lt;/em&gt; did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.&lt;/p&gt;
+
+&lt;h2 id=&quot;general-design&quot;&gt;General design&lt;/h2&gt;
+
+&lt;p&gt;The edition should be conceived of as a corpus of tei files that are grouped by means of xinclude. This way, volumes can be constructed as single TEI files containing a &lt;code&gt;&amp;lt;group/&amp;gt;&lt;/code&gt; of TEI files and a volume specific &lt;code&gt;&amp;lt;front/&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;back/&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Detailled description and notes on the mark-up are kept in a separate &lt;a href=&quot;notes-tei-markup.md&quot;&gt;file&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;quality-control&quot;&gt;Quality control&lt;/h2&gt;
+
+&lt;p&gt;A simple way of controlling the quality of the basic structural mark-up would be to cross check any automatically generated table of content or index against the published tables of content at the end of each volume and against the index of &lt;em&gt;al-Muqtabas&lt;/em&gt; published by &lt;a href=&quot;http://hdl.handle.net/2027/umn.31951d008457474&quot;&gt;Riyāḍ ʿAbd al-Ḥamīd Murād in 1977&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;web-display-tei-boilerplate&quot;&gt;Web display: TEI Boilerplate&lt;/h1&gt;
+
+&lt;p&gt;To allow a quick review of the mark-up and read the journal’s content, I decided to customise &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt; for a first display of the TEI files in the browser without need for pre-processed HTML and host this heavily customised boilerplate view as a seperate branch of the GitHub repository. For a first impression see &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Nov 2015 19:01:16 +0200</pubDate>
+        <link>https://tillgrallert.github.io/2015/11/13/online-resource-muqtabas.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/11/13/online-resource-muqtabas.html</guid>
+        
+        <category>digitized resources</category>
+        
+        <category>digital editions</category>
+        
+        <category>xml</category>
+        
+        <category>tei</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Middle Eastern Grafitti</title>
+        <description>&lt;p&gt;Thanks to the British Library’s &lt;a href=&quot;http://eap.bl.uk/index.a4d&quot;&gt;Endangered Archives Programme (EAP)&lt;/a&gt; we have not just access to the collection of late Ottoman &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119&quot;&gt;periodicals from the library of &lt;em&gt;al-Aqṣā&lt;/em&gt; Mosque (EAP119)&lt;/a&gt; in Jerusalem, but also to more than 3.000 photos of &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP644&quot;&gt;Maison Bonfils from the Fouad Debbas Collection in Beirut (EAP644)&lt;/a&gt; that were made available to the public in 2014.&lt;/p&gt;
+
+&lt;p&gt;Looking through this vast body of images—a large part of which documents the ruines and antiquities in the Levant and Egypt—one can find an astonishing record of late-nineteenth century grafitti: names and dates scribbled on walls and columns to document the visit of local and foreign travellers. The urge to record one’s existence was not restricted to the new middle-class traveller. Famously the Ottoman Sultan ʿAbdülḥamīd II and the German Kaiser Wilhelm II had marble plaques affixed to the ruins of Baalbek to commemorate the latter’s visit to the site in 1898. But looking through the images I stumbled over another grafitti&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Shāhīn Makāriyūs 1878&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_209_0826_01_L.jpg&quot; alt=&quot;Shāhīn Makāriyūs left his mark in Baalbek in 1878&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the same Shāhīn Makāriyūs, who, together with Yaʿqūb Ṣarrūf and Fāris Nimr, published the &lt;a href=&quot;/2013/08/19/the-puzzle-continues.html&quot;&gt;monthly journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;&lt;/a&gt; from 1876 onwards—first in Beirut and later in Cairo.&lt;/p&gt;
+
+&lt;h2 id=&quot;ads&quot;&gt;ads&lt;/h2&gt;
+
+&lt;p&gt;Some images reveal that the walls of the ruins were also used for advertisements. Several photos of the entrance to the cella of Baalbek’s main temple of Jupiter dating to the 1880s shows that the photo studio Bonfils itself had announced its services on the wall to the right.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-2_0284_01_L.jpg&quot; alt=&quot;a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_56-TFDC_518_029_0443_01_L.jpg&quot; alt=&quot;b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_30-TFDC_172_024_0284_01_L.jpg&quot; alt=&quot;c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_187_0822_01_L.jpg&quot; alt=&quot;d&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/2015/11/12/middle-eastern-grafitti.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/11/12/middle-eastern-grafitti.html</guid>
+        
+        <category>lebanon</category>
+        
+        <category>grafitti</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The difficulty of establishing publication dates for books from late Ottoman *Bilād al-Shām*</title>
+        <description>&lt;p&gt;I am currently preparing my thesis for publication and the process of revision, I am again turning to Ottoman legal texts and their translations. Today I want to come briefly back to a question I have extensively dealt with in my thesis: The difficulty of dating printed sources from the late Ottoman &lt;em&gt;Bilād al-Shām&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/nawfal-dustur-v2-imprint.jpg&quot; alt=&quot;Imprint&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The second volume of Nawfal Niʿmat Allah Nawfal’s translation of Ottoman laws&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; edited by Khalīl Khūrī and published by &lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; in Beirut carries the date 1301 on its cover. The calendar of this dating could either be Muslim 1301 &lt;em&gt;hijrī&lt;/em&gt;, which would translate to 1883/84 Gregorian, or Ottoman 1301 &lt;em&gt;mālī&lt;/em&gt;, which began on 13 March 1885. So far, so common and without further ado—and I strongly suspect without further thought—the &lt;a href=&quot;http://www.worldcat.org/oclc/11351292/editions?editionsView=true&amp;amp;referer=di&quot; title=&quot;link to wordcat&quot;&gt;world’s libraries&lt;/a&gt; catalogued the book as having been publised in 1883. The content of the book as well as the publishing house—&lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; was a venture by Khalīl Sarkīs&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, the Greek Orthodox owner of Beirut’s most successful periodical and only daily newspaper &lt;!-- was it already a daily in 1887? --&gt; &lt;em&gt;Lisān al-Ḥāl&lt;/em&gt;—raise the probability for &lt;em&gt;mālī&lt;/em&gt; reckoning.&lt;/p&gt;
+
+&lt;p&gt;Then I came across announcements of its publication in the Beiruti press. Both &lt;em&gt;Lisān al-Ḥāl&lt;/em&gt; and &lt;em&gt;Thamarāt al-Funūn&lt;/em&gt; ran adverts for the new publication on their front pages in May 1887.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; Against the backdrop of the book’s publisher printing announcements in his own newspaper it now seemed likely that the second volume had inherited the date of publication from the first volume and was indeed printed only in 1887.&lt;/p&gt;
+
+&lt;p&gt;Unlike the &lt;a href=&quot;http://hdl.handle.net/2027/inu.30000088981760&quot;&gt;first volume&lt;/a&gt; scans of the second cannot be found online, but I was lucky to locate a copy at the  library of the American University of Beirut. To my surprise the volume carried an ownership stamp on its last page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/nawfal-dustur-v2-stamp.jpg&quot; alt=&quot;Stamp&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It reads in French and Arabic:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Librairie Universelle 1883 Beyrout&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;li-l-maktaba al-jāmiʿa li-&lt;strong&gt;Khalīl al-Khūrī&lt;/strong&gt; 1883 Bayrūt&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and seemingly indicates that the copy at AUB once belonged to the editor of the book, Khalīl al-Khūrī, himself. The stamp also records a Gregorian date: 1883. If this was the date of acquisition, the stamp could prove that the volume was indeed published in 1301 &lt;em&gt;hijrī&lt;/em&gt;. Searching through my research notes, however, it appeared that the &lt;em&gt;Librairie Universelle&lt;/em&gt; was a publishing press and bookstore rather than a library run by the brothers Amīn and Khalīl al-Khūrī in Beirut and at least by 1887 they had adopted the more common Arabic term for a publishing press: &lt;em&gt;al-maṭbaʿa al-jāmiʿ&lt;/em&gt;.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; But why would a bookstore stamp its merchandise?&lt;/p&gt;
+
+&lt;p&gt;For the moment this question must remain as open as the opening date of the endeavour.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Nawfal, Nawfal Efendi Niʿmat Allāh. &lt;em&gt;Al-dustūr: Tarjamahu min al-lughat al-turkiyya ilā al-ʿarabiyya Nawfal Niʿmat Allāh Nawfal bāshkātib kamāruk ʿArabistān sābiqan; bi-murājaʿa wa tadqīq Khalīl al-Khūrī mudīr maṭbūʿāt Wilāyat Sūriyya&lt;/em&gt;. Edited by Khalīl Efendi al-Khūrī. Vol.2. Bayrūt: al-Maṭbaʿa al-adabiyya, 1301. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;c.f. MWT Salname Suriye 13 1298 aH [Dec. 1880]:247, UBTüb Salname Suriye 17 1302 aH [Oct. 1884]:250 &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Lisān al-Hāl 26 May 1887 (#959):1, Thamarāt al-Funūn 30 May 1887 (#633):1 advertised the book at a price of 2 mecidiye or Ps 40. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 23 Jul 2015 15:55:02 +0300</pubDate>
+        <link>https://tillgrallert.github.io/2015/07/23/dating-books.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/07/23/dating-books.html</guid>
+        
+        <category>book history</category>
+        
+        <category>calendars</category>
+        
+        <category>ottoman empire</category>
+        
+        <category>research in progress</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Academic writing in plain text: useful resources</title>
+        <description>&lt;h1 id=&quot;plain-text-and-markdown&quot;&gt;Plain text and MarkDown&lt;/h1&gt;
+
+&lt;h2 id=&quot;academicmarkdown&quot;&gt;AcademicMarkdown&lt;/h2&gt;
+
+&lt;h2 id=&quot;criticmarkup&quot;&gt;CriticMarkup&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://macdrifter.com/2013/02/everyones-a-critic-the-critic-markup-language-proposal.html&quot;&gt;CriticMarkup&lt;/a&gt;: extension to MMD for editorial markup of texts. The project website is &lt;a href=&quot;http://criticmarkup.com/&quot;&gt;http://criticmarkup.com/&lt;/a&gt; and the code is hosted on &lt;a href=&quot;https://github.com/CriticMarkup/CriticMarkup-toolkit&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Integration into tools:
+    &lt;ul&gt;
+      &lt;li&gt;Sublime Text 3’s AcademicMarkdown package supports syntax highlighting for CriticMarkup&lt;/li&gt;
+      &lt;li&gt;There is a CriticMarkup &lt;a href=&quot;https://github.com/CriticMarkup/CriticMarkup-toolkit/tree/master/Sublime%20Text%203%20Package/&quot;&gt;SL3 package&lt;/a&gt;. It is not managed by package control and a documentation can be found &lt;a href=&quot;http://criticmarkup.com/sublime-text.php&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;The &lt;a href=&quot;https://github.com/CriticMarkup/CriticMarkup-toolkit&quot;&gt;CriticMarkup toolkit&lt;/a&gt; contains processors for various programs but not for Sublime Text.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Basic Syntax
+    &lt;ul&gt;
+      &lt;li&gt;Addition &lt;code&gt;{++ ++}&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Deletion &lt;code&gt;{-- --}&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Substitution &lt;code&gt;{~~ ~&amp;gt; ~~}&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Comment &lt;code&gt;{&amp;gt;&amp;gt; &amp;lt;&amp;lt;}&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Highlight &lt;code&gt;{== ==}{&amp;gt;&amp;gt; &amp;lt;&amp;lt;}&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;kramdown&quot;&gt;KramDown&lt;/h1&gt;
+
+&lt;p&gt;An extension of MarkDown with a strict, unambiguous syntax used in Jekyll. The documentation of the syntax can be found &lt;a href=&quot;http://kramdown.gettalong.org/syntax.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;pandoc&quot;&gt;Pandoc&lt;/h1&gt;
+
+&lt;p&gt;Pandoc can be used as standard processor for markdown in jekyll with the help of a small &lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;plugin&lt;/a&gt; named “&lt;a href=&quot;https://github.com/mfenner/jekyll-pandoc&quot;&gt;jekyll-pandoc&lt;/a&gt;”. To install it via terminal type&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ gem install jekyll-pandoc&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It can then be referenced in one’s site’s &lt;code&gt;_config.yml&lt;/code&gt; as &lt;code&gt;markdown: pandoc&lt;/code&gt; after the following has been added:&lt;/p&gt;
+
+&lt;p&gt;~~~
+gems: 
+    - jekyll-pandoc
+~~&lt;/p&gt;
+
+&lt;p&gt;However, one cannot use any plug-ins if jekyll is run on GitHub-pages, which operate in safe-mode. There was a lengthy discussion on the &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/1973&quot;&gt;jekyll forum&lt;/a&gt; whether or not to include pandoc as a markdown processor. Unfortunately this has been rejected by the jekyll team.&lt;/p&gt;
+
+&lt;h1 id=&quot;git--github&quot;&gt;Git / GitHub&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chad Black’s &lt;a href=&quot;https://parezcoydigo.wordpress.com/2013/08/26/getting-started-with-github-and-prose-io/&quot;&gt;getting started with github and prose.io&lt;/a&gt; on using a combination of GitHub, jekyll, and prose.io for a collaborative seminar &lt;a href=&quot;http://dh.chadblack.net/info/all_posts/&quot;&gt;blog&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing&quot;&gt;GitHub, Academia, and Collaborative Writing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hybridpedagogy.com/journal/push-pull-fork-github-for-academics/&quot;&gt;Push, Pull, Fork: GitHub for Academics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics/&quot;&gt;GitHub for Academics: the open-source way to host, create and curate knowledge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://savageminds.org/2013/02/15/living-in-a-plain-text-world-tools-we-use/&quot;&gt;Living in a Plain Text World (Tools We Use)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://technical.ly/brooklyn/2014/09/12/authorea-software-for-academic-paper-writing-is-inspired-by-git/&quot;&gt;This software for academic paper writing is inspired by Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.lifehack.org/articles/technology/how-to-use-git-to-version-your-writing.html&quot;&gt;How To: Use Git to Version Your Writing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.martineve.com/2013/08/18/using-git-in-my-writing-workflow/&quot;&gt;Using git in my writing workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tags in Jekyll / GitHub pages
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://charliepark.org/tags-in-jekyll/&quot;&gt;Tags in jekyll&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.minddust.com/post/tags-and-categories-on-github-pages/&quot;&gt;How To Use Tags And Categories On GitHub Pages Without Plugins&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pandoc
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/fauno/jekyll-pandoc-multiple-formats&quot;&gt;Another pandoc plugin for jekyll&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Jekyll themes
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole, Jekyll’s buttler&lt;/a&gt;: editor for Jekyll themes, at the moment at least two themes are available and GO::DH Minimal Computing SIG used it to build its website&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Plug-ins: if hosted on GitHub, jekyll runs in safe mode and disables third-party plug-ins
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developmentseed.org/blog/2013/05/01/introducing-jekyll-hook/&quot;&gt;Jekyll-hook&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;liquid-templating&quot;&gt;Liquid templating&lt;/h2&gt;
+
+&lt;p&gt;Liquid templating was designed by and for the shopify website: “Liquid is an open-source, Ruby-based template language created by Shopify. It is the backbone of Shopify themes and is used to load dynamic content on storefronts.”&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wiki.shopify.com/Liquid&quot;&gt;Liquid template engine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Great overview of &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;syntax and commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://alanwsmith.com/jekyll-liquid-date-formatting-examples&quot;&gt;Jekyll Date Formatting Examples&lt;/a&gt; using liquid&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 20 Jul 2015 00:00:00 +0300</pubDate>
+        <link>https://tillgrallert.github.io/2015/07/20/jekyll-resources.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/07/20/jekyll-resources.html</guid>
+        
+        <category>links</category>
+        
+        
+      </item>
     
       <item>
         <title>Text Encoding Fundamentals and their Application</title>
         <description>&lt;p&gt;Context: &lt;a href=&quot;https://www.dhsi.org&quot;&gt;Digital Humanities Summer Institute&lt;/a&gt; 2015, UVic, 1-5 June 2015&lt;/p&gt;
 
-&lt;p&gt;Material: Slides are available &lt;a href=&quot;/slidesDHSI2015/index.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Material: Material: The complete material for this course is available on &lt;a href=&quot;https://github.com/tillgrallert/TeachingTei&quot;&gt;GitHub&lt;/a&gt; for download and reuse. Functional slides are available &lt;a href=&quot;http://tillgrallert.github.io/TeachingTei/slides/slidesDHSI2015/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
 
@@ -25,9 +387,9 @@
 
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 +0200</pubDate>
-        <link>http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</guid>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
+        <link>https://tillgrallert.github.io/teaching/2015/06/01/TEI-at-DHSI.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/teaching/2015/06/01/TEI-at-DHSI.html</guid>
         
         <category>teaching</category>
         
@@ -52,7 +414,7 @@
         <title>From analogue documents to electronic texts: Introduction to TEI XML editing in multilingual environments</title>
         <description>&lt;p&gt;Context: &lt;a href=&quot;https://dhibeirut.wordpress.com&quot;&gt;Digital Humanities Institute - Beirut&lt;/a&gt; 2015, AUB, 2-6 March 2015&lt;/p&gt;
 
-&lt;p&gt;Slides are available &lt;a href=&quot;/slidesDHIB2015/index.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Material: The complete material for this course is available on &lt;a href=&quot;https://github.com/tillgrallert/TeachingTei&quot;&gt;GitHub&lt;/a&gt; for download and reuse. Functional slides are available &lt;a href=&quot;http://tillgrallert.github.io/TeachingTei/slides/slidesDHIB2015/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
 
@@ -60,9 +422,9 @@
 
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Mar 2015 00:00:00 +0100</pubDate>
-        <link>http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</guid>
+        <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/teaching/2015/03/02/TEI-at-DHIB.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/teaching/2015/03/02/TEI-at-DHIB.html</guid>
         
         <category>teaching</category>
         
@@ -89,86 +451,94 @@
         <title>Überlegungen und Material für den Editionsworkshop im März 2015 am OIB</title>
         <description>&lt;h1 id=&quot;technische-aspekte-oder-the-d-in-digital-humanities&quot;&gt;Technische Aspekte, oder: the D in Digital Humanities&lt;/h1&gt;
 
+&lt;h2 id=&quot;grundstze&quot;&gt;Grundsätze&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Grundsätze&lt;/strong&gt;
+  &lt;li&gt;&lt;strong&gt;wenige&lt;/strong&gt; und &lt;strong&gt;simple&lt;/strong&gt; Formate / Programmiersprachen, die mit einfachsten Texteditoren bearbeitet werden können, damit sie von den Nutzer_innen, und das sind in der Regel Geistes- und Sozialwissenschaftler_innen, gebraucht werden können. D.h. im besten Fall wird ein einziges Format und eine einzige Sprache für den gesamten Editions-/ Publikationsprozess verwandt.&lt;/li&gt;
+  &lt;li&gt;Formate / Programmiersprachen müssen &lt;strong&gt;menschen- und maschinenlesbar&lt;/strong&gt; sein. Damit wird sichergestellt, dass sogar ein plain-text-Ausdruck auf Papier prinzipiell verständlich ist, auch wenn dabei natürlich viel, wenn nicht gar sämtliche, Funktionalität verloren geht.&lt;/li&gt;
+  &lt;li&gt;Sämtliche Sprachen und Programme sollten &lt;strong&gt;open source&lt;/strong&gt; und &lt;strong&gt;etabliert&lt;/strong&gt; sein, mit einer großen Community. Das verhindert einen lock-in und Abhängigkeit von einem einzelnen Abieter.&lt;/li&gt;
+  &lt;li&gt;Sprachen sollten im &lt;strong&gt;Publikationsgewerbe&lt;/strong&gt; und &lt;strong&gt;Editionsprojekten&lt;/strong&gt; weit verbreitet  sein.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;evaluation-aktueller-stand-am-oib&quot;&gt;Evaluation aktueller Stand am OIB&lt;/h2&gt;
+
+&lt;p&gt;Die &lt;strong&gt;aktuell&lt;/strong&gt; von uns (OIB) benutzten Formate und Programme &lt;strong&gt;erfüllen die technischen Grundsätze alle nicht&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Viele Produktionsprozesse finden innerhalb von &lt;strong&gt;Microsoft Office&lt;/strong&gt; statt und setzen auf Microsoft Dateiformate. Die älteren dieser Formate (.doc, .xls, .ppt …) sind prinzipiell weder dokumentiert noch offen und ohne Lizenz benutzbar. Obwohl seit 2007 Microsoft XML-basierte Formate benutzt (.docx, .xslx, .pptx …), sind diese nicht dokumentiert und müssen, wenn sie außerhalb von Microsoftprodukten benutzt werden sollen, &lt;em&gt;reverse engineered&lt;/em&gt; werden.&lt;/li&gt;
+  &lt;li&gt;Unser digitaler Output ist häufig ein &lt;strong&gt;PDF&lt;/strong&gt;. Dieses ist ein proprietäres Adobe Format und nicht dokumentiert. Sollen PDFs auf einem professionellen Level erstellt werden, sind sehr teure Lizenzen für Adobeanwendungen notwendig. Während es die Darstellung auf allen Anzeigegeräten stabil hält indem es sich nicht oder nur sehr schwer bearbeiten lässt, verhindert es genau dadurch ein gemeinsames Arbeiten an einem Quelltext. Außerdem ist PDF ausschließlich auf die &lt;em&gt;optische Präsentation&lt;/em&gt; und nicht die &lt;em&gt;logische Organisation&lt;/em&gt; der Inhalte ausgerichtet. Es ist fast unmöglich auch aus einem “guten” PDF wieder eine bearbeitbare Datei zu erzeugen ohne wesentliche Aspekte eines Textes zu verlieren. Für webbasierte Anwendungen ist es prinzipiell nicht gemacht oder geeignet (da es z.B. nicht sequentiell geladen werden kann und damit enorme Bandbreiten verschlingt).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technische-vorschlge-xml&quot;&gt;Technische Vorschläge: XML&lt;/h2&gt;
+
+&lt;p&gt;Viele Editionsprojekte und Verlage setzen daher auf &lt;strong&gt;XML&lt;/strong&gt; und die damit verbundenen Spezifikationen / Techniken, die sämtlich offene Standards oder Recommendations des W3C Konsortiums sind. XML &lt;strong&gt;erfüllt alle oben angeführte Grundsätze&lt;/strong&gt;. Um einen Eindruck von den Möglichkeiten zu bekommen, ist es sinnvoll sich unten stehende, beispielhafte Editionsprojekte und -werkzeuge anzuschauen.&lt;/p&gt;
+
+&lt;p&gt;Um &lt;a href=&quot;http://mws.hypotheses.org/1571&quot;&gt;Stefan Müllers Fazit&lt;/a&gt; zu zitieren: “Geisteswissenschaftler sollen mit XML umgehen können, weil der Umgang mit Texten, Textstruktur und Textsemantik zum Kernbereich der Geisteswissenschaft gehört, weil die dabei anfallenden Entscheidungen auch nur der Fachwissenschaftler, kein hilfreich herbeieilender Techniker treffen kann und weil der Umgang mit XML auch gar nicht so schwierig ist wie die wirklich harten Probleme ‒ die sind bei einer Edition stets philologischer Natur. Wenn man von der XML-Frage verallgemeinernd absieht, wird der Impetus ein aufklärerischer: Es geht dann um den Ausgang des Geisteswissenschaftlers aus einer selbstverschuldeten Unmündigkeit, was Datenverarbeitung angeht. Besteht diese Unmündigkeit? Und ist sie selbstverschuldet ‒ aus denselben Ursachen, die Kants berühmter Aufsatz nennt? Hier liegt ein Problem, das unangenehmer ist als etwa das vergleichsweise harmlose Ansinnen, die Geisteswissenschaften im Social Web zu verankern.”&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;XML&lt;/strong&gt; (Extensible Markup Language): &lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;Spezifikationen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;. XML ist eine strikt hierarchische Markup-Sprache in der prinzipiell zwischen funktionalem Markup und Inhalt unterschieden wird. Da XML sehr ausführlich/ wortreich ist und sämtliche Dinge explizit beschrieben werden müssen, ist XML menschenlesbar. XML unterstützt Unicode und LnR-Sprachen, wie Arabisch. Die eigentlichen Regeln für das Markup einer Datei weden in sogenannten Schemata festgelegt, über die jedes Projekt selbst entscheiden kann. XML ist international und in Deutschland sowohl für Editionsprojekte als auch im Publikationsgewerbe weit verbreitet (siehe Beispiele unten). Außerdem sind viele von uns allen täglich benutzte Dateiformate XML-Varianten, z.B. sämtliche aktuelle Microsoft Office Formate (enden auf “x”, wie z.B. “.docx”). Allerdings sind nicht alle dieser Schemata und Spezifikationen offen und gut dokumentiert (auch hier ist wieder Microsoft Office zu nennen).
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;wenige&lt;/strong&gt; und &lt;strong&gt;simple&lt;/strong&gt; Formate / Programmiersprachen, die mit einfachsten Texteditoren bearbeitet werden können, damit sie von den Nutzer_innen, und das sind in der Regel Geistes- und Sozialwissenschaftler_innen, gebraucht werden können. D.h. im besten Fall wird ein einziges Format und eine einzige Sprache für den gesamten Editions-/ Publikationsprozess verwandt.&lt;/li&gt;
-      &lt;li&gt;Formate / Programmiersprachen müssen &lt;strong&gt;menschen- und maschinenlesbar&lt;/strong&gt; sein. Damit wird sichergestellt, dass sogar ein plain-text-Ausdruck auf Papier prinzipiell verständlich ist, auch wenn dabei natürlich viel, wenn nicht gar sämtliche, Funktionalität verloren geht.&lt;/li&gt;
-      &lt;li&gt;Sämtliche Sprachen und Programme sollten &lt;strong&gt;open source&lt;/strong&gt; und &lt;strong&gt;etabliert&lt;/strong&gt; sein, mit einer großen Community. Das verhindert einen lock-in und Abhängigkeit von einem einzelnen Abieter.&lt;/li&gt;
-      &lt;li&gt;Sprachen sollten im &lt;strong&gt;Publikationsgewerbe&lt;/strong&gt; und &lt;strong&gt;Editionsprojekten&lt;/strong&gt; weit verbreitet  sein.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;XSLT&lt;/strong&gt; (Extensible Stylesheet Language Transformations): &lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;Spezifikation&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;. Deklarative Sprache um XML Dokumente in andere XML Dokumente (inklusiver anderer Markup-sprachen, wie z.B. HTML) zu transformieren. Die Sprache selbst wird in XML geschrieben.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;XPath&lt;/strong&gt;: data model, &lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;Spezifikationen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;. Mit XPath können die einzelnen Elemente innerhalb einer XML-Datei adressiert werden und simple Operationen vorgenommen werden. XPath ist ein subset von XQuery.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;XQuery&lt;/strong&gt;: &lt;a href=&quot;http://www.w3.org/XML/Query/&quot;&gt;Spezifikationen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XQuery&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Evaluation aktueller Stand am OIB&lt;/strong&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.tei-c.org/index.xml&quot;&gt;TEI P5 XML&lt;/a&gt;&lt;/strong&gt;: Die aktuelle Fassung des XML Schemas der Text Encoding Initiative (TEI). Hierbei handelt es sich um einen quasi-Standard, der ursprünglich für die digitale Abbildung und Beschreibung (i.e. Edition) analoger Quelltexte entwickelt worden ist. Allerdings wird TEI auch zunehmend für born-digital Texte verwandt.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;XML Datenbanken&lt;/strong&gt;: auf der Grundlage von XML Datenbanken wie z.B. &lt;a href=&quot;http://exist-db.org/exist/apps/homepage/index.html&quot;&gt;eXist DB&lt;/a&gt; können komplette, dynamische Onlinelösungen in XML und XQuery geschrieben werden. Ein gutes Beispiel ist hierbei die Webseite des &lt;a href=&quot;http://history.state.gov/&quot;&gt;Office of the Historian of the United States&lt;/a&gt;.
     &lt;ul&gt;
-      &lt;li&gt;Die &lt;strong&gt;aktuell&lt;/strong&gt; von uns (OIB) benutzten Formate und Programme &lt;strong&gt;erfüllen die technischen Grundsätze alle nicht&lt;/strong&gt;!
-        &lt;ul&gt;
-          &lt;li&gt;Viele Produktionsprozesse finden innerhalb von &lt;strong&gt;Microsoft Office&lt;/strong&gt; statt und setzen auf Microsoft Dateiformate. Die älteren dieser Formate (.doc, .xls, .ppt …) sind prinzipiell weder dokumentiert noch offen und ohne Lizenz benutzbar. Obwohl seit 2007 Microsoft XML-basierte Formate benutzt (.docx, .xslx, .pptx …), sind diese nicht dokumentiert und müssen, wenn sie außerhalb von Microsoftprodukten benutzt werden sollen, &lt;em&gt;reverse engineered&lt;/em&gt; werden.&lt;/li&gt;
-          &lt;li&gt;Unser digitaler Output ist häufig ein &lt;strong&gt;PDF&lt;/strong&gt;. Dieses ist ein proprietäres Adobe Format und nicht dokumentiert. Sollen PDFs auf einem professionellen Level erstellt werden, sind sehr teure Lizenzen für Adobeanwendungen notwendig. Während es die Darstellung auf allen Anzeigegeräten stabil hält indem es sich nicht oder nur sehr schwer bearbeiten lässt, verhindert es genau dadurch ein gemeinsames Arbeiten an einem Quelltext. Außerdem ist PDF ausschließlich auf die &lt;em&gt;optische Präsentation&lt;/em&gt; und nicht die &lt;em&gt;logische Organisation&lt;/em&gt; der Inhalte ausgerichtet. Es ist fast unmöglich auch aus einem “guten” PDF wieder eine bearbeitbare Datei zu erzeugen ohne wesentliche Aspekte eines Textes zu verlieren. Für webbasierte Anwendungen ist es prinzipiell nicht gemacht oder geeignet (da es z.B. nicht sequentiell geladen werden kann und damit enorme Bandbreiten verschlingt).&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Technische Vorschläge: XML&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Viele Editionsprojekte und Verlage setzen daher auf &lt;strong&gt;XML&lt;/strong&gt; und die damit verbundenen Spezifikationen / Techniken, die sämtlich offene Standards oder Recommendations des W3C Konsortiums sind. XML &lt;strong&gt;erfüllt alle oben angeführte Grundsätze&lt;/strong&gt;. Um einen Eindruck von den Möglichkeiten zu bekommen, ist es sinnvoll sich unten stehende, beispielhafte Editionsprojekte und -werkzeuge anzuschauen.&lt;/li&gt;
-      &lt;li&gt;Um Stefan Müllers Fazit zu zitieren: “Geisteswissenschaftler sollen mit XML umgehen können, weil der Umgang mit Texten, Textstruktur und Textsemantik zum Kernbereich der Geisteswissenschaft gehört, weil die dabei anfallenden Entscheidungen auch nur der Fachwissenschaftler, kein hilfreich herbeieilender Techniker treffen kann und weil der Umgang mit XML auch gar nicht so schwierig ist wie die wirklich harten Probleme ‒ die sind bei einer Edition stets philologischer Natur. Wenn man von der XML-Frage verallgemeinernd absieht, wird der Impetus ein aufklärerischer: Es geht dann um den Ausgang des Geisteswissenschaftlers aus einer selbstverschuldeten Unmündigkeit, was Datenverarbeitung angeht. Besteht diese Unmündigkeit? Und ist sie selbstverschuldet ‒ aus denselben Ursachen, die Kants berühmter Aufsatz nennt? Hier liegt ein Problem, das unangenehmer ist als etwa das vergleichsweise harmlose Ansinnen, die Geisteswissenschaften im Social Web zu verankern.” &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;XML&lt;/strong&gt; (Extensible Markup Language): &lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;Spezifikationen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;. XML ist eine strikt hierarchische Markup-Sprache in der prinzipiell zwischen funktionalem Markup und Inhalt unterschieden wird. Da XML sehr ausführlich/ wortreich ist und sämtliche Dinge explizit beschrieben werden müssen, ist XML menschenlesbar. XML unterstützt Unicode und LnR-Sprachen, wie Arabisch. Die eigentlichen Regeln für das Markup einer Datei weden in sogenannten Schemata festgelegt, über die jedes Projekt selbst entscheiden kann. XML ist international und in Deutschland sowohl für Editionsprojekte als auch im Publikationsgewerbe weit verbreitet (siehe Beispiele unten). Außerdem sind viele von uns allen täglich benutzte Dateiformate XML-Varianten, z.B. sämtliche aktuelle Microsoft Office Formate (enden auf “x”, wie z.B. “.docx”). Allerdings sind nicht alle dieser Schemata und Spezifikationen offen und gut dokumentiert (auch hier ist wieder Microsoft Office zu nennen).&lt;/li&gt;
-          &lt;li&gt;&lt;strong&gt;XSLT&lt;/strong&gt; (Extensible Stylesheet Language Transformations): &lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;Spezifikation&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;. Deklarative Sprache um XML Dokumente in andere XML Dokumente (inklusiver anderer Markup-sprachen, wie z.B. HTML) zu transformieren. Die Sprache selbst wird in XML geschrieben.&lt;/li&gt;
-          &lt;li&gt;&lt;strong&gt;XPath&lt;/strong&gt;: data model, &lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;Spezifikationen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;. Mit XPath können die einzelnen Elemente innerhalb einer XML-Datei adressiert werden und simple Operationen vorgenommen werden. XPath ist ein subset von XQuery.&lt;/li&gt;
-          &lt;li&gt;&lt;strong&gt;XQuery&lt;/strong&gt;: &lt;a href=&quot;http://www.w3.org/XML/Query/&quot;&gt;Spezifikationen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XQuery&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.tei-c.org/index.xml&quot;&gt;TEI P5 XML&lt;/a&gt;&lt;/strong&gt;: Die aktuelle Fassung des XML Schemas der Text Encoding Initiative (TEI). Hierbei handelt es sich um einen quasi-Standard, der ursprünglich für die digitale Abbildung und Beschreibung (i.e. Edition) analoger Quelltexte entwickelt worden ist. Allerdings wird TEI auch zunehmend für born-digital Texte verwandt.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;XML Datenbanken&lt;/strong&gt;: auf der Grundlage von XML Datenbanken wie z.B. &lt;a href=&quot;http://exist-db.org/exist/apps/homepage/index.html&quot;&gt;eXist DB&lt;/a&gt; können komplette, dynamische Onlinelösungen in XML und XQuery geschrieben werden. Ein gutes Beispiel ist hierbei die Webseite des &lt;a href=&quot;http://history.state.gov/&quot;&gt;Office of the Historian of the United States&lt;/a&gt;.
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;http://sourceforge.net/projects/mycore/&quot;&gt;MyCoRe repository framework&lt;/a&gt;: ein Dokumentenserver; open source, benutzt Java, XML und “different database backends”. Dieses System wird für Herrn Leders Projekt einer “Encyclopaedia of Islamic Political Thought” eingesetzt. Andere Nutzer sind unter anderem das Projekt zur Katalogisierung und Digitalisierung aller &lt;a href=&quot;http://www.islamic-manuscripts.net/content/below/index.xml&quot;&gt;Islamischer Handschriften der Universitätsbibliothek Leipzig&lt;/a&gt;.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://sourceforge.net/projects/mycore/&quot;&gt;MyCoRe repository framework&lt;/a&gt;: ein Dokumentenserver; open source, benutzt Java, XML und “different database backends”. Dieses System wird für Herrn Leders Projekt einer “Encyclopaedia of Islamic Political Thought” eingesetzt. Andere Nutzer sind unter anderem das Projekt zur Katalogisierung und Digitalisierung aller &lt;a href=&quot;http://www.islamic-manuscripts.net/content/below/index.xml&quot;&gt;Islamischer Handschriften der Universitätsbibliothek Leipzig&lt;/a&gt;.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;beispiele--konkrete-vorschlge&quot;&gt;Beispiele / Konkrete Vorschläge&lt;/h1&gt;
+&lt;h1 id=&quot;beispiele-und-konkrete-vorschlge&quot;&gt;Beispiele und konkrete Vorschläge&lt;/h1&gt;
+
+&lt;p&gt;Damit alle Teilnehmer_innen gebrauch von der folgenden Liste machen können, ist diese vornehmlich in englisch verfasst.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Werkzeuge/ Forschungsumgebungen:
+  &lt;li&gt;Tools / Research environments:
+  &lt;!-- + **[TextGrid](http://www.textgrid.de/en/)**: eine virtuelle Forschungsumgebung, die sowohl Repositorien als auch Werkzeuge für textbasierte Forschung bietet. Entwickelt u.a. von Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek Göttingen (Projektleitung), Institut für Deutsche Sprache Mannheim, Julius-Maximilians-Universität Würzburg, Max-Planck-Institut für Wissenschaftsgeschichte Berlin, Technische Universität Berlin, Technische Universität Darmstadt.--&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.textgrid.de/en/&quot;&gt;TextGrid&lt;/a&gt;&lt;/strong&gt;: eine virtuelle Forschungsumgebung, die sowohl Repositorien als auch Werkzeuge für textbasierte Forschung bietet. Entwickelt u.a. von Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek Göttingen (Projektleitung), Institut für Deutsche Sprache Mannheim, Julius-Maximilians-Universität Würzburg, Max-Planck-Institut für Wissenschaftsgeschichte Berlin, Technische Universität Berlin, Technische Universität Darmstadt.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.bbaw.de/telota/software/ediarum&quot;&gt;Ediarum&lt;/a&gt;&lt;/strong&gt;: eine virtuelle Forshungsumgebung, entwickelt von der BBAW. Basiert auf XML, TEI P5, eXist DB, XQuery etc. und kann sowohl Webauftritt als auch Printeditionen produzieren. Ein Erfahrungsbericht des &lt;a href=&quot;http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II&quot;&gt;Schleiermacher Projektes&lt;/a&gt; mit dieser Software findet sich &lt;a href=&quot;http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834/&quot;&gt;hier&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.bbaw.de/en/telota/projectcollection/archiv-editor&quot;&gt;Archiv Editor&lt;/a&gt;&lt;/strong&gt;. XML-Editor, entwickelt von der BBAW&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.textgrid.de/en/&quot;&gt;TextGrid&lt;/a&gt;&lt;/strong&gt;: a virtual research environment, providing a repository for digital texts as well as various editing tools; developed by the &lt;a href=&quot;http://www.bbaw.de&quot;&gt;Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)&lt;/a&gt;, Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek Göttingen (Projektleitung), Institut für Deutsche Sprache Mannheim, Julius-Maximilians-Universität Würzburg, Max-Planck-Institut für Wissenschaftsgeschichte Berlin, Technische Universität Berlin, Technische Universität Darmstadt.
+  &lt;!-- + **[Ediarum](http://www.bbaw.de/telota/software/ediarum)**: eine virtuelle Forshungsumgebung, entwickelt von der BBAW. Basiert auf XML, TEI P5, eXist DB, XQuery etc. und kann sowohl Webauftritt als auch Printeditionen produzieren. Ein Erfahrungsbericht des [Schleiermacher Projektes](http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II) mit dieser Software findet sich [hier](http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834/). --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.bbaw.de/telota/software/ediarum&quot;&gt;Ediarium&lt;/a&gt;:&lt;/strong&gt; a virtual research environment developed by the BBAW. It is based on XML, TEI P5, eXist DB, XQuery etc. and can be used to generate websites as well as printed editions. The &lt;a href=&quot;http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II&quot;&gt;Schleiermacher Projekt&lt;/a&gt; provides a &lt;a href=&quot;http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834/&quot;&gt;report&lt;/a&gt; on their experiences with this software.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.bbaw.de/en/telota/projectcollection/archiv-editor&quot;&gt;Archiv Editor&lt;/a&gt;&lt;/strong&gt;. XML-editor, developed by the BBAW.&lt;/li&gt;
       &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://dfg-viewer.de/ueber-das-projekt/&quot;&gt;DFG-Viewer&lt;/a&gt;&lt;/strong&gt;: Plattform zur Anzeige von Digitalisaten mit einer METS/MODS und METS/TEI XML Schnittstelle.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://cte.oeaw.ac.at//&quot;&gt;Classical Text Editor&lt;/a&gt;: Ziemlich altes Windows-only Programm zur Edition von Texten, dass nicht mehr aktiv weiterentwickelt wird (es gab in den letzten 5 Jahren nur ein winziges Update), produziert TEI XML und HTML. Wird/ wurde am OIB bereits benutzt.
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://cte.oeaw.ac.at//&quot;&gt;Classical Text Editor&lt;/a&gt;&lt;/strong&gt;: Ziemlich altes Windows-only Programm zur Edition von Texten, dass nicht mehr aktiv weiterentwickelt wird (es gab in den letzten 5 Jahren nur ein winziges Update), produziert TEI XML und HTML. Wird/ wurde am OIB bereits benutzt.
         &lt;ul&gt;
           &lt;li&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; CTE is under active development and version 9 was just released (20 Feb 2015) — some 6 years after v8.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://t-pen.org/TPEN/&quot;&gt;&lt;strong&gt;T-Pen&lt;/strong&gt; (transcription for paleographical and editorial notation)&lt;/a&gt;: Werkzeug zur Transkription von Digitalisaten, erlaubt den Export von XML Dateien.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://transcriptorium.eu&quot;&gt;tranScriptorium&lt;/a&gt;&lt;/strong&gt;: Ein Projekten zur Entwicklung von Transkriptionswerkzeugen für historische Dokumente, inklusive sogenannter HandwrittenText Recognition (HTR) Werkzeuge. Der Fokus liegt auf europäischen Sprachen, aber der Ansatz ist für Arabisch durchaus interessant. Das Projekt bietet eine   &lt;a href=&quot;http://transcriptorium.eu/demots/htr/index.php&quot;&gt;online Demonstration&lt;/a&gt; an.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;DENQ&lt;/strong&gt; (Digitale Editionen neuzeitlicher Quellen): Vom DHI in Rom und London entwickelte Editions- und Publikationsumgebung. Setzt auf einer eXistDB Datenbank und TEI XML auf ist allerdings kein offenes Projekt. Es existiert keine Dokumentation vage Beschreibungen sind vier bis sechs Jahre alt.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://t-pen.org/TPEN/&quot;&gt;&lt;strong&gt;T-Pen&lt;/strong&gt; (transcription for paleographical and editorial notation)&lt;/a&gt;: Werkzeug zur Transkription von Digitalisaten, erlaubt den Export von XML Dateien.
+  &lt;!-- + **[tranScriptorium](http://transcriptorium.eu)**: Ein Projekten zur Entwicklung von Transkriptionswerkzeugen für historische Dokumente, inklusive sogenannter HandwrittenText Recognition (HTR) Werkzeuge. Der Fokus liegt auf europäischen Sprachen, aber der Ansatz ist für Arabisch durchaus interessant. Das Projekt bietet eine   [online Demonstration](http://transcriptorium.eu/demots/htr/index.php) an. --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://transcriptorium.eu&quot;&gt;tranScriptorium&lt;/a&gt;&lt;/strong&gt;: a project for the development of transcription tools for historical documents, inluding so-called Handwritten Text Recognition (HTR) tools. The project focusses on European languages, but their approach might be interesting for Arabic and other L-to-R scripts as well. They provide a functional &lt;a href=&quot;http://transcriptorium.eu/demots/htr/index.php&quot;&gt;online demo&lt;/a&gt;.
+  &lt;!-- + **DENQ** (Digitale Editionen neuzeitlicher Quellen): Vom DHI in Rom und London entwickelte Editions- und Publikationsumgebung. Setzt auf einer eXistDB Datenbank und TEI XML auf ist allerdings kein offenes Projekt. Es existiert keine Dokumentation vage Beschreibungen sind vier bis sechs Jahre alt.[^1] --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;DENQ&lt;/strong&gt; (Digitale Editionen neuzeitlicher Quellen): editing and publishing tool. Based on eXist DB and TEI XML. Under development by the DHI Rome and London. A rather vague and old description, dating to 2008(!), can be found &lt;a href=&quot;http://digiversity.net/2010/denq/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://www.roman-repertories.net/fileadmin/user_upload/pdf-dateien/Online-Publikationen/Dresden_Histtag/Hist_Grundlagenforschung_Mittelalter_Neuzeit.pdf&quot;&gt;here&lt;/a&gt;. The project is not open and there is no publicly accessible documentation.&lt;/li&gt;
       &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.juxtasoftware.org/&quot;&gt;Juxta&lt;/a&gt;&lt;/strong&gt;: open-source tool for comparing and collating multiple witnesses to a single textual work; XML.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://sourceforge.net/projects/evt-project/&quot;&gt;&lt;strong&gt;EVT&lt;/strong&gt; (Edition Visualization Technology)&lt;/a&gt;: a set of interdependent XSLT stylesheets to publish digital editions marked-up in TEI P5 to a website.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; EVT was developed for the &lt;a href=&quot;http://vbd.humnet.unipi.it/beta/&quot;&gt;Vercelli Book Digitale beta edition&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://deutschestextarchiv.de&quot;&gt;&lt;strong&gt;DTA&lt;/strong&gt; (Deutsches Text Archiv)&lt;/a&gt;: they, inter alia, developed the DTABf (DTA-Basisformat) as a strict subset of TEI P5 to ensure a very high level of interoperability for their large corpus of German texts between the 17th-19th centuries&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. They also supply an oXygen framework.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://sourceforge.net/projects/evt-project/&quot;&gt;&lt;strong&gt;EVT&lt;/strong&gt; (Edition Visualization Technology)&lt;/a&gt;: a set of interdependent XSLT stylesheets to publish digital editions marked-up in TEI P5 to a website. EVT was developed for the &lt;a href=&quot;http://vbd.humnet.unipi.it/beta/&quot;&gt;Vercelli Book Digitale beta edition&lt;/a&gt; and a description was published in &lt;a href=&quot;http://jtei.revues.org/1077&quot;&gt;JTEI (Rosselli et al. 2014)&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://deutschestextarchiv.de&quot;&gt;&lt;strong&gt;DTA&lt;/strong&gt; (Deutsches Text Archiv)&lt;/a&gt;: they, inter alia, developed the DTABf (DTA-Basisformat) as a strict subset of TEI P5 to ensure a very high level of interoperability for their large corpus of German texts between the 17th-19th centuries. They also supply an oXygen framework. A description was published in &lt;a href=&quot;http://jtei.revues.org/1114&quot;&gt;JTEI (Haaf et al. 2014)&lt;/a&gt;.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Editionsprojekte
+  &lt;li&gt;Digital editions
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://firstfolio.bodleian.ox.ac.uk/&quot;&gt;First Folio&lt;/a&gt;: digitale Edition Shakespeare Edition. Basiert auf TEI XML.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://firstfolio.bodleian.ox.ac.uk/&quot;&gt;First Folio&lt;/a&gt;: digital Shakespeare edition. Based on TEI XML.&lt;/li&gt;
       &lt;li&gt;Das &lt;a href=&quot;http://www.deutschestextarchiv.de/doku/workflow&quot;&gt;Deutsche Text Archiv, DTA&lt;/a&gt;, XML basiert. Benutzt TEI und eigene Erweiterungen.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II&quot;&gt;Schleiermacher Projekt&lt;/a&gt;. Briefedition auf Basis von TEI XML.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.refaiya.uni-leipzig.de&quot;&gt;Refaiya Library&lt;/a&gt;, Leipzig: Katalogisierung und Digitalisate von Manuskripten der Rifāʾiyya Bibliothek. XML basierter Dokumentenserver. Die bibliographischen Metadaten sind in METS/TEI bzw. in METS/MODS erfasst. Die Digitalisate werden über den DFG-Viewer ausgegeben.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.dh.uni-leipzig.de/wo/projects/open-greek-and-latin-project/the-leipzig-open-fragmentary-texts-series-lofts/&quot;&gt;The Leipzig Open Fragmentary Texts Series (LOFTS)&lt;/a&gt;: Producinopen editions of ancient works that survive only through quotations and text re-uses in later texts, including Arabic translations; TEI, XML, RDF.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II&quot;&gt;Schleiermacher Projekt&lt;/a&gt;. Briefedition auf Basis von TEI XML.
+  &lt;!-- + [Refaiya Library](http://www.refaiya.uni-leipzig.de), Leipzig: Katalogisierung und Digitalisate von Manuskripten der Rifāʾiyya Bibliothek. XML basierter Dokumentenserver. Die bibliographischen Metadaten sind in METS/TEI bzw. in METS/MODS erfasst. Die Digitalisate werden über den DFG-Viewer ausgegeben. --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.refaiya.uni-leipzig.de&quot;&gt;Refaiya Library&lt;/a&gt;&lt;/strong&gt;, Leipzig: an XML-based document server providing a catalogue and digitized manuscripts from the Rifāʾiyya library. Bibliographic meta data is recorded in METS/TEI or METS/MODS. Digitised items are served online through the DFG-Viewer software.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.dh.uni-leipzig.de/wo/projects/open-greek-and-latin-project/the-leipzig-open-fragmentary-texts-series-lofts/&quot;&gt;The Leipzig Open Fragmentary Texts Series (LOFTS)&lt;/a&gt;: Producing open editions of ancient works that survive only through quotations and re-uses in later texts, including Arabic translations; TEI, XML, RDF.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://tei.ibi.hu-berlin.de/berliner-intellektuelle/&quot;&gt;Briefe und Texte aus dem intellektuellen Berlin um 1800&lt;/a&gt;. Texteditionen auf Basis von TEI XML.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.perseus.tufts.edu/hopper/&quot;&gt;Perseus Digital Library&lt;/a&gt;: Bietet unter anderem eine TEI basierte Onlineversion von &lt;a href=&quot;http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a2002.02.0015&quot;&gt;Lane’s Arabic Dictionary&lt;/a&gt;.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html&quot;&gt;The Digital Walters&lt;/a&gt;: u.a. Bilddigitalisate von Koranmanuskripten und anderen arabischen Handschriften des Walters Art Museum, die Facsimiles werden über TEI XML erschlossen.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Andere interessant Links
+  &lt;li&gt;Further projects and initiative
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://dixit.uni-koeln.de/home.html&quot;&gt;DiXit&lt;/a&gt;: Digital Scholarly Editions, Initial Training Network&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.i-d-e.de/&quot;&gt;IDE (Institut für Dokumentologie und Editorik)&lt;/a&gt;: Publizieren u.a. Listen mit hilfreichen Werkzeugen, eine Schriftenreihe und den &lt;a href=&quot;http://ride.i-d-e.de&quot;&gt;Review of of digital editions (RIDE)&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://wamcp.bibalex.org/home&quot;&gt;Wellcome Arabic Manuscript Cataloguing Project&lt;/a&gt;: Entwicklung eines XML Schemas zur Beschreibung arabischer Manuskripte basierend auf TEI/ENRICH XML model. Die Webseite bietet Zugang zu Bilddigitalisaten der Manuskripte.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.fihrist.org.uk/home&quot;&gt;Fihrist&lt;/a&gt;: Unionskatalog arabischer Manuskripte, basiert auf TEI XML.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://dixit.uni-koeln.de/home.html&quot;&gt;DiXit&lt;/a&gt;&lt;/strong&gt;: Digital Scholarly Editions, Initial Training Network&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.i-d-e.de/&quot;&gt;&lt;strong&gt;IDE&lt;/strong&gt; (Institut für Dokumentologie und Editorik)&lt;/a&gt;: &lt;!-- Publizieren u.a. Listen mit hilfreichen Werkzeugen, eine Schriftenreihe und den [Review of of digital editions (RIDE)](http://ride.i-d-e.de). --&gt; network of researchers involved in the development of tools and practices for digital editions. They organise workshops and spring/summer schools. They also publish a book series and a &lt;a href=&quot;http://ride.i-d-e.de&quot;&gt;Review of digital editions (RIDE)&lt;/a&gt;.
+  &lt;!-- + [Wellcome Arabic Manuscript Cataloguing Project](http://wamcp.bibalex.org/home): Entwicklung eines XML Schemas zur Beschreibung arabischer Manuskripte basierend auf TEI/ENRICH XML model. Die Webseite bietet Zugang zu Bilddigitalisaten der Manuskripte. --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://wamcp.bibalex.org/home&quot;&gt;Wellcome Arabic Manuscript Cataloguing Project&lt;/a&gt;&lt;/strong&gt;: Developed an XML schema for the description of Arabic manuscripts based on the TEI/ENRICH XML model. The website also provides access to digitised images of the manuscripts.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.fihrist.org.uk/home&quot;&gt;Fihrist&lt;/a&gt;&lt;/strong&gt;: &lt;!-- Unionskatalog arabischer Manuskripte, basiert auf TEI XML.--&gt; union catalogue of Arabic manuscripts. Based on TEI XML.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -176,41 +546,26 @@
 &lt;h1 id=&quot;literature--links&quot;&gt;Literature / Links&lt;/h1&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;Haaf, Susanne, Alexander Geyken, and Frank Wiegand. “&lt;a href=&quot;http://jtei.revues.org/1114&quot;&gt;The DTA ‘Base Format’: A TEI Subset for the Compilation of a Large Reference Corpus of Printed Text From Multiple Sources&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 8: Selected Papers from the 2013 TEI Conference (2015)&lt;/li&gt;
   &lt;li&gt;Hedges, Mark, Heike Neuroth, et al. “&lt;a href=&quot;http://jtei.revues.org/774&quot;&gt;TextGrid, TEXTvre, and DARIAH: Sustainability of Infrastructures for Textual Scholarship&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 5: TEI Infrastructures (2013): doi:10.4000/jtei.774&lt;/li&gt;
-  &lt;li&gt;Hudrisier, Henri, Rachid Zghibi, et al. &lt;em&gt;Promoting the Linguistic Diversity of TEI in the Maghreb and the Arab Region.&lt;/em&gt; Presentation at TEI Conference and Members Meeting 2013. The Linked TEI: Text Encoding in the Web. Rome, 2013. http://digilab2.let.uniroma1.it/teiconf2013/wp-content/uploads/2013/09/book-abstracts.pdf#page=65 (accessed October 29, 2014)&lt;/li&gt;
-  &lt;li&gt;Müller, Stefan. “Der Veſte Buchſtab. Digitale Editionen, Ihre Erstellung und Darbietung.” Wissen in Verbindung. Bericht über das Arbeitstreffen „digital humanities. Wissenschaftliche Datenbanken und Editionsprojekte“ der Max Weber Stiftung, 29-30 Nov. 2012. http://mws.hypotheses.org/1571 (accessed December 11, 2014)&lt;/li&gt;
-  &lt;li&gt;Pearce, Sarah. “Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 1.” http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic.html (accessed December 18, 2014).&lt;/li&gt;
-  &lt;li&gt;Pearce, Sarah. “Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 2.” http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic_18.html (accessed December 18, 2014).&lt;/li&gt;
+  &lt;li&gt;Hudrisier, Henri, Rachid Zghibi, et al. &lt;em&gt;&lt;a href=&quot;http://digilab2.let.uniroma1.it/teiconf2013/wp-content/uploads/2013/09/book-abstracts.pdf#page=65&quot;&gt;Promoting the Linguistic Diversity of TEI in the Maghreb and the Arab Region&lt;/a&gt;.&lt;/em&gt; Presentation at TEI Conference and Members Meeting 2013. The Linked TEI: Text Encoding in the Web. Rome, 2013. &lt;!-- http://digilab2.let.uniroma1.it/teiconf2013/wp-content/uploads/2013/09/book-abstracts.pdf#page=65 (accessed October 29, 2014)--&gt;&lt;/li&gt;
+  &lt;li&gt;Müller, Stefan. “&lt;a href=&quot;http://mws.hypotheses.org/1571&quot;&gt;Der Veſte Buchſtab. Digitale Editionen, Ihre Erstellung und Darbietung&lt;/a&gt;.” Wissen in Verbindung. Bericht über das Arbeitstreffen „digital humanities. Wissenschaftliche Datenbanken und Editionsprojekte“ der Max Weber Stiftung, 29-30 Nov. 2012. &lt;!-- http://mws.hypotheses.org/1571 (accessed December 11, 2014) --&gt;&lt;/li&gt;
+  &lt;li&gt;Pearce, Sarah. “&lt;a href=&quot;http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic.html&quot;&gt;Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 1&lt;/a&gt;.” &lt;!-- http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic.html (accessed December 18, 2014). --&gt;&lt;/li&gt;
+  &lt;li&gt;Pearce, Sarah. “&lt;a href=&quot;http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic_18.html&quot;&gt;Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 2&lt;/a&gt;.” &lt;!-- http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic_18.html (accessed December 18, 2014).--&gt;&lt;/li&gt;
+  &lt;li&gt;Rosselli Del Turco, Roberto, Giancarlo Buomprisco, et al. “&lt;a href=&quot;http://jtei.revues.org/1077&quot;&gt;Edition Visualization Technology: A Simple Tool to Visualize TEI-based Digital Editions&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 8: Selected Papers from the 2013 TEI Conference (2014)&lt;/li&gt;
   &lt;li&gt;Soualah, Mohammed Ourabah and Mohamed Hassoun. “&lt;a href=&quot;http://jtei.revues.org/398&quot;&gt;A TEI P5 Manuscript Description Adaptation for Cataloguing Digitized Arabic Manuscripts&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 2 (2012): doi:10.4000/jtei.398&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;http://svnextern.dl.uni-leipzig.de/viewsvn/ providing code for IslamHS and various other projects, including the Refaiya&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://svnextern.dl.uni-leipzig.de/viewsvn/&quot;&gt;http://svnextern.dl.uni-leipzig.de/viewsvn/&lt;/a&gt; providing code for IslamHS and various other projects, including the Refaiya&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.overleaf.com/&quot;&gt;overleaf&lt;/a&gt;: commercial (?) colaborative publishing platform. Based on LaTeX.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Müller 2012 &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://digiversity.net/2010/denq/&quot;&gt;Bericht zu DENQ auf digiversity von 2010&lt;/a&gt;, &lt;a href=&quot;http://www.roman-repertories.net/fileadmin/user_upload/pdf-dateien/Online-Publikationen/Dresden_Histtag/Hist_Grundlagenforschung_Mittelalter_Neuzeit.pdf&quot;&gt;Bericht vom Historikertag 2008&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Rosselli Del Turco, Roberto, Giancarlo Buomprisco, et al. “&lt;a href=&quot;http://jtei.revues.org/1077&quot;&gt;Edition Visualization Technology: A Simple Tool to Visualize TEI-based Digital Editions&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 8: Selected Papers from the 2013 TEI Conference (2014) &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;Haaf, Susanne, Alexander Geyken, and Frank Wiegand. “&lt;a href=&quot;http://jtei.revues.org/1114&quot;&gt;The DTA “Base Format”: A TEI Subset for the Compilation of a Large Reference Corpus of Printed Text From Multiple Sources&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 8: Selected Papers from the 2013 TEI Conference (2015) &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
 </description>
-        <pubDate>Mon, 23 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://www.sitzextase.de/2015/02/23/workshop-editions-material.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2015/02/23/workshop-editions-material.html</guid>
+        <pubDate>Mon, 23 Feb 2015 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/2015/02/23/workshop-editions-material.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/02/23/workshop-editions-material.html</guid>
         
         <category>digital humanities</category>
         
@@ -235,9 +590,9 @@
 
 &lt;p&gt;Unfortunately, I have not had access to different editions of volume 5 (the covers of copies SOAS, Michigan, and Princeton show no differences), but I suspect it too exists in (at least) two editions.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 19 Jan 2014 12:57:30 +0100</pubDate>
-        <link>http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</guid>
+        <pubDate>Sun, 19 Jan 2014 13:57:30 +0200</pubDate>
+        <link>https://tillgrallert.github.io/2014/01/19/the-puzzle-continues-2.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2014/01/19/the-puzzle-continues-2.html</guid>
         
         <category>19th century</category>
         
@@ -313,9 +668,9 @@
   &lt;li&gt;The template “funcDateNormaliseInput” can be used to convert variously formatted input  strings to the yyyy-mm-dd required by other templates. Possible input formats are  the common English formats of ‘dd(.) MNn(.) yyyy’, ‘MNn(.) dd(.), yyyy’, i.e. ‘15  Shaʿbān 1324’ or ‘Jan. 15, 2014’. The template requires an input string and a  calendar-language combination as found in funcDateMonthNameNumber.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sat, 04 Jan 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</guid>
+        <pubDate>Sat, 04 Jan 2014 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/2014/01/04/new-calendar-conversion.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2014/01/04/new-calendar-conversion.html</guid>
         
         <category>xml</category>
         
@@ -349,9 +704,9 @@
 
 &lt;p&gt;A systematic comparison of the two editions, the existence of which hitherto escaped the scholarly community, might reveal and equally systematic targetting of themes to different audiences. This could mean that major scholarly works on the Nahda, the press, and its audience need substantial reworking.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 19 Aug 2013 13:39:09 +0200</pubDate>
-        <link>http://www.sitzextase.de/2013/08/19/the-puzzle-continues.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/08/19/the-puzzle-continues.html</guid>
+        <pubDate>Mon, 19 Aug 2013 14:39:09 +0300</pubDate>
+        <link>https://tillgrallert.github.io/2013/08/19/the-puzzle-continues.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2013/08/19/the-puzzle-continues.html</guid>
         
         <category>19th century</category>
         
@@ -360,209 +715,6 @@
         <category>history of press</category>
         
         <category>newspapers</category>
-        
-        <category>periodicals</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>XSLT functions for converting calendars</title>
-        <description>&lt;p&gt;Recently I came across the necessity of converting Islamic &lt;em&gt;hijrī&lt;/em&gt; dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the &lt;em&gt;hijrī&lt;/em&gt; calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
-As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt; for reuse.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 04 Jul 2013 00:00:00 +0200</pubDate>
-        <link>http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion.html</guid>
-        
-        <category>calendars</category>
-        
-        <category>tools</category>
-        
-        <category>digital humanities</category>
-        
-        <category>xml</category>
-        
-        <category>xslt</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Historical Currency Converter</title>
-        <description>&lt;p&gt;Conducting historical research, one often encounters odd currencies, measures, and calendars, all of which are bound to space and time. Calender conversion tools can be readily found on the internet (a good example is &lt;a href=&quot;http://www.calendarhome.com/converter/&quot;&gt;CalendarHome&lt;/a&gt;’s adaptation of &lt;a href=&quot;http://www.fourmilab.ch/documents/calendar/&quot;&gt;Fourmilab&lt;/a&gt;’s code), but converters for non-metric currencies and weights are a bit trickier to come by. As I found myself repeatedly computing exchange rates between Ottoman Lira, British Pound Sterling, US Dollars, and French Francs, I wrote a simple javascript and html frontend.&lt;/p&gt;
-
-&lt;p&gt;The javascript is available on &lt;a href=&quot;https://github.com/tillgrallert/historical-currency-converter&quot;&gt;GitHub&lt;/a&gt;. Check the source of this page to look at the implementation.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-quick-and-dirty-implementation&quot;&gt;The quick and dirty implementation&lt;/h2&gt;
-
-&lt;p&gt;These forms are a rough sketch and allow to calculate exchange rates between Pound Sterling, Ottoman Lira, and Metric currencies and to convert any of the three currency types into any other using a supplied rate. The Pound Sterling is computed as £1 = 20s. = &lt;span id=&quot;s1&quot;&gt;&lt;/span&gt;d. and the Ottoman Lira as £T1 = Ps 100 = &lt;span id=&quot;s2&quot;&gt;&lt;/span&gt; Para. When Ottoman is chosen as the output, values are returned on a &lt;strong&gt;piaster (Ps) base&lt;/strong&gt;, following the practice of most contemporaneous sources. This was due to the falling silver prices and the resulting limping gold standard of the late nineteenth century. In consequence, and even though the nominal value of £T1 remained Ps 100,the Ottoman empire established an official exchange rate of £T1= Ps 123 in May 1883.&lt;/p&gt;
-
-&lt;p&gt;Values must be supplied as denominations separated by a dash; i.e. £1 =’1-0-0’, Ps 245”20 = ‘0-245-20’ or ‘2-45-20’. For metric currencies, values are supplied as unit-hundreds-00; i.e. $4.78 = ‘4-78-00’.&lt;/p&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://rawgithub.com/tillgrallert/historical-currency-converter/master/CurrencyConverter.js&quot;&gt;&lt;/script&gt;
-
-&lt;div class=&quot;cForm&quot;&gt;
-    &lt;header&gt;Compute an exchange rate&lt;/header&gt;
-    &lt;form id=&quot;fCurRate&quot; action=&quot;javascript:return false;&quot;&gt;
-        &lt;input class=&quot;cAmount&quot; id=&quot;iInput1&quot; type=&quot;text&quot; value=&quot;2-3-5&quot; /&gt;
-        &lt;select id=&quot;iCurInput1&quot;&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Metric&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;input class=&quot;cAmount&quot; id=&quot;iInput2&quot; type=&quot;text&quot; value=&quot;0-34-28&quot; /&gt;
-        &lt;select id=&quot;iCurInput2&quot;&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;option&gt;Metric&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;input type=&quot;button&quot; id=&quot;b2&quot; value=&quot;=&quot; /&gt;
-        &lt;span id=&quot;sResult1&quot;&gt;&lt;/span&gt;
-    &lt;/form&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;cForm&quot;&gt;
-    &lt;header&gt;Convert amounts using an exchange rate&lt;/header&gt;
-    &lt;form id=&quot;fCurExchange&quot;&gt;
-        &lt;input class=&quot;cAmount&quot; id=&quot;iInput3&quot; type=&quot;text&quot; value=&quot;2-3-5&quot; /&gt;
-        &lt;select id=&quot;iCurInput3&quot;&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Metric&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;input class=&quot;cRate&quot; id=&quot;iRate&quot; type=&quot;text&quot; value=&quot;15.984644913627639&quot; /&gt;
-        &lt;select id=&quot;iCurInput4&quot;&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;option&gt;Metric&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;input type=&quot;button&quot; id=&quot;b3&quot; value=&quot;=&quot; /&gt;
-        &lt;span id=&quot;sResult2&quot;&gt;&lt;/span&gt;
-    &lt;/form&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cForm&quot;&gt;
-    &lt;header&gt;Compute metric values for non-metric currencies&lt;/header&gt;
-    &lt;form id=&quot;fCurExchange&quot;&gt;
-        &lt;input class=&quot;cAmount&quot; id=&quot;iInput5&quot; type=&quot;text&quot; value=&quot;0-34-28&quot; /&gt;
-        &lt;select id=&quot;iCurInput5&quot;&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;!-- &lt;option&gt;Metric&lt;/option&gt; --&gt;
-        &lt;/select&gt;
-        &lt;input type=&quot;button&quot; id=&quot;b4&quot; value=&quot;=&quot; /&gt;
-        &lt;span id=&quot;sResult3&quot;&gt;&lt;/span&gt;
-    &lt;/form&gt;
-&lt;/div&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
-document.getElementById(&quot;s1&quot;).innerHTML=funcCurBase(&#39;Sterling&#39;,1,0,0);
-document.getElementById(&quot;s2&quot;).innerHTML=funcCurBase(&#39;Ottoman&#39;,1,0,0);
-document.getElementById(&quot;b2&quot;).onclick = function funcCalcRate (){
-    var pInput1, pInput2, pCurInput1, pCurInput2;
-    
-    pInput1 = document.getElementById(&#39;iInput1&#39;).value;
-    pInput2 = document.getElementById(&#39;iInput2&#39;).value;
-    pCurInput1 = document.getElementById(&#39;iCurInput1&#39;).value;
-    pCurInput2 = document.getElementById(&#39;iCurInput2&#39;).value;
-    
-    var vResult = funcCurRate (pInput1,pInput2,pCurInput1,pCurInput2);
-    
-    document.getElementById(&quot;sResult1&quot;).innerHTML = vResult;
-};
-document.getElementById(&quot;b3&quot;).onclick = function funcCalcExchange (){
-    var pCurInput,pInput,pCurTarget,pRate;
-    
-    pCurInput = document.getElementById(&#39;iCurInput3&#39;).value;
-    pInput = document.getElementById(&#39;iInput3&#39;).value;
-    pCurTarget = document.getElementById(&#39;iCurInput4&#39;).value;
-    pRate = document.getElementById(&#39;iRate&#39;).value;
-    
-    var vResult = funcCurExchange (pCurInput,pInput,pCurTarget,pRate);
-    
-    document.getElementById(&quot;sResult2&quot;).innerHTML = vResult;
-};
-document.getElementById(&quot;b4&quot;).onclick = function funcCalcMetric (){
-    var pCurInput,pInput;
-    
-    pCurInput = document.getElementById(&#39;iCurInput5&#39;).value;
-    pInput = document.getElementById(&#39;iInput5&#39;).value;
-    
-    var vResult = funcCurMetric (pCurInput,pInput);
-    
-    document.getElementById(&quot;sResult3&quot;).innerHTML = vResult;
-};
-&lt;/script&gt;
-
-</description>
-        <pubDate>Sat, 04 May 2013 00:00:00 +0200</pubDate>
-        <link>http://www.sitzextase.de/2013/05/04/historical-currency-converter.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/05/04/historical-currency-converter.html</guid>
-        
-        <category>js</category>
-        
-        <category>19th century</category>
-        
-        <category>20th century</category>
-        
-        <category>currency</category>
-        
-        <category>digital humanities</category>
-        
-        <category>ottoman empire</category>
-        
-        <category>social history</category>
-        
-        <category>tools</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Solution to the historian&#39;s puzzle?</title>
-        <description>&lt;p&gt;This post is a short update to &lt;a href=&quot;/2012/12/29/the-historians-puzzle.html&quot;&gt;my recent post on different versions of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Safa Saracoglu solved at least part of the riddle by pointing out via email that, before &lt;em&gt;Düstur&lt;/em&gt; became a series from 1872 onwards, three independent volumes were published under the same title in in 1851, 1863, and 1866.  Hence, what I thought of as the first edition of the first volume of the first series of &lt;em&gt;Düstur&lt;/em&gt; was indeed the 1863 volume.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 19 Jan 2013 00:00:00 +0100</pubDate>
-        <link>http://www.sitzextase.de/2013/01/19/the-historians-puzzle-solution.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/01/19/the-historians-puzzle-solution.html</guid>
-        
-        <category>19th century</category>
-        
-        <category>history of press</category>
-        
-        <category>newspapers</category>
-        
-        <category>ottoman periodicals</category>
-        
-        <category>periodicals</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update to the historian&#39;s puzzle</title>
-        <description>&lt;p&gt;This post is a short update to &lt;a href=&quot;/2012/12/29/the-historians-puzzle.html&quot;&gt;my recent post on different versions of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The index to the first series of &lt;em&gt;Düstur&lt;/em&gt;, published in 1891 as “Ḳaraḳoç, Sarkiz. &lt;em&gt;Miftāḥ-i Ḳavānīn-i ʿOŝmāniye&lt;/em&gt;. Der-i Saʿādet: Maḥmūd Bey Maṭbaʿası, 1309 aH [1891]”, does not contain any information on divergent print-runs and editions.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 12 Jan 2013 00:00:00 +0100</pubDate>
-        <link>http://www.sitzextase.de/2013/01/12/the-historians-puzzle-update.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/01/12/the-historians-puzzle-update.html</guid>
-        
-        <category>19th century</category>
-        
-        <category>history of press</category>
-        
-        <category>newspapers</category>
-        
-        <category>ottoman periodicals</category>
         
         <category>periodicals</category>
         
