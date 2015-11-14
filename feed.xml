@@ -3,15 +3,6 @@
   <channel>
     <title>sitzExtase</title>
     <description></description>
-<<<<<<< HEAD
-    <link>http://www.sitzextase.de/</link>
-    <atom:link href="http://www.sitzextase.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Aug 2015 00:37:56 +0300</pubDate>
-    <lastBuildDate>Tue, 18 Aug 2015 00:37:56 +0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-=======
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Sat, 14 Nov 2015 23:29:37 +0200</pubDate>
@@ -215,7 +206,6 @@ Note: There are no restrictions on use of text transcribed from the images, or p
       </item>
     
       <item>
->>>>>>> gh-pages
         <title>The difficulty of establishing publication dates for books from late Ottoman *Bilād al-Shām*</title>
         <description>&lt;p&gt;I am currently preparing my thesis for publication and the process of revision, I am again turning to Ottoman legal texts and their translations. Today I want to come briefly back to a question I have extensively dealt with in my thesis: The difficulty of dating printed sources from the late Ottoman &lt;em&gt;Bilād al-Shām&lt;/em&gt;.&lt;/p&gt;
 
@@ -241,11 +231,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;and seemingly indicates that the copy at AUB once belonged to the editor of the book, Khalīl al-Khūrī, himself. The stamp also records a Gregorian date: 1883. If this was the date of acquisition, the stamp could prove that the volume was indeed published in 1301 &lt;em&gt;hijrī&lt;/em&gt;. Searching through my research notes, however, it appeared that the &lt;em&gt;Librairie Universelle&lt;/em&gt; was a publishing press and bookstore rather than a library run by the brothers Amīn and Khalīl al-Khūrī in Beirut and at least by 1887 they had adopted the more common Arabic term for a publishing press: &lt;em&gt;al-maṭbaʿa al-jāmiʿ&lt;/em&gt;.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; But why would a bookstore stamp its merchandise?&lt;/p&gt;
 
-<<<<<<< HEAD
-&lt;p&gt;For the moment this question most remain open as well as the opening date of the endeavour.&lt;/p&gt;
-=======
 &lt;p&gt;For the moment this question must remain as open as the opening date of the endeavour.&lt;/p&gt;
->>>>>>> gh-pages
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -259,23 +245,14 @@ Note: There are no restrictions on use of text transcribed from the images, or p
       &lt;p&gt;Lisān al-Hāl 26 May 1887 (#959):1, Thamarāt al-Funūn 30 May 1887 (#633):1 advertised the book at a price of 2 mecidiye or Ps 40. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-<<<<<<< HEAD
-      &lt;p&gt;e.g. Lisān 13 Oct. 1887 (#999):4. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-=======
       &lt;p&gt;e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
->>>>>>> gh-pages
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 23 Jul 2015 15:55:02 +0300</pubDate>
-<<<<<<< HEAD
-        <link>http://www.sitzextase.de/2015/07/23/dating-books.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2015/07/23/dating-books.html</guid>
-=======
         <link>https://tillgrallert.github.io/2015/07/23/dating-books.html</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/2015/07/23/dating-books.html</guid>
->>>>>>> gh-pages
         
         <category>book history</category>
         
@@ -283,8 +260,6 @@ Note: There are no restrictions on use of text transcribed from the images, or p
         
         <category>ottoman empire</category>
         
-<<<<<<< HEAD
-=======
         <category>research in progress</category>
         
         
@@ -393,7 +368,6 @@ gems:
         
         <category>links</category>
         
->>>>>>> gh-pages
         
       </item>
     
@@ -414,13 +388,8 @@ gems:
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
-<<<<<<< HEAD
-        <link>http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</guid>
-=======
         <link>https://tillgrallert.github.io/teaching/2015/06/01/TEI-at-DHSI.html</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/teaching/2015/06/01/TEI-at-DHSI.html</guid>
->>>>>>> gh-pages
         
         <category>teaching</category>
         
@@ -454,13 +423,8 @@ gems:
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
-<<<<<<< HEAD
-        <link>http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</guid>
-=======
         <link>https://tillgrallert.github.io/teaching/2015/03/02/TEI-at-DHIB.html</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/teaching/2015/03/02/TEI-at-DHIB.html</guid>
->>>>>>> gh-pages
         
         <category>teaching</category>
         
@@ -600,13 +564,8 @@ gems:
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 23 Feb 2015 00:00:00 +0200</pubDate>
-<<<<<<< HEAD
-        <link>http://www.sitzextase.de/2015/02/23/workshop-editions-material.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2015/02/23/workshop-editions-material.html</guid>
-=======
         <link>https://tillgrallert.github.io/2015/02/23/workshop-editions-material.html</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/2015/02/23/workshop-editions-material.html</guid>
->>>>>>> gh-pages
         
         <category>digital humanities</category>
         
@@ -632,13 +591,8 @@ gems:
 &lt;p&gt;Unfortunately, I have not had access to different editions of volume 5 (the covers of copies SOAS, Michigan, and Princeton show no differences), but I suspect it too exists in (at least) two editions.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Jan 2014 13:57:30 +0200</pubDate>
-<<<<<<< HEAD
-        <link>http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</guid>
-=======
         <link>https://tillgrallert.github.io/2014/01/19/the-puzzle-continues-2.html</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/2014/01/19/the-puzzle-continues-2.html</guid>
->>>>>>> gh-pages
         
         <category>19th century</category>
         
@@ -715,13 +669,8 @@ gems:
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 04 Jan 2014 00:00:00 +0200</pubDate>
-<<<<<<< HEAD
-        <link>http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</guid>
-=======
         <link>https://tillgrallert.github.io/2014/01/04/new-calendar-conversion.html</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/2014/01/04/new-calendar-conversion.html</guid>
->>>>>>> gh-pages
         
         <category>xml</category>
         
@@ -756,13 +705,8 @@ gems:
 &lt;p&gt;A systematic comparison of the two editions, the existence of which hitherto escaped the scholarly community, might reveal and equally systematic targetting of themes to different audiences. This could mean that major scholarly works on the Nahda, the press, and its audience need substantial reworking.&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Aug 2013 14:39:09 +0300</pubDate>
-<<<<<<< HEAD
-        <link>http://www.sitzextase.de/2013/08/19/the-puzzle-continues.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/08/19/the-puzzle-continues.html</guid>
-=======
         <link>https://tillgrallert.github.io/2013/08/19/the-puzzle-continues.html</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/2013/08/19/the-puzzle-continues.html</guid>
->>>>>>> gh-pages
         
         <category>19th century</category>
         
@@ -777,188 +721,5 @@ gems:
         
       </item>
     
-<<<<<<< HEAD
-      <item>
-        <title>XSLT functions for converting calendars</title>
-        <description>&lt;p&gt;Recently I came across the necessity of converting Islamic &lt;em&gt;hijrī&lt;/em&gt; dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the &lt;em&gt;hijrī&lt;/em&gt; calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
-As I could not find any available code on the net, I adopted the javascript conversion between Gregorian, Julian, and Hijri calendars provided by John Walker’s Calendar Converter for XSLT 2.0 and decided to share the functions on &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt; for reuse.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 04 Jul 2013 00:00:00 +0300</pubDate>
-        <link>http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/07/04/xslt-calendar-conversion.html</guid>
-        
-        <category>calendars</category>
-        
-        <category>tools</category>
-        
-        <category>digital humanities</category>
-        
-        <category>xml</category>
-        
-        <category>xslt</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Historical Currency Converter</title>
-        <description>&lt;p&gt;Conducting historical research, one often encounters odd currencies, measures, and calendars, all of which are bound to space and time. Calender conversion tools can be readily found on the internet (a good example is &lt;a href=&quot;http://www.calendarhome.com/converter/&quot;&gt;CalendarHome&lt;/a&gt;’s adaptation of &lt;a href=&quot;http://www.fourmilab.ch/documents/calendar/&quot;&gt;Fourmilab&lt;/a&gt;’s code), but converters for non-metric currencies and weights are a bit trickier to come by. As I found myself repeatedly computing exchange rates between Ottoman Lira, British Pound Sterling, US Dollars, and French Francs, I wrote a simple javascript and html frontend.&lt;/p&gt;
-
-&lt;p&gt;The javascript is available on &lt;a href=&quot;https://github.com/tillgrallert/historical-currency-converter&quot;&gt;GitHub&lt;/a&gt;. Check the source of this page to look at the implementation.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-quick-and-dirty-implementation&quot;&gt;The quick and dirty implementation&lt;/h2&gt;
-
-&lt;p&gt;These forms are a rough sketch and allow to calculate exchange rates between Pound Sterling, Ottoman Lira, and Metric currencies and to convert any of the three currency types into any other using a supplied rate. The Pound Sterling is computed as £1 = 20s. = &lt;span id=&quot;s1&quot;&gt;&lt;/span&gt;d. and the Ottoman Lira as £T1 = Ps 100 = &lt;span id=&quot;s2&quot;&gt;&lt;/span&gt; Para. When Ottoman is chosen as the output, values are returned on a &lt;strong&gt;piaster (Ps) base&lt;/strong&gt;, following the practice of most contemporaneous sources. This was due to the falling silver prices and the resulting limping gold standard of the late nineteenth century. In consequence, and even though the nominal value of £T1 remained Ps 100,the Ottoman empire established an official exchange rate of £T1= Ps 123 in May 1883.&lt;/p&gt;
-
-&lt;p&gt;Values must be supplied as denominations separated by a dash; i.e. £1 =’1-0-0’, Ps 245”20 = ‘0-245-20’ or ‘2-45-20’. For metric currencies, values are supplied as unit-hundreds-00; i.e. $4.78 = ‘4-78-00’.&lt;/p&gt;
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://rawgithub.com/tillgrallert/historical-currency-converter/master/CurrencyConverter.js&quot;&gt;&lt;/script&gt;
-
-&lt;div class=&quot;cForm&quot;&gt;
-    &lt;header&gt;Compute an exchange rate&lt;/header&gt;
-    &lt;form id=&quot;fCurRate&quot; action=&quot;javascript:return false;&quot;&gt;
-        &lt;input class=&quot;cAmount&quot; id=&quot;iInput1&quot; type=&quot;text&quot; value=&quot;2-3-5&quot; /&gt;
-        &lt;select id=&quot;iCurInput1&quot;&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Metric&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;input class=&quot;cAmount&quot; id=&quot;iInput2&quot; type=&quot;text&quot; value=&quot;0-34-28&quot; /&gt;
-        &lt;select id=&quot;iCurInput2&quot;&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;option&gt;Metric&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;input type=&quot;button&quot; id=&quot;b2&quot; value=&quot;=&quot; /&gt;
-        &lt;span id=&quot;sResult1&quot;&gt;&lt;/span&gt;
-    &lt;/form&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;cForm&quot;&gt;
-    &lt;header&gt;Convert amounts using an exchange rate&lt;/header&gt;
-    &lt;form id=&quot;fCurExchange&quot;&gt;
-        &lt;input class=&quot;cAmount&quot; id=&quot;iInput3&quot; type=&quot;text&quot; value=&quot;2-3-5&quot; /&gt;
-        &lt;select id=&quot;iCurInput3&quot;&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Metric&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;input class=&quot;cRate&quot; id=&quot;iRate&quot; type=&quot;text&quot; value=&quot;15.984644913627639&quot; /&gt;
-        &lt;select id=&quot;iCurInput4&quot;&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;option&gt;Metric&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;input type=&quot;button&quot; id=&quot;b3&quot; value=&quot;=&quot; /&gt;
-        &lt;span id=&quot;sResult2&quot;&gt;&lt;/span&gt;
-    &lt;/form&gt;
-&lt;/div&gt;
-&lt;div class=&quot;cForm&quot;&gt;
-    &lt;header&gt;Compute metric values for non-metric currencies&lt;/header&gt;
-    &lt;form id=&quot;fCurExchange&quot;&gt;
-        &lt;input class=&quot;cAmount&quot; id=&quot;iInput5&quot; type=&quot;text&quot; value=&quot;0-34-28&quot; /&gt;
-        &lt;select id=&quot;iCurInput5&quot;&gt;
-            &lt;option&gt;Ottoman&lt;/option&gt;
-            &lt;option&gt;Ottoman (123)&lt;/option&gt;
-            &lt;option&gt;Sterling&lt;/option&gt;
-            &lt;!-- &lt;option&gt;Metric&lt;/option&gt; --&gt;
-        &lt;/select&gt;
-        &lt;input type=&quot;button&quot; id=&quot;b4&quot; value=&quot;=&quot; /&gt;
-        &lt;span id=&quot;sResult3&quot;&gt;&lt;/span&gt;
-    &lt;/form&gt;
-&lt;/div&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
-document.getElementById(&quot;s1&quot;).innerHTML=funcCurBase(&#39;Sterling&#39;,1,0,0);
-document.getElementById(&quot;s2&quot;).innerHTML=funcCurBase(&#39;Ottoman&#39;,1,0,0);
-document.getElementById(&quot;b2&quot;).onclick = function funcCalcRate (){
-    var pInput1, pInput2, pCurInput1, pCurInput2;
-    
-    pInput1 = document.getElementById(&#39;iInput1&#39;).value;
-    pInput2 = document.getElementById(&#39;iInput2&#39;).value;
-    pCurInput1 = document.getElementById(&#39;iCurInput1&#39;).value;
-    pCurInput2 = document.getElementById(&#39;iCurInput2&#39;).value;
-    
-    var vResult = funcCurRate (pInput1,pInput2,pCurInput1,pCurInput2);
-    
-    document.getElementById(&quot;sResult1&quot;).innerHTML = vResult;
-};
-document.getElementById(&quot;b3&quot;).onclick = function funcCalcExchange (){
-    var pCurInput,pInput,pCurTarget,pRate;
-    
-    pCurInput = document.getElementById(&#39;iCurInput3&#39;).value;
-    pInput = document.getElementById(&#39;iInput3&#39;).value;
-    pCurTarget = document.getElementById(&#39;iCurInput4&#39;).value;
-    pRate = document.getElementById(&#39;iRate&#39;).value;
-    
-    var vResult = funcCurExchange (pCurInput,pInput,pCurTarget,pRate);
-    
-    document.getElementById(&quot;sResult2&quot;).innerHTML = vResult;
-};
-document.getElementById(&quot;b4&quot;).onclick = function funcCalcMetric (){
-    var pCurInput,pInput;
-    
-    pCurInput = document.getElementById(&#39;iCurInput5&#39;).value;
-    pInput = document.getElementById(&#39;iInput5&#39;).value;
-    
-    var vResult = funcCurMetric (pCurInput,pInput);
-    
-    document.getElementById(&quot;sResult3&quot;).innerHTML = vResult;
-};
-&lt;/script&gt;
-
-</description>
-        <pubDate>Sat, 04 May 2013 00:00:00 +0300</pubDate>
-        <link>http://www.sitzextase.de/2013/05/04/historical-currency-converter.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/05/04/historical-currency-converter.html</guid>
-        
-        <category>js</category>
-        
-        <category>19th century</category>
-        
-        <category>20th century</category>
-        
-        <category>currency</category>
-        
-        <category>digital humanities</category>
-        
-        <category>ottoman empire</category>
-        
-        <category>social history</category>
-        
-        <category>tools</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Solution to the historian&#39;s puzzle?</title>
-        <description>&lt;p&gt;This post is a short update to &lt;a href=&quot;/2012/12/29/the-historians-puzzle.html&quot;&gt;my recent post on different versions of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Safa Saracoglu solved at least part of the riddle by pointing out via email that, before &lt;em&gt;Düstur&lt;/em&gt; became a series from 1872 onwards, three independent volumes were published under the same title in in 1851, 1863, and 1866.  Hence, what I thought of as the first edition of the first volume of the first series of &lt;em&gt;Düstur&lt;/em&gt; was indeed the 1863 volume.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 19 Jan 2013 00:00:00 +0200</pubDate>
-        <link>http://www.sitzextase.de/2013/01/19/the-historians-puzzle-solution.html</link>
-        <guid isPermaLink="true">http://www.sitzextase.de/2013/01/19/the-historians-puzzle-solution.html</guid>
-        
-        <category>19th century</category>
-        
-        <category>history of press</category>
-        
-        <category>newspapers</category>
-        
-        <category>ottoman periodicals</category>
-        
-        <category>periodicals</category>
-        
-        
-      </item>
-    
-=======
->>>>>>> gh-pages
   </channel>
 </rss>
