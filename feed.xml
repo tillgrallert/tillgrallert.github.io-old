@@ -5,8 +5,8 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Nov 2015 18:23:14 +0200</pubDate>
-    <lastBuildDate>Fri, 13 Nov 2015 18:23:14 +0200</lastBuildDate>
+    <pubDate>Sat, 14 Nov 2015 23:29:37 +0200</pubDate>
+    <lastBuildDate>Sat, 14 Nov 2015 23:29:37 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -134,15 +134,15 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;It seems that somebody took the pains to upload the tet from &lt;em&gt;shamela&lt;/em&gt; to WikiSource. Unfortunately it is impossible to browse the entire journal. Instead one has to adress each individual and consecutively numbered issue, e.g. Vol. 4, No. 1 is listed as &lt;a href=&quot;https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_37&quot;&gt;No. 37&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;tei-edition&quot;&gt;TEI edition&lt;/h1&gt;
+&lt;h1 id=&quot;tei-edition-of-al-muqtabashttpsgithubcomtillgrallertdigital-muqtabas&quot;&gt;&lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot;&gt;TEI edition of &lt;em&gt;al-Muqtabas&lt;/em&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;The main challenge is to combine the full text and the images in a TEI edition. As &lt;em&gt;al-maktabat al-shāmila&lt;/em&gt; did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.&lt;/p&gt;
+&lt;p&gt;The main challenge is to combine the full text and the images in a digital XML edition following the &lt;a href=&quot;https://www.tei-c.org&quot;&gt;TEI&lt;/a&gt;. As &lt;em&gt;al-maktabat al-shāmila&lt;/em&gt; did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.&lt;/p&gt;
 
 &lt;h2 id=&quot;general-design&quot;&gt;General design&lt;/h2&gt;
 
 &lt;p&gt;The edition should be conceived of as a corpus of tei files that are grouped by means of xinclude. This way, volumes can be constructed as single TEI files containing a &lt;code&gt;&amp;lt;group/&amp;gt;&lt;/code&gt; of TEI files and a volume specific &lt;code&gt;&amp;lt;front/&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;back/&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Detailled description and notes on the mark-up are kept in a separate &lt;a href=&quot;notes-tei-markup.md&quot;&gt;file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Detailled description and notes on the mark-up are kept in a separate &lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas/blob/master/notes-tei-markup.md&quot;&gt;file in the GitHub repository&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;quality-control&quot;&gt;Quality control&lt;/h2&gt;
 
@@ -179,11 +179,11 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_209_0826_01_L.jpg&quot; alt=&quot;Shāhīn Makāriyūs left his mark in Baalbek in 1878&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This is the same Shāhīn Makāriyūs, who, together with Yaʿqūb Ṣarrūf and Fāris Nimr, published the &lt;a href=&quot;/2013/08/19/the-puzzle-continues.html&quot;&gt;monthly journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;&lt;/a&gt; from 1876 onwards—first in Beirut and later in Cairo.&lt;/p&gt;
+&lt;p&gt;This is the same &lt;a href=&quot;https://viaf.org/viaf/38237868&quot;&gt;Shāhīn Makāriyūs (also Chahin Macarius, Shaheen Makarius)&lt;/a&gt;, who, together with Yaʿqūb Ṣarrūf and Fāris Nimr, published the &lt;a href=&quot;/2013/08/19/the-puzzle-continues.html&quot;&gt;monthly journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;&lt;/a&gt; from 1876 onwards—first in Beirut and, from 1884 onwards, in Cairo. He was also prominent member of masonic lodges and authored a number of books on the history of freemasonry. In 1890, &lt;em&gt;al-Bashīr&lt;/em&gt; from Beirut already mentioned &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; and &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, another journal Shāhīn Makāriyūs edited between 1886–96, as being masonic papers.^[Bashīr 4 Nov. 1890 (#1037):3 and Bashīr 26 Nov. 1890 (#1040):1, which ran a front page article titled “The slander of &lt;em&gt;al-Laṭāʾif&lt;/em&gt;” (&lt;em&gt;iftirāʾ al-laṭāʾif&lt;/em&gt;).] &lt;em&gt;Al-Laṭāʾif al-Muṣawwara&lt;/em&gt;, an illustrated successor journal to &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, that had most likely stopped being published around 1896, was edited by his son (?) Iskandar Makāriyūs in Cairo from 1915 onwards.&lt;/p&gt;
 
 &lt;h2 id=&quot;ads&quot;&gt;ads&lt;/h2&gt;
 
-&lt;p&gt;Some images reveal that the walls of the ruins were also used for advertisements. Several photos of the entrance to the cella of Baalbek’s main temple of Jupiter dating to the 1880s shows that the photo studio Bonfils itself had announced its services on the wall to the right.&lt;/p&gt;
+&lt;p&gt;But it’s not just visitors leaving their traces for posterity, some images reveal that the walls of the ruins were also used for advertisements. Several photos of the entrance to the cella of Baalbek’s main temple of Jupiter dating to the 1880s show that the photo studio Bonfils itself had announced its services on the wall to the right.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-2_0284_01_L.jpg&quot; alt=&quot;a&quot; /&gt;&lt;/p&gt;
 

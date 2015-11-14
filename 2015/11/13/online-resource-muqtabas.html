@@ -368,15 +368,15 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 <p>It seems that somebody took the pains to upload the tet from <em>shamela</em> to WikiSource. Unfortunately it is impossible to browse the entire journal. Instead one has to adress each individual and consecutively numbered issue, e.g. Vol. 4, No. 1 is listed as <a href="https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_37">No. 37</a></p>
 
-<h1 id="tei-edition">TEI edition</h1>
+<h1 id="tei-edition-of-al-muqtabashttpsgithubcomtillgrallertdigital-muqtabas"><a href="https://github.com/tillgrallert/digital-muqtabas">TEI edition of <em>al-Muqtabas</em></a></h1>
 
-<p>The main challenge is to combine the full text and the images in a TEI edition. As <em>al-maktabat al-shāmila</em> did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.</p>
+<p>The main challenge is to combine the full text and the images in a digital XML edition following the <a href="https://www.tei-c.org">TEI</a>. As <em>al-maktabat al-shāmila</em> did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.</p>
 
 <h2 id="general-design">General design</h2>
 
 <p>The edition should be conceived of as a corpus of tei files that are grouped by means of xinclude. This way, volumes can be constructed as single TEI files containing a <code>&lt;group/&gt;</code> of TEI files and a volume specific <code>&lt;front/&gt;</code> and <code>&lt;back/&gt;</code></p>
 
-<p>Detailled description and notes on the mark-up are kept in a separate <a href="notes-tei-markup.md">file</a>.</p>
+<p>Detailled description and notes on the mark-up are kept in a separate <a href="https://github.com/tillgrallert/digital-muqtabas/blob/master/notes-tei-markup.md">file in the GitHub repository</a>.</p>
 
 <h2 id="quality-control">Quality control</h2>
 
