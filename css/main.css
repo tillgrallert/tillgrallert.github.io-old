@@ -152,16 +152,17 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
+  /* border-top: 5px solid $grey-color-dark; */
   border-bottom: 1px solid #e8e8e8;
   /* min-height: 56px; */
   min-height: 10em;
   background-color: #F46A00;
+  /* same as the main .wrapper */
   position: relative; }
 
 /* #div-site-header {
     background-image: $header-img;
-} */
+}*/
 .site-title {
   font-size: 2.5em;
   /*     line-height: 56px; */
@@ -437,6 +438,10 @@ a.post-more {
   position: relative;
   float: left;
   clear: left; }
+
+/* footnotes */
+.footnotes {
+  font-size: 0.8em; }
 
 /**
  * Syntax highlighting styles

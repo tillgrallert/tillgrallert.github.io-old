@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <title>Ottoman yearbooks online … for the lucky few (and the ones with US IPs)</title>
+  <title>Academic writing in plain text: useful resources</title>
   <!-- metadata --> 
-  <meta name="description" content="After receiving replies on the availability of digitised Ottoman yearbooks, I thought I’d share the links here."/>
+  <meta name="description" content="Plain text and MarkDown"/>
   <!-- additional metadata -->
   <meta name="author" content="Till Grallert" />
-  <meta name="date" content="2011-03-31" />
+  <meta name="date" content="2015-07-20" />
   <!-- dublin core to support Zotero etc. -->
 <meta name="DC.type" content="Text" />
 <meta name="DC.format" content="text/html" />
-<meta name="DC.title" content="Ottoman yearbooks online … for the lucky few (and the ones with US IPs)"/>
+<meta name="DC.title" content="Academic writing in plain text: useful resources"/>
 <meta name="DC.creator" content="Till Grallert" />
-<meta name="DC.date" scheme="W3CDTF" content="2011-03-31" />
-<meta name="DC.description" content="After receiving replies on the availability of digitised Ottoman yearbooks, I thought I’d share the links here."/>
-<meta name="DC.keywords" content="digitized resources, newspapers, ottoman newspapers, periodicals, " />
+<meta name="DC.date" scheme="W3CDTF" content="2015-07-20" />
+<meta name="DC.description" content="Plain text and MarkDown"/>
+<meta name="DC.keywords" content="links, " />
 
   <!-- linked scripts and stylesheets etc. -->
   <link rel="stylesheet" href="/css/main.css"/>
-  <link rel="canonical" href="https://tillgrallert.github.io/2011/03/31/ottoman-yearbooks-online.html"/>
+  <link rel="canonical" href="https://tillgrallert.github.io/2015/07/20/jekyll-resources.html"/>
   <link rel="alternate" type="application/rss+xml" title="sitzExtase" href="https://tillgrallert.github.io/feed.xml" />
 </head>
 
@@ -59,8 +59,6 @@
           
           <a class="page-link" href="/sites/Damascus.html">Damascus</a>
           
-<<<<<<< HEAD
-=======
           
         
           
@@ -79,30 +77,8 @@
         
           
         
->>>>>>> gh-pages
           
         
-          
-          <!-- this condition removes the links to the tag index pages -->
-          
-          <a class="page-link" href="/sites/Food-riots.html">Food riots</a>
-          
-          
-        
-          
-          <!-- this condition removes the links to the tag index pages -->
-          
-<<<<<<< HEAD
-          <a class="page-link" href="/sites/Teaching.html">Teaching</a>
-          
-          
-        
-          
-        
-          
-        
-          
-=======
           
         
           
@@ -119,7 +95,11 @@
           <!-- this condition removes the links to the tag index pages -->
           
           
->>>>>>> gh-pages
+        
+          
+          <!-- this condition removes the links to the tag index pages -->
+          
+          
         
           
           <!-- this condition removes the links to the tag index pages -->
@@ -259,46 +239,116 @@
           <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"><p>Ottoman yearbooks online … for the lucky few (and the ones with US IPs)</p>
+    <h1 class="post-title"><p>Academic writing in plain text: useful resources</p>
 </h1>
-    <p class="post-meta">Mar 31, 2011 • Till Grallert</p>
+    <p class="post-meta">Jul 20, 2015 • Till Grallert</p>
   </header>
 
   <article class="post-content">
-    <p>After receiving replies on the availability of digitised Ottoman yearbooks, I thought I’d share the links here.</p>
+    <h1 id="plain-text-and-markdown">Plain text and MarkDown</h1>
 
-<h2 id="the-ircica-farabi-digital-libraryhttpe-libraryircicaorg"><a href="http://e-library.ircica.org/">The IRCICA Farabi Digital library</a></h2>
+<h2 id="academicmarkdown">AcademicMarkdown</h2>
 
-<p>This repository is sponsored by the PM of the UAE and run by the OIC’s  IRCICA Research Center for Islamic History, Art and Culture. The sits has some weird search algorithms that prevent the Salname-yi Vilayeti Suriye from being returned upon querying “Salname AND Suriye”. However, the full text is available and the site even entered some basic headlines etc. for navigating inside the documents.</p>
+<h2 id="criticmarkup">CriticMarkup</h2>
 
-<h2 id="the-hathi-trust-partnership-communityhttpswwwhathitrustorghome"><a href="https://www.hathitrust.org/home">The Hathi Trust Partnership Community</a></h2>
+<p><a href="http://macdrifter.com/2013/02/everyones-a-critic-the-critic-markup-language-proposal.html">CriticMarkup</a>: extension to MMD for editorial markup of texts. The project website is <a href="http://criticmarkup.com/">http://criticmarkup.com/</a> and the code is hosted on <a href="https://github.com/CriticMarkup/CriticMarkup-toolkit">GitHub</a></p>
 
-<p>A collective endeavour of many a well known American university.   The Salnames have been digitised but remain unavailable to most of us for the moment. In a seemingly arbitrary move, most likely based on fears of being sued, the site claims that some copyright restrictions prevent non-American users from accessing works published by an Ottoman provincial press that ceased to exist almost 100 years ago. Yet, if you manage to get a US IP, for instance through such a service as hotspot shield, the restrictions are lifted. Huzza! Still, for downloading the PDF you must be a member of the participating universities.</p>
+<ul>
+  <li>Integration into tools:
+    <ul>
+      <li>Sublime Text 3’s AcademicMarkdown package supports syntax highlighting for CriticMarkup</li>
+      <li>There is a CriticMarkup <a href="https://github.com/CriticMarkup/CriticMarkup-toolkit/tree/master/Sublime%20Text%203%20Package/">SL3 package</a>. It is not managed by package control and a documentation can be found <a href="http://criticmarkup.com/sublime-text.php">here</a></li>
+      <li>The <a href="https://github.com/CriticMarkup/CriticMarkup-toolkit">CriticMarkup toolkit</a> contains processors for various programs but not for Sublime Text.</li>
+    </ul>
+  </li>
+  <li>Basic Syntax
+    <ul>
+      <li>Addition <code>{++ ++}</code></li>
+      <li>Deletion <code>{-- --}</code></li>
+      <li>Substitution <code>{~~ ~&gt; ~~}</code></li>
+      <li>Comment <code>{&gt;&gt; &lt;&lt;}</code></li>
+      <li>Highlight <code>{== ==}{&gt;&gt; &lt;&lt;}</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="kramdown">KramDown</h1>
+
+<p>An extension of MarkDown with a strict, unambiguous syntax used in Jekyll. The documentation of the syntax can be found <a href="http://kramdown.gettalong.org/syntax.html">here</a>.</p>
+
+<h1 id="pandoc">Pandoc</h1>
+
+<p>Pandoc can be used as standard processor for markdown in jekyll with the help of a small <a href="http://jekyllrb.com/docs/plugins/">plugin</a> named “<a href="https://github.com/mfenner/jekyll-pandoc">jekyll-pandoc</a>”. To install it via terminal type</p>
+
+<p><code>$ gem install jekyll-pandoc</code></p>
+
+<p>It can then be referenced in one’s site’s <code>_config.yml</code> as <code>markdown: pandoc</code> after the following has been added:</p>
+
+<p>~~~
+gems: 
+    - jekyll-pandoc
+~~</p>
+
+<p>However, one cannot use any plug-ins if jekyll is run on GitHub-pages, which operate in safe-mode. There was a lengthy discussion on the <a href="https://github.com/jekyll/jekyll/issues/1973">jekyll forum</a> whether or not to include pandoc as a markdown processor. Unfortunately this has been rejected by the jekyll team.</p>
+
+<h1 id="git--github">Git / GitHub</h1>
+
+<ul>
+  <li>Chad Black’s <a href="https://parezcoydigo.wordpress.com/2013/08/26/getting-started-with-github-and-prose-io/">getting started with github and prose.io</a> on using a combination of GitHub, jekyll, and prose.io for a collaborative seminar <a href="http://dh.chadblack.net/info/all_posts/">blog</a>.</li>
+  <li><a href="http://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing">GitHub, Academia, and Collaborative Writing</a></li>
+  <li><a href="http://www.hybridpedagogy.com/journal/push-pull-fork-github-for-academics/">Push, Pull, Fork: GitHub for Academics</a></li>
+  <li><a href="http://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics/">GitHub for Academics: the open-source way to host, create and curate knowledge</a></li>
+  <li><a href="http://savageminds.org/2013/02/15/living-in-a-plain-text-world-tools-we-use/">Living in a Plain Text World (Tools We Use)</a></li>
+  <li><a href="http://technical.ly/brooklyn/2014/09/12/authorea-software-for-academic-paper-writing-is-inspired-by-git/">This software for academic paper writing is inspired by Git</a></li>
+  <li><a href="http://www.lifehack.org/articles/technology/how-to-use-git-to-version-your-writing.html">How To: Use Git to Version Your Writing</a></li>
+  <li><a href="https://www.martineve.com/2013/08/18/using-git-in-my-writing-workflow/">Using git in my writing workflow</a></li>
+</ul>
+
+<h1 id="jekyll">Jekyll</h1>
+
+<ul>
+  <li>Tags in Jekyll / GitHub pages
+    <ul>
+      <li><a href="http://charliepark.org/tags-in-jekyll/">Tags in jekyll</a></li>
+      <li><a href="http://www.minddust.com/post/tags-and-categories-on-github-pages/">How To Use Tags And Categories On GitHub Pages Without Plugins</a></li>
+    </ul>
+  </li>
+  <li>Pandoc
+    <ul>
+      <li><a href="https://github.com/fauno/jekyll-pandoc-multiple-formats">Another pandoc plugin for jekyll</a></li>
+    </ul>
+  </li>
+  <li>Jekyll themes
+    <ul>
+      <li><a href="https://github.com/poole/poole">Poole, Jekyll’s buttler</a>: editor for Jekyll themes, at the moment at least two themes are available and GO::DH Minimal Computing SIG used it to build its website</li>
+    </ul>
+  </li>
+  <li>Plug-ins: if hosted on GitHub, jekyll runs in safe mode and disables third-party plug-ins
+    <ul>
+      <li><a href="https://developmentseed.org/blog/2013/05/01/introducing-jekyll-hook/">Jekyll-hook</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="liquid-templating">Liquid templating</h2>
+
+<p>Liquid templating was designed by and for the shopify website: “Liquid is an open-source, Ruby-based template language created by Shopify. It is the backbone of Shopify themes and is used to load dynamic content on storefronts.”</p>
+
+<ul>
+  <li><a href="http://wiki.shopify.com/Liquid">Liquid template engine</a></li>
+  <li>Great overview of <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">syntax and commands</a></li>
+  <li><a href="http://alanwsmith.com/jekyll-liquid-date-formatting-examples">Jekyll Date Formatting Examples</a> using liquid</li>
+</ul>
 
   </article>
 
   <footer class="post-footer">
   	<p>
   		
-          <!-- <span class="post-tag">digitized resources, </span> -->
+          <!-- <span class="post-tag">links, </span> -->
           <!-- this file provides the list of tags for any given post anywhere on the site -->
 
-<span class="post-tag"><a class="tag-list-link" href="/tag/digitized resources">digitized resources</a>/ </span>
-      
-          <!-- <span class="post-tag">newspapers, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
-
-<span class="post-tag"><a class="tag-list-link" href="/tag/newspapers">newspapers</a>/ </span>
-      
-          <!-- <span class="post-tag">ottoman newspapers, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
-
-<span class="post-tag"><a class="tag-list-link" href="/tag/ottoman newspapers">ottoman newspapers</a>/ </span>
-      
-          <!-- <span class="post-tag">periodicals, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
-
-<span class="post-tag"><a class="tag-list-link" href="/tag/periodicals">periodicals</a>/ </span>
+<span class="post-tag"><a class="tag-list-link" href="/tag/links">links</a>/ </span>
       .</p>
   </footer>
 
@@ -453,11 +503,6 @@
   
     <!-- this condition creates the links to the tag index pages -->
     
-<<<<<<< HEAD
-    <a class="page-link" href="/tag/book%20history/index.html">book history</a>
-    
-  
-=======
     <a class="page-link" href="/tag/links/index.html">links</a>
     
   
@@ -481,15 +526,10 @@
     <a class="page-link" href="/tag/grafitti/index.html">grafitti</a>
     
   
->>>>>>> gh-pages
 </div>
         <div class="date-index">
 	<h4>Latest posts:</h4>
     
-<<<<<<< HEAD
-    	<a class="post-link" href="/2015/07/23/dating-books.html">Jul 23, 2015</a>
-    
-=======
     	<a class="post-link" href="/2015/11/13/online-resource-muqtabas.html">Nov 13, 2015</a>
     
     	<a class="post-link" href="/2015/11/12/middle-eastern-grafitti.html">Nov 12, 2015</a>
@@ -498,7 +538,6 @@
     
     	<a class="post-link" href="/2015/07/20/jekyll-resources.html">Jul 20, 2015</a>
     
->>>>>>> gh-pages
     	<a class="post-link" href="/teaching/2015/06/01/TEI-at-DHSI.html">Jun 1, 2015</a>
     
     	<a class="post-link" href="/teaching/2015/03/02/TEI-at-DHIB.html">Mar 2, 2015</a>

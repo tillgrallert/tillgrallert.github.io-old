@@ -3,6 +3,7 @@
   <channel>
     <title>sitzExtase</title>
     <description></description>
+<<<<<<< HEAD
     <link>http://www.sitzextase.de/</link>
     <atom:link href="http://www.sitzextase.de/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Tue, 18 Aug 2015 00:37:56 +0300</pubDate>
@@ -10,6 +11,211 @@
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+=======
+    <link>https://tillgrallert.github.io/</link>
+    <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 Nov 2015 23:29:37 +0200</pubDate>
+    <lastBuildDate>Sat, 14 Nov 2015 23:29:37 +0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>*Majallat al-Muqtabas*: one of the most important journals of late Ottoman *Bilād al-Shām* as open, reference-able TEI P5 Edition</title>
+        <description>&lt;p&gt;In the context of the current onslaught cultural artifacts in the Middle East face from the iconoclasts of the Islamic State, from the institutional neglect of states and elites, and from poverty and war, digital preservation efforts promise some relief as well as potential counter narratives. They might also be the only resolve for future education and rebuilding efforts once the wars in Syria, Iraq or Yemen come to an end.&lt;/p&gt;
+
+&lt;p&gt;Early Arabic periodicals, such as Butrus al-Bustānī’s &lt;em&gt;al-Jinān&lt;/em&gt; (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs’ &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; (Beirut and Cairo, 1876–1952), Muḥammad Kurd ʿAlī’s &lt;em&gt;al-Muqtabas&lt;/em&gt; (Cairo and Damascus, 1906–16) or Rashīd Riḍā’s &lt;em&gt;al-Manār&lt;/em&gt; (Cairo, 1898–1941) are at the core of the Arabic renaissance (&lt;em&gt;al-nahḍa&lt;/em&gt;), Arab nationalism, and the Islamic reform movement. Due to the state of Arabic OCR and the particular difficulties of low-quality fonts, inks, and paper employed at the turn of the twentieth century, they can only be digitised by human transcription. Yet despite of their cultural significance and unlike for valuable manuscripts and high-brow literature, funds for transcribing the tens to hundreds of thousands of pages of an average mundane periodical are simply not available. Consequently, we still have not a single digital scholarly edition of any of these journals. But some of the best-funded scanning projects, such as &lt;a href=&quot;http://catalog.hathitrust.org/&quot;&gt;Hathitrust&lt;/a&gt;, produced digital imagery of numerous Arabic periodicals, while gray online-libraries of Arabic literature, namely &lt;a href=&quot;http://shamela.ws/&quot;&gt;&lt;em&gt;shamela.ws&lt;/em&gt;&lt;/a&gt;, provide access to a vast body of Arabic texts including transcriptions of unknown provinence, editorial principals, and quality for some of the mentioned periodicals. In addition, these gray “editions” lack information linking the digital representation to material originals, namely bibliographic meta-data and page breaks, which makes them almost impossible to employ for scholarly research.&lt;/p&gt;
+
+&lt;p&gt;With the &lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot; title=&quot;current state of the project&quot;&gt;GitHub-hosted TEI edition of &lt;em&gt;Majallat al-Muqtabas&lt;/em&gt;&lt;/a&gt; we want to show that through re-purposing available and well-established open software and by bridging the gap between immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers and academic scanning efforts as well as editorial expertise, one can produce scholarly editions that remedy the short-comings of either world with very small funds: We use &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;digital texts from &lt;em&gt;shamela.ws&lt;/em&gt;&lt;/a&gt;, transform them into TEI XML, add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link them to facsimiles provided through the &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63&quot;&gt;British Library’s “Endangered Archives Programme”&lt;/a&gt; and &lt;a href=&quot;http://catalog.hathitrust.org/Record/100658549&quot;&gt;HathiTrust&lt;/a&gt; (in the process of which we also make first corrections to the transcription). The digital edition (TEI XML and a basic web display) is then hosted as a GitHub repository with a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0 licence&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By linking images to the digital text, every reader can validate the quality of the transcription against the original, thus overcoming the greatest limitation of crowd-sourced or gray transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Improvements of the transcription and mark-up can be crowd-sourced with clear attribution of authorship and version control using .git and GitHub’s core functionality. Editions are referencable down to the word level for scholarly citations, annotation layers, as well as web-applications through a documented URI scheme. The web-display is implemented through a customised adaptation of the TEI Boilerplate XSLT stylesheets; it can be downloaded, distributed and run locally without any internet connection—a necessity for societies outside the global North. Finally, by sharing all our code (mostly XSLT) in addition to the XML files, we hope to facilitate similar projects and digital editions of further periodicals, namely Rashīd Riḍā’s &lt;em&gt;al-Manār&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;scope-of-the-project&quot;&gt;Scope of the project&lt;/h1&gt;
+
+&lt;p&gt;The purpose and scope of the project is to provide an open, collaborative, referencable, scholarly digital edition of Muḥammad Kurd ʿAlī’s journal &lt;em&gt;al-Muqtabas&lt;/em&gt;, which includes the full text, semantic mark-up, and digital imagery.&lt;/p&gt;
+
+&lt;p&gt;The digital edition will be provided as TEI P5 XML with its own schema. All files are hosted on &lt;a href=&quot;https://www.github.com&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The project will open avenues for re-purposing code for similar projects, i.e. for transforming full-text transcriptions from some HTML or XML source, such as &lt;a href=&quot;http://www.shamela.ws&quot;&gt;&lt;em&gt;al-Maktaba al-Shamela&lt;/em&gt;&lt;/a&gt;, into TEI P5 XML, linking them to digital imagery from other open repositories, such as &lt;a href=&quot;http://eap.bl.uk/&quot;&gt;EAP&lt;/a&gt; and &lt;a href=&quot;https://www.hathitrust.org&quot;&gt;HathiTrust&lt;/a&gt;, and generating a web display by, for instance, adapting the code base of &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The most likely candidates for such follow-up projects are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Muḥammad Rashīd Riḍā’s journal &lt;em&gt;al-Manār&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://shamela.ws/index.php/book/6947&quot;&gt;full text from shamela&lt;/a&gt;: 8605 views&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://catalog.hathitrust.org/Record/008882663&quot;&gt;imagery from hathitrust&lt;/a&gt;,&lt;a href=&quot;https://archive.org/details/almanaralmanar&quot;&gt;imagery / PDFs from the Internet Archive&lt;/a&gt;, which are linked from &lt;a href=&quot;http://waqfeya.com/book.php?bid=7374&quot;&gt;&lt;em&gt;al-Maktaba al-Waqfiyya&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ʿAbdallah al-Nadīm’s &lt;em&gt;majallat al-ustādh&lt;/em&gt;, Cairo, 24 Aug 1892
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://shamela.ws/index.php/book/35118&quot;&gt;full text from shamela&lt;/a&gt;: 11337 views.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ʿAbd al-Qādir bin Muḥammad Salīm al-Kaylānī al-Iskandarānī’s &lt;em&gt;majallat al-ḥaqāʾiq (al-dimashqiyya)&lt;/em&gt;, 1910
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://shamela.ws/index.php/book/29676&quot;&gt;full text from shamela&lt;/a&gt;: 5134 views.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-journal-al-muqtabas&quot;&gt;The journal &lt;em&gt;al-Muqtabas&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Muḥammad Kurd ʿAlī published the monthly journal &lt;em&gt;al-Muqtabas&lt;/em&gt; between 1906 and 1914(1916). The publication schedule followed the Muslim &lt;em&gt;hijrī&lt;/em&gt; calendar and, after the Young Turk Revolution of July 1908, publication moved from Cairo to Damascus in the journal’s third year.&lt;/p&gt;
+
+&lt;p&gt;There is some confusion as to the counting of issues and their publication dates. According to the masthead and the cover sheet, &lt;em&gt;al-Muqtabas&lt;/em&gt; was published following the Islamic &lt;em&gt;hijrī&lt;/em&gt; calendar (from the journal itself it must remain open whether the recorded publication dates were the actual publication dates). Sometimes the printers made errors: issue 2 of volume 4, for instance, carries Rab I 1327 as publication date on the cover sheet, but Ṣaf 1327 in its masthead. The latter would correspond to the official publication schedule.&lt;/p&gt;
+
+&lt;p&gt;Samir Seikaly argues that Muḥammad Kurd ʿAlī was wrong in stating in his memoirs that he published 8 volumes of 12 issues each and two independent issues.^[{Seikaly 1981@128}] But the actual hard copies at the &lt;a href=&quot;http://www.orient-institut.org&quot;&gt;Orient-Institut Beirut&lt;/a&gt; and the digital facsimiles from HathiTrust show that Kurd ʿAlī was right insofar as volume 9 existed and comprised 2 issues only. As it turns out, &lt;em&gt;al-Muqtabas&lt;/em&gt; published a number of double issues: &lt;a href=&quot;https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_41.TEIP5.xml&quot;&gt;Vol. 4 no. 5/6&lt;/a&gt; and &lt;a href=&quot;https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_94.TEIP5.xml&quot;&gt;Vol. 8 no. 11/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to the original edition, at least one reprint appeared: In 1992 Dār Ṣādir in Beirut published a facsimile edition, which is entirely unmarked as such but for the information on the binding itself. Checking this reprint against the original, it appeared to be a facsimile reprint: pagination, font, layout — everything is identical. But as Samir Seikaly remarked in 1981 that he used “two separate compilations of &lt;em&gt;al-Muqtabas&lt;/em&gt; […] in this study” there must be at least one other print edition that I have not yet seen.^[{Seikaly 1981@128}]&lt;/p&gt;
+
+&lt;h1 id=&quot;digital-imagery&quot;&gt;Digital imagery&lt;/h1&gt;
+
+&lt;p&gt;Image files are available from the &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63&quot;&gt;&lt;em&gt;al-Aqṣā&lt;/em&gt; Mosque’s library in Jerusalem through the British Library’s “Endangered Archives Project” (vols. 2-7)&lt;/a&gt;, &lt;a href=&quot;http://catalog.hathitrust.org/Record/100658549&quot;&gt;HathiTrust (vols. 1-6, 8)&lt;/a&gt;, and &lt;a href=&quot;http://ima.bibalex.org/IMA/presentation/periodic/list.jsf?pid=9C82C139F9785E99D30089727B40A269&quot;&gt;Institut du Monde Arabe&lt;/a&gt;. Due to its open access licence, preference is given to facsimiles from EAP.&lt;/p&gt;
+
+&lt;h2 id=&quot;eap119&quot;&gt;EAP119&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;links to volumes:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=809;r=12316&quot;&gt;Vol. 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=812;r=3035&quot;&gt;Vol. 3&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=813;r=22190&quot;&gt;Vol. 4&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=814;r=1842&quot;&gt;Vol. 5&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=810;r=288&quot;&gt;Vol. 6&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=811;r=30106&quot;&gt;Vol. 7&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;access:
+    &lt;ul&gt;
+      &lt;li&gt;the journal is in the public domain and the images can be freely accessed without restrictions. EAP does not provide a download button.&lt;/li&gt;
+      &lt;li&gt;Terms of access for material provided by the British Library can be found &lt;a href=&quot;http://www.bl.uk/aboutus/terms/index.html&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hathitrust&quot;&gt;HathiTrust&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;links to volumes
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968608&quot;&gt;Vol. 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968616&quot;&gt;Vol. 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968624&quot;&gt;Vol. 3&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968632&quot;&gt;Vol. 4&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968640&quot;&gt;Vol. 5&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/njp.32101073250910&quot;&gt;Vol. 6&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007615691&quot;&gt;Vol. 8&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.31951d008457474&quot;&gt;Index&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;access
+    &lt;ul&gt;
+      &lt;li&gt;The journal is in the public domain in the US and can be freely accessed and downloaded&lt;/li&gt;
+      &lt;li&gt;Outside the US, access is restricted.&lt;/li&gt;
+      &lt;li&gt;Formal &lt;a href=&quot;https://www.hathitrust.org/access_use#pd-us-google&quot;&gt;licence&lt;/a&gt;:&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Public Domain or Public Domain in the United States, Google-digitized: In addition to the terms for works that are in the Public Domain or in the Public Domain in the United States above, the following statement applies: The digital images and OCR of this work were produced by Google, Inc. (indicated by a watermark on each page in the PageTurner). Google requests that the images and OCR not be re-hosted, redistributed or used commercially. The images are provided for educational, scholarly, non-commercial purposes.
+Note: There are no restrictions on use of text transcribed from the images, or paraphrased or translated using the images.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;full-text&quot;&gt;Full text&lt;/h1&gt;
+
+&lt;p&gt;Somebody took the pains to create fully searchable text files and uploaded everything to &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;al-Maktaba al-Shamela&lt;/a&gt; and  &lt;a href=&quot;https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1&quot;&gt;WikiSource&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;al-maktaba-al-shmilahttpwwwshamelaws&quot;&gt;&lt;a href=&quot;http://www.shamela.ws&quot;&gt;al-Maktaba al-Shāmila&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Extent: According to the main &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;entry&lt;/a&gt;, &lt;em&gt;shamela&lt;/em&gt; has all 96 issues.&lt;/li&gt;
+  &lt;li&gt;Transcribers, editors: Apparently, they have been typed and copy-edited by unnamed humans.&lt;/li&gt;
+  &lt;li&gt;Features edition: paragraphs, page breaks, headlines.&lt;/li&gt;
+  &lt;li&gt;Features interface:
+    &lt;ul&gt;
+      &lt;li&gt;all issues can be browsed for headlines and searched&lt;/li&gt;
+      &lt;li&gt;all pages can be individually adressed in the browser: &lt;a href=&quot;http://shamela.ws/browse.php/book-26523#page-2290&quot;&gt;http://shamela.ws/browse.php/book-26523#page-2290&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wikisource&quot;&gt;WikiSource&lt;/h2&gt;
+
+&lt;p&gt;It seems that somebody took the pains to upload the tet from &lt;em&gt;shamela&lt;/em&gt; to WikiSource. Unfortunately it is impossible to browse the entire journal. Instead one has to adress each individual and consecutively numbered issue, e.g. Vol. 4, No. 1 is listed as &lt;a href=&quot;https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_37&quot;&gt;No. 37&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;tei-edition-of-al-muqtabashttpsgithubcomtillgrallertdigital-muqtabas&quot;&gt;&lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot;&gt;TEI edition of &lt;em&gt;al-Muqtabas&lt;/em&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;The main challenge is to combine the full text and the images in a digital XML edition following the &lt;a href=&quot;https://www.tei-c.org&quot;&gt;TEI&lt;/a&gt;. As &lt;em&gt;al-maktabat al-shāmila&lt;/em&gt; did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.&lt;/p&gt;
+
+&lt;h2 id=&quot;general-design&quot;&gt;General design&lt;/h2&gt;
+
+&lt;p&gt;The edition should be conceived of as a corpus of tei files that are grouped by means of xinclude. This way, volumes can be constructed as single TEI files containing a &lt;code&gt;&amp;lt;group/&amp;gt;&lt;/code&gt; of TEI files and a volume specific &lt;code&gt;&amp;lt;front/&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;back/&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Detailled description and notes on the mark-up are kept in a separate &lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas/blob/master/notes-tei-markup.md&quot;&gt;file in the GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;quality-control&quot;&gt;Quality control&lt;/h2&gt;
+
+&lt;p&gt;A simple way of controlling the quality of the basic structural mark-up would be to cross check any automatically generated table of content or index against the published tables of content at the end of each volume and against the index of &lt;em&gt;al-Muqtabas&lt;/em&gt; published by &lt;a href=&quot;http://hdl.handle.net/2027/umn.31951d008457474&quot;&gt;Riyāḍ ʿAbd al-Ḥamīd Murād in 1977&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;web-display-tei-boilerplate&quot;&gt;Web display: TEI Boilerplate&lt;/h1&gt;
+
+&lt;p&gt;To allow a quick review of the mark-up and read the journal’s content, I decided to customise &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt; for a first display of the TEI files in the browser without need for pre-processed HTML and host this heavily customised boilerplate view as a seperate branch of the GitHub repository. For a first impression see &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Nov 2015 19:01:16 +0200</pubDate>
+        <link>https://tillgrallert.github.io/2015/11/13/online-resource-muqtabas.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/11/13/online-resource-muqtabas.html</guid>
+        
+        <category>digitized resources</category>
+        
+        <category>digital editions</category>
+        
+        <category>xml</category>
+        
+        <category>tei</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Middle Eastern Grafitti</title>
+        <description>&lt;p&gt;Thanks to the British Library’s &lt;a href=&quot;http://eap.bl.uk/index.a4d&quot;&gt;Endangered Archives Programme (EAP)&lt;/a&gt; we have not just access to the collection of late Ottoman &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119&quot;&gt;periodicals from the library of &lt;em&gt;al-Aqṣā&lt;/em&gt; Mosque (EAP119)&lt;/a&gt; in Jerusalem, but also to more than 3.000 photos of &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP644&quot;&gt;Maison Bonfils from the Fouad Debbas Collection in Beirut (EAP644)&lt;/a&gt; that were made available to the public in 2014.&lt;/p&gt;
+
+&lt;p&gt;Looking through this vast body of images—a large part of which documents the ruines and antiquities in the Levant and Egypt—one can find an astonishing record of late-nineteenth century grafitti: names and dates scribbled on walls and columns to document the visit of local and foreign travellers. The urge to record one’s existence was not restricted to the new middle-class traveller. Famously the Ottoman Sultan ʿAbdülḥamīd II and the German Kaiser Wilhelm II had marble plaques affixed to the ruins of Baalbek to commemorate the latter’s visit to the site in 1898. But looking through the images I stumbled over another grafitti&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Shāhīn Makāriyūs 1878&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_209_0826_01_L.jpg&quot; alt=&quot;Shāhīn Makāriyūs left his mark in Baalbek in 1878&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the same &lt;a href=&quot;https://viaf.org/viaf/38237868&quot;&gt;Shāhīn Makāriyūs (also Chahin Macarius, Shaheen Makarius)&lt;/a&gt;, who, together with Yaʿqūb Ṣarrūf and Fāris Nimr, published the &lt;a href=&quot;/2013/08/19/the-puzzle-continues.html&quot;&gt;monthly journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;&lt;/a&gt; from 1876 onwards—first in Beirut and, from 1884 onwards, in Cairo. He was also prominent member of masonic lodges and authored a number of books on the history of freemasonry. In 1890, &lt;em&gt;al-Bashīr&lt;/em&gt; from Beirut already mentioned &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; and &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, another journal Shāhīn Makāriyūs edited between 1886–96, as being masonic papers.^[Bashīr 4 Nov. 1890 (#1037):3 and Bashīr 26 Nov. 1890 (#1040):1, which ran a front page article titled “The slander of &lt;em&gt;al-Laṭāʾif&lt;/em&gt;” (&lt;em&gt;iftirāʾ al-laṭāʾif&lt;/em&gt;).] &lt;em&gt;Al-Laṭāʾif al-Muṣawwara&lt;/em&gt;, an illustrated successor journal to &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, that had most likely stopped being published around 1896, was edited by his son (?) Iskandar Makāriyūs in Cairo from 1915 onwards.&lt;/p&gt;
+
+&lt;h2 id=&quot;ads&quot;&gt;ads&lt;/h2&gt;
+
+&lt;p&gt;But it’s not just visitors leaving their traces for posterity, some images reveal that the walls of the ruins were also used for advertisements. Several photos of the entrance to the cella of Baalbek’s main temple of Jupiter dating to the 1880s show that the photo studio Bonfils itself had announced its services on the wall to the right.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-2_0284_01_L.jpg&quot; alt=&quot;a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_56-TFDC_518_029_0443_01_L.jpg&quot; alt=&quot;b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_30-TFDC_172_024_0284_01_L.jpg&quot; alt=&quot;c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_187_0822_01_L.jpg&quot; alt=&quot;d&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/2015/11/12/middle-eastern-grafitti.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/11/12/middle-eastern-grafitti.html</guid>
+        
+        <category>lebanon</category>
+        
+        <category>grafitti</category>
+        
+        
+      </item>
+    
+      <item>
+>>>>>>> gh-pages
         <title>The difficulty of establishing publication dates for books from late Ottoman *Bilād al-Shām*</title>
         <description>&lt;p&gt;I am currently preparing my thesis for publication and the process of revision, I am again turning to Ottoman legal texts and their translations. Today I want to come briefly back to a question I have extensively dealt with in my thesis: The difficulty of dating printed sources from the late Ottoman &lt;em&gt;Bilād al-Shām&lt;/em&gt;.&lt;/p&gt;
 
@@ -35,7 +241,11 @@
 
 &lt;p&gt;and seemingly indicates that the copy at AUB once belonged to the editor of the book, Khalīl al-Khūrī, himself. The stamp also records a Gregorian date: 1883. If this was the date of acquisition, the stamp could prove that the volume was indeed published in 1301 &lt;em&gt;hijrī&lt;/em&gt;. Searching through my research notes, however, it appeared that the &lt;em&gt;Librairie Universelle&lt;/em&gt; was a publishing press and bookstore rather than a library run by the brothers Amīn and Khalīl al-Khūrī in Beirut and at least by 1887 they had adopted the more common Arabic term for a publishing press: &lt;em&gt;al-maṭbaʿa al-jāmiʿ&lt;/em&gt;.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; But why would a bookstore stamp its merchandise?&lt;/p&gt;
 
+<<<<<<< HEAD
 &lt;p&gt;For the moment this question most remain open as well as the opening date of the endeavour.&lt;/p&gt;
+=======
+&lt;p&gt;For the moment this question must remain as open as the opening date of the endeavour.&lt;/p&gt;
+>>>>>>> gh-pages
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -49,14 +259,23 @@
       &lt;p&gt;Lisān al-Hāl 26 May 1887 (#959):1, Thamarāt al-Funūn 30 May 1887 (#633):1 advertised the book at a price of 2 mecidiye or Ps 40. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
+<<<<<<< HEAD
       &lt;p&gt;e.g. Lisān 13 Oct. 1887 (#999):4. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+=======
+      &lt;p&gt;e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+>>>>>>> gh-pages
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 23 Jul 2015 15:55:02 +0300</pubDate>
+<<<<<<< HEAD
         <link>http://www.sitzextase.de/2015/07/23/dating-books.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2015/07/23/dating-books.html</guid>
+=======
+        <link>https://tillgrallert.github.io/2015/07/23/dating-books.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/07/23/dating-books.html</guid>
+>>>>>>> gh-pages
         
         <category>book history</category>
         
@@ -64,6 +283,117 @@
         
         <category>ottoman empire</category>
         
+<<<<<<< HEAD
+=======
+        <category>research in progress</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Academic writing in plain text: useful resources</title>
+        <description>&lt;h1 id=&quot;plain-text-and-markdown&quot;&gt;Plain text and MarkDown&lt;/h1&gt;
+
+&lt;h2 id=&quot;academicmarkdown&quot;&gt;AcademicMarkdown&lt;/h2&gt;
+
+&lt;h2 id=&quot;criticmarkup&quot;&gt;CriticMarkup&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://macdrifter.com/2013/02/everyones-a-critic-the-critic-markup-language-proposal.html&quot;&gt;CriticMarkup&lt;/a&gt;: extension to MMD for editorial markup of texts. The project website is &lt;a href=&quot;http://criticmarkup.com/&quot;&gt;http://criticmarkup.com/&lt;/a&gt; and the code is hosted on &lt;a href=&quot;https://github.com/CriticMarkup/CriticMarkup-toolkit&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Integration into tools:
+    &lt;ul&gt;
+      &lt;li&gt;Sublime Text 3’s AcademicMarkdown package supports syntax highlighting for CriticMarkup&lt;/li&gt;
+      &lt;li&gt;There is a CriticMarkup &lt;a href=&quot;https://github.com/CriticMarkup/CriticMarkup-toolkit/tree/master/Sublime%20Text%203%20Package/&quot;&gt;SL3 package&lt;/a&gt;. It is not managed by package control and a documentation can be found &lt;a href=&quot;http://criticmarkup.com/sublime-text.php&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;The &lt;a href=&quot;https://github.com/CriticMarkup/CriticMarkup-toolkit&quot;&gt;CriticMarkup toolkit&lt;/a&gt; contains processors for various programs but not for Sublime Text.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Basic Syntax
+    &lt;ul&gt;
+      &lt;li&gt;Addition &lt;code&gt;{++ ++}&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Deletion &lt;code&gt;{-- --}&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Substitution &lt;code&gt;{~~ ~&amp;gt; ~~}&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Comment &lt;code&gt;{&amp;gt;&amp;gt; &amp;lt;&amp;lt;}&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Highlight &lt;code&gt;{== ==}{&amp;gt;&amp;gt; &amp;lt;&amp;lt;}&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;kramdown&quot;&gt;KramDown&lt;/h1&gt;
+
+&lt;p&gt;An extension of MarkDown with a strict, unambiguous syntax used in Jekyll. The documentation of the syntax can be found &lt;a href=&quot;http://kramdown.gettalong.org/syntax.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;pandoc&quot;&gt;Pandoc&lt;/h1&gt;
+
+&lt;p&gt;Pandoc can be used as standard processor for markdown in jekyll with the help of a small &lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;plugin&lt;/a&gt; named “&lt;a href=&quot;https://github.com/mfenner/jekyll-pandoc&quot;&gt;jekyll-pandoc&lt;/a&gt;”. To install it via terminal type&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ gem install jekyll-pandoc&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It can then be referenced in one’s site’s &lt;code&gt;_config.yml&lt;/code&gt; as &lt;code&gt;markdown: pandoc&lt;/code&gt; after the following has been added:&lt;/p&gt;
+
+&lt;p&gt;~~~
+gems: 
+    - jekyll-pandoc
+~~&lt;/p&gt;
+
+&lt;p&gt;However, one cannot use any plug-ins if jekyll is run on GitHub-pages, which operate in safe-mode. There was a lengthy discussion on the &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/1973&quot;&gt;jekyll forum&lt;/a&gt; whether or not to include pandoc as a markdown processor. Unfortunately this has been rejected by the jekyll team.&lt;/p&gt;
+
+&lt;h1 id=&quot;git--github&quot;&gt;Git / GitHub&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chad Black’s &lt;a href=&quot;https://parezcoydigo.wordpress.com/2013/08/26/getting-started-with-github-and-prose-io/&quot;&gt;getting started with github and prose.io&lt;/a&gt; on using a combination of GitHub, jekyll, and prose.io for a collaborative seminar &lt;a href=&quot;http://dh.chadblack.net/info/all_posts/&quot;&gt;blog&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing&quot;&gt;GitHub, Academia, and Collaborative Writing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hybridpedagogy.com/journal/push-pull-fork-github-for-academics/&quot;&gt;Push, Pull, Fork: GitHub for Academics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics/&quot;&gt;GitHub for Academics: the open-source way to host, create and curate knowledge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://savageminds.org/2013/02/15/living-in-a-plain-text-world-tools-we-use/&quot;&gt;Living in a Plain Text World (Tools We Use)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://technical.ly/brooklyn/2014/09/12/authorea-software-for-academic-paper-writing-is-inspired-by-git/&quot;&gt;This software for academic paper writing is inspired by Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.lifehack.org/articles/technology/how-to-use-git-to-version-your-writing.html&quot;&gt;How To: Use Git to Version Your Writing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.martineve.com/2013/08/18/using-git-in-my-writing-workflow/&quot;&gt;Using git in my writing workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tags in Jekyll / GitHub pages
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://charliepark.org/tags-in-jekyll/&quot;&gt;Tags in jekyll&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.minddust.com/post/tags-and-categories-on-github-pages/&quot;&gt;How To Use Tags And Categories On GitHub Pages Without Plugins&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pandoc
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/fauno/jekyll-pandoc-multiple-formats&quot;&gt;Another pandoc plugin for jekyll&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Jekyll themes
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole, Jekyll’s buttler&lt;/a&gt;: editor for Jekyll themes, at the moment at least two themes are available and GO::DH Minimal Computing SIG used it to build its website&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Plug-ins: if hosted on GitHub, jekyll runs in safe mode and disables third-party plug-ins
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developmentseed.org/blog/2013/05/01/introducing-jekyll-hook/&quot;&gt;Jekyll-hook&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;liquid-templating&quot;&gt;Liquid templating&lt;/h2&gt;
+
+&lt;p&gt;Liquid templating was designed by and for the shopify website: “Liquid is an open-source, Ruby-based template language created by Shopify. It is the backbone of Shopify themes and is used to load dynamic content on storefronts.”&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wiki.shopify.com/Liquid&quot;&gt;Liquid template engine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Great overview of &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;syntax and commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://alanwsmith.com/jekyll-liquid-date-formatting-examples&quot;&gt;Jekyll Date Formatting Examples&lt;/a&gt; using liquid&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 20 Jul 2015 00:00:00 +0300</pubDate>
+        <link>https://tillgrallert.github.io/2015/07/20/jekyll-resources.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/07/20/jekyll-resources.html</guid>
+        
+        <category>links</category>
+        
+>>>>>>> gh-pages
         
       </item>
     
@@ -84,8 +414,13 @@
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
+<<<<<<< HEAD
         <link>http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/06/01/TEI-at-DHSI.html</guid>
+=======
+        <link>https://tillgrallert.github.io/teaching/2015/06/01/TEI-at-DHSI.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/teaching/2015/06/01/TEI-at-DHSI.html</guid>
+>>>>>>> gh-pages
         
         <category>teaching</category>
         
@@ -119,8 +454,13 @@
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
+<<<<<<< HEAD
         <link>http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/teaching/2015/03/02/TEI-at-DHIB.html</guid>
+=======
+        <link>https://tillgrallert.github.io/teaching/2015/03/02/TEI-at-DHIB.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/teaching/2015/03/02/TEI-at-DHIB.html</guid>
+>>>>>>> gh-pages
         
         <category>teaching</category>
         
@@ -260,8 +600,13 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 23 Feb 2015 00:00:00 +0200</pubDate>
+<<<<<<< HEAD
         <link>http://www.sitzextase.de/2015/02/23/workshop-editions-material.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2015/02/23/workshop-editions-material.html</guid>
+=======
+        <link>https://tillgrallert.github.io/2015/02/23/workshop-editions-material.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2015/02/23/workshop-editions-material.html</guid>
+>>>>>>> gh-pages
         
         <category>digital humanities</category>
         
@@ -287,8 +632,13 @@
 &lt;p&gt;Unfortunately, I have not had access to different editions of volume 5 (the covers of copies SOAS, Michigan, and Princeton show no differences), but I suspect it too exists in (at least) two editions.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Jan 2014 13:57:30 +0200</pubDate>
+<<<<<<< HEAD
         <link>http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2014/01/19/the-puzzle-continues-2.html</guid>
+=======
+        <link>https://tillgrallert.github.io/2014/01/19/the-puzzle-continues-2.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2014/01/19/the-puzzle-continues-2.html</guid>
+>>>>>>> gh-pages
         
         <category>19th century</category>
         
@@ -365,8 +715,13 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 04 Jan 2014 00:00:00 +0200</pubDate>
+<<<<<<< HEAD
         <link>http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2014/01/04/new-calendar-conversion.html</guid>
+=======
+        <link>https://tillgrallert.github.io/2014/01/04/new-calendar-conversion.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2014/01/04/new-calendar-conversion.html</guid>
+>>>>>>> gh-pages
         
         <category>xml</category>
         
@@ -401,8 +756,13 @@
 &lt;p&gt;A systematic comparison of the two editions, the existence of which hitherto escaped the scholarly community, might reveal and equally systematic targetting of themes to different audiences. This could mean that major scholarly works on the Nahda, the press, and its audience need substantial reworking.&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Aug 2013 14:39:09 +0300</pubDate>
+<<<<<<< HEAD
         <link>http://www.sitzextase.de/2013/08/19/the-puzzle-continues.html</link>
         <guid isPermaLink="true">http://www.sitzextase.de/2013/08/19/the-puzzle-continues.html</guid>
+=======
+        <link>https://tillgrallert.github.io/2013/08/19/the-puzzle-continues.html</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/2013/08/19/the-puzzle-continues.html</guid>
+>>>>>>> gh-pages
         
         <category>19th century</category>
         
@@ -417,6 +777,7 @@
         
       </item>
     
+<<<<<<< HEAD
       <item>
         <title>XSLT functions for converting calendars</title>
         <description>&lt;p&gt;Recently I came across the necessity of converting Islamic &lt;em&gt;hijrī&lt;/em&gt; dates to Gregorian dates in order to automatically harvest data from the Baṣbakanlik Osmanli Arṣivi’s catalogue into my research database. Unfortunately the database I use (the reference manager Sente) is proprietary software that can only deal with Gregorian dates. Thus, I needed to translate a certain string through XSLT in order to produce the correct XML for import into the database. I soon discovered that even though, formally the specifications for the format-date() function in XPath 2.0 include the &lt;em&gt;hijrī&lt;/em&gt; calendar (labelled “Islamic”) and even Arabic month names, this specification was never actually implemented.
@@ -597,5 +958,7 @@ document.getElementById(&quot;b4&quot;).onclick = function funcCalcMetric (){
         
       </item>
     
+=======
+>>>>>>> gh-pages
   </channel>
 </rss>
