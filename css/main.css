@@ -36,9 +36,27 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-  max-width: 100%;
-  vertical-align: middle; }
+  max-width: 90%;
+  display: block;
+  clear: both;
+  margin-top: 1em;
+  margin-left: 5%;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #000;
+  border: gray solid 1px; }
 
+/* this can never possibly work, as pseudo-elements are not available for empty HTMl elements */
+ /* img:after {
+    content: attr(alt);
+    width:100%;
+    display: block;
+    margin-top: 1em;
+ position:relative;
+  font-size:0.8em;
+  text-align: right;
+  font-weight:lighter;
+}*/
 /**
  * Figures
  */
@@ -440,8 +458,17 @@ a.post-more {
   clear: left; }
 
 /* footnotes */
+div.footnotes::before {
+  content: "Notes: ";
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /* border-bottom: solid 1px; */ }
+
 .footnotes {
-  font-size: 0.8em; }
+  margin-top: 1.5em;
+  font-size: 0.8em;
+  /* border-top: solid 1px; */ }
 
 /**
  * Syntax highlighting styles

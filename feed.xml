@@ -5,9 +5,9 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Nov 2015 00:58:57 +0200</pubDate>
-    <lastBuildDate>Sun, 15 Nov 2015 00:58:57 +0200</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sun, 15 Nov 2015 18:34:11 +0200</pubDate>
+    <lastBuildDate>Sun, 15 Nov 2015 18:34:11 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
     
       <item>
         <title>*Majallat al-Muqtabas*: one of the most important journals of late Ottoman *Bilād al-Shām* as open, reference-able TEI P5 Edition</title>
@@ -153,8 +153,8 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 &lt;p&gt;To allow a quick review of the mark-up and read the journal’s content, I decided to customise &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt; for a first display of the TEI files in the browser without need for pre-processed HTML and host this heavily customised boilerplate view as a seperate branch of the GitHub repository. For a first impression see &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Nov 2015 19:01:16 +0200</pubDate>
-        <link>https://tillgrallert.github.io/2015/11/13/online-resource-muqtabas.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/2015/11/13/online-resource-muqtabas.html</guid>
+        <link>https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</guid>
         
         <category>digitized resources</category>
         
@@ -179,24 +179,45 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_209_0826_01_L.jpg&quot; alt=&quot;Shāhīn Makāriyūs left his mark in Baalbek in 1878&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This is the same &lt;a href=&quot;https://viaf.org/viaf/38237868&quot;&gt;Shāhīn Makāriyūs (also Chahin Macarius, Shaheen Makarius)&lt;/a&gt;, who, together with Yaʿqūb Ṣarrūf and Fāris Nimr, published the &lt;a href=&quot;/2013/08/19/the-puzzle-continues.html&quot;&gt;monthly journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;&lt;/a&gt; from 1876 onwards—first in Beirut and, from 1884 onwards, in Cairo. He was also a prominent member of masonic lodges and authored a number of books on the history of freemasonry in Arabic and English. In 1890, &lt;em&gt;al-Bashīr&lt;/em&gt; from Beirut already mentioned &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; and &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, another journal Shāhīn Makāriyūs edited between 1886–96, as being masonic papers.^[Bashīr 4 Nov. 1890 (#1037):3 and Bashīr 26 Nov. 1890 (#1040):1, which ran a front page article titled “The slander of &lt;em&gt;al-Laṭāʾif&lt;/em&gt;” (&lt;em&gt;iftirāʾ al-laṭāʾif&lt;/em&gt;).] &lt;em&gt;Al-Laṭāʾif al-Muṣawwara&lt;/em&gt;, an illustrated successor journal to &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, that had most likely stopped being published around 1896, was edited by his son (?) Iskandar Makāriyūs in Cairo from 1915 onwards.&lt;/p&gt;
+&lt;p&gt;This is the same &lt;a href=&quot;https://viaf.org/viaf/38237868&quot;&gt;Shāhīn Makāriyūs (also Chahin Macarius, Shaheen Makarius)&lt;/a&gt;, who, together with Yaʿqūb Ṣarrūf and Fāris Nimr, published the &lt;a href=&quot;/blog/2013/08/19/the-puzzle-continues/&quot;&gt;monthly journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;&lt;/a&gt; from 1876 onwards—first in Beirut and, from 1884 onwards, in Cairo. He was also a prominent member of masonic lodges and authored a number of books on the history of freemasonry in Arabic and English. In 1890, &lt;em&gt;al-Bashīr&lt;/em&gt; from Beirut already mentioned &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; and &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, another journal Shāhīn Makāriyūs edited between 1886–96, as being masonic papers.^[Bashīr 4 Nov. 1890 (#1037):3 and Bashīr 26 Nov. 1890 (#1040):1, which ran a front page article titled “The slander of &lt;em&gt;al-Laṭāʾif&lt;/em&gt;” (&lt;em&gt;iftirāʾ al-laṭāʾif&lt;/em&gt;).] &lt;em&gt;Al-Laṭāʾif al-Muṣawwara&lt;/em&gt;, an illustrated successor journal to &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, that had most likely stopped being published around 1896, was edited by his son (?) Iskandar Makāriyūs in Cairo from 1915 onwards.&lt;/p&gt;
 
 &lt;h2 id=&quot;ads&quot;&gt;ads&lt;/h2&gt;
 
-&lt;p&gt;But it’s not just visitors leaving their traces for posterity, some images reveal that the walls of the ruins were also used for advertisements. Several photos of the entrance to the cella of Baalbek’s main temple of Jupiter dating to the 1880s show that the photo studio Bonfils itself had announced its services on the wall to the right.&lt;/p&gt;
+&lt;p&gt;But it’s not just visitors leaving their traces for posterity, some images reveal that the walls of the ruins were also used for advertisements. Several photos of the entrance to the cella of Baalbek’s main temple of Jupiter dating to the 1870s and onwards show that the photo studio Bonfils itself had announced its services on the wall to the right:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-2_0284_01_L.jpg&quot; alt=&quot;a&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;BONFILS Photogra[phie …]&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_56-TFDC_518_029_0443_01_L.jpg&quot; alt=&quot;b&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;a Beyro[uth …]&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_30-TFDC_172_024_0284_01_L.jpg&quot; alt=&quot;c&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Vues de Balbek […]&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_187_0822_01_L.jpg&quot; alt=&quot;d&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;1871&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_43-TFDC_502_004_0284_01_L.jpg&quot; alt=&quot;Probably the earliest photo judged from the state and number of graffiti&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-2_0284_01_L.jpg&quot; alt=&quot;After 1880&quot; /&gt;
+&lt;!-- the photo must have been taken after 1880 --&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_65-TFDC_528_078_0443_01_L.jpg&quot; alt=&quot;Later stage than the previous photo with a much larger number of graffiti&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_187_0822_01_L.jpg&quot; alt=&quot;After 1883&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_186_0821_01_L.jpg&quot; alt=&quot;After 1883&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-1_0443_01_L.jpg&quot; alt=&quot;After 1898 with the plague commemorating ʿAbdülḥamīd II and Kaiser Wilhelm II. The graffiti to the right of the entrance are still visible&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
-        <link>https://tillgrallert.github.io/2015/11/12/middle-eastern-graffiti.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/2015/11/12/middle-eastern-graffiti.html</guid>
+        <link>https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</guid>
         
         <category>lebanon</category>
         
@@ -251,8 +272,8 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 23 Jul 2015 15:55:02 +0300</pubDate>
-        <link>https://tillgrallert.github.io/2015/07/23/dating-books.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/2015/07/23/dating-books.html</guid>
+        <link>https://tillgrallert.github.io/blog/2015/07/23/dating-books/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/07/23/dating-books/</guid>
         
         <category>book history</category>
         
@@ -267,7 +288,9 @@ Note: There are no restrictions on use of text transcribed from the images, or p
     
       <item>
         <title>Academic writing in plain text: useful resources</title>
-        <description>&lt;h1 id=&quot;plain-text-and-markdown&quot;&gt;Plain text and MarkDown&lt;/h1&gt;
+        <description>&lt;p&gt;This post is more of a continuously updated note on possible workflows that are based on plain text and the principles of minimal computing.&lt;/p&gt;
+
+&lt;h1 id=&quot;plain-text-and-markdown&quot;&gt;Plain text and MarkDown&lt;/h1&gt;
 
 &lt;h2 id=&quot;academicmarkdown&quot;&gt;AcademicMarkdown&lt;/h2&gt;
 
@@ -298,20 +321,23 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;An extension of MarkDown with a strict, unambiguous syntax used in Jekyll. The documentation of the syntax can be found &lt;a href=&quot;http://kramdown.gettalong.org/syntax.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&quot;pandoc&quot;&gt;Pandoc&lt;/h1&gt;
+&lt;h1 id=&quot;pandoc-and-jekyll&quot;&gt;Pandoc and Jekyll&lt;/h1&gt;
 
-&lt;p&gt;Pandoc can be used as standard processor for markdown in jekyll with the help of a small &lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;plugin&lt;/a&gt; named “&lt;a href=&quot;https://github.com/mfenner/jekyll-pandoc&quot;&gt;jekyll-pandoc&lt;/a&gt;”. To install it via terminal type&lt;/p&gt;
+&lt;p&gt;Pandoc can be used as standard processor for markdown in jekyll with the help of small &lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;plugins&lt;/a&gt;. However, one cannot use any plug-ins if jekyll is run on GitHub-pages, which operate in safe-mode. There was a lengthy discussion on the &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/1973&quot;&gt;jekyll forum&lt;/a&gt; whether or not to include pandoc as a markdown processor. Unfortunately this has been rejected by the jekyll team.&lt;/p&gt;
+
+&lt;h2 id=&quot;another-pandoc-plugin-for-jekyllhttpsgithubcomfaunojekyll-pandoc-multiple-formats&quot;&gt;&lt;a href=&quot;https://github.com/fauno/jekyll-pandoc-multiple-formats&quot;&gt;Another pandoc plugin for jekyll&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;jekyll-pandochttpsgithubcommfennerjekyll-pandoc&quot;&gt;&lt;a href=&quot;https://github.com/mfenner/jekyll-pandoc&quot;&gt;jekyll-pandoc&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;To install it via terminal type&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;$ gem install jekyll-pandoc&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;It can then be referenced in one’s site’s &lt;code&gt;_config.yml&lt;/code&gt; as &lt;code&gt;markdown: pandoc&lt;/code&gt; after the following has been added:&lt;/p&gt;
 
-&lt;p&gt;~~~
-gems: 
+&lt;pre&gt;&lt;code&gt;gems: 
     - jekyll-pandoc
-~~&lt;/p&gt;
-
-&lt;p&gt;However, one cannot use any plug-ins if jekyll is run on GitHub-pages, which operate in safe-mode. There was a lengthy discussion on the &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/1973&quot;&gt;jekyll forum&lt;/a&gt; whether or not to include pandoc as a markdown processor. Unfortunately this has been rejected by the jekyll team.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id=&quot;git--github&quot;&gt;Git / GitHub&lt;/h1&gt;
 
@@ -350,6 +376,11 @@ gems:
       &lt;li&gt;&lt;a href=&quot;https://developmentseed.org/blog/2013/05/01/introducing-jekyll-hook/&quot;&gt;Jekyll-hook&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;add image captions:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://codingtips.kanishkkunal.in/image-caption-jekyll/&quot;&gt;with an include tag&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;liquid-templating&quot;&gt;Liquid templating&lt;/h2&gt;
@@ -363,10 +394,14 @@ gems:
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 20 Jul 2015 00:00:00 +0300</pubDate>
-        <link>https://tillgrallert.github.io/2015/07/20/jekyll-resources.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/2015/07/20/jekyll-resources.html</guid>
+        <link>https://tillgrallert.github.io/blog/2015/07/20/jekyll-resources/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/07/20/jekyll-resources/</guid>
         
         <category>links</category>
+        
+        <category>tools</category>
+        
+        <category>resources</category>
         
         
       </item>
@@ -388,8 +423,8 @@ gems:
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
-        <link>https://tillgrallert.github.io/teaching/2015/06/01/TEI-at-DHSI.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/teaching/2015/06/01/TEI-at-DHSI.html</guid>
+        <link>https://tillgrallert.github.io/blog/2015/06/01/tei-at-dhsi/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/06/01/tei-at-dhsi/</guid>
         
         <category>teaching</category>
         
@@ -423,8 +458,8 @@ gems:
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
-        <link>https://tillgrallert.github.io/teaching/2015/03/02/TEI-at-DHIB.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/teaching/2015/03/02/TEI-at-DHIB.html</guid>
+        <link>https://tillgrallert.github.io/blog/2015/03/02/tei-at-dhib/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/03/02/tei-at-dhib/</guid>
         
         <category>teaching</category>
         
@@ -564,8 +599,8 @@ gems:
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 23 Feb 2015 00:00:00 +0200</pubDate>
-        <link>https://tillgrallert.github.io/2015/02/23/workshop-editions-material.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/2015/02/23/workshop-editions-material.html</guid>
+        <link>https://tillgrallert.github.io/blog/2015/02/23/workshop-editions-material/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/02/23/workshop-editions-material/</guid>
         
         <category>digital humanities</category>
         
@@ -582,17 +617,18 @@ gems:
     
       <item>
         <title>The puzzle continues II: in addition to *al-kabīr* and *al-ṣaghīr*, *al-Muqtaṭaf* published slightly different editions in Beirut and Kairo</title>
-        <description>&lt;p&gt;I am just about to fix the references in my thesis, and a possible reason for differences between available copies of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, which I had briefly mentioned in my first post &lt;a href=&quot;/2012/12/29/the-historians-puzzle.html&quot;&gt;on the issue of differences between copies of printed periodicals that ought to be similar&lt;/a&gt;. As I wrote &lt;a href=&quot;/2013/08/19/the-puzzle-continues.html&quot;&gt;some eight months later&lt;/a&gt;, the scholarly community had just not read &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; close enough to discover the existence of a long (&lt;em&gt;kabīr&lt;/em&gt;) and short (&lt;em&gt;ṣaghīr&lt;/em&gt;) for Volumes 6 to 9, which were most likely targetted at two different markets (the long version at Egypt and Europe and the short one at Beirut, Lebanon, and surrounding areas).&lt;/p&gt;
+        <description>&lt;p&gt;I am just about to fix the references in my thesis, and a possible reason for differences between available copies of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, which I had briefly mentioned in my first post &lt;a href=&quot;/blog/2012/12/29/the-historians-puzzle/&quot;&gt;on the issue of differences between copies of printed periodicals that ought to be similar&lt;/a&gt;. As I wrote &lt;a href=&quot;/blog/2013/08/19/the-puzzle-continues/&quot;&gt;some eight months later&lt;/a&gt;, the scholarly community had just not read &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; close enough to discover the existence of a long (&lt;em&gt;kabīr&lt;/em&gt;) and short (&lt;em&gt;ṣaghīr&lt;/em&gt;) for Volumes 6 to 9, which were most likely targetted at two different markets (the long version at Egypt and Europe and the short one at Beirut, Lebanon, and surrounding areas).&lt;/p&gt;
 
 &lt;p&gt;Yet, the original puzzle had been the absence of a short note on the publication of the three new periodicals &lt;em&gt;Dimashq&lt;/em&gt;, &lt;em&gt;al-Salām&lt;/em&gt;, and &lt;em&gt;al-Iʿtidāl&lt;/em&gt; in &lt;a href=&quot;http://sitzextase.de/muqtataf/muqtataf-v04-i05.html&quot;&gt;some copies of the fifth issue of volume 4&lt;/a&gt;. Upon closer inspection of the front covers to copies of volume 4, I found the same difference in annual subscription prices and that those copies lacking the short article, carried the note “Printed at &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; Press in Egypt on the expense of founders and Shāhīn Makāriyūs, the owner of the press”. We can thus establish the existence of an “Egyptian” and a “Syrian” edition already by June 1878 (the publication date of the first issue of volume 4).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sitzextase.de/muqtataf//img/v04/pr02/um/muqtataf-v04-pr02-um-covers1.jpg&quot; alt=&quot;image1&quot; /&gt; &lt;img src=&quot;http://sitzextase.de/muqtataf//img/v04/pr01/up/muqtataf-v04-pr02-up-covers1.jpg&quot; alt=&quot;image2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v04/pr02/um/muqtataf-v04-pr02-um-covers1.jpg&quot; alt=&quot;facsimile cover page, Michigan&quot; /&gt; 
+&lt;img src=&quot;/images/muqtataf/v04/pr01/up/muqtataf-v04-pr02-up-covers1.jpg&quot; alt=&quot;facsimile cover page, Princeton&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, I have not had access to different editions of volume 5 (the covers of copies SOAS, Michigan, and Princeton show no differences), but I suspect it too exists in (at least) two editions.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Jan 2014 13:57:30 +0200</pubDate>
-        <link>https://tillgrallert.github.io/2014/01/19/the-puzzle-continues-2.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/2014/01/19/the-puzzle-continues-2.html</guid>
+        <link>https://tillgrallert.github.io/blog/2014/01/19/the-puzzle-continues-2/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2014/01/19/the-puzzle-continues-2/</guid>
         
         <category>19th century</category>
         
@@ -609,7 +645,7 @@ gems:
     
       <item>
         <title>New XSLT stylesheets for calendar conversion on Github</title>
-        <description>&lt;p&gt;A couple of months ago a posted &lt;a href=&quot;/2013/07/04/xslt-calendar-conversion.html&quot;&gt;a short note&lt;/a&gt; on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (&lt;em&gt;mālī&lt;/em&gt;, &lt;em&gt;sene-yi māliye&lt;/em&gt;) to the brew and uploaded everything under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0 license&lt;/a&gt; to &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt;. Feel free to fork and tinker with the code. Enjoy!&lt;/p&gt;
+        <description>&lt;p&gt;A couple of months ago a posted &lt;a href=&quot;/blog/2013/07/04/xslt-calendar-conversion/&quot;&gt;a short note&lt;/a&gt; on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (&lt;em&gt;mālī&lt;/em&gt;, &lt;em&gt;sene-yi māliye&lt;/em&gt;) to the brew and uploaded everything under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0 license&lt;/a&gt; to &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt;. Feel free to fork and tinker with the code. Enjoy!&lt;/p&gt;
 
 &lt;h2 id=&quot;general-description&quot;&gt;General description&lt;/h2&gt;
 
@@ -669,8 +705,8 @@ gems:
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 04 Jan 2014 00:00:00 +0200</pubDate>
-        <link>https://tillgrallert.github.io/2014/01/04/new-calendar-conversion.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/2014/01/04/new-calendar-conversion.html</guid>
+        <link>https://tillgrallert.github.io/blog/2014/01/04/new-calendar-conversion/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2014/01/04/new-calendar-conversion/</guid>
         
         <category>xml</category>
         
@@ -687,15 +723,51 @@ gems:
     
       <item>
         <title>The puzzle continues: *al-Muqtaṭaf* was printed in two different and unmarked editions</title>
-        <description>&lt;p&gt;As I noted at the &lt;a href=&quot;/2012/12/29/the-historians-puzzle.html&quot;&gt;end of last year&lt;/a&gt;, Ottoman and Arabic periodicals of the late nineteenth and early twentieh century appeared in different editions. Print-runs differed in spelling, pagination, lay-out, and content. However, I was not aware of the extend of this phenomenon.&lt;/p&gt;
+        <description>&lt;p&gt;As I noted at the &lt;a href=&quot;/blog/2012/12/29/the-historians-puzzle/&quot;&gt;end of last year&lt;/a&gt;, Ottoman and Arabic periodicals of the late nineteenth and early twentieh century appeared in different editions. Print-runs differed in spelling, pagination, lay-out, and content. However, I was not aware of the extend of this phenomenon.&lt;/p&gt;
 
 &lt;p&gt;I just discovered that the journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, published by Yaʿqūb Ṣarrūf and Fāris Nimr under the directorship of Shahīn Makāriyūs in Beirut until 1884, printed two “first print runs” or first editions” (&lt;em&gt;al-ṭabaʿat al-ūlā&lt;/em&gt;), whose content differed by exactly 32 pages per issue! Copies of the twelve issues of volume 7 (1882-83) available at many European and Middle Eastern libraries comprise 760 consecutively numbered pages, while the copy at Princeton library, digitally available at &lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot;&gt;Hathitrust&lt;/a&gt;, comprises only 344 equally consecutively numbered pages.&lt;/p&gt;
 
-&lt;p&gt;To illustrate the issue, let’s have &lt;a href=&quot;http://sitzextase.de/muqtataf/muqtataf-v07-i01.html&quot;&gt;a look at the first issue of volume seven (June 1882)&lt;/a&gt;. The first 16 pages of the two editions are identical. Page 17 of the copy at the &lt;a href=&quot;http://www.orient-institut.org/&quot;&gt;Orient Institut Beirut (OIB)&lt;/a&gt; is the first page of a lengthy tracte on “women’s rights” (&lt;em&gt;ḥuqūq al-marʾa&lt;/em&gt;) by Wadīʿ Efendi al-Khūrī. In the Princeton copy, the same page 17 comprises four short questions (&lt;em&gt;masāʾil&lt;/em&gt;) and the beginning of the section &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt;. Both pages bear a printer’s mark with information on the volume, the edition, and the binding block. While volume number and edition are marked as identical, the number of the binding block differs: “3 ṣ” at Princeton, “3 k” at the OIB. To my astonishment, the OIB copy continues with the same paragraph of the &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt; section on page 48, after which the two editions are again identical, save for the page numbers.&lt;/p&gt;
+&lt;p&gt;To illustrate the matter, let’s have a look at the first issue of volume seven (June 1882):&lt;/p&gt;
+
+&lt;h3 id=&quot;edition-1-small-version-of-32-pages&quot;&gt;Edition 1: “Small” version of 32 pages.&lt;/h3&gt;
+
+&lt;p&gt;Held by Princeton University Library and made available through &lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot;&gt;HathiTrust&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg&quot; alt=&quot;facsimile page 18&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;edition-2-large-version-of-64-pages&quot;&gt;Edition 2: “Large” version of 64 pages.&lt;/h3&gt;
+
+&lt;p&gt;Held by the &lt;a href=&quot;http://www.orient-institut.org&quot;&gt;Orient Institut Beirut&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg&quot; alt=&quot;facsimile page 18&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first 16 pages of the two editions are identical. Page 17 of the copy at the &lt;a href=&quot;http://www.orient-institut.org/&quot;&gt;Orient Institut Beirut (OIB)&lt;/a&gt; is the first page of a lengthy tracte on “women’s rights” (&lt;em&gt;ḥuqūq al-marʾa&lt;/em&gt;) by Wadīʿ Efendi al-Khūrī. In the Princeton copy, the same page 17 comprises four short questions (&lt;em&gt;masāʾil&lt;/em&gt;) and the beginning of the section &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt;. Both pages bear a printer’s mark with information on the volume, the edition, and the binding block. While volume number and edition are marked as identical, the number of the binding block differs: “3 ṣ” at Princeton, “3 k” at the OIB. To my astonishment, the OIB copy continues with the same paragraph of the &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt; section on page 48, after which the two editions are again identical, save for the page numbers.&lt;/p&gt;
 
 &lt;p&gt;The printer’s marks provide a solution to the riddle in the case of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; – or rather, they provide an indicator for the edition one is looking at. After having checked further volumes at the OIB (vol. 6-9), the volumes comprising “extended” issues of 64 pages all bear the Arabic letter &lt;em&gt;kāf&lt;/em&gt; in the printer’s mark, while the “short” issues of 32 pages were marked with the latter &lt;em&gt;ṣād&lt;/em&gt;. In addition, those copies whose index survived the times (at least 6-9), show that the index took account of a “large &lt;em&gt;Muqtaṭaf&lt;/em&gt;” (&lt;em&gt;al-muqtaṭ af al-kabīr&lt;/em&gt; in Arabic and abbreviated by the &lt;em&gt;kāf&lt;/em&gt; in the printer’s mark) and a “small &lt;em&gt;Muqtaṭaf&lt;/em&gt;” (&lt;em&gt;al-muqtaṭaf al-ṣaghīr&lt;/em&gt; in  and abbreviated with a &lt;em&gt;ṣād&lt;/em&gt;).&lt;/p&gt;
 
 &lt;p&gt;Upon further investigations, it turned out that the two editions weren’t exactly completely “unmarked” beyond the printer’s mark on the binding blocks and the indexes. The cover sheet for the short and the extended version differ in the quoted prices and location of subscription:&lt;/p&gt;
+
+&lt;!-- ### Edition 1
+
+![facsimile cover page]()
+
+
+### Edition 2
+
+![facsimile cover page]()
+--&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The extended version quoted prices for annual subscriptions “in Europe and the Egyptian lands” at £1, while&lt;/li&gt;
@@ -703,10 +775,41 @@ gems:
 &lt;/ul&gt;
 
 &lt;p&gt;A systematic comparison of the two editions, the existence of which hitherto escaped the scholarly community, might reveal and equally systematic targetting of themes to different audiences. This could mean that major scholarly works on the Nahda, the press, and its audience need substantial reworking.&lt;/p&gt;
+
+&lt;!-- 
+## *al-Muqtaṭaf*, edited by Fāris Nimr and Yaʿqūb Ṣarrūf in Beirut, vol. 7 (1) Jun 1882
+
+The examples below show that *al-Muqtaṭaf* was published in a large (*kabīr*) and a small (*ṣaghīr*) edition.The editions were marked by the printer&#39;s mark on the binding blocks, using a the letters *kāf* and *ṣād*. The two editions contained a single index for both, comprising two sets of page numbers. Finally, it seems as if the volumes were marketed to different regions.
+
+### Edition 1: &quot;Small&quot; version of 32 pages.
+
+Held by Princeton University Library (&lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot; target=&quot;new&quot;&gt;Hathitrust&lt;/a&gt;)
+        
+![facsimile page 15](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg)
+
+![facsimile page 16](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg)
+
+![facsimile page 17](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg) 
+
+![facsimile page 18](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg)
+    
+### Edition 2: &quot;Large&quot; version of 64 pages.
+
+Held by the Orient Institut Beirut
+
+![facsimile page 15](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg)
+
+
+![facsimile page 16](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg)
+
+
+![facsimile page 17](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg)
+
+![facsimile page 18](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg) --&gt;
 </description>
         <pubDate>Mon, 19 Aug 2013 14:39:09 +0300</pubDate>
-        <link>https://tillgrallert.github.io/2013/08/19/the-puzzle-continues.html</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/2013/08/19/the-puzzle-continues.html</guid>
+        <link>https://tillgrallert.github.io/blog/2013/08/19/the-puzzle-continues/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2013/08/19/the-puzzle-continues/</guid>
         
         <category>19th century</category>
         
