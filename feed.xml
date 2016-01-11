@@ -5,8 +5,8 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Dec 2015 21:08:06 +0100</pubDate>
-    <lastBuildDate>Sun, 13 Dec 2015 21:08:06 +0100</lastBuildDate>
+    <pubDate>Mon, 11 Jan 2016 15:45:35 +0200</pubDate>
+    <lastBuildDate>Mon, 11 Jan 2016 15:45:35 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -152,7 +152,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;To allow a quick review of the mark-up and read the journal’s content, I decided to customise &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt; for a first display of the TEI files in the browser without need for pre-processed HTML and host this heavily customised boilerplate view as a seperate branch of the GitHub repository. For a first impression see &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 13 Nov 2015 18:01:16 +0100</pubDate>
+        <pubDate>Fri, 13 Nov 2015 19:01:16 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</guid>
         
@@ -215,7 +215,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 &lt;p&gt;&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-1_0443_01_L.jpg&quot; alt=&quot;After 1898 with the plague commemorating ʿAbdülḥamīd II and Kaiser Wilhelm II. The graffiti to the right of the entrance are still visible&quot; /&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 12 Nov 2015 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</guid>
         
@@ -271,7 +271,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Thu, 23 Jul 2015 14:55:02 +0200</pubDate>
+        <pubDate>Thu, 23 Jul 2015 15:55:02 +0300</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/07/23/dating-books/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/07/23/dating-books/</guid>
         
@@ -394,7 +394,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
   &lt;li&gt;&lt;a href=&quot;http://alanwsmith.com/jekyll-liquid-date-formatting-examples&quot;&gt;Jekyll Date Formatting Examples&lt;/a&gt; using liquid&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 20 Jul 2015 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 20 Jul 2015 00:00:00 +0300</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/07/20/jekyll-resources/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/07/20/jekyll-resources/</guid>
         
@@ -423,7 +423,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/06/01/TEI-at-DHSI/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/06/01/TEI-at-DHSI/</guid>
         
@@ -458,7 +458,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Mar 2015 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/03/02/TEI-at-DHIB/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/03/02/TEI-at-DHIB/</guid>
         
@@ -599,7 +599,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
   &lt;li&gt;&lt;a href=&quot;https://www.overleaf.com/&quot;&gt;overleaf&lt;/a&gt;: commercial (?) colaborative publishing platform. Based on LaTeX.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 23 Feb 2015 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 23 Feb 2015 00:00:00 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/02/23/workshop-editions-material/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/02/23/workshop-editions-material/</guid>
         
@@ -627,7 +627,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;Unfortunately, I have not had access to different editions of volume 5 (the covers of copies SOAS, Michigan, and Princeton show no differences), but I suspect it too exists in (at least) two editions.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 19 Jan 2014 12:57:30 +0100</pubDate>
+        <pubDate>Sun, 19 Jan 2014 13:57:30 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2014/01/19/the-puzzle-continues-2/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2014/01/19/the-puzzle-continues-2/</guid>
         
@@ -705,7 +705,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
   &lt;li&gt;The template “funcDateNormaliseInput” can be used to convert variously formatted input  strings to the yyyy-mm-dd required by other templates. Possible input formats are  the common English formats of ‘dd(.) MNn(.) yyyy’, ‘MNn(.) dd(.), yyyy’, i.e. ‘15  Shaʿbān 1324’ or ‘Jan. 15, 2014’. The template requires an input string and a  calendar-language combination as found in funcDateMonthNameNumber.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sat, 04 Jan 2014 00:00:00 +0100</pubDate>
+        <pubDate>Sat, 04 Jan 2014 00:00:00 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2014/01/04/new-calendar-conversion/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2014/01/04/new-calendar-conversion/</guid>
         
@@ -808,7 +808,7 @@ Held by the Orient Institut Beirut
 
 ![facsimile page 18](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg) --&gt;
 </description>
-        <pubDate>Mon, 19 Aug 2013 13:39:09 +0200</pubDate>
+        <pubDate>Mon, 19 Aug 2013 14:39:09 +0300</pubDate>
         <link>https://tillgrallert.github.io/blog/2013/08/19/the-puzzle-continues/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2013/08/19/the-puzzle-continues/</guid>
         
