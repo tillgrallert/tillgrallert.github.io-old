@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="main-column">
+          {{ content }}
+        </div>
+        <div class="right-column">
+        {% include tag-index.html %}
+        {% include date-index.html %}
+        </div>
+      </div>
+      
+    </div>
+    {% include footer.html %}
+
+  </body>
+
+</html>

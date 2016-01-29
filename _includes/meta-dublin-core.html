@@ -1,0 +1,8 @@
+<!-- dublin core to support Zotero etc. -->
+<meta name="DC.type" content="{% if page.layout =='post' %}Blog post{% else %}Text{% endif %}" />
+<meta name="DC.format" content="text/html" />
+<meta name="DC.title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta name="DC.creator" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}" />
+<meta name="DC.date" scheme="W3CDTF" content="{{ page.date | date: "%Y-%m-%d" }}" />
+<meta name="DC.description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+<meta name="DC.keywords" content="{% for tag in page.tags%}{{tag}}, {% endfor %}" />
