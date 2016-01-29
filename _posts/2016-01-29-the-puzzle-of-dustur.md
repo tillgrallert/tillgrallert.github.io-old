@@ -39,11 +39,11 @@ In late 2012, I had had access to what I thought were <a href="http://sitzextase
 
 <!-- ![Page 3 of the HTU copy]({{site.baseurl}}/images/dustur/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.png) -->
 
-{% include image.html url="/images/dustur/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.png" description="Page 3 of the HTU copy" %}
+{% include image.html url="/images/dustur/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.png" description="Page 3 of the HTU copy" class="two-columns" %}
 
-{% include image.html url="/images/dustur/s1/v1/e02/pr03/ucb/dustur-s1-v1-e02-pr03-ucb-p0003.png" description="Page 3 of the UC Berkeley copy" %}
+{% include image.html url="/images/dustur/s1/v1/e02/pr03/ucb/dustur-s1-v1-e02-pr03-ucb-p0003.png" description="Page 3 of the UC Berkeley copy" class="two-columns" %}
 
-{% include image.html url="/images/dustur/s1/v1/e02/pr02/soas/dustur-s1-v1-e02-pr02-soas-p0003.png" description="Page 3 of the SOAS copy" %}
+{% include image.html url="/images/dustur/s1/v1/e02/pr02/soas/dustur-s1-v1-e02-pr02-soas-p0003.png" description="Page 3 of the SOAS copy" class="two-columns" %}
 
 [^4]:Large parts of this collection were digitised in a cooperation with the Tokyo University of Foreign Studies.
 [^5]:N.N. *Düstūr*. Vol.[1]. [Der-i Saʿādet]: Taḳvīmḫāne-yi ʿĀmire, 15 Rab II 1267 aH [17 Feb. 1851].
@@ -56,9 +56,9 @@ In late 2012, I had had access to what I thought were <a href="http://sitzextase
 
 I have currently three digital copies of the second volume of *tertib-i evvel* of *Düstur*: from [HTU], [UC Berkeley](http://hdl.handle.net/2027/uc1.b3094980), and [TBMM](http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609234-c2.pdf). In addition, I have seen the physical copy at SOAS. The difference in the shape of the number 6 (or rather "٦") and the different font width in the UC Berkeley copy indicate two independently type-set print-runs. Pagination is seemingly identical.
 
-{% include image.html url="/images/dustur/s1/v2/e01/pr02/ucb/dustur-s1-v2-e01-pr02-ucb-p0003.png" description="Page 3 of the UC Berkeley copy" %}
+{% include image.html url="/images/dustur/s1/v2/e01/pr02/ucb/dustur-s1-v2-e01-pr02-ucb-p0003.png" description="Page 3 of the UC Berkeley copy" class="two-columns" %}
 
-{% include image.html url="/images/dustur/s1/v2/e01/pr01/htu/dustur-s1-v2-e01-pr01-htu-p0003.png" description="Page 3 of the HTU, SOAS, and TBMM copies" %}
+{% include image.html url="/images/dustur/s1/v2/e01/pr01/htu/dustur-s1-v2-e01-pr01-htu-p0003.png" description="Page 3 of the HTU, SOAS, and TBMM copies" class="two-columns" %}
 
 
 
@@ -68,9 +68,9 @@ I have currently three digital copies of the second volume of *tertib-i evvel* o
 
 There are at least two editions or print-runs of the <a href="http://sitzextase.de/dustur/dustur-v03.html" target="_blank">third volume of *tertib-i evvel* of *Düstur*</a> that differ in spelling and a marginally different page layout. The first can be found at SOAS and [HTU](http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-05/index.djvu) and the second at [UC Berkeley](http://hdl.handle.net/2027/uc1.b3094981) and [TBMM](http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609242-c3.pdf).
 
-{% include image.html url="/images/dustur/s1/v3/e01/pr01/htu/dustur-s1-v3-e01-pr01-htu-p0005.png" description="Page 5 of the SOAS and HTU copies" %}
+{% include image.html url="/images/dustur/s1/v3/e01/pr01/htu/dustur-s1-v3-e01-pr01-htu-p0005.png" description="Page 5 of the SOAS and HTU copies" class="two-columns" %}
 
-{% include image.html url="/images/dustur/s1/v3/e02/pr01/ucb/dustur-s1-v3-e02-pr01-ucb-p0005.png" description="Page 5 of the UC Berkeley and TBMM copies" %}
+{% include image.html url="/images/dustur/s1/v3/e02/pr01/ucb/dustur-s1-v3-e02-pr01-ucb-p0005.png" description="Page 5 of the UC Berkeley and TBMM copies" class="two-columns" %}
 
 ## The fourth volume[^13]
 
@@ -78,9 +78,9 @@ There are at least two editions or print-runs of the <a href="http://sitzextase.
 
 At a workshop on Ottoman municipalities at the Istanbul Şerhir Üniversitesi in November 2015, I finally met Safa Saraçoğlu in person. We had long and interesting discussions on Ottoman legal history, digitisation efforts, and translations of Ottoman legislation into the various languages of the empire. We also shamelessly shared our private copies of Ottoman texts, among them Mīltiyādī Ḳārāvokīros's Ottoman legal dictionary. To my surprise, the entry on expropriation of real-estate (*istimlāk*) references two print-runs of the fourth volume of the first series of *Düstur* with different paginations.[^10] According to this entry, among the copies I have seen, the one at SOAS would have originated in the first print-run, while those at Staatsbibliothek zu Berlin (SBB) and [TBMM](http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609245-c4.pdf) are part of the second print-run.
 
-{% include image.html url="/images/dustur/s1/v4/e01/pr01/soas/dustur-s1-v4-e01-pr01-soas-p0002.png" description="Page 2 of the SOAS copy" %}
+{% include image.html url="/images/dustur/s1/v4/e01/pr01/soas/dustur-s1-v4-e01-pr01-soas-p0002.png" description="Page 2 of the SOAS copy" class="two-columns" %}
 
-{% include image.html url="/images/dustur/s1/v4/e02/pr01/tbmm/dustur-s1-v4-e02-pr01-tbmm-p0004.png" description="Page 2 of the SBB and TBMM copies" %}
+{% include image.html url="/images/dustur/s1/v4/e02/pr01/tbmm/dustur-s1-v4-e02-pr01-tbmm-p0004.png" description="Page 2 of the SBB and TBMM copies" class="two-columns" %}
 
 [^10]:Ḳārāvokīros, Mīltiyādī. Lüġat Ḳavānīn-i ʿOŝmāniye. Istānbūl: "A. Aṣādūriyān" Şereket-i Mürettebe Maṭbaʿası, 1310 R [1894/95], p.79
 
