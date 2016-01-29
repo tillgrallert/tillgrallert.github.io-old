@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <!-- <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }}</a>
+        </h2>
+        <p>{% for tag in post.tags %}
+          <span class="post-tag">{{tag}}, </span>
+          {% endfor %}</p>
+      </li>
+    {% endfor %}
+  </ul> -->
+  <!-- how do I call the pages from _includes? -->
+
+  <div class="post-list">
+    {% for post in site.posts %}
+      <!-- original design -->
+      <!-- 
+      <div class="post-list-item">
+        <div class="post-list-item-head">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }}</a></h2>
+        </div>
+        <p class="post-excerpt">
+          {{ post.excerpt }} 
+          <a href="{{ post.url | prepend: site.baseurl }}">continue reading ...</a>
+          </p>
+        <p>{% for tag in post.tags %}
+          <span class="post-tag">{{tag}}, </span>
+          {% endfor %}</p>
+      </div>
+      -->
+      <!-- include the standard layout for individual posts in a list of posts -->
+      {% include post-list-item.html %}
+    {% endfor %}
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
