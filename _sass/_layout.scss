@@ -369,6 +369,16 @@ a.post-more {
     float: left;
     clear: left;
 }
+/* generate columns in content */
+.two-columns {
+    display: block;
+    float: left;
+    width: 45%;
+    clear: none;
+
+}
+
+
 /* footnotes */
 div.footnotes::before {
     content: "Notes: ";
