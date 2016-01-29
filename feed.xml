@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sitzExtase</title>
+    <description></description>
+    <link>https://tillgrallert.github.io/</link>
+    <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 30 Jan 2016 00:42:40 +0200</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 00:42:40 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>The historian&#39;s puzzle: various differences between copies of printed periodicals that ought to be similar</title>
+        <description>&lt;p&gt;During the last years I have sprodically written about the various surprises of early Arabic and Ottoman printed books and particularly the vast differences in pagination, spelling, and even content between copies that ought to be identical if one was to believe the information on the cover or the metadata provided by library catalogues (on this blog: &lt;a href=&quot;/blog/2012/12/29/the-historians-puzzle/&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;/blog/2013/08/19/the-puzzle-continues/&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;/blog/2014/01/19/the-puzzle-continues-2/&quot;&gt;here&lt;/a&gt;). This post is a first attempt to summarise my findings on the publication history of the first series (&lt;em&gt;tertib-i evvel&lt;/em&gt;) of &lt;em&gt;Düstur&lt;/em&gt;, the officially sanctioned collection of Ottoman laws and regulations, published in Istanbul between 1872 and 1879.&lt;/p&gt;
+
+&lt;p&gt;I discovered that, contrary to my expectations, libraries around the world hold numerous unmarked editions and print-runs of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;. Copies vary in pagination, spelling, and content. Yet, neither the people I asked nor the scholarly works citing copies of &lt;em&gt;Düstur&lt;/em&gt;, seem to be aware of significant differences between copies of the same volume—which is not too unexpected an outcome when one considers that most scholars would not consult more than a single copy of every work at a single library; and once you read and / or copied a work, you would not consult another copy at another library with the explicit purpose of comparing the two for dissimilarities. I had also &lt;a href=&quot;/blog/2013/01/12/the-historians-puzzle-update/&quot;&gt;noted&lt;/a&gt; that an 1891 index to the first series of &lt;em&gt;Düstur&lt;/em&gt;&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; does not contain any information on divergent print-runs and editions.&lt;/p&gt;
+
+&lt;p&gt;In consequence, it is almost impossible to confirm references found in scholarly literature. Over the past years I had come to consider the many seemingly wrong references provided, for instance, by the two foremost contemporaneous French translations of Ottoman laws by Aristarchi&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; and Young&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; as, well, erroneous references caused by careless printers, copy-editors, even the translators themselves. But as it stands, they could have just used a different copy than the one available to me.&lt;/p&gt;
+
+&lt;p&gt;To illustrate the issue, I had quickly built a simple website providing imagery for different versions of the table of contents of the
+&lt;a href=&quot;http://sitzextase.de/dustur/dustur-v01.html&quot; target=&quot;_blank&quot;&gt;first&lt;/a&gt;, &lt;a href=&quot;http://sitzextase.de/dustur/dustur-v03.html&quot; target=&quot;_blank&quot;&gt;third&lt;/a&gt;, and &lt;a href=&quot;http://sitzextase.de/dustur/dustur-v04.html&quot; target=&quot;_blank&quot;&gt;fourth&lt;/a&gt; volume of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;As I could not readily find any concordance or works dealing with this issue (which by the way also pertains to nineteenth-century Arabic monthly journals), I wondered whether anybody on various mailing lists could point me to relevant information. &lt;em&gt;Düstur&lt;/em&gt; was the official collection of Ottoman legal texts at the time and the differences between the various print-runs had potentially grave consequences. Yet, to my surprise (again) almost nobody in the scholarly community of Ottomanists seemed to be aware of these puzzling divergences and no reply had any answers to offer.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-first-volume-of-dstur-tertib-i-evvel8&quot;&gt;The first volume of &lt;em&gt;Düstur, tertib-i evvel&lt;/em&gt;&lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;In late 2012, I had had access to what I thought were &lt;a href=&quot;http://sitzextase.de/dustur/dustur-v01.html&quot; target=&quot;_blank&quot;&gt;four different copies of volume 1 of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt;. Two were held at the &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/&quot;&gt;Hakki Tarık Us Collection (HTU)&lt;/a&gt; at the Beyazit Devlet Kütüphanesi&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;, and one each at the University of California, Berkeley and the School of Oriental and African Studies (SOAS), London. I grouped these four copies into two editions, based on the substantial differences in both layout and content. I further subdivided the second edition into three print-runs, which differ in spelling and printing errors (for the lack of a better term).
+&lt;a href=&quot;http://www.bloomu.edu/saracoglu&quot;&gt;Safa Saraçoğlu of Bloomsburg University, PA,&lt;/a&gt; solved at least part of the riddle in early 2013. He pointed out via email that, before &lt;em&gt;Düstur&lt;/em&gt; became a series from 1872 onwards, three independent volumes were published under the same title of &lt;em&gt;Düstūr&lt;/em&gt; in 1851&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;, 1863&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;, and 1866&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;.  Hence, what I thought of as the first edition of the first volume of the first series (&lt;em&gt;tertib-i evvel&lt;/em&gt;) of &lt;em&gt;Düstur&lt;/em&gt; turned out to be the 1863 volume&lt;sup id=&quot;fnref:6:1&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;. Nevertheless, the issue remains that there are at least three print-runs of the first volume that differ in spelling and printing errors. Two of them are availabe online: one at &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-01/index.djvu&quot;&gt;HTU&lt;/a&gt; and the UC Berkeley copy through &lt;a href=&quot;http://hdl.handle.net/2027/uc1.b3094979&quot;&gt;HathiTrust&lt;/a&gt; (if one has an American IP, that is). A fourth copy is available through the &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609231-c1.pdf&quot;&gt;digital collections of Türk Büyük Millet Meclisi Kütüphanesi Açık Erişim Koleksiyonu (TBMM)&lt;/a&gt; but I have not yet checked it against the other three.&lt;/p&gt;
+
+&lt;!-- appart from the apparent misprint of the last page number on p.3 in the HTU copy, I could immediately confirm my old claim of differences in spelling of between the UCB and SOAS copies. --&gt;
+
+&lt;!-- ![Page 3 of the HTU copy](/images/dustur/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.png) --&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/dustur/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.png&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/dustur/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.png&quot; alt=&quot;Page 3 of the HTU copy&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Page 3 of the HTU copy&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/dustur/s1/v1/e02/pr03/ucb/dustur-s1-v1-e02-pr03-ucb-p0003.png&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/dustur/s1/v1/e02/pr03/ucb/dustur-s1-v1-e02-pr03-ucb-p0003.png&quot; alt=&quot;Page 3 of the UC Berkeley copy&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Page 3 of the UC Berkeley copy&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/dustur/s1/v1/e02/pr02/soas/dustur-s1-v1-e02-pr02-soas-p0003.png&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/dustur/s1/v1/e02/pr02/soas/dustur-s1-v1-e02-pr02-soas-p0003.png&quot; alt=&quot;Page 3 of the SOAS copy&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Page 3 of the SOAS copy&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;the-second-volume11&quot;&gt;The second volume&lt;sup id=&quot;fnref:11&quot;&gt;&lt;a href=&quot;#fn:11&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;I have currently three digital copies of the second volume of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;: from [HTU], &lt;a href=&quot;http://hdl.handle.net/2027/uc1.b3094980&quot;&gt;UC Berkeley&lt;/a&gt;, and &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609234-c2.pdf&quot;&gt;TBMM&lt;/a&gt;. In addition, I have seen the physical copy at SOAS. The difference in the shape of the number 6 (or rather “٦”) and the different font width in the UC Berkeley copy indicate two independently type-set print-runs. Pagination is seemingly identical.&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/dustur/s1/v2/e01/pr02/ucb/dustur-s1-v2-e01-pr02-ucb-p0003.png&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/dustur/s1/v2/e01/pr02/ucb/dustur-s1-v2-e01-pr02-ucb-p0003.png&quot; alt=&quot;Page 3 of the UC Berkeley copy&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Page 3 of the UC Berkeley copy&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/dustur/s1/v2/e01/pr01/htu/dustur-s1-v2-e01-pr01-htu-p0003.png&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/dustur/s1/v2/e01/pr01/htu/dustur-s1-v2-e01-pr01-htu-p0003.png&quot; alt=&quot;Page 3 of the HTU, SOAS, and TBMM copies&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Page 3 of the HTU, SOAS, and TBMM copies&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;the-third-volume12&quot;&gt;The third volume&lt;sup id=&quot;fnref:12&quot;&gt;&lt;a href=&quot;#fn:12&quot; class=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;There are at least two editions or print-runs of the &lt;a href=&quot;http://sitzextase.de/dustur/dustur-v03.html&quot; target=&quot;_blank&quot;&gt;third volume of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt; that differ in spelling and a marginally different page layout. The first can be found at SOAS and &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-05/index.djvu&quot;&gt;HTU&lt;/a&gt; and the second at &lt;a href=&quot;http://hdl.handle.net/2027/uc1.b3094981&quot;&gt;UC Berkeley&lt;/a&gt; and &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609242-c3.pdf&quot;&gt;TBMM&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/dustur/s1/v3/e01/pr01/htu/dustur-s1-v3-e01-pr01-htu-p0005.png&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/dustur/s1/v3/e01/pr01/htu/dustur-s1-v3-e01-pr01-htu-p0005.png&quot; alt=&quot;Page 5 of the SOAS and HTU copies&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Page 5 of the SOAS and HTU copies&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/dustur/s1/v3/e02/pr01/ucb/dustur-s1-v3-e02-pr01-ucb-p0005.png&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/dustur/s1/v3/e02/pr01/ucb/dustur-s1-v3-e02-pr01-ucb-p0005.png&quot; alt=&quot;Page 5 of the UC Berkeley and TBMM copies&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Page 5 of the UC Berkeley and TBMM copies&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;the-fourth-volume13&quot;&gt;The fourth volume&lt;sup id=&quot;fnref:13&quot;&gt;&lt;a href=&quot;#fn:13&quot; class=&quot;footnote&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;At a workshop on Ottoman municipalities at the Istanbul Şerhir Üniversitesi in November 2015, I finally met Safa Saraçoğlu in person. We had long and interesting discussions on Ottoman legal history, digitisation efforts, and translations of Ottoman legislation into the various languages of the empire. We also shamelessly shared our private copies of Ottoman texts, among them Mīltiyādī Ḳārāvokīros’s Ottoman legal dictionary. To my surprise, the entry on expropriation of real-estate (&lt;em&gt;istimlāk&lt;/em&gt;) references two print-runs of the fourth volume of the first series of &lt;em&gt;Düstur&lt;/em&gt; with different paginations.&lt;sup id=&quot;fnref:10&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot;&gt;12&lt;/a&gt;&lt;/sup&gt; According to this entry, among the copies I have seen, the one at SOAS would have originated in the first print-run, while those at Staatsbibliothek zu Berlin (SBB) and &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609245-c4.pdf&quot;&gt;TBMM&lt;/a&gt; are part of the second print-run.&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/dustur/s1/v4/e01/pr01/soas/dustur-s1-v4-e01-pr01-soas-p0002.png&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/dustur/s1/v4/e01/pr01/soas/dustur-s1-v4-e01-pr01-soas-p0002.png&quot; alt=&quot;Page 2 of the SOAS copy&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Page 2 of the SOAS copy&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/dustur/s1/v4/e02/pr01/tbmm/dustur-s1-v4-e02-pr01-tbmm-p0004.png&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/dustur/s1/v4/e02/pr01/tbmm/dustur-s1-v4-e02-pr01-tbmm-p0004.png&quot; alt=&quot;Page 2 of the SBB and TBMM copies&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Page 2 of the SBB and TBMM copies&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Malik Sharif provides a great introduction to the history of *Düstur* in his recent book --&gt;
+
+&lt;!-- Türk Büyük Millet Meclisi Kütüphanesi Açık Erişim Koleksiyonu (TBMM) --&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Ḳaraḳoç, Sarkiz. &lt;em&gt;Miftāḥ-i Ḳavānīn-i ʿOŝmāniye&lt;/em&gt;. Der-i Saʿādet: Maḥmūd Bey Maṭbaʿası, 1309 aH [1891]. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Aristarchēs, Grēgorios Bey. &lt;em&gt;Législation Ottomane, Ou Recueil des Lois, Réglements, Ordonnances, Traités, Capitulations et Autres Documents Officiels de L’Empire Ottoman&lt;/em&gt;. Edited by Dēmētrios Nikolaides. Vol.1-7. Constantinople: Imprimerie Frères Nicolaides / Bureau du Journal Thraky, 1873–88. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Young, George. &lt;em&gt;Corps de Droit Ottoman: Recueil des Codes, Lois, Règlements, Ordonnances et Actes les Plus Importants du Droit Intérieur, et D’Études Sur le Droit Coutumier de L’Empire Ottoman&lt;/em&gt;. Vol.I-VII. Oxford: Clarendon Press, 1905–06. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:8&quot;&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.1 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1289 aH [1872]. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Large parts of this collection were digitised in a cooperation with the Tokyo University of Foreign Studies. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstūr&lt;/em&gt;. Vol.[1]. [Der-i Saʿādet]: Taḳvīmḫāne-yi ʿĀmire, 15 Rab II 1267 aH [17 Feb. 1851]. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Ḳavānīn Ve Niẓāmātıñ Münderic Olduġu Mecmūʿa&lt;/em&gt;. Vol.[2]. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, Shaʿ 1279 aH [Feb. 1863]. This volume is available online from the &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-06/index.djvu&quot;&gt;Hakkı Tarık Us Collection, where it is wrongly catalogued as volume four of the first series&lt;/a&gt;. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:6:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Ḳavānīn Ve Niẓāmātıñ Münderic Olduġu Mecmūʿa&lt;/em&gt;. Vol.[3]. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1866. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:11&quot;&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.2 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1289 aH [1872]. &lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:12&quot;&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.3 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1289 aH [1876]. &lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:13&quot;&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.4 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1295 aH [1879]. &lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:10&quot;&gt;
+      &lt;p&gt;Ḳārāvokīros, Mīltiyādī. Lüġat Ḳavānīn-i ʿOŝmāniye. Istānbūl: “A. Aṣādūriyān” Şereket-i Mürettebe Maṭbaʿası, 1310 R [1894/95], p.79 &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 29 Jan 2016 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/blog/2016/01/29/the-puzzle-of-dustur/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/01/29/the-puzzle-of-dustur/</guid>
+        
+        <category>19th century</category>
+        
+        <category>history of press</category>
+        
+        <category>newspapers</category>
+        
+        <category>ottoman periodicals</category>
+        
+        <category>periodicals</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>*Majallat al-Muqtabas*: one of the most important journals of late Ottoman *Bilād al-Shām* as open, collaborative, scholarly digital edition</title>
+        <description>&lt;p&gt;In the context of the current onslaught cultural artifacts in the Middle East face from the iconoclasts of the Islamic State, from the institutional neglect of states and elites, and from poverty and war, digital preservation efforts promise some relief as well as potential counter narratives. They might also be the only resolve for future education and rebuilding efforts once the wars in Syria, Iraq or Yemen come to an end.&lt;/p&gt;
+
+&lt;p&gt;Early Arabic periodicals, such as Butrus al-Bustānī’s &lt;em&gt;al-Jinān&lt;/em&gt; (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs’ &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; (Beirut and Cairo, 1876–1952), Muḥammad Kurd ʿAlī’s &lt;em&gt;al-Muqtabas&lt;/em&gt; (Cairo and Damascus, 1906–16) or Rashīd Riḍā’s &lt;em&gt;al-Manār&lt;/em&gt; (Cairo, 1898–1941) are at the core of the Arabic renaissance (&lt;em&gt;al-nahḍa&lt;/em&gt;), Arab nationalism, and the Islamic reform movement. Due to the state of Arabic OCR and the particular difficulties of low-quality fonts, inks, and paper employed at the turn of the twentieth century, they can only be digitised by human transcription. Yet despite of their cultural significance and unlike for valuable manuscripts and high-brow literature, funds for transcribing the tens to hundreds of thousands of pages of an average mundane periodical are simply not available. Consequently, we still have not a single digital scholarly edition of any of these journals. But some of the best-funded scanning projects, such as &lt;a href=&quot;http://catalog.hathitrust.org/&quot;&gt;Hathitrust&lt;/a&gt;, produced digital imagery of numerous Arabic periodicals, while gray online-libraries of Arabic literature, namely &lt;a href=&quot;http://shamela.ws/&quot;&gt;&lt;em&gt;shamela.ws&lt;/em&gt;&lt;/a&gt;, provide access to a vast body of Arabic texts including transcriptions of unknown provenance, editorial principals, and quality for some of the mentioned periodicals. In addition, these gray “editions” lack information linking the digital representation to material originals, namely bibliographic meta-data and page breaks, which makes them almost impossible to employ for scholarly research.&lt;/p&gt;
+
+&lt;p&gt;With the &lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot; title=&quot;current state of the project&quot;&gt;GitHub-hosted TEI edition of &lt;em&gt;Majallat al-Muqtabas&lt;/em&gt;&lt;/a&gt; we want to show that through re-purposing available and well-established open software and by bridging the gap between immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers and academic scanning efforts as well as editorial expertise, one can produce scholarly editions that remedy the short-comings of either world with very small funds: We use &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;digital texts from &lt;em&gt;shamela.ws&lt;/em&gt;&lt;/a&gt;, transform them into TEI XML, add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link them to facsimiles provided through the &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63&quot;&gt;British Library’s “Endangered Archives Programme”&lt;/a&gt; and &lt;a href=&quot;http://catalog.hathitrust.org/Record/100658549&quot;&gt;HathiTrust&lt;/a&gt; (in the process of which we also make first corrections to the transcription). The digital edition (TEI XML and a basic web display) is then hosted as a GitHub repository with a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0 licence&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By linking images to the digital text, every reader can validate the quality of the transcription against the original, thus overcoming the greatest limitation of crowd-sourced or gray transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Improvements of the transcription and mark-up can be crowd-sourced with clear attribution of authorship and version control using .git and GitHub’s core functionality. Editions will be referencable down to the word level^[currently we provide stable URLs down to the paragraph level] for scholarly citations, annotation layers, as well as web-applications through a documented URI scheme. The &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;web-display&lt;/a&gt; is implemented through a customised adaptation of the &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate XSLT stylesheets&lt;/a&gt;; it can be downloaded, distributed and run locally without any internet connection—a necessity for societies outside the global North. Finally, by sharing all our code (mostly XSLT) in addition to the XML files, we hope to facilitate similar projects and digital editions of further periodicals, namely Rashīd Riḍā’s &lt;em&gt;al-Manār&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;scope-of-the-project&quot;&gt;Scope of the project&lt;/h1&gt;
+
+&lt;p&gt;The purpose and scope of the project is to provide an open, collaborative, referencable, scholarly digital edition of Muḥammad Kurd ʿAlī’s journal &lt;em&gt;al-Muqtabas&lt;/em&gt;, which includes the full text, semantic mark-up, and digital imagery.&lt;/p&gt;
+
+&lt;p&gt;The digital edition will be provided as TEI P5 XML with its own schema. All files are hosted on &lt;a href=&quot;https://www.github.com&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The project will open avenues for re-purposing code for similar projects, i.e. for transforming full-text transcriptions from some HTML or XML source, such as &lt;a href=&quot;http://www.shamela.ws&quot;&gt;&lt;em&gt;al-Maktaba al-Shamela&lt;/em&gt;&lt;/a&gt;, into TEI P5 XML, linking them to digital imagery from other open repositories, such as &lt;a href=&quot;http://eap.bl.uk/&quot;&gt;EAP&lt;/a&gt; and &lt;a href=&quot;https://www.hathitrust.org&quot;&gt;HathiTrust&lt;/a&gt;, and generating a web display by, for instance, adapting the code base of &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The most likely candidates for such follow-up projects are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Muḥammad Rashīd Riḍā’s journal &lt;em&gt;al-Manār&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://shamela.ws/index.php/book/6947&quot;&gt;full text from shamela&lt;/a&gt;: 8605 views&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://catalog.hathitrust.org/Record/008882663&quot;&gt;imagery from hathitrust&lt;/a&gt;,&lt;a href=&quot;https://archive.org/details/almanaralmanar&quot;&gt;imagery / PDFs from the Internet Archive&lt;/a&gt;, which are linked from &lt;a href=&quot;http://waqfeya.com/book.php?bid=7374&quot;&gt;&lt;em&gt;al-Maktaba al-Waqfiyya&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ʿAbdallah al-Nadīm’s &lt;em&gt;majallat al-ustādh&lt;/em&gt;, Cairo, 24 Aug 1892
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://shamela.ws/index.php/book/35118&quot;&gt;full text from shamela&lt;/a&gt;: 11337 views.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ʿAbd al-Qādir bin Muḥammad Salīm al-Kaylānī al-Iskandarānī’s &lt;em&gt;majallat al-ḥaqāʾiq (al-dimashqiyya)&lt;/em&gt;, 1910
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://shamela.ws/index.php/book/29676&quot;&gt;full text from shamela&lt;/a&gt;: 5134 views.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-journal-al-muqtabas&quot;&gt;The journal &lt;em&gt;al-Muqtabas&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Muḥammad Kurd ʿAlī published the monthly journal &lt;em&gt;al-Muqtabas&lt;/em&gt; between 1906 and 1914(1916). The publication schedule followed the Muslim &lt;em&gt;hijrī&lt;/em&gt; calendar and, after the Young Turk Revolution of July 1908, publication moved from Cairo to Damascus in the journal’s third year.&lt;/p&gt;
+
+&lt;p&gt;There is some confusion as to the counting of issues and their publication dates. According to the masthead and the cover sheet, &lt;em&gt;al-Muqtabas&lt;/em&gt; was published following the Islamic &lt;em&gt;hijrī&lt;/em&gt; calendar (from the journal itself it must remain open whether the recorded publication dates were the actual publication dates). Sometimes the printers made errors: issue 2 of volume 4, for instance, carries Rab I 1327 as publication date on the cover sheet, but Ṣaf 1327 in its masthead. The latter would correspond to the official publication schedule.&lt;/p&gt;
+
+&lt;p&gt;Samir Seikaly argues that Muḥammad Kurd ʿAlī was wrong in stating in his memoirs that he published 8 volumes of 12 issues each and two independent issues.^[{Seikaly 1981@128}] But the actual hard copies at the &lt;a href=&quot;http://www.orient-institut.org&quot;&gt;Orient-Institut Beirut&lt;/a&gt; and the digital facsimiles from HathiTrust show that Kurd ʿAlī was right insofar as volume 9 existed and comprised 2 issues only. As it turns out, &lt;em&gt;al-Muqtabas&lt;/em&gt; published a number of double issues: &lt;a href=&quot;https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_41.TEIP5.xml&quot;&gt;Vol. 4 no. 5/6&lt;/a&gt; and &lt;a href=&quot;https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_94.TEIP5.xml&quot;&gt;Vol. 8 no. 11/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to the original edition, at least one reprint appeared: In 1992 Dār Ṣādir in Beirut published a facsimile edition, which is entirely unmarked as such but for the information on the binding itself. Checking this reprint against the original, it appeared to be a facsimile reprint: pagination, font, layout — everything is identical. But as Samir Seikaly remarked in 1981 that he used “two separate compilations of &lt;em&gt;al-Muqtabas&lt;/em&gt; […] in this study” there must be at least one other print edition that I have not yet seen.^[{Seikaly 1981@128}]&lt;/p&gt;
+
+&lt;h1 id=&quot;digital-imagery&quot;&gt;Digital imagery&lt;/h1&gt;
+
+&lt;p&gt;Image files are available from the &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63&quot;&gt;&lt;em&gt;al-Aqṣā&lt;/em&gt; Mosque’s library in Jerusalem through the British Library’s “Endangered Archives Project” (vols. 2-7)&lt;/a&gt;, &lt;a href=&quot;http://catalog.hathitrust.org/Record/100658549&quot;&gt;HathiTrust (vols. 1-6, 8)&lt;/a&gt;, and &lt;a href=&quot;http://ima.bibalex.org/IMA/presentation/periodic/list.jsf?pid=9C82C139F9785E99D30089727B40A269&quot;&gt;Institut du Monde Arabe&lt;/a&gt;. Due to its open access licence, preference is given to facsimiles from EAP.&lt;/p&gt;
+
+&lt;h2 id=&quot;eap119&quot;&gt;EAP119&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;links to volumes:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=809;r=12316&quot;&gt;Vol. 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=812;r=3035&quot;&gt;Vol. 3&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=813;r=22190&quot;&gt;Vol. 4&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=814;r=1842&quot;&gt;Vol. 5&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=810;r=288&quot;&gt;Vol. 6&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://eap.bl.uk/database/overview_item.a4d?catId=811;r=30106&quot;&gt;Vol. 7&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;access:
+    &lt;ul&gt;
+      &lt;li&gt;the journal is in the public domain and the images can be freely accessed without restrictions. EAP does not provide a download button.&lt;/li&gt;
+      &lt;li&gt;Terms of access for material provided by the British Library can be found &lt;a href=&quot;http://www.bl.uk/aboutus/terms/index.html&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hathitrust&quot;&gt;HathiTrust&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;links to volumes
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968608&quot;&gt;Vol. 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968616&quot;&gt;Vol. 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968624&quot;&gt;Vol. 3&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968632&quot;&gt;Vol. 4&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.319510029968640&quot;&gt;Vol. 5&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/njp.32101073250910&quot;&gt;Vol. 6&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007615691&quot;&gt;Vol. 8&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hdl.handle.net/2027/umn.31951d008457474&quot;&gt;Index&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;access
+    &lt;ul&gt;
+      &lt;li&gt;The journal is in the public domain in the US and can be freely accessed and downloaded&lt;/li&gt;
+      &lt;li&gt;Outside the US, access is restricted.&lt;/li&gt;
+      &lt;li&gt;Formal &lt;a href=&quot;https://www.hathitrust.org/access_use#pd-us-google&quot;&gt;licence&lt;/a&gt;:&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Public Domain or Public Domain in the United States, Google-digitized: In addition to the terms for works that are in the Public Domain or in the Public Domain in the United States above, the following statement applies: The digital images and OCR of this work were produced by Google, Inc. (indicated by a watermark on each page in the PageTurner). Google requests that the images and OCR not be re-hosted, redistributed or used commercially. The images are provided for educational, scholarly, non-commercial purposes.
+Note: There are no restrictions on use of text transcribed from the images, or paraphrased or translated using the images.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;full-text&quot;&gt;Full text&lt;/h1&gt;
+
+&lt;p&gt;Somebody took the pains to create fully searchable text files and uploaded everything to &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;al-Maktaba al-Shamela&lt;/a&gt; and  &lt;a href=&quot;https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1&quot;&gt;WikiSource&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;al-maktaba-al-shmilahttpwwwshamelaws&quot;&gt;&lt;a href=&quot;http://www.shamela.ws&quot;&gt;al-Maktaba al-Shāmila&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Extent: According to the main &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;entry&lt;/a&gt;, &lt;em&gt;shamela&lt;/em&gt; has all 96 issues.&lt;/li&gt;
+  &lt;li&gt;Transcribers, editors: Apparently, they have been typed and copy-edited by unnamed humans.&lt;/li&gt;
+  &lt;li&gt;Features edition: paragraphs, page breaks, headlines.&lt;/li&gt;
+  &lt;li&gt;Features interface:
+    &lt;ul&gt;
+      &lt;li&gt;all issues can be browsed for headlines and searched&lt;/li&gt;
+      &lt;li&gt;all pages can be individually adressed in the browser: &lt;a href=&quot;http://shamela.ws/browse.php/book-26523#page-2290&quot;&gt;http://shamela.ws/browse.php/book-26523#page-2290&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wikisource&quot;&gt;WikiSource&lt;/h2&gt;
+
+&lt;p&gt;It seems that somebody took the pains to upload the tet from &lt;em&gt;shamela&lt;/em&gt; to WikiSource. Unfortunately it is impossible to browse the entire journal. Instead one has to adress each individual and consecutively numbered issue, e.g. Vol. 4, No. 1 is listed as &lt;a href=&quot;https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_37&quot;&gt;No. 37&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;tei-edition-of-al-muqtabashttpsgithubcomtillgrallertdigital-muqtabas&quot;&gt;&lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot;&gt;TEI edition of &lt;em&gt;al-Muqtabas&lt;/em&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;The main challenge is to combine the full text and the images in a digital XML edition following the &lt;a href=&quot;https://www.tei-c.org&quot;&gt;TEI&lt;/a&gt;. As &lt;em&gt;al-maktabat al-shāmila&lt;/em&gt; did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.&lt;/p&gt;
+
+&lt;h2 id=&quot;general-design&quot;&gt;General design&lt;/h2&gt;
+
+&lt;p&gt;The edition should be conceived of as a corpus of tei files that are grouped by means of xinclude. This way, volumes can be constructed as single TEI files containing a &lt;code&gt;&amp;lt;group/&amp;gt;&lt;/code&gt; of TEI files and a volume specific &lt;code&gt;&amp;lt;front/&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;back/&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Detailled description and notes on the mark-up are kept in a separate &lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas/blob/master/notes-tei-markup.md&quot;&gt;file in the GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;quality-control&quot;&gt;Quality control&lt;/h2&gt;
+
+&lt;p&gt;A simple way of controlling the quality of the basic structural mark-up would be to cross check any automatically generated table of content or index against the published tables of content at the end of each volume and against the index of &lt;em&gt;al-Muqtabas&lt;/em&gt; published by &lt;a href=&quot;http://hdl.handle.net/2027/umn.31951d008457474&quot;&gt;Riyāḍ ʿAbd al-Ḥamīd Murād in 1977&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;web-display-tei-boilerplate&quot;&gt;Web display: TEI Boilerplate&lt;/h1&gt;
+
+&lt;p&gt;To allow a quick review of the mark-up and read the journal’s content, I decided to customise &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt; for a first display of the TEI files in the browser without need for pre-processed HTML and host this heavily customised boilerplate view as a seperate branch of the GitHub repository. For a first impression see &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Nov 2015 19:01:16 +0200</pubDate>
+        <link>https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</guid>
+        
+        <category>20th century</category>
+        
+        <category>arabic newspapers</category>
+        
+        <category>arabic periodicals</category>
+        
+        <category>damascus</category>
+        
+        <category>digitized resources</category>
+        
+        <category>digital editions</category>
+        
+        <category>newspapers</category>
+        
+        <category>open access</category>
+        
+        <category>periodicals</category>
+        
+        <category>tei</category>
+        
+        <category>xml</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Middle Eastern Graffiti</title>
+        <description>&lt;p&gt;Thanks to the British Library’s &lt;a href=&quot;http://eap.bl.uk/index.a4d&quot;&gt;Endangered Archives Programme (EAP)&lt;/a&gt; we have not just access to the collection of late Ottoman &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119&quot;&gt;periodicals from the library of &lt;em&gt;al-Aqṣā&lt;/em&gt; Mosque (EAP119)&lt;/a&gt; in Jerusalem, but also to more than 3.000 photos of &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP644&quot;&gt;Maison Bonfils from the Fouad Debbas Collection in Beirut (EAP644)&lt;/a&gt; that were made available to the public in 2014.&lt;/p&gt;
+
+&lt;p&gt;Looking through this vast body of images—a large part of which documents the ruines and antiquities in the Levant and Egypt—one can find an astonishing record of late-nineteenth century graffiti: names and dates scribbled on walls and columns to document the visit of local and foreign travellers. The urge to record one’s existence was not restricted to the new middle-class traveller. Famously the Ottoman Sultan ʿAbdülḥamīd II and the German Kaiser Wilhelm II had marble plaques affixed to the ruins of Baalbek to commemorate the latter’s visit to the site in 1898. But looking through the images I stumbled over another graffiti&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Shāhīn Makāriyūs 1878&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_209_0826_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_209_0826_01_L.jpg&quot; alt=&quot;Shāhīn Makāriyūs left his mark in Baalbek in 1878&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Shāhīn Makāriyūs left his mark in Baalbek in 1878&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This is the same &lt;a href=&quot;https://viaf.org/viaf/38237868&quot;&gt;Shāhīn Makāriyūs (also Chahin Macarius, Shaheen Makarius)&lt;/a&gt;, who, together with Yaʿqūb Ṣarrūf and Fāris Nimr, published the &lt;a href=&quot;/blog/2013/08/19/the-puzzle-continues/&quot;&gt;monthly journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;&lt;/a&gt; from 1876 onwards—first in Beirut and, from 1884 onwards, in Cairo. He was also a prominent member of masonic lodges and authored a number of books on the history of freemasonry in Arabic and English. In 1890, &lt;em&gt;al-Bashīr&lt;/em&gt; from Beirut already mentioned &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; and &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, another journal Shāhīn Makāriyūs edited between 1886–96, as being masonic papers.^[Bashīr 4 Nov. 1890 (#1037):3 and Bashīr 26 Nov. 1890 (#1040):1, which ran a front page article titled “The slander of &lt;em&gt;al-Laṭāʾif&lt;/em&gt;” (&lt;em&gt;iftirāʾ al-laṭāʾif&lt;/em&gt;).] &lt;em&gt;Al-Laṭāʾif al-Muṣawwara&lt;/em&gt;, an illustrated successor journal to &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, that had most likely stopped being published around 1896, was edited by his son (?) Iskandar Makāriyūs in Cairo from 1915 onwards.&lt;/p&gt;
+
+&lt;h2 id=&quot;ads&quot;&gt;ads&lt;/h2&gt;
+
+&lt;p&gt;But it’s not just visitors leaving their traces for posterity, some images reveal that the walls of the ruins were also used for advertisements. Several photos of the entrance to the cella of Baalbek’s main temple of Jupiter dating to the 1870s and onwards show that the photo studio Bonfils itself had announced its services on the wall to the right:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;BONFILS Photogra[phie …]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a Beyro[uth …]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Vues de Balbek […]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;1871&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_43-TFDC_502_004_0284_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_43-TFDC_502_004_0284_01_L.jpg&quot; alt=&quot;Probably the earliest photo judged from the state and number of graffiti&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Probably the earliest photo judged from the state and number of graffiti&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-2_0284_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-2_0284_01_L.jpg&quot; alt=&quot;After 1880&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;After 1880&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;!-- the photo must have been taken after 1880 --&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_65-TFDC_528_078_0443_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_65-TFDC_528_078_0443_01_L.jpg&quot; alt=&quot;Later stage than the previous photo with a much larger number of graffiti&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Later stage than the previous photo with a much larger number of graffiti&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_187_0822_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_187_0822_01_L.jpg&quot; alt=&quot;After 1883&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;After 1883&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_186_0821_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_186_0821_01_L.jpg&quot; alt=&quot;After 1883&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;After 1883&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-1_0443_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-1_0443_01_L.jpg&quot; alt=&quot;After 1898 with the plague commemorating ʿAbdülḥamīd II and Kaiser Wilhelm II. The graffiti to the right of the entrance are still visible&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;After 1898 with the plague commemorating ʿAbdülḥamīd II and Kaiser Wilhelm II. The graffiti to the right of the entrance are still visible&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+        <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</guid>
+        
+        <category>lebanon</category>
+        
+        <category>graffiti</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The difficulty of establishing publication dates for books from late Ottoman *Bilād al-Shām*</title>
+        <description>&lt;p&gt;I am currently preparing my thesis for publication and the process of revision, I am again turning to Ottoman legal texts and their translations. Today I want to come briefly back to a question I have extensively dealt with in my thesis: The difficulty of dating printed sources from the late Ottoman &lt;em&gt;Bilād al-Shām&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/nawfal-dustur-v2-imprint.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/nawfal-dustur-v2-imprint.jpg&quot; alt=&quot;Imprint&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Imprint&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The second volume of Nawfal Niʿmat Allah Nawfal’s translation of Ottoman laws&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; edited by Khalīl Khūrī and published by &lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; in Beirut carries the date 1301 on its cover. The calendar of this dating could either be Muslim 1301 &lt;em&gt;hijrī&lt;/em&gt;, which would translate to 1883/84 Gregorian, or Ottoman 1301 &lt;em&gt;mālī&lt;/em&gt;, which began on 13 March 1885. So far, so common and without further ado—and I strongly suspect without further thought—the &lt;a href=&quot;http://www.worldcat.org/oclc/11351292/editions?editionsView=true&amp;amp;referer=di&quot; title=&quot;link to wordcat&quot;&gt;world’s libraries&lt;/a&gt; catalogued the book as having been publised in 1883. The content of the book as well as the publishing house—&lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; was a venture by Khalīl Sarkīs&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, the Greek Orthodox owner of Beirut’s most successful periodical and only daily newspaper &lt;!-- was it already a daily in 1887? --&gt; &lt;em&gt;Lisān al-Ḥāl&lt;/em&gt;—raise the probability for &lt;em&gt;mālī&lt;/em&gt; reckoning.&lt;/p&gt;
+
+&lt;p&gt;Then I came across announcements of its publication in the Beiruti press. Both &lt;em&gt;Lisān al-Ḥāl&lt;/em&gt; and &lt;em&gt;Thamarāt al-Funūn&lt;/em&gt; ran adverts for the new publication on their front pages in May 1887.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; Against the backdrop of the book’s publisher printing announcements in his own newspaper it now seemed likely that the second volume had inherited the date of publication from the first volume and was indeed printed only in 1887.&lt;/p&gt;
+
+&lt;p&gt;Unlike the &lt;a href=&quot;http://hdl.handle.net/2027/inu.30000088981760&quot;&gt;first volume&lt;/a&gt; scans of the second cannot be found online, but I was lucky to locate a copy at the  library of the American University of Beirut. To my surprise the volume carried an ownership stamp on its last page:&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+    &lt;a href=&quot;/images/nawfal-dustur-v2-stamp.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/nawfal-dustur-v2-stamp.jpg&quot; alt=&quot;Stamp&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Stamp&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It reads in French and Arabic:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Librairie Universelle 1883 Beyrout&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;li-l-maktaba al-jāmiʿa li-&lt;strong&gt;Khalīl al-Khūrī&lt;/strong&gt; 1883 Bayrūt&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and seemingly indicates that the copy at AUB once belonged to the editor of the book, Khalīl al-Khūrī, himself. The stamp also records a Gregorian date: 1883. If this was the date of acquisition, the stamp could prove that the volume was indeed published in 1301 &lt;em&gt;hijrī&lt;/em&gt;. Going through my research notes, however, it appeared that the &lt;em&gt;Librairie Universelle&lt;/em&gt; was a publishing press and bookstore rather than a library run by the brothers Amīn and Khalīl al-Khūrī in Beirut. It is unclear when they had established the printing press, but at least by 1887 they had adopted the more common Arabic term for a publishing press: &lt;em&gt;al-maṭbaʿa al-jāmiʿ&lt;/em&gt;.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; But why would a bookstore stamp its merchandise?&lt;/p&gt;
+
+&lt;p&gt;For the moment this question must remain as open as the opening date of the endeavour.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Nawfal, Nawfal Efendi Niʿmat Allāh. &lt;em&gt;Al-dustūr: Tarjamahu min al-lughat al-turkiyya ilā al-ʿarabiyya Nawfal Niʿmat Allāh Nawfal bāshkātib kamāruk ʿArabistān sābiqan; bi-murājaʿa wa tadqīq Khalīl al-Khūrī mudīr maṭbūʿāt Wilāyat Sūriyya&lt;/em&gt;. Edited by Khalīl Efendi al-Khūrī. Vol.2. Bayrūt: al-Maṭbaʿa al-adabiyya, 1301. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;c.f. MWT Salname Suriye 13 1298 aH [Dec. 1880]:247, UBTüb Salname Suriye 17 1302 aH [Oct. 1884]:250 &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Lisān al-Hāl 26 May 1887 (#959):1, Thamarāt al-Funūn 30 May 1887 (#633):1 advertised the book at a price of 2 mecidiye or Ps 40. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 23 Jul 2015 15:55:02 +0300</pubDate>
+        <link>https://tillgrallert.github.io/blog/2015/07/23/dating-books/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/07/23/dating-books/</guid>
+        
+        <category>book history</category>
+        
+        <category>calendars</category>
+        
+        <category>ottoman empire</category>
+        
+        <category>research in progress</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Text Encoding Fundamentals and their Application</title>
+        <description>&lt;p&gt;Context: &lt;a href=&quot;https://www.dhsi.org&quot;&gt;Digital Humanities Summer Institute&lt;/a&gt; 2015, UVic, 1-5 June 2015&lt;/p&gt;
+
+&lt;p&gt;Material: Material: The complete material for this course is available on &lt;a href=&quot;https://github.com/tillgrallert/TeachingTei&quot;&gt;GitHub&lt;/a&gt; for download and reuse. Functional slides are available &lt;a href=&quot;http://tillgrallert.github.io/TeachingTei/slides/slidesDHSI2015/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
+
+&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT, &lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to retrieval of data and publication to the web using XSLT.&lt;/p&gt;
+
+&lt;p&gt;We will do so on the basis of late nineteenth-century manuscripts of British diplomatic correspondence from Damascus and the first bi-lingual, English and Arabic, weekly newspaper published in the USA, &lt;em&gt;Kawkab America&lt;/em&gt;. Digital images, as well as sample encodings will be provided.&lt;/p&gt;
+
+&lt;p&gt;Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.&lt;/p&gt;
+
+&lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
+        <link>https://tillgrallert.github.io/blog/2015/06/01/tei-at-dhsi/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/06/01/tei-at-dhsi/</guid>
+        
+        <category>teaching</category>
+        
+        <category>tei</category>
+        
+        <category>xml</category>
+        
+        <category>xslt</category>
+        
+        <category>markup</category>
+        
+        <category>newspapers</category>
+        
+        <category>arabic newspapers</category>
+        
+        
+        <category>teaching</category>
+        
+      </item>
+    
+      <item>
+        <title>From analogue documents to electronic texts: Introduction to TEI XML editing in multilingual environments</title>
+        <description>&lt;p&gt;Context: &lt;a href=&quot;https://dhibeirut.wordpress.com&quot;&gt;Digital Humanities Institute - Beirut&lt;/a&gt; 2015, AUB, 2-6 March 2015&lt;/p&gt;
+
+&lt;p&gt;Material: The complete material for this course is available on &lt;a href=&quot;https://github.com/tillgrallert/TeachingTei&quot;&gt;GitHub&lt;/a&gt; for download and reuse. Functional slides are available &lt;a href=&quot;http://tillgrallert.github.io/TeachingTei/slides/slidesDHIB2015/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
+
+&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT, &lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to the publication of XML files using XSLT. To do so in a meaningful way, each participant will encode a single issue of one of Beirut’s many newspapers covering the restoration of the Ottoman constitution in summer 1908.Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.&lt;/p&gt;
+
+&lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/blog/2015/03/02/tei-at-dhib/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/03/02/tei-at-dhib/</guid>
+        
+        <category>teaching</category>
+        
+        <category>tei</category>
+        
+        <category>xml</category>
+        
+        <category>xslt</category>
+        
+        <category>markup</category>
+        
+        <category>newspapers</category>
+        
+        <category>arabic newspapers</category>
+        
+        <category>manuscripts</category>
+        
+        
+        <category>teaching</category>
+        
+      </item>
+    
+      <item>
+        <title>Überlegungen und Material für den Editionsworkshop im März 2015 am OIB</title>
+        <description>&lt;h1 id=&quot;technische-aspekte-oder-the-d-in-digital-humanities&quot;&gt;Technische Aspekte, oder: the D in Digital Humanities&lt;/h1&gt;
+
+&lt;h2 id=&quot;grundstze&quot;&gt;Grundsätze&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;wenige&lt;/strong&gt; und &lt;strong&gt;simple&lt;/strong&gt; Formate / Programmiersprachen, die mit einfachsten Texteditoren bearbeitet werden können, damit sie von den Nutzer_innen, und das sind in der Regel Geistes- und Sozialwissenschaftler_innen, gebraucht werden können. D.h. im besten Fall wird ein einziges Format und eine einzige Sprache für den gesamten Editions-/ Publikationsprozess verwandt.&lt;/li&gt;
+  &lt;li&gt;Formate / Programmiersprachen müssen &lt;strong&gt;menschen- und maschinenlesbar&lt;/strong&gt; sein. Damit wird sichergestellt, dass sogar ein plain-text-Ausdruck auf Papier prinzipiell verständlich ist, auch wenn dabei natürlich viel, wenn nicht gar sämtliche, Funktionalität verloren geht.&lt;/li&gt;
+  &lt;li&gt;Sämtliche Sprachen und Programme sollten &lt;strong&gt;open source&lt;/strong&gt; und &lt;strong&gt;etabliert&lt;/strong&gt; sein, mit einer großen Community. Das verhindert einen lock-in und Abhängigkeit von einem einzelnen Abieter.&lt;/li&gt;
+  &lt;li&gt;Sprachen sollten im &lt;strong&gt;Publikationsgewerbe&lt;/strong&gt; und &lt;strong&gt;Editionsprojekten&lt;/strong&gt; weit verbreitet  sein.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;evaluation-aktueller-stand-am-oib&quot;&gt;Evaluation aktueller Stand am OIB&lt;/h2&gt;
+
+&lt;p&gt;Die &lt;strong&gt;aktuell&lt;/strong&gt; von uns (OIB) benutzten Formate und Programme &lt;strong&gt;erfüllen die technischen Grundsätze alle nicht&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Viele Produktionsprozesse finden innerhalb von &lt;strong&gt;Microsoft Office&lt;/strong&gt; statt und setzen auf Microsoft Dateiformate. Die älteren dieser Formate (.doc, .xls, .ppt …) sind prinzipiell weder dokumentiert noch offen und ohne Lizenz benutzbar. Obwohl seit 2007 Microsoft XML-basierte Formate benutzt (.docx, .xslx, .pptx …), sind diese nicht dokumentiert und müssen, wenn sie außerhalb von Microsoftprodukten benutzt werden sollen, &lt;em&gt;reverse engineered&lt;/em&gt; werden.&lt;/li&gt;
+  &lt;li&gt;Unser digitaler Output ist häufig ein &lt;strong&gt;PDF&lt;/strong&gt;. Dieses ist ein proprietäres Adobe Format und nicht dokumentiert. Sollen PDFs auf einem professionellen Level erstellt werden, sind sehr teure Lizenzen für Adobeanwendungen notwendig. Während es die Darstellung auf allen Anzeigegeräten stabil hält indem es sich nicht oder nur sehr schwer bearbeiten lässt, verhindert es genau dadurch ein gemeinsames Arbeiten an einem Quelltext. Außerdem ist PDF ausschließlich auf die &lt;em&gt;optische Präsentation&lt;/em&gt; und nicht die &lt;em&gt;logische Organisation&lt;/em&gt; der Inhalte ausgerichtet. Es ist fast unmöglich auch aus einem “guten” PDF wieder eine bearbeitbare Datei zu erzeugen ohne wesentliche Aspekte eines Textes zu verlieren. Für webbasierte Anwendungen ist es prinzipiell nicht gemacht oder geeignet (da es z.B. nicht sequentiell geladen werden kann und damit enorme Bandbreiten verschlingt).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technische-vorschlge-xml&quot;&gt;Technische Vorschläge: XML&lt;/h2&gt;
+
+&lt;p&gt;Viele Editionsprojekte und Verlage setzen daher auf &lt;strong&gt;XML&lt;/strong&gt; und die damit verbundenen Spezifikationen / Techniken, die sämtlich offene Standards oder Recommendations des W3C Konsortiums sind. XML &lt;strong&gt;erfüllt alle oben angeführte Grundsätze&lt;/strong&gt;. Um einen Eindruck von den Möglichkeiten zu bekommen, ist es sinnvoll sich unten stehende, beispielhafte Editionsprojekte und -werkzeuge anzuschauen.&lt;/p&gt;
+
+&lt;p&gt;Um &lt;a href=&quot;http://mws.hypotheses.org/1571&quot;&gt;Stefan Müllers Fazit&lt;/a&gt; zu zitieren: “Geisteswissenschaftler sollen mit XML umgehen können, weil der Umgang mit Texten, Textstruktur und Textsemantik zum Kernbereich der Geisteswissenschaft gehört, weil die dabei anfallenden Entscheidungen auch nur der Fachwissenschaftler, kein hilfreich herbeieilender Techniker treffen kann und weil der Umgang mit XML auch gar nicht so schwierig ist wie die wirklich harten Probleme ‒ die sind bei einer Edition stets philologischer Natur. Wenn man von der XML-Frage verallgemeinernd absieht, wird der Impetus ein aufklärerischer: Es geht dann um den Ausgang des Geisteswissenschaftlers aus einer selbstverschuldeten Unmündigkeit, was Datenverarbeitung angeht. Besteht diese Unmündigkeit? Und ist sie selbstverschuldet ‒ aus denselben Ursachen, die Kants berühmter Aufsatz nennt? Hier liegt ein Problem, das unangenehmer ist als etwa das vergleichsweise harmlose Ansinnen, die Geisteswissenschaften im Social Web zu verankern.”&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;XML&lt;/strong&gt; (Extensible Markup Language): &lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;Spezifikationen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;. XML ist eine strikt hierarchische Markup-Sprache in der prinzipiell zwischen funktionalem Markup und Inhalt unterschieden wird. Da XML sehr ausführlich/ wortreich ist und sämtliche Dinge explizit beschrieben werden müssen, ist XML menschenlesbar. XML unterstützt Unicode und LnR-Sprachen, wie Arabisch. Die eigentlichen Regeln für das Markup einer Datei weden in sogenannten Schemata festgelegt, über die jedes Projekt selbst entscheiden kann. XML ist international und in Deutschland sowohl für Editionsprojekte als auch im Publikationsgewerbe weit verbreitet (siehe Beispiele unten). Außerdem sind viele von uns allen täglich benutzte Dateiformate XML-Varianten, z.B. sämtliche aktuelle Microsoft Office Formate (enden auf “x”, wie z.B. “.docx”). Allerdings sind nicht alle dieser Schemata und Spezifikationen offen und gut dokumentiert (auch hier ist wieder Microsoft Office zu nennen).
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;XSLT&lt;/strong&gt; (Extensible Stylesheet Language Transformations): &lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;Spezifikation&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;. Deklarative Sprache um XML Dokumente in andere XML Dokumente (inklusiver anderer Markup-sprachen, wie z.B. HTML) zu transformieren. Die Sprache selbst wird in XML geschrieben.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;XPath&lt;/strong&gt;: data model, &lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;Spezifikationen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;. Mit XPath können die einzelnen Elemente innerhalb einer XML-Datei adressiert werden und simple Operationen vorgenommen werden. XPath ist ein subset von XQuery.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;XQuery&lt;/strong&gt;: &lt;a href=&quot;http://www.w3.org/XML/Query/&quot;&gt;Spezifikationen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XQuery&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.tei-c.org/index.xml&quot;&gt;TEI P5 XML&lt;/a&gt;&lt;/strong&gt;: Die aktuelle Fassung des XML Schemas der Text Encoding Initiative (TEI). Hierbei handelt es sich um einen quasi-Standard, der ursprünglich für die digitale Abbildung und Beschreibung (i.e. Edition) analoger Quelltexte entwickelt worden ist. Allerdings wird TEI auch zunehmend für born-digital Texte verwandt.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;XML Datenbanken&lt;/strong&gt;: auf der Grundlage von XML Datenbanken wie z.B. &lt;a href=&quot;http://exist-db.org/exist/apps/homepage/index.html&quot;&gt;eXist DB&lt;/a&gt; können komplette, dynamische Onlinelösungen in XML und XQuery geschrieben werden. Ein gutes Beispiel ist hierbei die Webseite des &lt;a href=&quot;http://history.state.gov/&quot;&gt;Office of the Historian of the United States&lt;/a&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://sourceforge.net/projects/mycore/&quot;&gt;MyCoRe repository framework&lt;/a&gt;: ein Dokumentenserver; open source, benutzt Java, XML und “different database backends”. Dieses System wird für Herrn Leders Projekt einer “Encyclopaedia of Islamic Political Thought” eingesetzt. Andere Nutzer sind unter anderem das Projekt zur Katalogisierung und Digitalisierung aller &lt;a href=&quot;http://www.islamic-manuscripts.net/content/below/index.xml&quot;&gt;Islamischer Handschriften der Universitätsbibliothek Leipzig&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;beispiele-und-konkrete-vorschlge&quot;&gt;Beispiele und konkrete Vorschläge&lt;/h1&gt;
+
+&lt;p&gt;Damit alle Teilnehmer_innen gebrauch von der folgenden Liste machen können, ist diese vornehmlich in englisch verfasst.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tools / Research environments:
+  &lt;!-- + **[TextGrid](http://www.textgrid.de/en/)**: eine virtuelle Forschungsumgebung, die sowohl Repositorien als auch Werkzeuge für textbasierte Forschung bietet. Entwickelt u.a. von Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek Göttingen (Projektleitung), Institut für Deutsche Sprache Mannheim, Julius-Maximilians-Universität Würzburg, Max-Planck-Institut für Wissenschaftsgeschichte Berlin, Technische Universität Berlin, Technische Universität Darmstadt.--&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.textgrid.de/en/&quot;&gt;TextGrid&lt;/a&gt;&lt;/strong&gt;: a virtual research environment, providing a repository for digital texts as well as various editing tools; developed by the &lt;a href=&quot;http://www.bbaw.de&quot;&gt;Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)&lt;/a&gt;, Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek Göttingen (Projektleitung), Institut für Deutsche Sprache Mannheim, Julius-Maximilians-Universität Würzburg, Max-Planck-Institut für Wissenschaftsgeschichte Berlin, Technische Universität Berlin, Technische Universität Darmstadt.
+  &lt;!-- + **[Ediarum](http://www.bbaw.de/telota/software/ediarum)**: eine virtuelle Forshungsumgebung, entwickelt von der BBAW. Basiert auf XML, TEI P5, eXist DB, XQuery etc. und kann sowohl Webauftritt als auch Printeditionen produzieren. Ein Erfahrungsbericht des [Schleiermacher Projektes](http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II) mit dieser Software findet sich [hier](http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834/). --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.bbaw.de/telota/software/ediarum&quot;&gt;Ediarium&lt;/a&gt;:&lt;/strong&gt; a virtual research environment developed by the BBAW. It is based on XML, TEI P5, eXist DB, XQuery etc. and can be used to generate websites as well as printed editions. The &lt;a href=&quot;http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II&quot;&gt;Schleiermacher Projekt&lt;/a&gt; provides a &lt;a href=&quot;http://digiversity.net/2012/digitale-arbeitsumgebung-fur-das-editionsvorhaben-schleiermacher-in-berlin-1808-1834/&quot;&gt;report&lt;/a&gt; on their experiences with this software.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.bbaw.de/en/telota/projectcollection/archiv-editor&quot;&gt;Archiv Editor&lt;/a&gt;&lt;/strong&gt;. XML-editor, developed by the BBAW.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://dfg-viewer.de/ueber-das-projekt/&quot;&gt;DFG-Viewer&lt;/a&gt;&lt;/strong&gt;: Plattform zur Anzeige von Digitalisaten mit einer METS/MODS und METS/TEI XML Schnittstelle.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://cte.oeaw.ac.at//&quot;&gt;Classical Text Editor&lt;/a&gt;&lt;/strong&gt;: Ziemlich altes Windows-only Programm zur Edition von Texten, dass nicht mehr aktiv weiterentwickelt wird (es gab in den letzten 5 Jahren nur ein winziges Update), produziert TEI XML und HTML. Wird/ wurde am OIB bereits benutzt.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; CTE is under active development and version 9 was just released (20 Feb 2015) — some 6 years after v8.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://t-pen.org/TPEN/&quot;&gt;&lt;strong&gt;T-Pen&lt;/strong&gt; (transcription for paleographical and editorial notation)&lt;/a&gt;: Werkzeug zur Transkription von Digitalisaten, erlaubt den Export von XML Dateien.
+  &lt;!-- + **[tranScriptorium](http://transcriptorium.eu)**: Ein Projekten zur Entwicklung von Transkriptionswerkzeugen für historische Dokumente, inklusive sogenannter HandwrittenText Recognition (HTR) Werkzeuge. Der Fokus liegt auf europäischen Sprachen, aber der Ansatz ist für Arabisch durchaus interessant. Das Projekt bietet eine   [online Demonstration](http://transcriptorium.eu/demots/htr/index.php) an. --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://transcriptorium.eu&quot;&gt;tranScriptorium&lt;/a&gt;&lt;/strong&gt;: a project for the development of transcription tools for historical documents, inluding so-called Handwritten Text Recognition (HTR) tools. The project focusses on European languages, but their approach might be interesting for Arabic and other L-to-R scripts as well. They provide a functional &lt;a href=&quot;http://transcriptorium.eu/demots/htr/index.php&quot;&gt;online demo&lt;/a&gt;.
+  &lt;!-- + **DENQ** (Digitale Editionen neuzeitlicher Quellen): Vom DHI in Rom und London entwickelte Editions- und Publikationsumgebung. Setzt auf einer eXistDB Datenbank und TEI XML auf ist allerdings kein offenes Projekt. Es existiert keine Dokumentation vage Beschreibungen sind vier bis sechs Jahre alt.[^1] --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;DENQ&lt;/strong&gt; (Digitale Editionen neuzeitlicher Quellen): editing and publishing tool. Based on eXist DB and TEI XML. Under development by the DHI Rome and London. A rather vague and old description, dating to 2008(!), can be found &lt;a href=&quot;http://digiversity.net/2010/denq/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://www.roman-repertories.net/fileadmin/user_upload/pdf-dateien/Online-Publikationen/Dresden_Histtag/Hist_Grundlagenforschung_Mittelalter_Neuzeit.pdf&quot;&gt;here&lt;/a&gt;. The project is not open and there is no publicly accessible documentation.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.juxtasoftware.org/&quot;&gt;Juxta&lt;/a&gt;&lt;/strong&gt;: open-source tool for comparing and collating multiple witnesses to a single textual work; XML.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://sourceforge.net/projects/evt-project/&quot;&gt;&lt;strong&gt;EVT&lt;/strong&gt; (Edition Visualization Technology)&lt;/a&gt;: a set of interdependent XSLT stylesheets to publish digital editions marked-up in TEI P5 to a website. EVT was developed for the &lt;a href=&quot;http://vbd.humnet.unipi.it/beta/&quot;&gt;Vercelli Book Digitale beta edition&lt;/a&gt; and a description was published in &lt;a href=&quot;http://jtei.revues.org/1077&quot;&gt;JTEI (Rosselli et al. 2014)&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://deutschestextarchiv.de&quot;&gt;&lt;strong&gt;DTA&lt;/strong&gt; (Deutsches Text Archiv)&lt;/a&gt;: they, inter alia, developed the DTABf (DTA-Basisformat) as a strict subset of TEI P5 to ensure a very high level of interoperability for their large corpus of German texts between the 17th-19th centuries. They also supply an oXygen framework. A description was published in &lt;a href=&quot;http://jtei.revues.org/1114&quot;&gt;JTEI (Haaf et al. 2014)&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Digital editions
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://firstfolio.bodleian.ox.ac.uk/&quot;&gt;First Folio&lt;/a&gt;: digital Shakespeare edition. Based on TEI XML.&lt;/li&gt;
+      &lt;li&gt;Das &lt;a href=&quot;http://www.deutschestextarchiv.de/doku/workflow&quot;&gt;Deutsche Text Archiv, DTA&lt;/a&gt;, XML basiert. Benutzt TEI und eigene Erweiterungen.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.bbaw.de/forschung/alphabetisch/schleiermacher_II&quot;&gt;Schleiermacher Projekt&lt;/a&gt;. Briefedition auf Basis von TEI XML.
+  &lt;!-- + [Refaiya Library](http://www.refaiya.uni-leipzig.de), Leipzig: Katalogisierung und Digitalisate von Manuskripten der Rifāʾiyya Bibliothek. XML basierter Dokumentenserver. Die bibliographischen Metadaten sind in METS/TEI bzw. in METS/MODS erfasst. Die Digitalisate werden über den DFG-Viewer ausgegeben. --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.refaiya.uni-leipzig.de&quot;&gt;Refaiya Library&lt;/a&gt;&lt;/strong&gt;, Leipzig: an XML-based document server providing a catalogue and digitized manuscripts from the Rifāʾiyya library. Bibliographic meta data is recorded in METS/TEI or METS/MODS. Digitised items are served online through the DFG-Viewer software.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.dh.uni-leipzig.de/wo/projects/open-greek-and-latin-project/the-leipzig-open-fragmentary-texts-series-lofts/&quot;&gt;The Leipzig Open Fragmentary Texts Series (LOFTS)&lt;/a&gt;: Producing open editions of ancient works that survive only through quotations and re-uses in later texts, including Arabic translations; TEI, XML, RDF.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://tei.ibi.hu-berlin.de/berliner-intellektuelle/&quot;&gt;Briefe und Texte aus dem intellektuellen Berlin um 1800&lt;/a&gt;. Texteditionen auf Basis von TEI XML.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.perseus.tufts.edu/hopper/&quot;&gt;Perseus Digital Library&lt;/a&gt;: Bietet unter anderem eine TEI basierte Onlineversion von &lt;a href=&quot;http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a2002.02.0015&quot;&gt;Lane’s Arabic Dictionary&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.thedigitalwalters.org/01_ACCESS_WALTERS_MANUSCRIPTS.html&quot;&gt;The Digital Walters&lt;/a&gt;: u.a. Bilddigitalisate von Koranmanuskripten und anderen arabischen Handschriften des Walters Art Museum, die Facsimiles werden über TEI XML erschlossen.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Further projects and initiative
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://dixit.uni-koeln.de/home.html&quot;&gt;DiXit&lt;/a&gt;&lt;/strong&gt;: Digital Scholarly Editions, Initial Training Network&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.i-d-e.de/&quot;&gt;&lt;strong&gt;IDE&lt;/strong&gt; (Institut für Dokumentologie und Editorik)&lt;/a&gt;: &lt;!-- Publizieren u.a. Listen mit hilfreichen Werkzeugen, eine Schriftenreihe und den [Review of of digital editions (RIDE)](http://ride.i-d-e.de). --&gt; network of researchers involved in the development of tools and practices for digital editions. They organise workshops and spring/summer schools. They also publish a book series and a &lt;a href=&quot;http://ride.i-d-e.de&quot;&gt;Review of digital editions (RIDE)&lt;/a&gt;.
+  &lt;!-- + [Wellcome Arabic Manuscript Cataloguing Project](http://wamcp.bibalex.org/home): Entwicklung eines XML Schemas zur Beschreibung arabischer Manuskripte basierend auf TEI/ENRICH XML model. Die Webseite bietet Zugang zu Bilddigitalisaten der Manuskripte. --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://wamcp.bibalex.org/home&quot;&gt;Wellcome Arabic Manuscript Cataloguing Project&lt;/a&gt;&lt;/strong&gt;: Developed an XML schema for the description of Arabic manuscripts based on the TEI/ENRICH XML model. The website also provides access to digitised images of the manuscripts.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.fihrist.org.uk/home&quot;&gt;Fihrist&lt;/a&gt;&lt;/strong&gt;: &lt;!-- Unionskatalog arabischer Manuskripte, basiert auf TEI XML.--&gt; union catalogue of Arabic manuscripts. Based on TEI XML.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;literature--links&quot;&gt;Literature / Links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Haaf, Susanne, Alexander Geyken, and Frank Wiegand. “&lt;a href=&quot;http://jtei.revues.org/1114&quot;&gt;The DTA ‘Base Format’: A TEI Subset for the Compilation of a Large Reference Corpus of Printed Text From Multiple Sources&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 8: Selected Papers from the 2013 TEI Conference (2015)&lt;/li&gt;
+  &lt;li&gt;Hedges, Mark, Heike Neuroth, et al. “&lt;a href=&quot;http://jtei.revues.org/774&quot;&gt;TextGrid, TEXTvre, and DARIAH: Sustainability of Infrastructures for Textual Scholarship&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 5: TEI Infrastructures (2013): doi:10.4000/jtei.774&lt;/li&gt;
+  &lt;li&gt;Hudrisier, Henri, Rachid Zghibi, et al. &lt;em&gt;&lt;a href=&quot;http://digilab2.let.uniroma1.it/teiconf2013/wp-content/uploads/2013/09/book-abstracts.pdf#page=65&quot;&gt;Promoting the Linguistic Diversity of TEI in the Maghreb and the Arab Region&lt;/a&gt;.&lt;/em&gt; Presentation at TEI Conference and Members Meeting 2013. The Linked TEI: Text Encoding in the Web. Rome, 2013. &lt;!-- http://digilab2.let.uniroma1.it/teiconf2013/wp-content/uploads/2013/09/book-abstracts.pdf#page=65 (accessed October 29, 2014)--&gt;&lt;/li&gt;
+  &lt;li&gt;Müller, Stefan. “&lt;a href=&quot;http://mws.hypotheses.org/1571&quot;&gt;Der Veſte Buchſtab. Digitale Editionen, Ihre Erstellung und Darbietung&lt;/a&gt;.” Wissen in Verbindung. Bericht über das Arbeitstreffen „digital humanities. Wissenschaftliche Datenbanken und Editionsprojekte“ der Max Weber Stiftung, 29-30 Nov. 2012. &lt;!-- http://mws.hypotheses.org/1571 (accessed December 11, 2014) --&gt;&lt;/li&gt;
+  &lt;li&gt;Pearce, Sarah. “&lt;a href=&quot;http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic.html&quot;&gt;Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 1&lt;/a&gt;.” &lt;!-- http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic.html (accessed December 18, 2014). --&gt;&lt;/li&gt;
+  &lt;li&gt;Pearce, Sarah. “&lt;a href=&quot;http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic_18.html&quot;&gt;Notes from the Life of a Medievalist: Textual Corpora and the Digital Islamic Humanities, Day 2&lt;/a&gt;.” &lt;!-- http://meshalim.blogspot.co.uk/2014/10/textual-corpora-and-digital-islamic_18.html (accessed December 18, 2014).--&gt;&lt;/li&gt;
+  &lt;li&gt;Rosselli Del Turco, Roberto, Giancarlo Buomprisco, et al. “&lt;a href=&quot;http://jtei.revues.org/1077&quot;&gt;Edition Visualization Technology: A Simple Tool to Visualize TEI-based Digital Editions&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 8: Selected Papers from the 2013 TEI Conference (2014)&lt;/li&gt;
+  &lt;li&gt;Soualah, Mohammed Ourabah and Mohamed Hassoun. “&lt;a href=&quot;http://jtei.revues.org/398&quot;&gt;A TEI P5 Manuscript Description Adaptation for Cataloguing Digitized Arabic Manuscripts&lt;/a&gt;.” &lt;em&gt;Journal of the Text Encoding Initiative&lt;/em&gt; 2 (2012): doi:10.4000/jtei.398&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://svnextern.dl.uni-leipzig.de/viewsvn/&quot;&gt;http://svnextern.dl.uni-leipzig.de/viewsvn/&lt;/a&gt; providing code for IslamHS and various other projects, including the Refaiya&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.overleaf.com/&quot;&gt;overleaf&lt;/a&gt;: commercial (?) colaborative publishing platform. Based on LaTeX.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 23 Feb 2015 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/blog/2015/02/23/workshop-editions-material/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/02/23/workshop-editions-material/</guid>
+        
+        <category>digital humanities</category>
+        
+        <category>digital editions</category>
+        
+        <category>workshop</category>
+        
+        <category>tei</category>
+        
+        <category>xml</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The puzzle continues II: in addition to *al-kabīr* and *al-ṣaghīr*, *al-Muqtaṭaf* published slightly different editions in Beirut and Kairo</title>
+        <description>&lt;p&gt;I am just about to fix the references in my thesis, and a possible reason for differences between available copies of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, which I had briefly mentioned in my first post &lt;a href=&quot;/blog/2012/12/29/the-historians-puzzle/&quot;&gt;on the issue of differences between copies of printed periodicals that ought to be similar&lt;/a&gt;. As I wrote &lt;a href=&quot;/blog/2013/08/19/the-puzzle-continues/&quot;&gt;some eight months later&lt;/a&gt;, the scholarly community had just not read &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; close enough to discover the existence of a long (&lt;em&gt;kabīr&lt;/em&gt;) and short (&lt;em&gt;ṣaghīr&lt;/em&gt;) for Volumes 6 to 9, which were most likely targetted at two different markets (the long version at Egypt and Europe and the short one at Beirut, Lebanon, and surrounding areas).&lt;/p&gt;
+
+&lt;p&gt;Yet, the original puzzle had been the absence of a short note on the publication of the three new periodicals &lt;em&gt;Dimashq&lt;/em&gt;, &lt;em&gt;al-Salām&lt;/em&gt;, and &lt;em&gt;al-Iʿtidāl&lt;/em&gt; in &lt;a href=&quot;http://sitzextase.de/muqtataf/muqtataf-v04-i05.html&quot;&gt;some copies of the fifth issue of volume 4&lt;/a&gt;. Upon closer inspection of the front covers to copies of volume 4, I found the same difference in annual subscription prices and that those copies lacking the short article, carried the note “Printed at &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; Press in Egypt on the expense of founders and Shāhīn Makāriyūs, the owner of the press”. We can thus establish the existence of an “Egyptian” and a “Syrian” edition already by June 1878 (the publication date of the first issue of volume 4).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v04/pr02/um/muqtataf-v04-pr02-um-covers1.jpg&quot; alt=&quot;facsimile cover page, Michigan&quot; /&gt; 
+&lt;img src=&quot;/images/muqtataf/v04/pr01/up/muqtataf-v04-pr02-up-covers1.jpg&quot; alt=&quot;facsimile cover page, Princeton&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, I have not had access to different editions of volume 5 (the covers of copies SOAS, Michigan, and Princeton show no differences), but I suspect it too exists in (at least) two editions.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jan 2014 13:57:30 +0200</pubDate>
+        <link>https://tillgrallert.github.io/blog/2014/01/19/the-puzzle-continues-2/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2014/01/19/the-puzzle-continues-2/</guid>
+        
+        <category>19th century</category>
+        
+        <category>arabic newspapers</category>
+        
+        <category>history of press</category>
+        
+        <category>newspapers</category>
+        
+        <category>periodicals</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>New XSLT stylesheets for calendar conversion on Github</title>
+        <description>&lt;p&gt;A couple of months ago a posted &lt;a href=&quot;/blog/2013/07/04/xslt-calendar-conversion/&quot;&gt;a short note&lt;/a&gt; on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (&lt;em&gt;mālī&lt;/em&gt;, &lt;em&gt;sene-yi māliye&lt;/em&gt;) to the brew and uploaded everything under a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0 license&lt;/a&gt; to &lt;a href=&quot;https://github.com/tillgrallert/xslt-calendar-conversion&quot;&gt;GitHub&lt;/a&gt;. Feel free to fork and tinker with the code. Enjoy!&lt;/p&gt;
+
+&lt;h2 id=&quot;general-description&quot;&gt;General description&lt;/h2&gt;
+
+&lt;p&gt;The single stylesheet in this repo was conceived as a remedy for the bugs in the XPath specification that prevent the computation of Islamic (&lt;em&gt;hijrī&lt;/em&gt;) dates. As I was, at the same time, working on the transcription of Arabic and Ottoman Turkish sources from the nineteenth century, which made use of Gregorian, &lt;em&gt;hijrī&lt;/em&gt;, &lt;em&gt;rūmī&lt;/em&gt;, and &lt;em&gt;mālī&lt;/em&gt; calendars, into XML files, I also wanted to reliably compute conversions between the various calendars.&lt;/p&gt;
+
+&lt;p&gt;In addition to numerical dates, the stylesheet provides a function that returns the common month names.&lt;/p&gt;
+
+&lt;p&gt;Detailed descriptions of the functions and their parameters can be found inside the stylesheet.&lt;/p&gt;
+
+&lt;h2 id=&quot;characteristics-of-the-non-gregorian-calendars&quot;&gt;Characteristics of the non-Gregorian calendars&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Hijrī&lt;/em&gt;&lt;/strong&gt; reckoning relies on the observation of the lunar year. Year counts began with Muhammad’s exodus (&lt;em&gt;hijrā&lt;/em&gt;) from Mecca to Medina. &lt;em&gt;Hijrī&lt;/em&gt; dates cannot really be computed as observations of the new moon varied between locations. The stylesheet uses common astronomical computations of the lunar calendar.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Rūmī&lt;/em&gt;&lt;/strong&gt; reckoning is a Julian calendar that adopted 1 January as the beginning of the year. As the rules for leap years are slightly different between Julian and Gregorian calendars, the difference between these two is slowly increasing (currently 13 days).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Mālī&lt;/em&gt;&lt;/strong&gt; reckoning is a combination of the old Julian calendar beginning on 1 March and a &lt;em&gt;hijrī&lt;/em&gt; year count, that was introduced as the fiscal calendar of the Ottoman Empire in 1676. Every 33 lunar years, the year counts between &lt;em&gt;mālī&lt;/em&gt; and &lt;em&gt;hijrī&lt;/em&gt; calendars are synchronised by dropping a year.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;templates&quot;&gt;Templates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Templates for the conversion between calendars:
+    &lt;ul&gt;
+      &lt;li&gt;funcDateG2H&lt;/li&gt;
+      &lt;li&gt;funcDateG2J&lt;/li&gt;
+      &lt;li&gt;funcDateG2JD&lt;/li&gt;
+      &lt;li&gt;funcDateG2M&lt;/li&gt;
+      &lt;li&gt;funcDateH2G&lt;/li&gt;
+      &lt;li&gt;funcDateH2J&lt;/li&gt;
+      &lt;li&gt;funcDateH2JD&lt;/li&gt;
+      &lt;li&gt;funcDateH2M&lt;/li&gt;
+      &lt;li&gt;funcDateJ2G&lt;/li&gt;
+      &lt;li&gt;funcDateJ2H&lt;/li&gt;
+      &lt;li&gt;funcDateJ2JD&lt;/li&gt;
+      &lt;li&gt;funcDateJD2G&lt;/li&gt;
+      &lt;li&gt;funcDateJD2H&lt;/li&gt;
+      &lt;li&gt;funcDateJD2J&lt;/li&gt;
+      &lt;li&gt;funcDateM2G&lt;/li&gt;
+      &lt;li&gt;funcDateM2H&lt;/li&gt;
+      &lt;li&gt;funcDateM2J&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Templates for converting Date formats
+    &lt;ul&gt;
+      &lt;li&gt;funcDateMonthNameNumber&lt;/li&gt;
+      &lt;li&gt;funcDateNormaliseInput&lt;/li&gt;
+      &lt;li&gt;funcDateFormatTei&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;input--output&quot;&gt;Input / Output&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Input and output for all templates converting dates between the various calendars is as follows: “yyyy-mm-dd”&lt;/li&gt;
+  &lt;li&gt;The template “funcDateFormatTei” accepts the same input but produces a &lt;code&gt;&amp;lt;tei:date&amp;gt;&lt;/code&gt; note with &lt;code&gt;@when&lt;/code&gt; or &lt;code&gt;@when&lt;/code&gt;, &lt;code&gt;@when-custom&lt;/code&gt;, &lt;code&gt;@calendar&lt;/code&gt;, and &lt;code&gt;@datingMethod&lt;/code&gt; attributes depending on the input calendar.&lt;/li&gt;
+  &lt;li&gt;The template “funcDateNormaliseInput” can be used to convert variously formatted input  strings to the yyyy-mm-dd required by other templates. Possible input formats are  the common English formats of ‘dd(.) MNn(.) yyyy’, ‘MNn(.) dd(.), yyyy’, i.e. ‘15  Shaʿbān 1324’ or ‘Jan. 15, 2014’. The template requires an input string and a  calendar-language combination as found in funcDateMonthNameNumber.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 04 Jan 2014 00:00:00 +0200</pubDate>
+        <link>https://tillgrallert.github.io/blog/2014/01/04/new-calendar-conversion/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2014/01/04/new-calendar-conversion/</guid>
+        
+        <category>xml</category>
+        
+        <category>xslt</category>
+        
+        <category>tools</category>
+        
+        <category>digital humanities</category>
+        
+        <category>calendars</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The puzzle continues: *al-Muqtaṭaf* was printed in two different and unmarked editions</title>
+        <description>&lt;p&gt;As I noted at the &lt;a href=&quot;/blog/2012/12/29/the-historians-puzzle/&quot;&gt;end of last year&lt;/a&gt;, Ottoman and Arabic periodicals of the late nineteenth and early twentieh century appeared in different editions. Print-runs differed in spelling, pagination, lay-out, and content. However, I was not aware of the extend of this phenomenon.&lt;/p&gt;
+
+&lt;p&gt;I just discovered that the journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;, published by Yaʿqūb Ṣarrūf and Fāris Nimr under the directorship of Shahīn Makāriyūs in Beirut until 1884, printed two “first print runs” or first editions” (&lt;em&gt;al-ṭabaʿat al-ūlā&lt;/em&gt;), whose content differed by exactly 32 pages per issue! Copies of the twelve issues of volume 7 (1882-83) available at many European and Middle Eastern libraries comprise 760 consecutively numbered pages, while the copy at Princeton library, digitally available at &lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot;&gt;Hathitrust&lt;/a&gt;, comprises only 344 equally consecutively numbered pages.&lt;/p&gt;
+
+&lt;p&gt;To illustrate the matter, let’s have a look at the first issue of volume seven (June 1882):&lt;/p&gt;
+
+&lt;h3 id=&quot;edition-1-small-version-of-32-pages&quot;&gt;Edition 1: “Small” version of 32 pages.&lt;/h3&gt;
+
+&lt;p&gt;Held by Princeton University Library and made available through &lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot;&gt;HathiTrust&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg&quot; alt=&quot;facsimile page 18&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;edition-2-large-version-of-64-pages&quot;&gt;Edition 2: “Large” version of 64 pages.&lt;/h3&gt;
+
+&lt;p&gt;Held by the &lt;a href=&quot;http://www.orient-institut.org&quot;&gt;Orient Institut Beirut&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg&quot; alt=&quot;facsimile page 18&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first 16 pages of the two editions are identical. Page 17 of the copy at the &lt;a href=&quot;http://www.orient-institut.org/&quot;&gt;Orient Institut Beirut (OIB)&lt;/a&gt; is the first page of a lengthy tracte on “women’s rights” (&lt;em&gt;ḥuqūq al-marʾa&lt;/em&gt;) by Wadīʿ Efendi al-Khūrī. In the Princeton copy, the same page 17 comprises four short questions (&lt;em&gt;masāʾil&lt;/em&gt;) and the beginning of the section &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt;. Both pages bear a printer’s mark with information on the volume, the edition, and the binding block. While volume number and edition are marked as identical, the number of the binding block differs: “3 ṣ” at Princeton, “3 k” at the OIB. To my astonishment, the OIB copy continues with the same paragraph of the &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt; section on page 48, after which the two editions are again identical, save for the page numbers.&lt;/p&gt;
+
+&lt;p&gt;The printer’s marks provide a solution to the riddle in the case of &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; – or rather, they provide an indicator for the edition one is looking at. After having checked further volumes at the OIB (vol. 6-9), the volumes comprising “extended” issues of 64 pages all bear the Arabic letter &lt;em&gt;kāf&lt;/em&gt; in the printer’s mark, while the “short” issues of 32 pages were marked with the latter &lt;em&gt;ṣād&lt;/em&gt;. In addition, those copies whose index survived the times (at least 6-9), show that the index took account of a “large &lt;em&gt;Muqtaṭaf&lt;/em&gt;” (&lt;em&gt;al-muqtaṭ af al-kabīr&lt;/em&gt; in Arabic and abbreviated by the &lt;em&gt;kāf&lt;/em&gt; in the printer’s mark) and a “small &lt;em&gt;Muqtaṭaf&lt;/em&gt;” (&lt;em&gt;al-muqtaṭaf al-ṣaghīr&lt;/em&gt; in  and abbreviated with a &lt;em&gt;ṣād&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Upon further investigations, it turned out that the two editions weren’t exactly completely “unmarked” beyond the printer’s mark on the binding blocks and the indexes. The cover sheet for the short and the extended version differ in the quoted prices and location of subscription:&lt;/p&gt;
+
+&lt;!-- ### Edition 1
+
+![facsimile cover page]()
+
+
+### Edition 2
+
+![facsimile cover page]()
+--&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The extended version quoted prices for annual subscriptions “in Europe and the Egyptian lands” at £1, while&lt;/li&gt;
+  &lt;li&gt;the short version quoted annual subscriptions at “Beirut and Lebanon” at Frcs 7 and Frcs 8 for the surrounding areas (&lt;em&gt;al-jihāt&lt;/em&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A systematic comparison of the two editions, the existence of which hitherto escaped the scholarly community, might reveal and equally systematic targetting of themes to different audiences. This could mean that major scholarly works on the Nahda, the press, and its audience need substantial reworking.&lt;/p&gt;
+
+&lt;!-- 
+## *al-Muqtaṭaf*, edited by Fāris Nimr and Yaʿqūb Ṣarrūf in Beirut, vol. 7 (1) Jun 1882
+
+The examples below show that *al-Muqtaṭaf* was published in a large (*kabīr*) and a small (*ṣaghīr*) edition.The editions were marked by the printer&#39;s mark on the binding blocks, using a the letters *kāf* and *ṣād*. The two editions contained a single index for both, comprising two sets of page numbers. Finally, it seems as if the volumes were marketed to different regions.
+
+### Edition 1: &quot;Small&quot; version of 32 pages.
+
+Held by Princeton University Library (&lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot; target=&quot;new&quot;&gt;Hathitrust&lt;/a&gt;)
+        
+![facsimile page 15](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg)
+
+![facsimile page 16](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg)
+
+![facsimile page 17](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg) 
+
+![facsimile page 18](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg)
+    
+### Edition 2: &quot;Large&quot; version of 64 pages.
+
+Held by the Orient Institut Beirut
+
+![facsimile page 15](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg)
+
+
+![facsimile page 16](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg)
+
+
+![facsimile page 17](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg)
+
+![facsimile page 18](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg) --&gt;
+</description>
+        <pubDate>Mon, 19 Aug 2013 14:39:09 +0300</pubDate>
+        <link>https://tillgrallert.github.io/blog/2013/08/19/the-puzzle-continues/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2013/08/19/the-puzzle-continues/</guid>
+        
+        <category>19th century</category>
+        
+        <category>arabic newspapers</category>
+        
+        <category>history of press</category>
+        
+        <category>newspapers</category>
+        
+        <category>periodicals</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
