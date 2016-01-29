@@ -5,8 +5,8 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jan 2016 00:42:40 +0200</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 00:42:40 +0200</lastBuildDate>
+    <pubDate>Sat, 30 Jan 2016 01:53:44 +0200</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 01:53:44 +0200</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -31,79 +31,88 @@
 
 &lt;!-- ![Page 3 of the HTU copy](/images/dustur/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.png) --&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
     &lt;a href=&quot;/images/dustur/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.png&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/dustur/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.png&quot; alt=&quot;Page 3 of the HTU copy&quot; /&gt;
+    	&lt;figcaption&gt;Page 3 of the HTU copy&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Page 3 of the HTU copy&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
     &lt;a href=&quot;/images/dustur/s1/v1/e02/pr03/ucb/dustur-s1-v1-e02-pr03-ucb-p0003.png&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/dustur/s1/v1/e02/pr03/ucb/dustur-s1-v1-e02-pr03-ucb-p0003.png&quot; alt=&quot;Page 3 of the UC Berkeley copy&quot; /&gt;
+    	&lt;figcaption&gt;Page 3 of the UC Berkeley copy&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Page 3 of the UC Berkeley copy&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
     &lt;a href=&quot;/images/dustur/s1/v1/e02/pr02/soas/dustur-s1-v1-e02-pr02-soas-p0003.png&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/dustur/s1/v1/e02/pr02/soas/dustur-s1-v1-e02-pr02-soas-p0003.png&quot; alt=&quot;Page 3 of the SOAS copy&quot; /&gt;
+    	&lt;figcaption&gt;Page 3 of the SOAS copy&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Page 3 of the SOAS copy&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;the-second-volume11&quot;&gt;The second volume&lt;sup id=&quot;fnref:11&quot;&gt;&lt;a href=&quot;#fn:11&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;I have currently three digital copies of the second volume of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;: from [HTU], &lt;a href=&quot;http://hdl.handle.net/2027/uc1.b3094980&quot;&gt;UC Berkeley&lt;/a&gt;, and &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609234-c2.pdf&quot;&gt;TBMM&lt;/a&gt;. In addition, I have seen the physical copy at SOAS. The difference in the shape of the number 6 (or rather “٦”) and the different font width in the UC Berkeley copy indicate two independently type-set print-runs. Pagination is seemingly identical.&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
     &lt;a href=&quot;/images/dustur/s1/v2/e01/pr02/ucb/dustur-s1-v2-e01-pr02-ucb-p0003.png&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/dustur/s1/v2/e01/pr02/ucb/dustur-s1-v2-e01-pr02-ucb-p0003.png&quot; alt=&quot;Page 3 of the UC Berkeley copy&quot; /&gt;
+    	&lt;figcaption&gt;Page 3 of the UC Berkeley copy&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Page 3 of the UC Berkeley copy&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
     &lt;a href=&quot;/images/dustur/s1/v2/e01/pr01/htu/dustur-s1-v2-e01-pr01-htu-p0003.png&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/dustur/s1/v2/e01/pr01/htu/dustur-s1-v2-e01-pr01-htu-p0003.png&quot; alt=&quot;Page 3 of the HTU, SOAS, and TBMM copies&quot; /&gt;
+    	&lt;figcaption&gt;Page 3 of the HTU, SOAS, and TBMM copies&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Page 3 of the HTU, SOAS, and TBMM copies&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;the-third-volume12&quot;&gt;The third volume&lt;sup id=&quot;fnref:12&quot;&gt;&lt;a href=&quot;#fn:12&quot; class=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;There are at least two editions or print-runs of the &lt;a href=&quot;http://sitzextase.de/dustur/dustur-v03.html&quot; target=&quot;_blank&quot;&gt;third volume of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt; that differ in spelling and a marginally different page layout. The first can be found at SOAS and &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-05/index.djvu&quot;&gt;HTU&lt;/a&gt; and the second at &lt;a href=&quot;http://hdl.handle.net/2027/uc1.b3094981&quot;&gt;UC Berkeley&lt;/a&gt; and &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609242-c3.pdf&quot;&gt;TBMM&lt;/a&gt;.&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
     &lt;a href=&quot;/images/dustur/s1/v3/e01/pr01/htu/dustur-s1-v3-e01-pr01-htu-p0005.png&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/dustur/s1/v3/e01/pr01/htu/dustur-s1-v3-e01-pr01-htu-p0005.png&quot; alt=&quot;Page 5 of the SOAS and HTU copies&quot; /&gt;
+    	&lt;figcaption&gt;Page 5 of the SOAS and HTU copies&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Page 5 of the SOAS and HTU copies&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
     &lt;a href=&quot;/images/dustur/s1/v3/e02/pr01/ucb/dustur-s1-v3-e02-pr01-ucb-p0005.png&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/dustur/s1/v3/e02/pr01/ucb/dustur-s1-v3-e02-pr01-ucb-p0005.png&quot; alt=&quot;Page 5 of the UC Berkeley and TBMM copies&quot; /&gt;
+    	&lt;figcaption&gt;Page 5 of the UC Berkeley and TBMM copies&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Page 5 of the UC Berkeley and TBMM copies&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;the-fourth-volume13&quot;&gt;The fourth volume&lt;sup id=&quot;fnref:13&quot;&gt;&lt;a href=&quot;#fn:13&quot; class=&quot;footnote&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;At a workshop on Ottoman municipalities at the Istanbul Şerhir Üniversitesi in November 2015, I finally met Safa Saraçoğlu in person. We had long and interesting discussions on Ottoman legal history, digitisation efforts, and translations of Ottoman legislation into the various languages of the empire. We also shamelessly shared our private copies of Ottoman texts, among them Mīltiyādī Ḳārāvokīros’s Ottoman legal dictionary. To my surprise, the entry on expropriation of real-estate (&lt;em&gt;istimlāk&lt;/em&gt;) references two print-runs of the fourth volume of the first series of &lt;em&gt;Düstur&lt;/em&gt; with different paginations.&lt;sup id=&quot;fnref:10&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot;&gt;12&lt;/a&gt;&lt;/sup&gt; According to this entry, among the copies I have seen, the one at SOAS would have originated in the first print-run, while those at Staatsbibliothek zu Berlin (SBB) and &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609245-c4.pdf&quot;&gt;TBMM&lt;/a&gt; are part of the second print-run.&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
     &lt;a href=&quot;/images/dustur/s1/v4/e01/pr01/soas/dustur-s1-v4-e01-pr01-soas-p0002.png&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/dustur/s1/v4/e01/pr01/soas/dustur-s1-v4-e01-pr01-soas-p0002.png&quot; alt=&quot;Page 2 of the SOAS copy&quot; /&gt;
+    	&lt;figcaption&gt;Page 2 of the SOAS copy&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Page 2 of the SOAS copy&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
     &lt;a href=&quot;/images/dustur/s1/v4/e02/pr01/tbmm/dustur-s1-v4-e02-pr01-tbmm-p0004.png&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/dustur/s1/v4/e02/pr01/tbmm/dustur-s1-v4-e02-pr01-tbmm-p0004.png&quot; alt=&quot;Page 2 of the SBB and TBMM copies&quot; /&gt;
+    	&lt;figcaption&gt;Page 2 of the SBB and TBMM copies&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Page 2 of the SBB and TBMM copies&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;!-- Malik Sharif provides a great introduction to the history of *Düstur* in his recent book --&gt;
@@ -349,11 +358,12 @@ Note: There are no restrictions on use of text transcribed from the images, or p
   &lt;p&gt;Shāhīn Makāriyūs 1878&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_209_0826_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_209_0826_01_L.jpg&quot; alt=&quot;Shāhīn Makāriyūs left his mark in Baalbek in 1878&quot; /&gt;
+    	&lt;figcaption&gt;Shāhīn Makāriyūs left his mark in Baalbek in 1878&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Shāhīn Makāriyūs left his mark in Baalbek in 1878&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;p&gt;This is the same &lt;a href=&quot;https://viaf.org/viaf/38237868&quot;&gt;Shāhīn Makāriyūs (also Chahin Macarius, Shaheen Makarius)&lt;/a&gt;, who, together with Yaʿqūb Ṣarrūf and Fāris Nimr, published the &lt;a href=&quot;/blog/2013/08/19/the-puzzle-continues/&quot;&gt;monthly journal &lt;em&gt;al-Muqtaṭaf&lt;/em&gt;&lt;/a&gt; from 1876 onwards—first in Beirut and, from 1884 onwards, in Cairo. He was also a prominent member of masonic lodges and authored a number of books on the history of freemasonry in Arabic and English. In 1890, &lt;em&gt;al-Bashīr&lt;/em&gt; from Beirut already mentioned &lt;em&gt;al-Muqtaṭaf&lt;/em&gt; and &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, another journal Shāhīn Makāriyūs edited between 1886–96, as being masonic papers.^[Bashīr 4 Nov. 1890 (#1037):3 and Bashīr 26 Nov. 1890 (#1040):1, which ran a front page article titled “The slander of &lt;em&gt;al-Laṭāʾif&lt;/em&gt;” (&lt;em&gt;iftirāʾ al-laṭāʾif&lt;/em&gt;).] &lt;em&gt;Al-Laṭāʾif al-Muṣawwara&lt;/em&gt;, an illustrated successor journal to &lt;em&gt;al-Laṭāʾif&lt;/em&gt;, that had most likely stopped being published around 1896, was edited by his son (?) Iskandar Makāriyūs in Cairo from 1915 onwards.&lt;/p&gt;
@@ -378,47 +388,53 @@ Note: There are no restrictions on use of text transcribed from the images, or p
   &lt;p&gt;1871&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_43-TFDC_502_004_0284_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_43-TFDC_502_004_0284_01_L.jpg&quot; alt=&quot;Probably the earliest photo judged from the state and number of graffiti&quot; /&gt;
+    	&lt;figcaption&gt;Probably the earliest photo judged from the state and number of graffiti&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Probably the earliest photo judged from the state and number of graffiti&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-2_0284_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-2_0284_01_L.jpg&quot; alt=&quot;After 1880&quot; /&gt;
+    	&lt;figcaption&gt;After 1880&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;After 1880&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 &lt;!-- the photo must have been taken after 1880 --&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_65-TFDC_528_078_0443_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_65-TFDC_528_078_0443_01_L.jpg&quot; alt=&quot;Later stage than the previous photo with a much larger number of graffiti&quot; /&gt;
+    	&lt;figcaption&gt;Later stage than the previous photo with a much larger number of graffiti&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Later stage than the previous photo with a much larger number of graffiti&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_187_0822_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_187_0822_01_L.jpg&quot; alt=&quot;After 1883&quot; /&gt;
+    	&lt;figcaption&gt;After 1883&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;After 1883&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_186_0821_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_186_0821_01_L.jpg&quot; alt=&quot;After 1883&quot; /&gt;
+    	&lt;figcaption&gt;After 1883&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;After 1883&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-1_0443_01_L.jpg&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;http://eap.bl.uk/EAPDigitalItems/EAP644/EAP644_1_38-TFDC_405_183-1_0443_01_L.jpg&quot; alt=&quot;After 1898 with the plague commemorating ʿAbdülḥamīd II and Kaiser Wilhelm II. The graffiti to the right of the entrance are still visible&quot; /&gt;
+    	&lt;figcaption&gt;After 1898 with the plague commemorating ʿAbdülḥamīd II and Kaiser Wilhelm II. The graffiti to the right of the entrance are still visible&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;After 1898 with the plague commemorating ʿAbdülḥamīd II and Kaiser Wilhelm II. The graffiti to the right of the entrance are still visible&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 </description>
@@ -437,11 +453,12 @@ Note: There are no restrictions on use of text transcribed from the images, or p
         <title>The difficulty of establishing publication dates for books from late Ottoman *Bilād al-Shām*</title>
         <description>&lt;p&gt;I am currently preparing my thesis for publication and the process of revision, I am again turning to Ottoman legal texts and their translations. Today I want to come briefly back to a question I have extensively dealt with in my thesis: The difficulty of dating printed sources from the late Ottoman &lt;em&gt;Bilād al-Shām&lt;/em&gt;.&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;/images/nawfal-dustur-v2-imprint.jpg&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/nawfal-dustur-v2-imprint.jpg&quot; alt=&quot;Imprint&quot; /&gt;
+    	&lt;figcaption&gt;Imprint&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Imprint&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;p&gt;The second volume of Nawfal Niʿmat Allah Nawfal’s translation of Ottoman laws&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; edited by Khalīl Khūrī and published by &lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; in Beirut carries the date 1301 on its cover. The calendar of this dating could either be Muslim 1301 &lt;em&gt;hijrī&lt;/em&gt;, which would translate to 1883/84 Gregorian, or Ottoman 1301 &lt;em&gt;mālī&lt;/em&gt;, which began on 13 March 1885. So far, so common and without further ado—and I strongly suspect without further thought—the &lt;a href=&quot;http://www.worldcat.org/oclc/11351292/editions?editionsView=true&amp;amp;referer=di&quot; title=&quot;link to wordcat&quot;&gt;world’s libraries&lt;/a&gt; catalogued the book as having been publised in 1883. The content of the book as well as the publishing house—&lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; was a venture by Khalīl Sarkīs&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, the Greek Orthodox owner of Beirut’s most successful periodical and only daily newspaper &lt;!-- was it already a daily in 1887? --&gt; &lt;em&gt;Lisān al-Ḥāl&lt;/em&gt;—raise the probability for &lt;em&gt;mālī&lt;/em&gt; reckoning.&lt;/p&gt;
@@ -450,11 +467,12 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;Unlike the &lt;a href=&quot;http://hdl.handle.net/2027/inu.30000088981760&quot;&gt;first volume&lt;/a&gt; scans of the second cannot be found online, but I was lucky to locate a copy at the  library of the American University of Beirut. To my surprise the volume carried an ownership stamp on its last page:&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;/images/nawfal-dustur-v2-stamp.jpg&quot; target=&quot;_blank&quot;&gt;
     	&lt;img src=&quot;/images/nawfal-dustur-v2-stamp.jpg&quot; alt=&quot;Stamp&quot; /&gt;
+    	&lt;figcaption&gt;Stamp&lt;/figcaption&gt;
     &lt;/a&gt;
-    &lt;figcaption&gt;Stamp&lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;p&gt;It reads in French and Arabic:&lt;/p&gt;
@@ -830,25 +848,73 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;Held by Princeton University Library and made available through &lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot;&gt;HathiTrust&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot; /&gt;
+    	&lt;figcaption&gt;facsimile page 15&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot; /&gt;
+    	&lt;figcaption&gt;facsimile page 16&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot; /&gt;
+    	&lt;figcaption&gt;facsimile page 17&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg&quot; alt=&quot;facsimile page 18&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg&quot; alt=&quot;facsimile page 18&quot; /&gt;
+    	&lt;figcaption&gt;facsimile page 18&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
 &lt;h3 id=&quot;edition-2-large-version-of-64-pages&quot;&gt;Edition 2: “Large” version of 64 pages.&lt;/h3&gt;
 
 &lt;p&gt;Held by the &lt;a href=&quot;http://www.orient-institut.org&quot;&gt;Orient Institut Beirut&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot; /&gt;
+    	&lt;figcaption&gt;facsimile page 15&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot; /&gt;
+    	&lt;figcaption&gt;facsimile page 16&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot; /&gt;
+    	&lt;figcaption&gt;facsimile page 17&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg&quot; alt=&quot;facsimile page 18&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;image two-columns&quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg&quot; alt=&quot;facsimile page 18&quot; /&gt;
+    	&lt;figcaption&gt;facsimile page 18&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
 &lt;p&gt;The first 16 pages of the two editions are identical. Page 17 of the copy at the &lt;a href=&quot;http://www.orient-institut.org/&quot;&gt;Orient Institut Beirut (OIB)&lt;/a&gt; is the first page of a lengthy tracte on “women’s rights” (&lt;em&gt;ḥuqūq al-marʾa&lt;/em&gt;) by Wadīʿ Efendi al-Khūrī. In the Princeton copy, the same page 17 comprises four short questions (&lt;em&gt;masāʾil&lt;/em&gt;) and the beginning of the section &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt;. Both pages bear a printer’s mark with information on the volume, the edition, and the binding block. While volume number and edition are marked as identical, the number of the binding block differs: “3 ṣ” at Princeton, “3 k” at the OIB. To my astonishment, the OIB copy continues with the same paragraph of the &lt;em&gt;bāb tadbīr al-manzil&lt;/em&gt; section on page 48, after which the two editions are again identical, save for the page numbers.&lt;/p&gt;
 
@@ -882,27 +948,75 @@ The examples below show that *al-Muqtaṭaf* was published in a large (*kabīr*)
 
 Held by Princeton University Library (&lt;a href=&quot;http://hdl.handle.net/2027/njp.32101007749409&quot; target=&quot;new&quot;&gt;Hathitrust&lt;/a&gt;)
         
-![facsimile page 15](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg)
+&lt;figure class=&quot;image &quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot;&gt;
+    	&lt;figcaption&gt;facsimile page 15&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
-![facsimile page 16](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg)
+&lt;figure class=&quot;image &quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot;&gt;
+    	&lt;figcaption&gt;facsimile page 16&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
-![facsimile page 17](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg) 
+&lt;figure class=&quot;image &quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot;&gt;
+    	&lt;figcaption&gt;facsimile page 17&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt; 
 
-![facsimile page 18](/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg)
+&lt;figure class=&quot;image &quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg&quot; alt=&quot;facsimile page 18&quot;&gt;
+    	&lt;figcaption&gt;facsimile page 18&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
     
 ### Edition 2: &quot;Large&quot; version of 64 pages.
 
 Held by the Orient Institut Beirut
 
-![facsimile page 15](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg)
+&lt;figure class=&quot;image &quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg&quot; alt=&quot;facsimile page 15&quot;&gt;
+    	&lt;figcaption&gt;facsimile page 15&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
 
-![facsimile page 16](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg)
+&lt;figure class=&quot;image &quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg&quot; alt=&quot;facsimile page 16&quot;&gt;
+    	&lt;figcaption&gt;facsimile page 16&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
 
-![facsimile page 17](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg)
+&lt;figure class=&quot;image &quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg&quot; alt=&quot;facsimile page 17&quot;&gt;
+    	&lt;figcaption&gt;facsimile page 17&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
 
-![facsimile page 18](/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg) --&gt;
+&lt;figure class=&quot;image &quot;&gt;
+    &lt;a href=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg&quot; alt=&quot;facsimile page 18&quot;&gt;
+    	&lt;figcaption&gt;facsimile page 18&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt; --&gt;
 </description>
         <pubDate>Mon, 19 Aug 2013 14:39:09 +0300</pubDate>
         <link>https://tillgrallert.github.io/blog/2013/08/19/the-puzzle-continues/</link>
