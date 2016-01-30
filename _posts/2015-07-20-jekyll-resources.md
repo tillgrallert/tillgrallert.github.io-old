@@ -106,16 +106,18 @@ the standard markdown syntax of `![caption, alt text](path to image file)` works
 A [comment on stackoverflow](http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll) suggests to generate a new template file called `image.html` in `_includes`
 
 ~~~{.html}
-<figure class="image">
-    <img src="{{ include.url }}" alt="{{ include.description }}">
-    <figcaption>{{ include.description }}</figcaption>
+<figure class="image {{include.class }}">
+    <a href="{{ include.url }}">
+        <img src="{{ include.url }}" alt="{{ include.description }}">
+        <figcaption>{{ include.description }}</figcaption>
+    </a>
 </figure>
 ~~~ 
 
 and then to call this template with 
 
 ~~~{.}
-{% include image.html url="/images/my-cat.jpg" description="My cat, Robert Downey Jr." %}
+{% include image.html url="/images/my-cat.jpg" description="My cat, Robert Downey Jr." class="some class" %}
 ~~~
 
 The regex to replace existing markdown image links with the new liquid ones is:
