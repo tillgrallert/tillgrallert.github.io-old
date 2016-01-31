@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The historian's puzzle: various differences between copies of printed periodicals that ought to be similar"
+title: "The historian's puzzle: various differences between copies of printed periodicals that ought to be similar. The case of *Dūstur*"
 author: Till Grallert
 date: 2016-01-29
 tags:
