@@ -11,16 +11,22 @@ tags:
 published: true
 ---
 
-<!-- to do: 
+# to do: 
 - formulate an argument beyond positivist data
 - add information on Kurd ʿAlī based on my thesis
-- add contemplations on the dating of periodicals from my thesis -->
+- add contemplations on the dating of periodicals from my thesis
+    + I mention the issue of incongurent publication dates of *al-Ḥaqāʾiq*
+
+# text
+## introduction
 
 I am frequently returning to the issue of multiple calendars and conceptions of the day in the context of late Ottoman *Bilād al-Shām*. Most of my research is at least partially based on newspapers and other periodicals from the region that made use of at least four calendars: Muslim *hijrī*, Ottoman fiscal or *mālī* (sometimes also called *rūmī*), the reformed Julian *rūmī* (or *sharqI*), and finally the Gregorian calendar (*gharbī*). 
 
+## *al-Muqtabas*
+
 I am currently working on the [digital edition of Muḥammad Kurd ʿAlī's "monthly" journal *al-Muqtabas*](https://www.github.com/tillgraller/digital-muqtabas) and I frequently encounter difficulties in establishing bibliographic metadata for individual issues. Thus, I would like to share few observations in this blog post.
 
-Muḥammad Kurd ʿAlī published the monthly journal *al-Muqtabas* between 1906 and, as I will argue, 1917/18. After the Young Turk Revolution of July 1908, publication moved from Cairo to Damascus in the journal's third year.
+Muḥammad Kurd ʿAlī published the monthly journal *al-Muqtabas* between 1906 and, as I will argue, 1917/18. After the Young Turk Revolution of July 1908, publication moved from Cairo to Damascus in the journal's third year. <!-- And according to [no.?](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_77.TEIP5.xml#div_14.d1e4462) publication moved back to Cairo after four years in Damascus. -->
 
 There is some confusion as to the counting of issues and their publication dates. Samir Seikaly argues that Muḥammad Kurd ʿAlī was wrong in stating in his memoirs that he had published 8 volumes of 12 issues each and two independent issues.[^1] But the actual hard copies at the [Orient-Institut Beirut](http://www.orient-institut.org) and the digital facsimiles from HathiTrust show that Kurd ʿAlī was right insofar as volume 9 existed and comprised 2 issues only. As it turns out, *al-Muqtabas* also published a number of double issues: [Vol. 4 no. 5/6](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_41.TEIP5.xml) and [Vol. 8 no. 11/12](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_94.TEIP5.xml).
 
