@@ -1,6 +1,8 @@
 ---
 layout: post
-title: What did "monthly" publication mean for early Arabic periodicals? The case of *Majallat al-Muqtabas* 
+title: "What did "monthly" publication mean for early Arabic periodicals? The case of *Majallat al-Muqtabas*"
+author: Till Grallert
+date: 2016-02-06 
 category: drafts
 tags:
 - 20th century
