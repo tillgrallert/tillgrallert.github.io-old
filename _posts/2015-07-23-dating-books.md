@@ -21,7 +21,7 @@ Then I came across announcements of its publication in the Beiruti press. Both *
 
 Unlike the [first volume](http://hdl.handle.net/2027/inu.30000088981760) scans of the second cannot be found online, but I was lucky to locate a copy at the  library of the American University of Beirut. To my surprise the volume carried an ownership stamp on its last page:
 
-{% include image.html url="/images/nawfal-dustur-v2-stamp.jpg" description="Stamp" %}
+{% include image.html url="/images/nawfal-dustur-v2-stamp.jpg" description="Ownership stamp of Librairie Universelle Beyrouth" %}
 
 It reads in French and Arabic:
 
@@ -32,6 +32,20 @@ It reads in French and Arabic:
 and seemingly indicates that the copy at AUB once belonged to the editor of the book, Khalīl al-Khūrī, himself. The stamp also records a Gregorian date: 1883. If this was the date of acquisition, the stamp could prove that the volume was indeed published in 1301 *hijrī*. Going through my research notes, however, it appeared that the *Librairie Universelle* was a publishing press and bookstore rather than a library run by the brothers Amīn and Khalīl al-Khūrī in Beirut. It is unclear when they had established the printing press, but at least by 1887 they had adopted the more common Arabic term for a publishing press: *al-maṭbaʿa al-jāmiʿ*.[^1] But why would a bookstore stamp its merchandise?
 
 For the moment this question must remain as open as the opening date of the endeavour.
+
+## update 2016-02-26
+
+I was lucky to have a one-month trial access to the new "Early Arabic Printed Books" platform and eagerly browsed and searched for books from Beirut and Damascus. They hold a number of Niqūlā Efendi Naqqāsh's translations of Ottoman laws. One of them, a translation of Orhan Vahan Efendi' comment on the Commercial Code, carried another ownership stamp:
+
+{% include image.html url="/images/naqqash-1880-sharh-stamp.jpg" description="Ownership stamp of Librairie Générale Beyrouth" %}
+
+>Librairie générale <lb/> A. Sader Beyrouth
+
+>*al-maktaba al-ʿumūmiyya <lb/> li-Ibrāhīm Ṣādir Bayrūt*
+
+But this time we are better informed about the publisher *al-Maktaba al-ʿUmūmiyya*. This publishing house and bookstore was set up by Ibrāhīm Efendi Ṣādir in 1863. Soon the company also included his sons and operated under "Ibrāhim Ṣādir wa-Awlāduhu". As "Sader" the company is still active and the leading publisher of Lebanese legal compendia. It seems that most of its operations have shifted [online](http://www.lebaneselaws.com) these days. 
+
+During the late 
 
 [^1]: e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4.
 [^2]: Nawfal, Nawfal Efendi Niʿmat Allāh. *Al-dustūr: Tarjamahu min al-lughat al-turkiyya ilā al-ʿarabiyya Nawfal Niʿmat Allāh Nawfal bāshkātib kamāruk ʿArabistān sābiqan; bi-murājaʿa wa tadqīq Khalīl al-Khūrī mudīr maṭbūʿāt Wilāyat Sūriyya*. Edited by Khalīl Efendi al-Khūrī. Vol.2. Bayrūt: al-Maṭbaʿa al-adabiyya, 1301.
