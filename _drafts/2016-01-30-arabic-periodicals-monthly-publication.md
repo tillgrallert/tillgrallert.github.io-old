@@ -40,6 +40,10 @@ According to the masthead and the cover sheet, *al-Muqtabas*'s publication sched
 
 [^11]:{KurdʿAlī 1928@415}
 
+- *al-Muqtabas* 7 April 1910 / 27 Rab I 1328 aH (#338) announced the publication of [no.7](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_42.TEIP5.xml) and [no. 8 of vol. 4](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_43.TEIP5.xml), which were scheduled for Rajab 1327 aH (Jul/Aug 1909) and Shaʿbān 1327 aH (Aug/Sep 1909). The former was published the week before.[^14]
+
+[^14]:[{muqtabas 76-eap@3}](http://eap.bl.uk/database/overview_item.a4d?catId=6831;r=10426)
+
 - *al-Muqtabas* 16 May 1910 / 7 Jum I 1328 aH (#371) announced the publication of a "no. 10" of *Majallat al-Muqtabas*. [No.10 of the fifth volume](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_57.TEIP5.xml) would have been published for/in Shaw 1328 aH (Oct/Nov 1910), thus the short note must refer to [no.10 of the fourth volume](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_45.TEIP5.xml) that should have been published for/in Shaw 1327 aH (Oct/Nov 1909)! This assumption is confirmed by the short description of the issue's content provided in the announcement.[^4]
 - *al-Muqtabas* 2 Jul. 1910 (#411) confirmed the overall delay in publication and announced [issue 12 of vol.4](https://rawgit.com/tillgrallert/ArabicTeiEdition/master/MajallatMuqtabas/xml/oclc_4770057679-i_47.TEIP5.xml), which should have appeared for/in Dhu II 1327 aH (Dec 1909/ Jan 1910).[^6]
 
