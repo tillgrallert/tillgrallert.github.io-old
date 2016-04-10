@@ -35,7 +35,7 @@ For the moment this question must remain as open as the opening date of the ende
 
 ## update 2016-02-26
 
-I was lucky to have a one-month trial access to the new "Early Arabic Printed Books" platform and eagerly browsed and searched for books from Beirut and Damascus. They hold a number of Niqūlā Efendi Naqqāsh's translations of Ottoman laws. One of them, a translation of Orhan Vahan Efendi' comment on the Commercial Code, carried another ownership stamp:
+I was lucky to have a one-month trial access to the new "Early Arabic Printed Books" platform and eagerly browsed and searched for books from Beirut and Damascus. They hold a number of Niqūlā Efendi Naqqāsh's translations of Ottoman laws. One of them, a translation of Orhan Vahan Efendi's comment on the Commercial Code, carried another ownership stamp:
 
 {% include image.html url="/images/naqqash-1880-sharh-stamp.jpg" description="Ownership stamp of Librairie Générale Beyrouth" %}
 
@@ -44,8 +44,6 @@ I was lucky to have a one-month trial access to the new "Early Arabic Printed Bo
 >*al-maktaba al-ʿumūmiyya <lb/> li-Ibrāhīm Ṣādir Bayrūt*
 
 But this time we are better informed about the publisher *al-Maktaba al-ʿUmūmiyya*. This publishing house and bookstore was set up by Ibrāhīm Efendi Ṣādir in 1863. Soon the company also included his sons and operated under "Ibrāhim Ṣādir wa-Awlāduhu". As "Sader" the company is still active and the leading publisher of Lebanese legal compendia. It seems that most of its operations have shifted [online](http://www.lebaneselaws.com) these days. 
-
-During the late 
 
 [^1]: e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4.
 [^2]: Nawfal, Nawfal Efendi Niʿmat Allāh. *Al-dustūr: Tarjamahu min al-lughat al-turkiyya ilā al-ʿarabiyya Nawfal Niʿmat Allāh Nawfal bāshkātib kamāruk ʿArabistān sābiqan; bi-murājaʿa wa tadqīq Khalīl al-Khūrī mudīr maṭbūʿāt Wilāyat Sūriyya*. Edited by Khalīl Efendi al-Khūrī. Vol.2. Bayrūt: al-Maṭbaʿa al-adabiyya, 1301.
