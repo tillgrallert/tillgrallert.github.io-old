@@ -6,8 +6,8 @@ layout: default
 <h2 class="post_title">Posts tagged with "{{page.title}}"</h2>
 <ul>
   {% for post in site.posts %}
-  {% for tag in post.tags %}
-  {% if tag == page.tag %}
+    {% for tag in post.tags %}
+      {% if tag == page.tag %}
   <!-- original design -->
   <!-- 
   <li class="archive_list">
@@ -21,9 +21,9 @@ layout: default
   </li>
   -->
   <!-- include the standard layout for individual posts in a list of posts -->
-  {% include post-list-item.html %}
+      {% include post-list-item.html %}
 
-  {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
