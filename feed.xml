@@ -5,9 +5,9 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Jan 2016 23:11:02 +0200</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2016 23:11:02 +0200</lastBuildDate>
-    <generator>Jekyll v3.0.0</generator>
+    <pubDate>Wed, 13 Apr 2016 22:02:45 +0300</pubDate>
+    <lastBuildDate>Wed, 13 Apr 2016 22:02:45 +0300</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>The historian&#39;s puzzle: various differences between copies of printed periodicals that ought to be similar. The case of *Dūstur*</title>
@@ -307,7 +307,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;h2 id=&quot;general-design&quot;&gt;General design&lt;/h2&gt;
 
-&lt;p&gt;The edition should be conceived of as a corpus of tei files that are grouped by means of xinclude. This way, volumes can be constructed as single TEI files containing a &lt;code&gt;&amp;lt;group/&amp;gt;&lt;/code&gt; of TEI files and a volume specific &lt;code&gt;&amp;lt;front/&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;back/&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The edition should be conceived of as a corpus of tei files that are grouped by means of xinclude. This way, volumes can be constructed as single TEI files containing a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;group/&amp;gt;&lt;/code&gt; of TEI files and a volume specific &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;front/&amp;gt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;back/&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Detailled description and notes on the mark-up are kept in a separate &lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas/blob/master/notes-tei-markup.md&quot;&gt;file in the GitHub repository&lt;/a&gt;.&lt;/p&gt;
 
@@ -469,8 +469,8 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;figure class=&quot;image &quot;&gt;
     &lt;a href=&quot;/images/nawfal-dustur-v2-stamp.jpg&quot; target=&quot;_blank&quot;&gt;
-    	&lt;img src=&quot;/images/nawfal-dustur-v2-stamp.jpg&quot; alt=&quot;Stamp&quot; /&gt;
-    	&lt;figcaption&gt;Stamp&lt;/figcaption&gt;
+    	&lt;img src=&quot;/images/nawfal-dustur-v2-stamp.jpg&quot; alt=&quot;Ownership stamp of Librairie Universelle Beyrouth&quot; /&gt;
+    	&lt;figcaption&gt;Ownership stamp of Librairie Universelle Beyrouth&lt;/figcaption&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -488,6 +488,28 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 &lt;p&gt;and seemingly indicates that the copy at AUB once belonged to the editor of the book, Khalīl al-Khūrī, himself. The stamp also records a Gregorian date: 1883. If this was the date of acquisition, the stamp could prove that the volume was indeed published in 1301 &lt;em&gt;hijrī&lt;/em&gt;. Going through my research notes, however, it appeared that the &lt;em&gt;Librairie Universelle&lt;/em&gt; was a publishing press and bookstore rather than a library run by the brothers Amīn and Khalīl al-Khūrī in Beirut. It is unclear when they had established the printing press, but at least by 1887 they had adopted the more common Arabic term for a publishing press: &lt;em&gt;al-maṭbaʿa al-jāmiʿ&lt;/em&gt;.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; But why would a bookstore stamp its merchandise?&lt;/p&gt;
 
 &lt;p&gt;For the moment this question must remain as open as the opening date of the endeavour.&lt;/p&gt;
+
+&lt;h2 id=&quot;update-2016-02-26&quot;&gt;update 2016-02-26&lt;/h2&gt;
+
+&lt;p&gt;I was lucky to have a one-month trial access to the new “Early Arabic Printed Books” platform and eagerly browsed and searched for books from Beirut and Damascus. They hold a number of Niqūlā Efendi Naqqāsh’s translations of Ottoman laws. One of them, a translation of Orhan Vahan Efendi’s comment on the Commercial Code, carried another ownership stamp:&lt;/p&gt;
+
+&lt;figure class=&quot;image &quot;&gt;
+    &lt;a href=&quot;/images/naqqash-1880-sharh-stamp.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/images/naqqash-1880-sharh-stamp.jpg&quot; alt=&quot;Ownership stamp of Librairie Générale Beyrouth&quot; /&gt;
+    	&lt;figcaption&gt;Ownership stamp of Librairie Générale Beyrouth&lt;/figcaption&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Librairie générale &lt;lb&gt;&lt;/lb&gt; A. Sader Beyrouth&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;al-maktaba al-ʿumūmiyya &lt;lb&gt;&lt;/lb&gt; li-Ibrāhīm Ṣādir Bayrūt&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But this time we are better informed about the publisher &lt;em&gt;al-Maktaba al-ʿUmūmiyya&lt;/em&gt;. This publishing house and bookstore was set up by Ibrāhīm Efendi Ṣādir in 1863. Soon the company also included his sons and operated under “Ibrāhim Ṣādir wa-Awlāduhu”. As “Sader” the company is still active and the leading publisher of Lebanese legal compendia. It seems that most of its operations have shifted &lt;a href=&quot;http://www.lebaneselaws.com&quot;&gt;online&lt;/a&gt; these days.&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -538,8 +560,8 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
-        <link>https://tillgrallert.github.io/blog/2015/06/01/tei-at-dhsi/</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/06/01/tei-at-dhsi/</guid>
+        <link>https://tillgrallert.github.io/blog/2015/06/01/TEI-at-DHSI/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/06/01/TEI-at-DHSI/</guid>
         
         <category>teaching</category>
         
@@ -573,8 +595,8 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
-        <link>https://tillgrallert.github.io/blog/2015/03/02/tei-at-dhib/</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/03/02/tei-at-dhib/</guid>
+        <link>https://tillgrallert.github.io/blog/2015/03/02/TEI-at-DHIB/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/03/02/TEI-at-DHIB/</guid>
         
         <category>teaching</category>
         
@@ -815,7 +837,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;ul&gt;
   &lt;li&gt;Input and output for all templates converting dates between the various calendars is as follows: “yyyy-mm-dd”&lt;/li&gt;
-  &lt;li&gt;The template “funcDateFormatTei” accepts the same input but produces a &lt;code&gt;&amp;lt;tei:date&amp;gt;&lt;/code&gt; note with &lt;code&gt;@when&lt;/code&gt; or &lt;code&gt;@when&lt;/code&gt;, &lt;code&gt;@when-custom&lt;/code&gt;, &lt;code&gt;@calendar&lt;/code&gt;, and &lt;code&gt;@datingMethod&lt;/code&gt; attributes depending on the input calendar.&lt;/li&gt;
+  &lt;li&gt;The template “funcDateFormatTei” accepts the same input but produces a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tei:date&amp;gt;&lt;/code&gt; note with &lt;code class=&quot;highlighter-rouge&quot;&gt;@when&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;@when&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;@when-custom&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;@calendar&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;@datingMethod&lt;/code&gt; attributes depending on the input calendar.&lt;/li&gt;
   &lt;li&gt;The template “funcDateNormaliseInput” can be used to convert variously formatted input  strings to the yyyy-mm-dd required by other templates. Possible input formats are  the common English formats of ‘dd(.) MNn(.) yyyy’, ‘MNn(.) dd(.), yyyy’, i.e. ‘15  Shaʿbān 1324’ or ‘Jan. 15, 2014’. The template requires an input string and a  calendar-language combination as found in funcDateMonthNameNumber.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
