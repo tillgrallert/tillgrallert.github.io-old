@@ -5,9 +5,137 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Jun 2016 19:59:09 +0300</pubDate>
-    <lastBuildDate>Sun, 05 Jun 2016 19:59:09 +0300</lastBuildDate>
+    <pubDate>Wed, 26 Oct 2016 13:20:57 +0200</pubDate>
+    <lastBuildDate>Wed, 26 Oct 2016 13:20:57 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>The difficulty of establishing publication dates for books from late Ottoman *Bilād al-Shām*</title>
+        <description>&lt;h2 id=&quot;original-post-2015-07-23&quot;&gt;Original post (2015-07-23)&lt;/h2&gt;
+
+&lt;p&gt;I am currently preparing my thesis for publication and the process of revision, I am again turning to Ottoman legal texts and their translations. Today I want to come briefly back to a question I have extensively dealt with in my thesis: The difficulty of dating printed sources from the late Ottoman &lt;em&gt;Bilād al-Shām&lt;/em&gt;. Consider the following image of the imprint for the second volume of Nawfal Niʿmat Allah Nawfal’s translation of Ottoman laws edited by Khalīl Khūrī and published by &lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; in Beirut&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;figure class=&quot;image &quot;&gt;
+	
+	&lt;a href=&quot;/assets/nawfal-dustur-v2-imprint.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/assets/nawfal-dustur-v2-imprint.jpg&quot; alt=&quot;Imprint of the second volume of *al-dustūr&quot; /&gt;
+    	&lt;figcaption&gt;Imprint of the second volume of *al-dustūr&lt;/figcaption&gt;
+    &lt;/a&gt;
+	
+    
+&lt;/figure&gt;
+
+&lt;p&gt;The date of publication is clearly stated as the year 1301. The calendar of this dating could either be Muslim 1301 (&lt;em&gt;hijrī&lt;/em&gt;), which would translate to 1883/84 Gregorian, or Ottoman 1301 (&lt;em&gt;mālī&lt;/em&gt;), which began on 13 March 1885. So far, so common and without further ado—and I strongly suspect without further thought—the &lt;a href=&quot;http://www.worldcat.org/oclc/11351292/editions?editionsView=true&amp;amp;referer=di&quot; title=&quot;link to worldcat&quot;&gt;world’s libraries&lt;/a&gt; catalogued the book as having been publised in 1883. The content of the book as well as the publishing house—&lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; was a venture by Khalīl Sarkīs&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, the Greek Orthodox owner of Beirut’s most successful periodical and only daily newspaper &lt;!-- was it already a daily in 1887? --&gt; &lt;em&gt;Lisān al-Ḥāl&lt;/em&gt;—raise the probability for &lt;em&gt;mālī&lt;/em&gt; reckoning.&lt;/p&gt;
+
+&lt;p&gt;Then I came across announcements of its publication in the Beiruti press. Both &lt;em&gt;Lisān al-Ḥāl&lt;/em&gt; and &lt;em&gt;Thamarāt al-Funūn&lt;/em&gt; ran adverts for the new publication on their front pages in May 1887.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; Against the backdrop of the book’s publisher printing announcements in his own newspaper it now seemed likely that the second volume had inherited the date of publication from the first volume and was indeed printed only in 1887.&lt;/p&gt;
+
+&lt;p&gt;Unlike the &lt;a href=&quot;http://hdl.handle.net/2027/inu.30000088981760&quot;&gt;first volume&lt;/a&gt;, scans of the second cannot be found online, but I was lucky to locate a copy at the  library of the American University of Beirut. To my surprise the volume carried an ownership stamp on its last page:&lt;/p&gt;
+
+&lt;figure class=&quot;image &quot;&gt;
+	
+	&lt;a href=&quot;/assets/nawfal-dustur-v2-stamp.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/assets/nawfal-dustur-v2-stamp.jpg&quot; alt=&quot;Ownership stamp of Librairie Universelle Beyrouth&quot; /&gt;
+    	&lt;figcaption&gt;Ownership stamp of Librairie Universelle Beyrouth&lt;/figcaption&gt;
+    &lt;/a&gt;
+	
+    
+&lt;/figure&gt;
+
+&lt;p&gt;It reads in French and Arabic:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Librairie Universelle 1883 Beyrout&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;li-l-maktaba al-jāmiʿa li-&lt;strong&gt;Khalīl al-Khūrī&lt;/strong&gt; 1883 Bayrūt&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The stamp seemingly indicates that the copy at AUB once belonged to the editor of the book, Khalīl al-Khūrī, himself. The stamp also records a Gregorian date: 1883. If this was the date of acquisition, the stamp could prove that the volume was indeed published in 1301 &lt;em&gt;hijrī&lt;/em&gt;. Going through my research notes, however, it appeared that the &lt;em&gt;Librairie Universelle&lt;/em&gt; was a publishing press and bookstore rather than a library run by the brothers Amīn and Khalīl al-Khūrī in Beirut. It is unclear when they had established the printing press, but at least by 1887 they had adopted the more common Arabic term for a publishing press: &lt;em&gt;al-maṭbaʿa al-jāmiʿ&lt;/em&gt;.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; But why would a bookstore stamp its merchandise?&lt;/p&gt;
+
+&lt;p&gt;For the moment this question must remain as open as the opening date of the endeavour.&lt;/p&gt;
+
+&lt;h2 id=&quot;update-2016-02-26&quot;&gt;update 2016-02-26&lt;/h2&gt;
+
+&lt;p&gt;I was lucky to have a one-month trial access to Gale’s new “&lt;a href=&quot;http://www.gale.com/primary-sources/early-arabic-printed-books-from-the-british-library/&quot;&gt;Early Arabic Printed Books from the British Library&lt;/a&gt;” platform and eagerly browsed and searched for books from Beirut and Damascus. They hold a number of Niqūlā Efendi Naqqāsh’s translations of Ottoman laws. One of them, a translation of Orhan Vahan Efendi’s comment on the Commercial Code,&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; carried another ownership stamp:&lt;/p&gt;
+
+&lt;figure class=&quot;image &quot;&gt;
+	
+	&lt;a href=&quot;/assets/naqqash-1880-sharh-stamp.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/assets/naqqash-1880-sharh-stamp.jpg&quot; alt=&quot;Ownership stamp of Librairie Générale Beyrouth&quot; /&gt;
+    	&lt;figcaption&gt;Ownership stamp of Librairie Générale Beyrouth&lt;/figcaption&gt;
+    &lt;/a&gt;
+	
+    
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Librairie générale &lt;lb&gt;&lt;/lb&gt; A. Sader Beyrouth&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;al-maktaba al-ʿumūmiyya &lt;lb&gt;&lt;/lb&gt; li-Ibrāhīm Ṣādir Bayrūt&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But this time we are better informed about the publisher &lt;em&gt;al-Maktaba al-ʿUmūmiyya&lt;/em&gt;. This publishing house and bookstore was set up by Ibrāhīm Efendi Ṣādir in 1863. Soon the company also included his sons and operated under “Ibrāhim Ṣādir wa-Awlāduhu”. As “Sader” the company is still active and the leading publisher of Lebanese legal compendia. It seems that most of its operations have shifted &lt;a href=&quot;http://www.lebaneselaws.com&quot;&gt;online&lt;/a&gt; these days.&lt;/p&gt;
+
+&lt;h2 id=&quot;update-2016-10-12&quot;&gt;update 2016-10-12&lt;/h2&gt;
+
+&lt;p&gt;In May this year, I participated in a conference titled &lt;a href=&quot;/blog/2016/05/10/presentation-books-in-motion/&quot;&gt;“Books in Motion” in Beirut&lt;/a&gt; and had a chance to finally meet Hala Auji and listen to her talk on “Visual Translations: The Shifting Material Dimensions of 19th-Century Printed Editions of Arabic Classics” — which was based on research conducted for her recently published book.&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; Her talk focussed on the gradual shift from manuscript to print culture between Cairo, Beirut, and India and its visual aspects. Talking about the continuous popularity of al-Mutanabbī’s &lt;em&gt;Dīwān&lt;/em&gt; and the plethora of editions published during the late 19th century, she projected the image of an edition held at Harvard’s Widener Library. According to Hala Auji this &lt;em&gt;Dīwān&lt;/em&gt; was printed in Calcutta but the frontispiece carries the same stamp of Ibrāhīm Ṣādir’s &lt;em&gt;al-Maktaba al-ʿUmūmiyya&lt;/em&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;image &quot;&gt;
+	
+	&lt;a href=&quot;/assets/mutanabbi-1866-diwan-stamp.jpg&quot; target=&quot;_blank&quot;&gt;
+    	&lt;img src=&quot;/assets/mutanabbi-1866-diwan-stamp.jpg&quot; alt=&quot;Ownership stamp of Librairie Générale Beyrouth. Courtesy of Hala Auji&quot; /&gt;
+    	&lt;figcaption&gt;Ownership stamp of Librairie Générale Beyrouth. Courtesy of Hala Auji&lt;/figcaption&gt;
+    &lt;/a&gt;
+	
+    
+&lt;/figure&gt;
+
+&lt;p&gt;It is not entirely clear how Auji arrived at the conclusion that this edition was printed in Calcutta. Comparing the frontispieces it seems that a copy at University of Michigan, &lt;a href=&quot;http://hdl.handle.net/2027/mdp.39015024525357&quot;&gt;freely available through HathiTrust&lt;/a&gt;, is indeed the same edition. &lt;a href=&quot;http://hdl.handle.net/2027/mdp.39015024525357?urlappend=%3Bseq=298&quot;&gt;Its final page (292)&lt;/a&gt; states that Shaykh ʿUmar al-Rāfiʿī confirms the veracity of this print edition that was completed in 1283 aH [1866]. According to Ilyān Sarkīs’ union catalogue of Arabic printed works (&lt;em&gt;Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba&lt;/em&gt;) this edition of 292 pages was printed on a lithographic printing press in Cairo.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Nawfal, Nawfal Efendi Niʿmat Allāh. &lt;em&gt;Al-dustūr: Tarjamahu min al-lughat al-turkiyya ilā al-ʿarabiyya Nawfal Niʿmat Allāh Nawfal bāshkātib kamāruk ʿArabistān sābiqan; bi-murājaʿa wa tadqīq Khalīl al-Khūrī mudīr maṭbūʿāt Wilāyat Sūriyya&lt;/em&gt;. Edited by Khalīl Efendi al-Khūrī. Vol.2. Bayrūt: al-Maṭbaʿa al-adabiyya, 1301. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;c.f. MWT Salname Suriye 13 1298 aH [Dec. 1880]:247, UBTüb Salname Suriye 17 1302 aH [Oct. 1884]:250. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Lisān al-Hāl 26 May 1887 (#959):1, Thamarāt al-Funūn 30 May 1887 (#633):1 advertised the book at a price of 2 mecidiye or Ps 40. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;Vāḥān, Ohan. &lt;em&gt;Sharḥ Qānūn al-Tijārah.&lt;/em&gt; Translated by Niqūlā Efendi Naqqāsh. Bayrūt: al-Maṭbaʿa al-ʿUmūmiyya, 1880. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;Auji, Hala. &lt;em&gt;Printing Arab Modernity: Book Culture and the American Press in Nineteenth-Century Beirut.&lt;/em&gt; Leiden: Brill, 2016. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 12 Oct 2016 12:13:53 +0200</pubDate>
+        <link>https://tillgrallert.github.io/blog/2016/10/12/dating-books/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/10/12/dating-books/</guid>
+        
+        <category>book history</category>
+        
+        <category>calendars</category>
+        
+        <category>ottoman empire</category>
+        
+        <category>research in progress</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Essay published in edited volume &#39;Digital Humanities and Islamic &amp; Middle East Studies&#39;</title>
@@ -23,9 +151,9 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Sat, 21 May 2016 00:55:20 +0300</pubDate>
-        <link>https://tillgrallert.github.io/blog/2016/05/21/mapping-ottoman-damascus-through-newsreports/</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/05/21/mapping-ottoman-damascus-through-newsreports/</guid>
+        <pubDate>Fri, 20 May 2016 23:55:20 +0200</pubDate>
+        <link>https://tillgrallert.github.io/blog/2016/05/20/mapping-ottoman-damascus-through-newsreports/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/05/20/mapping-ottoman-damascus-through-newsreports/</guid>
         
         <category>presentation</category>
         
@@ -72,7 +200,7 @@
 
 &lt;p&gt;With the &lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot; title=&quot;current state of the project&quot;&gt;open digital edition of Muḥammad Kurd ʿAlī’s &lt;em&gt;Majallat al-Muqtabas&lt;/em&gt; (1906–18)&lt;/a&gt; we want to show that through re-purposing well-established open software and by bridging the gap between immensely popular but non-academic online-libraries of volunteers and academic scanning efforts as well as editorial expertise, one can produce scholarly editions that remedy the short-comings of either world with very small funds: We use &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;digital texts from &lt;em&gt;shamela.ws&lt;/em&gt;&lt;/a&gt;, transform them into TEI XML—the quasi-standard for digital scholarly editions—add light structural mark-up, bibliographic meta-data, and link each page to facsimiles provided through &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63&quot;&gt;EAP&lt;/a&gt; and &lt;a href=&quot;http://catalog.hathitrust.org/Record/100658549&quot;&gt;HathiTrust&lt;/a&gt;. The digital edition (TEI XML and a basic web display) is then hosted as a public GitHub repository with a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;Creative Commons BY-SA 4.0 licence&lt;/a&gt;. Improvements  can be crowd-sourced with clear attribution of authorship and version control using  GitHub’s core functionality. Editions are referencable down to the word level for scholarly citations, annotation layers, and web-applications through a documented URI scheme. The &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;web-display&lt;/a&gt;  can be downloaded and run locally without an internet connection—a necessity for societies outside the global North, which again transforms the book into a highly mobile cultural artifact to be shared among intellectual networks across borders.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 May 2016 23:51:22 +0300</pubDate>
+        <pubDate>Tue, 10 May 2016 22:51:22 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/05/10/presentation-books-in-motion/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/05/10/presentation-books-in-motion/</guid>
         
@@ -97,7 +225,7 @@
     
       <item>
         <title>Archive.sakhrit.co&#39;s failure as a source for digitsed imagery of Arabic journals</title>
-        <description>&lt;p&gt;Recently, a colleague pointed me to yet another gray online library of Arabic material—one that was entirely dedicated to cultural and literary journals. &lt;a href=&quot;archive.sakhrit.co&quot;&gt;Arshīf al-majallāt al-adabiyya wa-l-thaqafiyya al-ʿarabiyya (archive.sakhrit.co)&lt;/a&gt; presents a large number of Arabic journals over very long publication periods, providing:&lt;/p&gt;
+        <description>&lt;p&gt;Recently, a colleague pointed me to yet another gray online library of Arabic material—one that was entirely dedicated to cultural and litrary journals. &lt;a href=&quot;archive.sakhrit.co&quot;&gt;Arshīf al-majallāt al-adabiyya wa-l-thaqafiyya al-ʿarabiyya (archive.sakhrit.co)&lt;/a&gt; presents a large number of Arabic journals over very long publication periods, providing:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Partially watermarked digital imagery&lt;/li&gt;
@@ -141,7 +269,7 @@
 
 &lt;p&gt;As with other gray libraries, such as &lt;a href=&quot;http://www.shamela.ws&quot;&gt;al-Maktaba al-Shāmila (shamela.ws)&lt;/a&gt;, &lt;em&gt;archive.sakhrit&lt;/em&gt; is quiet about the personnel or company behind it. It remains unclear where the originals came from, who scanned them, who transcribed the heads, authors, and page numbers seemingly available for every article. The rather illegal / gray nature of the endeavour becomes clear from the shift from a &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; to a &lt;code class=&quot;highlighter-rouge&quot;&gt;.co&lt;/code&gt; domain (country code top-level domain for Colombia) documented by the watermark in the imagery that still refers to the &lt;code class=&quot;highlighter-rouge&quot;&gt;http://Archivebeta.Sakhrit.com&lt;/code&gt; domain.&lt;/p&gt;
 
-&lt;p&gt;I have assessed the quality of their “scans” of &lt;em&gt;al-Muqtabas&lt;/em&gt;. Some volumes/ issues have been scanned from the original or a facsimile edition. Others, such as at least volumes &lt;a href=&quot;http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/Al_moqtabs_1909/Issue_1/001.JPG&quot;&gt;4&lt;/a&gt; and  &lt;a href=&quot;http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/Al_moqtabs_1910/Issue_1/001.JPG&quot;&gt;5&lt;/a&gt;, were indeed rendered from a modern digital text, namely &lt;em&gt;shamela&lt;/em&gt;’s transcription. This is supported by the strikingly similar absence of all footnotes and non-Arabic script; a modern punctuation not present in the original; paragraph breaks that mirror &lt;em&gt;shamela&lt;/em&gt;’s transcription; and the ellipsis between the two sections of a &lt;em&gt;bayt&lt;/em&gt;, as provided by &lt;em&gt;shamela&lt;/em&gt; (e.g. &lt;a href=&quot;http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/AL_moqtabs_1910/Issue_7/597.JPG&quot;&gt;&lt;em&gt;archive.sakhrit&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;http://shamela.ws/browse.php/book-26523#page-3548&quot;&gt;&lt;em&gt;shamela&lt;/em&gt;&lt;/a&gt;). The final evidence to prove this argument is that an uncommented gap of almost three pages in &lt;em&gt;shamela&lt;/em&gt;’s transcription of volume 5(7) is reproduced in &lt;em&gt;archive.sakhrit&lt;/em&gt;’s supposed facsimiles (compare the issue on &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_54.TEIP5.xml#pb_61.d1e2036&quot;&gt;digital-muqtabas&lt;/a&gt;, &lt;a href=&quot;http://shamela.ws/browse.php/book-26523#page-3554&quot;&gt;&lt;em&gt;shamela&lt;/em&gt;&lt;/a&gt;, and &lt;a href=&quot;http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/AL_moqtabs_1910/Issue_7/605.JPG&quot;&gt;&lt;em&gt;archive.sakhrit&lt;/em&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;I have assessed the quality of their “scans” of &lt;em&gt;al-Muqtabas&lt;/em&gt;. Some volumes/ issues have been scanned from the original or a facsimile edition. Others, such as at least volumes &lt;a href=&quot;http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/Al_moqtabs_1909/Issue_1/001.JPG&quot;&gt;4&lt;/a&gt; and  &lt;a href=&quot;http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/Al_moqtabs_1910/Issue_1/001.JPG&quot;&gt;5&lt;/a&gt;, were indeed rendered from a modern digital text, namely &lt;em&gt;shamela&lt;/em&gt;’s transcription. This is supported by the strikingly similar absence of all footnotes and non-Arabic script; a modern interpunction not present in the original; paragraph breaks that mirror &lt;em&gt;shamela&lt;/em&gt;’s transcription; and the ellipsis between the two sections of a &lt;em&gt;bayt&lt;/em&gt;, as provided by &lt;em&gt;shamela&lt;/em&gt; (e.g. &lt;a href=&quot;http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/AL_moqtabs_1910/Issue_7/597.JPG&quot;&gt;&lt;em&gt;archive.sakhrit&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;http://shamela.ws/browse.php/book-26523#page-3548&quot;&gt;&lt;em&gt;shamela&lt;/em&gt;&lt;/a&gt;). The final evidence to prove this argument is that an uncommented gap of almost three pages in &lt;em&gt;shamela&lt;/em&gt;’s transcription of volume 5(7) is reproduced in &lt;em&gt;archive.sakhrit&lt;/em&gt;’s supposed facsimiles (compare the issue on &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_54.TEIP5.xml#pb_61.d1e2036&quot;&gt;digital-muqtabas&lt;/a&gt;, &lt;a href=&quot;http://shamela.ws/browse.php/book-26523#page-3554&quot;&gt;&lt;em&gt;shamela&lt;/em&gt;&lt;/a&gt;, and &lt;a href=&quot;http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/AL_moqtabs_1910/Issue_7/605.JPG&quot;&gt;&lt;em&gt;archive.sakhrit&lt;/em&gt;&lt;/a&gt;).&lt;/p&gt;
 
 &lt;figure class=&quot;image &quot;&gt;
 	
@@ -166,7 +294,7 @@
 &lt;p&gt;Another, rather common, problem is &lt;em&gt;archive.sakhrit&lt;/em&gt;’s bibliographic metadata on both the article and the issue level. The first is obviously poised by the reference to image renderings of &lt;em&gt;shamela&lt;/em&gt;’s transcription, whose pagination does not correspond to the printed original. In addition, the tables of content provide only an eclectic selection of articles and sections and many articles are mis-attributed (for an example compare &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/metadata/oclc_4770057679-i_37.MODS.xml&quot;&gt;the MODS file for out digital edition of Muqtabas 4(1)&lt;/a&gt; with &lt;a href=&quot;http://archive.sakhrit.co/contents.aspx?CID=5685&quot;&gt;&lt;em&gt;archive.sakhrit&lt;/em&gt;’s &lt;em&gt;fihris&lt;/em&gt; of the same issue&lt;/a&gt;).
 The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;/em&gt;, &lt;em&gt;archive.sakhrit&lt;/em&gt; assumes a publication schedule in which volumes correspond to Gregorian years and issues correspond to Gregorian months (i.e. according to &lt;em&gt;archive.sakhrit&lt;/em&gt; Muqtabas 1(1) was published on &lt;a href=&quot;http://archive.sakhrit.co/contents.aspx?CID=5649&quot;&gt;1 January 1906&lt;/a&gt;). This is despite the fact that &lt;em&gt;al-Muqtabas&lt;/em&gt; clearly states its publication schedule on the front page of every volume as adhering to the &lt;em&gt;hijrī&lt;/em&gt; calendar for both volumes and issues (e.g. &lt;a href=&quot;http://archive.sakhrit.co/MagazinePages/Magazine_JPG/AL_moqtabs/AL_moqtabs_1906/Issue_1/001.JPG&quot;&gt;&lt;em&gt;archive.sakhrit&lt;/em&gt;’s facsimile of this issue’s first page&lt;/a&gt;. As a consequence, bibliographic data obtained from &lt;em&gt;archive.sakhrit&lt;/em&gt; cannot be considered reliable in any sense.&lt;/p&gt;
 
-&lt;p&gt;Therefore, &lt;em&gt;archive.sakhrit&lt;/em&gt; is even more problematic than &lt;em&gt;shamela&lt;/em&gt; in terms of scholarly use.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; The user is always aware of reading a derivative with an unknown relation to an assumed original while accessing a text from &lt;em&gt;shamela&lt;/em&gt;. At &lt;em&gt;archive.sakhrit&lt;/em&gt;, on the other hand, users are deceived by a seemingly faithful representation of a fake original.&lt;/p&gt;
+&lt;p&gt;Therefore, &lt;em&gt;archive.sakhrit&lt;/em&gt; is even more problematic than &lt;em&gt;shamela&lt;/em&gt; in terms of scholarly use.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; The user is always aware of reading a derivative with an unknown relation to an assumed original while accessing a text from &lt;em&gt;shamela&lt;/em&gt;. At &lt;em&gt;archive.sakhrit&lt;/em&gt;, on the other hand, the user is deceived by a seemingly faithful representation of a fake original.&lt;/p&gt;
 
 &lt;h2 id=&quot;access-structure-of-the-website&quot;&gt;Access, structure of the website&lt;/h2&gt;
 
@@ -199,7 +327,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Fri, 22 Apr 2016 23:44:55 +0300</pubDate>
+        <pubDate>Fri, 22 Apr 2016 22:44:55 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/04/22/review-archive-sakhrit/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/04/22/review-archive-sakhrit/</guid>
         
@@ -222,7 +350,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
 
 &lt;p&gt;Slides can be found &lt;a href=&quot;https://www.tillgrallert.github.io/Slides/Dixit2&quot;&gt;here&lt;/a&gt; and the abstract &lt;a href=&quot;http://dixit.uni-koeln.de/convention-2-abstracts/#grallert&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 17 Mar 2016 18:28:14 +0200</pubDate>
+        <pubDate>Thu, 17 Mar 2016 17:28:14 +0100</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/03/17/presentation-dixit-2/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/03/17/presentation-dixit-2/</guid>
         
@@ -413,7 +541,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Fri, 29 Jan 2016 00:00:00 +0200</pubDate>
+        <pubDate>Fri, 29 Jan 2016 00:00:00 +0100</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/01/29/the-puzzle-of-dustur/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/01/29/the-puzzle-of-dustur/</guid>
         
@@ -577,7 +705,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;To allow a quick review of the mark-up and read the journal’s content, I decided to customise &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt; for a first display of the TEI files in the browser without need for pre-processed HTML and host this heavily customised boilerplate view as a seperate branch of the GitHub repository. For a first impression see &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 13 Nov 2015 19:01:16 +0200</pubDate>
+        <pubDate>Fri, 13 Nov 2015 18:01:16 +0100</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</guid>
         
@@ -716,115 +844,13 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 &lt;/figure&gt;
 
 </description>
-        <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+        <pubDate>Thu, 12 Nov 2015 00:00:00 +0100</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</guid>
         
         <category>lebanon</category>
         
         <category>graffiti</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>The difficulty of establishing publication dates for books from late Ottoman *Bilād al-Shām*</title>
-        <description>&lt;p&gt;I am currently preparing my thesis for publication and the process of revision, I am again turning to Ottoman legal texts and their translations. Today I want to come briefly back to a question I have extensively dealt with in my thesis: The difficulty of dating printed sources from the late Ottoman &lt;em&gt;Bilād al-Shām&lt;/em&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;image &quot;&gt;
-	
-	&lt;a href=&quot;/assets/nawfal-dustur-v2-imprint.jpg&quot; target=&quot;_blank&quot;&gt;
-    	&lt;img src=&quot;/assets/nawfal-dustur-v2-imprint.jpg&quot; alt=&quot;Imprint&quot; /&gt;
-    	&lt;figcaption&gt;Imprint&lt;/figcaption&gt;
-    &lt;/a&gt;
-	
-    
-&lt;/figure&gt;
-
-&lt;p&gt;The second volume of Nawfal Niʿmat Allah Nawfal’s translation of Ottoman laws&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; edited by Khalīl Khūrī and published by &lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; in Beirut carries the date 1301 on its cover. The calendar of this dating could either be Muslim 1301 &lt;em&gt;hijrī&lt;/em&gt;, which would translate to 1883/84 Gregorian, or Ottoman 1301 &lt;em&gt;mālī&lt;/em&gt;, which began on 13 March 1885. So far, so common and without further ado—and I strongly suspect without further thought—the &lt;a href=&quot;http://www.worldcat.org/oclc/11351292/editions?editionsView=true&amp;amp;referer=di&quot; title=&quot;link to wordcat&quot;&gt;world’s libraries&lt;/a&gt; catalogued the book as having been publised in 1883. The content of the book as well as the publishing house—&lt;em&gt;al-Maṭbaʿa al-Adabiyya&lt;/em&gt; was a venture by Khalīl Sarkīs&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, the Greek Orthodox owner of Beirut’s most successful periodical and only daily newspaper &lt;!-- was it already a daily in 1887? --&gt; &lt;em&gt;Lisān al-Ḥāl&lt;/em&gt;—raise the probability for &lt;em&gt;mālī&lt;/em&gt; reckoning.&lt;/p&gt;
-
-&lt;p&gt;Then I came across announcements of its publication in the Beiruti press. Both &lt;em&gt;Lisān al-Ḥāl&lt;/em&gt; and &lt;em&gt;Thamarāt al-Funūn&lt;/em&gt; ran adverts for the new publication on their front pages in May 1887.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; Against the backdrop of the book’s publisher printing announcements in his own newspaper it now seemed likely that the second volume had inherited the date of publication from the first volume and was indeed printed only in 1887.&lt;/p&gt;
-
-&lt;p&gt;Unlike the &lt;a href=&quot;http://hdl.handle.net/2027/inu.30000088981760&quot;&gt;first volume&lt;/a&gt; scans of the second cannot be found online, but I was lucky to locate a copy at the  library of the American University of Beirut. To my surprise the volume carried an ownership stamp on its last page:&lt;/p&gt;
-
-&lt;figure class=&quot;image &quot;&gt;
-	
-	&lt;a href=&quot;/assets/nawfal-dustur-v2-stamp.jpg&quot; target=&quot;_blank&quot;&gt;
-    	&lt;img src=&quot;/assets/nawfal-dustur-v2-stamp.jpg&quot; alt=&quot;Ownership stamp of Librairie Universelle Beyrouth&quot; /&gt;
-    	&lt;figcaption&gt;Ownership stamp of Librairie Universelle Beyrouth&lt;/figcaption&gt;
-    &lt;/a&gt;
-	
-    
-&lt;/figure&gt;
-
-&lt;p&gt;It reads in French and Arabic:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Librairie Universelle 1883 Beyrout&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;li-l-maktaba al-jāmiʿa li-&lt;strong&gt;Khalīl al-Khūrī&lt;/strong&gt; 1883 Bayrūt&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;and seemingly indicates that the copy at AUB once belonged to the editor of the book, Khalīl al-Khūrī, himself. The stamp also records a Gregorian date: 1883. If this was the date of acquisition, the stamp could prove that the volume was indeed published in 1301 &lt;em&gt;hijrī&lt;/em&gt;. Going through my research notes, however, it appeared that the &lt;em&gt;Librairie Universelle&lt;/em&gt; was a publishing press and bookstore rather than a library run by the brothers Amīn and Khalīl al-Khūrī in Beirut. It is unclear when they had established the printing press, but at least by 1887 they had adopted the more common Arabic term for a publishing press: &lt;em&gt;al-maṭbaʿa al-jāmiʿ&lt;/em&gt;.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; But why would a bookstore stamp its merchandise?&lt;/p&gt;
-
-&lt;p&gt;For the moment this question must remain as open as the opening date of the endeavour.&lt;/p&gt;
-
-&lt;h2 id=&quot;update-2016-02-26&quot;&gt;update 2016-02-26&lt;/h2&gt;
-
-&lt;p&gt;I was lucky to have a one-month trial access to the new “Early Arabic Printed Books” platform and eagerly browsed and searched for books from Beirut and Damascus. They hold a number of Niqūlā Efendi Naqqāsh’s translations of Ottoman laws. One of them, a translation of Orhan Vahan Efendi’s comment on the Commercial Code, carried another ownership stamp:&lt;/p&gt;
-
-&lt;figure class=&quot;image &quot;&gt;
-	
-	&lt;a href=&quot;/assets/naqqash-1880-sharh-stamp.jpg&quot; target=&quot;_blank&quot;&gt;
-    	&lt;img src=&quot;/assets/naqqash-1880-sharh-stamp.jpg&quot; alt=&quot;Ownership stamp of Librairie Générale Beyrouth&quot; /&gt;
-    	&lt;figcaption&gt;Ownership stamp of Librairie Générale Beyrouth&lt;/figcaption&gt;
-    &lt;/a&gt;
-	
-    
-&lt;/figure&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Librairie générale &lt;lb&gt;&lt;/lb&gt; A. Sader Beyrouth&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;al-maktaba al-ʿumūmiyya &lt;lb&gt;&lt;/lb&gt; li-Ibrāhīm Ṣādir Bayrūt&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;But this time we are better informed about the publisher &lt;em&gt;al-Maktaba al-ʿUmūmiyya&lt;/em&gt;. This publishing house and bookstore was set up by Ibrāhīm Efendi Ṣādir in 1863. Soon the company also included his sons and operated under “Ibrāhim Ṣādir wa-Awlāduhu”. As “Sader” the company is still active and the leading publisher of Lebanese legal compendia. It seems that most of its operations have shifted &lt;a href=&quot;http://www.lebaneselaws.com&quot;&gt;online&lt;/a&gt; these days.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Nawfal, Nawfal Efendi Niʿmat Allāh. &lt;em&gt;Al-dustūr: Tarjamahu min al-lughat al-turkiyya ilā al-ʿarabiyya Nawfal Niʿmat Allāh Nawfal bāshkātib kamāruk ʿArabistān sābiqan; bi-murājaʿa wa tadqīq Khalīl al-Khūrī mudīr maṭbūʿāt Wilāyat Sūriyya&lt;/em&gt;. Edited by Khalīl Efendi al-Khūrī. Vol.2. Bayrūt: al-Maṭbaʿa al-adabiyya, 1301. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;c.f. MWT Salname Suriye 13 1298 aH [Dec. 1880]:247, UBTüb Salname Suriye 17 1302 aH [Oct. 1884]:250 &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Lisān al-Hāl 26 May 1887 (#959):1, Thamarāt al-Funūn 30 May 1887 (#633):1 advertised the book at a price of 2 mecidiye or Ps 40. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Thu, 23 Jul 2015 15:55:02 +0300</pubDate>
-        <link>https://tillgrallert.github.io/blog/2015/07/23/dating-books/</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/07/23/dating-books/</guid>
-        
-        <category>book history</category>
-        
-        <category>calendars</category>
-        
-        <category>ottoman empire</category>
-        
-        <category>research in progress</category>
         
         
         <category>blog</category>
@@ -847,7 +873,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 +0300</pubDate>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/06/01/TEI-at-DHSI/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/06/01/TEI-at-DHSI/</guid>
         
@@ -886,7 +912,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Mar 2015 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 02 Mar 2015 00:00:00 +0100</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/03/02/TEI-at-DHIB/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/03/02/TEI-at-DHIB/</guid>
         
