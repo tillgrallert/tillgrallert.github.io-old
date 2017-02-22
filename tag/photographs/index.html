@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <title>New XSLT stylesheets for calendar conversion on Github</title>
+  <title>photographs</title>
   <!-- metadata --> 
-  <meta name="description" content="A couple of months ago a posted a short note on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have i..."/>
+  <meta name="description" content=""/>
   <!-- additional metadata -->
-  <meta name="author" content="Till Grallert" />
-  <meta name="date" content="2014-01-04" />
+  <meta name="author" content="" />
+  <meta name="date" content="" />
   <!-- dublin core to support Zotero etc. -->
-<meta name="DC.type" content="Blog post" />
+<meta name="DC.type" content="Text" />
 <meta name="DC.format" content="text/html" />
-<meta name="DC.title" content="New XSLT stylesheets for calendar conversion on Github"/>
+<meta name="DC.title" content="photographs"/>
 <meta name="DC.creator" content="Till Grallert" />
-<meta name="DC.date" scheme="W3CDTF" content="2014-01-04" />
-<meta name="DC.description" content="A couple of months ago a posted a short note on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have i..."/>
-<meta name="DC.keywords" content="xml, xslt, tools, digital humanities, calendars, " />
+<meta name="DC.date" scheme="W3CDTF" content="" />
+<meta name="DC.description" content=""/>
+<meta name="DC.keywords" content="" />
 
   <!-- linked scripts and stylesheets etc. -->
   <link rel="stylesheet" href="/css/main.css"/>
-  <link rel="canonical" href="https://tillgrallert.github.io/blog/2014/01/04/new-calendar-conversion/"/>
+  <link rel="canonical" href="https://tillgrallert.github.io/tag/photographs/"/>
   <link rel="alternate" type="application/rss+xml" title="sitzExtase" href="https://tillgrallert.github.io/feed.xml" />
 </head>
 
@@ -420,142 +420,464 @@
     <div class="page-content">
       <div class="wrapper">
         <div class="main-column">
-          <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title"><p>New XSLT stylesheets for calendar conversion on Github</p>
-</h1>
-    <p class="post-meta">Jan 4, 2014 • Till Grallert</p>
-  </header>
-
-  <article class="post-content">
-    <p>A couple of months ago a posted <a href="/blog/2013/07/04/xslt-calendar-conversion/">a short note</a> on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (<em>mālī</em>, <em>sene-yi māliye</em>) to the brew and uploaded everything under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 license</a> to <a href="https://github.com/tillgrallert/xslt-calendar-conversion">GitHub</a>. Feel free to fork and tinker with the code. Enjoy!</p>
-
-<h2 id="general-description">General description</h2>
-
-<p>The single stylesheet in this repo was conceived as a remedy for the bugs in the XPath specification that prevent the computation of Islamic (<em>hijrī</em>) dates. As I was, at the same time, working on the transcription of Arabic and Ottoman Turkish sources from the nineteenth century, which made use of Gregorian, <em>hijrī</em>, <em>rūmī</em>, and <em>mālī</em> calendars, into XML files, I also wanted to reliably compute conversions between the various calendars.</p>
-
-<p>In addition to numerical dates, the stylesheet provides a function that returns the common month names.</p>
-
-<p>Detailed descriptions of the functions and their parameters can be found inside the stylesheet.</p>
-
-<h2 id="characteristics-of-the-non-gregorian-calendars">Characteristics of the non-Gregorian calendars</h2>
-
-<ul>
-  <li><strong><em>Hijrī</em></strong> reckoning relies on the observation of the lunar year. Year counts began with Muhammad’s exodus (<em>hijrā</em>) from Mecca to Medina. <em>Hijrī</em> dates cannot really be computed as observations of the new moon varied between locations. The stylesheet uses common astronomical computations of the lunar calendar.</li>
-  <li><strong><em>Rūmī</em></strong> reckoning is a Julian calendar that adopted 1 January as the beginning of the year. As the rules for leap years are slightly different between Julian and Gregorian calendars, the difference between these two is slowly increasing (currently 13 days).</li>
-  <li><strong><em>Mālī</em></strong> reckoning is a combination of the old Julian calendar beginning on 1 March and a <em>hijrī</em> year count, that was introduced as the fiscal calendar of the Ottoman Empire in 1676. Every 33 lunar years, the year counts between <em>mālī</em> and <em>hijrī</em> calendars are synchronised by dropping a year.</li>
-</ul>
-
-<h2 id="templates">Templates</h2>
-
-<ul>
-  <li>Templates for the conversion between calendars:
-    <ul>
-      <li>funcDateG2H</li>
-      <li>funcDateG2J</li>
-      <li>funcDateG2JD</li>
-      <li>funcDateG2M</li>
-      <li>funcDateH2G</li>
-      <li>funcDateH2J</li>
-      <li>funcDateH2JD</li>
-      <li>funcDateH2M</li>
-      <li>funcDateJ2G</li>
-      <li>funcDateJ2H</li>
-      <li>funcDateJ2JD</li>
-      <li>funcDateJD2G</li>
-      <li>funcDateJD2H</li>
-      <li>funcDateJD2J</li>
-      <li>funcDateM2G</li>
-      <li>funcDateM2H</li>
-      <li>funcDateM2J</li>
-    </ul>
-  </li>
-  <li>Templates for converting Date formats
-    <ul>
-      <li>funcDateMonthNameNumber</li>
-      <li>funcDateNormaliseInput</li>
-      <li>funcDateFormatTei</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="input--output">Input / Output</h2>
-
-<ul>
-  <li>Input and output for all templates converting dates between the various calendars is as follows: “yyyy-mm-dd”</li>
-  <li>The template “funcDateFormatTei” accepts the same input but produces a <code class="highlighter-rouge">&lt;tei:date&gt;</code> note with <code class="highlighter-rouge">@when</code> or <code class="highlighter-rouge">@when</code>, <code class="highlighter-rouge">@when-custom</code>, <code class="highlighter-rouge">@calendar</code>, and <code class="highlighter-rouge">@datingMethod</code> attributes depending on the input calendar.</li>
-  <li>The template “funcDateNormaliseInput” can be used to convert variously formatted input  strings to the yyyy-mm-dd required by other templates. Possible input formats are  the common English formats of ‘dd(.) MNn(.) yyyy’, ‘MNn(.) dd(.), yyyy’, i.e. ‘15  Shaʿbān 1324’ or ‘Jan. 15, 2014’. The template requires an input string and a  calendar-language combination as found in funcDateMonthNameNumber.</li>
-</ul>
-
-  </article>
-
-  <!-- share -->
-  <a href="https://twitter.com/share" class="twitter-share-button" data-via="<tillgrallert>">Tweet</a>
-
-<!-- Put this just before the closing body tag -->
-<script type="text/javascript">
-!function(d,s,id){
-	var js,fjs=d.getElementsByTagName(s)[0];
-	if(!d.getElementById(id)){
-		js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);
-	}}
-	(document,"script","twitter-wjs");
-</script>
-  <!-- Post comments -->
-  <div class="post-comments">
+          <!-- This is the layout for all the subpages listing posts by tags -->
+<h2 class="post_title">Posts tagged with "photographs"</h2>
+<ul class="post-list">
+  
     
       
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname  = 'sitzextase';
-  var disqus_identifier = '/blog/2014/01/04/new-calendar-conversion/';
-
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<!-- <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
-
     
-  </div>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+  <!-- original design -->
+  <!-- 
+  <li class="archive_list">
+    <time style="color:#666;font-size:11px;" datetime='2015-11-12'>11/12/15</time> <a class="archive_list_article_link" href='/blog/2015/11/12/middle-eastern-graffiti/'>Middle Eastern Graffiti</a>
+    <p class="summary"></p>
+    <ul class="tag_list">
+      
+      <li class="inline archive_list"><a class="tag_list_link" href="/tag/19th century">19th century</a></li>
+      
+      <li class="inline archive_list"><a class="tag_list_link" href="/tag/photographs">photographs</a></li>
+      
+      <li class="inline archive_list"><a class="tag_list_link" href="/tag/lebanon">lebanon</a></li>
+      
+      <li class="inline archive_list"><a class="tag_list_link" href="/tag/graffiti">graffiti</a></li>
+      
+    </ul>
+  </li>
+  -->
+  <!-- include the standard layout for individual posts in a list of posts -->
+      <!-- snippet for individual entries in a list of posts -->
+<div class="post-list-item">
+    <a class="post-link" href="/blog/2015/11/12/middle-eastern-graffiti/">
+	    <div class="post-list-item-head">
+	      <span class="post-meta">Nov 12, 2015</span>
+	      <h2><p>Middle Eastern Graffiti</p>
+</h2>
+	    </div>
+	</a>
+    <div class="post-content">
+        <p>Thanks to the British Library’s <a href="http://eap.bl.uk/index.a4d">Endangered Archives Programme (EAP)</a> we have not just access to the collection of late Ottoman <a href="http://eap.bl.uk/database/overview_project.a4d?projID=EAP119">periodicals from the library of <em>al-Aqṣā</em> Mosque (EAP119)</a> in Jerusalem, but also to more than 3.000 photos of <a href="http://eap.bl.uk/database/overview_project.a4d?projID=EAP644">Maison Bonfils from the Fouad Debbas Collection in Beirut (EAP644)</a> that were made available to the public in 2014.</p>
 
-  <footer class="post-footer">
+
+      <a class="post-more" href="/blog/2015/11/12/middle-eastern-graffiti/">continue reading ...</a>
+    </div>
     <p>
-    
-    
-          <!-- <span class="post-tag">calendars, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
 
-<span class="post-tag"><a class="tag-list-link" href="/tag/calendars">calendars</a>/ </span>
-    
-          <!-- <span class="post-tag">digital humanities, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
 
-<span class="post-tag"><a class="tag-list-link" href="/tag/digital humanities">digital humanities</a>/ </span>
-    
-          <!-- <span class="post-tag">tools, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
+  <!-- generate a tag list -->
+  <!-- this file provides the list of tags for any given post anywhere on the site -->
 
-<span class="post-tag"><a class="tag-list-link" href="/tag/tools">tools</a>/ </span>
-    
-          <!-- <span class="post-tag">xml, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
+<span class="post-tag"><a class="tag-list-link" href="/tag/19th century">19th century</a>/ </span>
 
-<span class="post-tag"><a class="tag-list-link" href="/tag/xml">xml</a>/ </span>
-    
-          <!-- <span class="post-tag">xslt, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
+  <!-- generate a tag list -->
+  <!-- this file provides the list of tags for any given post anywhere on the site -->
 
-<span class="post-tag"><a class="tag-list-link" href="/tag/xslt">xslt</a>/ </span>
-    
-    </p>
-  </footer>
+<span class="post-tag"><a class="tag-list-link" href="/tag/graffiti">graffiti</a>/ </span>
+
+  <!-- generate a tag list -->
+  <!-- this file provides the list of tags for any given post anywhere on the site -->
+
+<span class="post-tag"><a class="tag-list-link" href="/tag/lebanon">lebanon</a>/ </span>
+
+  <!-- generate a tag list -->
+  <!-- this file provides the list of tags for any given post anywhere on the site -->
+
+<span class="post-tag"><a class="tag-list-link" href="/tag/photographs">photographs</a>/ </span>
+
+</p>
 </div>
 
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+  
+</ul>
         </div>
         <div class="right-column">
         <!-- the following code has been adopted from https://superdevresources.com/tag-cloud-jekyll/ -->

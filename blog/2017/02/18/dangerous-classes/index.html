@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <title>New XSLT stylesheets for calendar conversion on Github</title>
+  <title>Presentation at 'Dangerous Classes' conference in Oxford</title>
   <!-- metadata --> 
-  <meta name="description" content="A couple of months ago a posted a short note on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have i..."/>
+  <meta name="description" content="On 26 January this year I had a chance to present a paper on food riots titled “Women in the streets! Urban food riots in late Ottoman Bilād al-Shām” at the ..."/>
   <!-- additional metadata -->
   <meta name="author" content="Till Grallert" />
-  <meta name="date" content="2014-01-04" />
+  <meta name="date" content="2017-02-18" />
   <!-- dublin core to support Zotero etc. -->
 <meta name="DC.type" content="Blog post" />
 <meta name="DC.format" content="text/html" />
-<meta name="DC.title" content="New XSLT stylesheets for calendar conversion on Github"/>
+<meta name="DC.title" content="Presentation at 'Dangerous Classes' conference in Oxford"/>
 <meta name="DC.creator" content="Till Grallert" />
-<meta name="DC.date" scheme="W3CDTF" content="2014-01-04" />
-<meta name="DC.description" content="A couple of months ago a posted a short note on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have i..."/>
-<meta name="DC.keywords" content="xml, xslt, tools, digital humanities, calendars, " />
+<meta name="DC.date" scheme="W3CDTF" content="2017-02-18" />
+<meta name="DC.description" content="On 26 January this year I had a chance to present a paper on food riots titled “Women in the streets! Urban food riots in late Ottoman Bilād al-Shām” at the ..."/>
+<meta name="DC.keywords" content="presentation, conferences, food riots, " />
 
   <!-- linked scripts and stylesheets etc. -->
   <link rel="stylesheet" href="/css/main.css"/>
-  <link rel="canonical" href="https://tillgrallert.github.io/blog/2014/01/04/new-calendar-conversion/"/>
+  <link rel="canonical" href="https://tillgrallert.github.io/blog/2017/02/18/dangerous-classes/"/>
   <link rel="alternate" type="application/rss+xml" title="sitzExtase" href="https://tillgrallert.github.io/feed.xml" />
 </head>
 
@@ -423,70 +423,15 @@
           <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"><p>New XSLT stylesheets for calendar conversion on Github</p>
+    <h1 class="post-title"><p>Presentation at ‘Dangerous Classes’ conference in Oxford</p>
 </h1>
-    <p class="post-meta">Jan 4, 2014 • Till Grallert</p>
+    <p class="post-meta">Feb 18, 2017 • Till Grallert</p>
   </header>
 
   <article class="post-content">
-    <p>A couple of months ago a posted <a href="/blog/2013/07/04/xslt-calendar-conversion/">a short note</a> on my XSLT stylesheets to convert the various calendars at use in the late Ottoman empire at will. Now, I have improved the functions and added the Ottoman fiscal calendar (<em>mālī</em>, <em>sene-yi māliye</em>) to the brew and uploaded everything under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 license</a> to <a href="https://github.com/tillgrallert/xslt-calendar-conversion">GitHub</a>. Feel free to fork and tinker with the code. Enjoy!</p>
+    <p>On 26 January this year I had a chance to present a paper on food riots titled “Women in the streets! Urban food riots in late Ottoman <em>Bilād al-Shām</em>” at the conference <a href="https://www.sant.ox.ac.uk/events/conference-%E2%80%9Cdangerous-classes%E2%80%9D-middle-east-and-north-africa">“The ‘Dangerous Classes’ in the Middle East and North Africa”</a> organised by Stephanie Cronin at St. Antony’s college, University of Oxford.</p>
 
-<h2 id="general-description">General description</h2>
-
-<p>The single stylesheet in this repo was conceived as a remedy for the bugs in the XPath specification that prevent the computation of Islamic (<em>hijrī</em>) dates. As I was, at the same time, working on the transcription of Arabic and Ottoman Turkish sources from the nineteenth century, which made use of Gregorian, <em>hijrī</em>, <em>rūmī</em>, and <em>mālī</em> calendars, into XML files, I also wanted to reliably compute conversions between the various calendars.</p>
-
-<p>In addition to numerical dates, the stylesheet provides a function that returns the common month names.</p>
-
-<p>Detailed descriptions of the functions and their parameters can be found inside the stylesheet.</p>
-
-<h2 id="characteristics-of-the-non-gregorian-calendars">Characteristics of the non-Gregorian calendars</h2>
-
-<ul>
-  <li><strong><em>Hijrī</em></strong> reckoning relies on the observation of the lunar year. Year counts began with Muhammad’s exodus (<em>hijrā</em>) from Mecca to Medina. <em>Hijrī</em> dates cannot really be computed as observations of the new moon varied between locations. The stylesheet uses common astronomical computations of the lunar calendar.</li>
-  <li><strong><em>Rūmī</em></strong> reckoning is a Julian calendar that adopted 1 January as the beginning of the year. As the rules for leap years are slightly different between Julian and Gregorian calendars, the difference between these two is slowly increasing (currently 13 days).</li>
-  <li><strong><em>Mālī</em></strong> reckoning is a combination of the old Julian calendar beginning on 1 March and a <em>hijrī</em> year count, that was introduced as the fiscal calendar of the Ottoman Empire in 1676. Every 33 lunar years, the year counts between <em>mālī</em> and <em>hijrī</em> calendars are synchronised by dropping a year.</li>
-</ul>
-
-<h2 id="templates">Templates</h2>
-
-<ul>
-  <li>Templates for the conversion between calendars:
-    <ul>
-      <li>funcDateG2H</li>
-      <li>funcDateG2J</li>
-      <li>funcDateG2JD</li>
-      <li>funcDateG2M</li>
-      <li>funcDateH2G</li>
-      <li>funcDateH2J</li>
-      <li>funcDateH2JD</li>
-      <li>funcDateH2M</li>
-      <li>funcDateJ2G</li>
-      <li>funcDateJ2H</li>
-      <li>funcDateJ2JD</li>
-      <li>funcDateJD2G</li>
-      <li>funcDateJD2H</li>
-      <li>funcDateJD2J</li>
-      <li>funcDateM2G</li>
-      <li>funcDateM2H</li>
-      <li>funcDateM2J</li>
-    </ul>
-  </li>
-  <li>Templates for converting Date formats
-    <ul>
-      <li>funcDateMonthNameNumber</li>
-      <li>funcDateNormaliseInput</li>
-      <li>funcDateFormatTei</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="input--output">Input / Output</h2>
-
-<ul>
-  <li>Input and output for all templates converting dates between the various calendars is as follows: “yyyy-mm-dd”</li>
-  <li>The template “funcDateFormatTei” accepts the same input but produces a <code class="highlighter-rouge">&lt;tei:date&gt;</code> note with <code class="highlighter-rouge">@when</code> or <code class="highlighter-rouge">@when</code>, <code class="highlighter-rouge">@when-custom</code>, <code class="highlighter-rouge">@calendar</code>, and <code class="highlighter-rouge">@datingMethod</code> attributes depending on the input calendar.</li>
-  <li>The template “funcDateNormaliseInput” can be used to convert variously formatted input  strings to the yyyy-mm-dd required by other templates. Possible input formats are  the common English formats of ‘dd(.) MNn(.) yyyy’, ‘MNn(.) dd(.), yyyy’, i.e. ‘15  Shaʿbān 1324’ or ‘Jan. 15, 2014’. The template requires an input string and a  calendar-language combination as found in funcDateMonthNameNumber.</li>
-</ul>
+<p>As always, I have made the slides available on <a href="https://tillgrallert.github.io/Slides/2017-Oxford">GitHub</a>.</p>
 
   </article>
 
@@ -509,7 +454,7 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
   var disqus_shortname  = 'sitzextase';
-  var disqus_identifier = '/blog/2014/01/04/new-calendar-conversion/';
+  var disqus_identifier = '/blog/2017/02/18/dangerous-classes/';
 
   (function() {
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -527,30 +472,20 @@
     <p>
     
     
-          <!-- <span class="post-tag">calendars, </span> -->
+          <!-- <span class="post-tag">conferences, </span> -->
           <!-- this file provides the list of tags for any given post anywhere on the site -->
 
-<span class="post-tag"><a class="tag-list-link" href="/tag/calendars">calendars</a>/ </span>
+<span class="post-tag"><a class="tag-list-link" href="/tag/conferences">conferences</a>/ </span>
     
-          <!-- <span class="post-tag">digital humanities, </span> -->
+          <!-- <span class="post-tag">food riots, </span> -->
           <!-- this file provides the list of tags for any given post anywhere on the site -->
 
-<span class="post-tag"><a class="tag-list-link" href="/tag/digital humanities">digital humanities</a>/ </span>
+<span class="post-tag"><a class="tag-list-link" href="/tag/food riots">food riots</a>/ </span>
     
-          <!-- <span class="post-tag">tools, </span> -->
+          <!-- <span class="post-tag">presentation, </span> -->
           <!-- this file provides the list of tags for any given post anywhere on the site -->
 
-<span class="post-tag"><a class="tag-list-link" href="/tag/tools">tools</a>/ </span>
-    
-          <!-- <span class="post-tag">xml, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
-
-<span class="post-tag"><a class="tag-list-link" href="/tag/xml">xml</a>/ </span>
-    
-          <!-- <span class="post-tag">xslt, </span> -->
-          <!-- this file provides the list of tags for any given post anywhere on the site -->
-
-<span class="post-tag"><a class="tag-list-link" href="/tag/xslt">xslt</a>/ </span>
+<span class="post-tag"><a class="tag-list-link" href="/tag/presentation">presentation</a>/ </span>
     
     </p>
   </footer>

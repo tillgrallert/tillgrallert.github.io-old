@@ -5,8 +5,8 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Feb 2017 17:58:35 +0100</pubDate>
-    <lastBuildDate>Wed, 22 Feb 2017 17:58:35 +0100</lastBuildDate>
+    <pubDate>Wed, 22 Feb 2017 19:07:10 +0100</pubDate>
+    <lastBuildDate>Wed, 22 Feb 2017 19:07:10 +0100</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -173,6 +173,29 @@ To reduce complexity and the number of technologies, we suggest using static, se
         <category>project_dh</category>
         
         <category>teaching</category>
+        
+      </item>
+    
+      <item>
+        <title>Presentation at &#39;Dangerous Classes&#39; conference in Oxford</title>
+        <description>&lt;p&gt;On 26 January this year I had a chance to present a paper on food riots titled “Women in the streets! Urban food riots in late Ottoman &lt;em&gt;Bilād al-Shām&lt;/em&gt;” at the conference &lt;a href=&quot;https://www.sant.ox.ac.uk/events/conference-%E2%80%9Cdangerous-classes%E2%80%9D-middle-east-and-north-africa&quot;&gt;“The ‘Dangerous Classes’ in the Middle East and North Africa”&lt;/a&gt; organised by Stephanie Cronin at St. Antony’s college, University of Oxford.&lt;/p&gt;
+
+&lt;p&gt;As always, I have made the slides available on &lt;a href=&quot;https://tillgrallert.github.io/Slides/2017-Oxford&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Feb 2017 18:06:47 +0100</pubDate>
+        <link>https://tillgrallert.github.io/blog/2017/02/18/dangerous-classes/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2017/02/18/dangerous-classes/</guid>
+        
+        <category>presentation</category>
+        
+        <category>conferences</category>
+        
+        <category>food riots</category>
+        
+        
+        <category>blog</category>
+        
+        <category>project_food-riots</category>
         
       </item>
     
@@ -1015,53 +1038,16 @@ Note: There are no restrictions on use of text transcribed from the images, or p
         <link>https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</guid>
         
+        <category>19th century</category>
+        
+        <category>photographs</category>
+        
         <category>lebanon</category>
         
         <category>graffiti</category>
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Text Encoding Fundamentals and their Application</title>
-        <description>&lt;p&gt;Context: &lt;a href=&quot;https://www.dhsi.org&quot;&gt;Digital Humanities Summer Institute&lt;/a&gt; 2015, UVic, 1-5 June 2015&lt;/p&gt;
-
-&lt;p&gt;Material: Material: The complete material for this course is available on &lt;a href=&quot;https://github.com/tillgrallert/TeachingTei&quot;&gt;GitHub&lt;/a&gt; for download and reuse. Functional slides are available &lt;a href=&quot;http://tillgrallert.github.io/TeachingTei/slides/slidesDHSI2015/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
-
-&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT, &lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to retrieval of data and publication to the web using XSLT.&lt;/p&gt;
-
-&lt;p&gt;We will do so on the basis of late nineteenth-century manuscripts of British diplomatic correspondence from Damascus and the first bi-lingual, English and Arabic, weekly newspaper published in the USA, &lt;em&gt;Kawkab America&lt;/em&gt;. Digital images, as well as sample encodings will be provided.&lt;/p&gt;
-
-&lt;p&gt;Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.&lt;/p&gt;
-
-&lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 +0200</pubDate>
-        <link>https://tillgrallert.github.io/blog/2015/06/01/TEI-at-DHSI/</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/06/01/TEI-at-DHSI/</guid>
-        
-        <category>teaching</category>
-        
-        <category>tei</category>
-        
-        <category>xml</category>
-        
-        <category>xslt</category>
-        
-        <category>markup</category>
-        
-        <category>newspapers</category>
-        
-        <category>arabic newspapers</category>
-        
-        
-        <category>teaching</category>
-        
-        <category>project_dh</category>
         
       </item>
     
