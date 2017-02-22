@@ -3,7 +3,9 @@ layout: post
 title: "From analogue documents to electronic texts: Introduction to TEI XML editing in multilingual environments"
 author: Till Grallert
 date: 2015-03-02
-categories: teaching
+categories: 
+- teaching
+- project_dh
 tags: 
 - teaching
 - tei
@@ -13,11 +15,14 @@ tags:
 - newspapers
 - arabic newspapers
 - manuscripts
+excerpt_separator: <!--more-->
 ---
 
 Context: [Digital Humanities Institute - Beirut](https://dhibeirut.wordpress.com) 2015, AUB, 2-6 March 2015
 
 Material: The complete material for this course is available on [GitHub](https://github.com/tillgrallert/TeachingTei) for download and reuse. Functional slides are available [here](http://tillgrallert.github.io/TeachingTei/slides/slidesDHIB2015/).
+
+<!--more-->
 
 ## Course description
 

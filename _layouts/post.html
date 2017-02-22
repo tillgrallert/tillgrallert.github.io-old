@@ -12,17 +12,22 @@ layout: default
     {{ content }}
   </article>
 
+  <!-- share -->
+  {% include share_twitter.html %}
   <!-- Post comments -->
   <div class="post-comments">
-        {% include disqus.html %}  
+    {% if site.disqus_shortname %}
+      {% include comments_disqus.html %}
+    {% endif %}
   </div>
 
   <footer class="post-footer">
-  	<p>
-  		{% for tag in page.tags %}
+    <p>
+    {% assign tags = page.tags | sort %}
+    {% for tag in tags %}
           <!-- <span class="post-tag">{{tag}}, </span> -->
           {% include tag-list.html %}
-      {% endfor %}.</p>
+    {% endfor %}
+    </p>
   </footer>
-
 </div>

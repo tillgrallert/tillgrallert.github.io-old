@@ -3,12 +3,15 @@ layout: post
 title: "Überlegungen und Material für den Editionsworkshop im März 2015 am OIB"
 author: Till Grallert
 date: 2015-02-23
+categories:
+- blog
 tags:
 - digital humanities
 - digital editions
 - workshop
 - tei
 - xml
+excerpt_separator: <!--more-->
 ---
 
 # Technische Aspekte, oder: the D in Digital Humanities
@@ -19,6 +22,7 @@ tags:
 + Formate / Programmiersprachen müssen **menschen- und maschinenlesbar** sein. Damit wird sichergestellt, dass sogar ein plain-text-Ausdruck auf Papier prinzipiell verständlich ist, auch wenn dabei natürlich viel, wenn nicht gar sämtliche, Funktionalität verloren geht. 
 + Sämtliche Sprachen und Programme sollten **open source** und **etabliert** sein, mit einer großen Community. Das verhindert einen lock-in und Abhängigkeit von einem einzelnen Abieter.
 + Sprachen sollten im **Publikationsgewerbe** und **Editionsprojekten** weit verbreitet  sein.
+<!--more-->
 
 ## Evaluation aktueller Stand am OIB
 

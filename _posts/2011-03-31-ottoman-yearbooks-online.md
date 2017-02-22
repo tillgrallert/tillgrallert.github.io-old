@@ -3,11 +3,15 @@ layout: post
 title: "Ottoman yearbooks online … for the lucky few (and the ones with US IPs)"
 author: Till Grallert
 date: 2011-03-31
+categories:
+- blog
 tags:
 - digitized resources
 - newspapers
 - ottoman newspapers
 - periodicals
+- 19th century
+- 20th century
 ---
 
 

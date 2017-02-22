@@ -2,7 +2,9 @@
 layout: post
 title: "The puzzle continues: *al-Muqtaṭaf* was printed in two different and unmarked editions"
 author: Till Grallert
-date: 2013-08-19 11:39:09
+date: 2013-08-19 11:39:09 +0200
+categories:
+- blog
 tags:
 - 19th century
 - arabic newspapers
@@ -21,25 +23,25 @@ To illustrate the matter, let's have a look at the first issue of volume seven (
 
 Held by Princeton University Library and made available through [HathiTrust](http://hdl.handle.net/2027/njp.32101007749409)
         
-{% include image.html url="/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg" description="facsimile page 15" class="two-columns" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg" description="facsimile page 15" class="two-columns" %}
 
-{% include image.html url="/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg" description="facsimile page 16" class="two-columns" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg" description="facsimile page 16" class="two-columns" %}
 
-{% include image.html url="/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg" description="facsimile page 17" class="two-columns" %} 
+{% include image.html url="/assets/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg" description="facsimile page 17" class="two-columns" %} 
 
-{% include image.html url="/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg" description="facsimile page 18" class="two-columns" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg" description="facsimile page 18" class="two-columns" %}
     
 ### Edition 2: "Large" version of 64 pages.
 
 Held by the [Orient Institut Beirut](http://www.orient-institut.org)
 
-{% include image.html url="/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg" description="facsimile page 15" class="two-columns" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg" description="facsimile page 15" class="two-columns" %}
 
-{% include image.html url="/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg" description="facsimile page 16" class="two-columns" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg" description="facsimile page 16" class="two-columns" %}
 
-{% include image.html url="/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg" description="facsimile page 17" class="two-columns" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg" description="facsimile page 17" class="two-columns" %}
 
-{% include image.html url="/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg" description="facsimile page 18" class="two-columns" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg" description="facsimile page 18" class="two-columns" %}
 
 
 The first 16 pages of the two editions are identical. Page 17 of the copy at the [Orient Institut Beirut (OIB)](http://www.orient-institut.org/) is the first page of a lengthy tracte on "women's rights" (*ḥuqūq al-marʾa*) by Wadīʿ Efendi al-Khūrī. In the Princeton copy, the same page 17 comprises four short questions (*masāʾil*) and the beginning of the section *bāb tadbīr al-manzil*. Both pages bear a printer's mark with information on the volume, the edition, and the binding block. While volume number and edition are marked as identical, the number of the binding block differs: "3 ṣ" at Princeton, "3 k" at the OIB. To my astonishment, the OIB copy continues with the same paragraph of the *bāb tadbīr al-manzil* section on page 48, after which the two editions are again identical, save for the page numbers. 
@@ -74,24 +76,24 @@ The examples below show that *al-Muqtaṭaf* was published in a large (*kabīr*)
 
 Held by Princeton University Library (<a href="http://hdl.handle.net/2027/njp.32101007749409" target="new">Hathitrust</a>)
         
-{% include image.html url="/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg" description="facsimile page 15" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0015s1.jpg" description="facsimile page 15" %}
 
-{% include image.html url="/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg" description="facsimile page 16" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0016s1.jpg" description="facsimile page 16" %}
 
-{% include image.html url="/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg" description="facsimile page 17" %} 
+{% include image.html url="/assets/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0017s1.jpg" description="facsimile page 17" %} 
 
-{% include image.html url="/images/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg" description="facsimile page 18" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr02/up/muqtataf-v07-i01-pr02-up-p0018s1.jpg" description="facsimile page 18" %}
     
 ### Edition 2: "Large" version of 64 pages.
 
 Held by the Orient Institut Beirut
 
-{% include image.html url="/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg" description="facsimile page 15" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0015s1.jpg" description="facsimile page 15" %}
 
 
-{% include image.html url="/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg" description="facsimile page 16" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0016s1.jpg" description="facsimile page 16" %}
 
 
-{% include image.html url="/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg" description="facsimile page 17" %}
+{% include image.html url="/assets/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0017s1.jpg" description="facsimile page 17" %}
 
-{% include image.html url="/images/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg" description="facsimile page 18" %} -->
+{% include image.html url="/assets/muqtataf/v07/i01/pr01/oib/muqtataf-v07-i01-pr01-oib-p0049s1.jpg" description="facsimile page 18" %} -->

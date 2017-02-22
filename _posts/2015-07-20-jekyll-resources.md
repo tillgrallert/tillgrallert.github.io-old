@@ -4,6 +4,8 @@ title: "Academic writing in plain text: useful resources"
 author: Till Grallert
 date: 2015-07-20
 published: false
+categories:
+- blog
 tags:
 - links
 - tools
@@ -117,10 +119,14 @@ A [comment on stackoverflow](http://stackoverflow.com/questions/19331362/using-a
 and then to call this template with 
 
 ~~~{.}
-{% include image.html url="/images/my-cat.jpg" description="My cat, Robert Downey Jr." class="some class" %}
+{% include image.html url="/assets/my-cat.jpg" description="My cat, Robert Downey Jr." class="some class" %}
 ~~~
 
 The regex to replace existing markdown image links with the new liquid ones is:
 
-1. find: `!\[(Page.+)\]\(\{\{site.baseurl\}\}(/images/.+.png)\)`
+1. find: `!\[(Page.+)\]\(\{\{site.baseurl\}\}(/assets/.+.png)\)`
 2. replace> 
+
+## Post preview in jekyll
+
+add `excerpt_separator: <!--more-->` to _config.yml or the YAML block of your individual post.

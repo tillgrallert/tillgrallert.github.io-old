@@ -3,10 +3,13 @@ layout: post
 title: Middle Eastern Graffiti
 author: Till Grallert
 date: 2015-11-12
+categories:
+- blog
 tags:
+- 19th century
+- photographs
 - lebanon
 - graffiti
-- 
 published: true
 ---
 

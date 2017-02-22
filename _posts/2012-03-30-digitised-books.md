@@ -3,6 +3,8 @@ layout: post
 title: "Digitised books, newspapers, and maps at Düsseldorf"
 author: Till Grallert
 date: 2012-03-30
+categories:
+- blog
 tags:
 - digitized resources
 ---

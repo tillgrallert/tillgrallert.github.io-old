@@ -3,6 +3,8 @@ layout: post
 title: "The historian's puzzle: various differences between copies of printed periodicals that ought to be similar"
 author: Till Grallert
 date: 2012-12-29 12:24:43
+categories:
+- blog
 tags:
 - 19th century
 - arabic newspapers

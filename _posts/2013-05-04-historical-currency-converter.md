@@ -3,6 +3,8 @@ layout: post
 title: "Historical Currency Converter"
 author: Till Grallert
 date: 2013-05-04
+categories:
+- blog
 tags:
 - js
 - 19th century

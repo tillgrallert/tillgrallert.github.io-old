@@ -1,0 +1,7 @@
+<p>
+{% assign tags = post.tags | sort %}
+{% for tag in tags %}
+  <!-- generate a tag list -->
+  {% include tag-list.html %}
+{% endfor %}
+</p>

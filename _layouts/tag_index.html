@@ -4,7 +4,7 @@ layout: default
 
 <!-- This is the layout for all the subpages listing posts by tags -->
 <h2 class="post_title">Posts tagged with "{{page.title}}"</h2>
-<ul>
+<ul class="post-list">
   {% for post in site.posts %}
     {% for tag in post.tags %}
       {% if tag == page.tag %}

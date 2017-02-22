@@ -3,6 +3,8 @@ layout: post
 title: "New XSLT stylesheets for calendar conversion on Github"
 author: Till Grallert
 date: 2014-01-04
+categories:
+- blog
 tags:
 - xml
 - xslt

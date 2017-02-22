@@ -1,7 +1,7 @@
 <header class="site-header wrapper">
 <!-- @id is seemingly ignored, thus the background image is included here and not via css -->
   <div id="div-site-header" class="wrapper" >
-    <!-- <img class="img-header" src="{{site.baseurl}}/images/header-img.jpg"> -->
+    <!-- <img class="img-header" src="{{site.baseurl}}/assets/header-img.jpg"> -->
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
@@ -17,8 +17,10 @@
         {% for page in site.pages %}
           {% if page.title %}
           <!-- this condition removes the links to the tag index pages -->
-          {% if page.categories !='tag_index' %}
+          {% if page.categories !='tag_index' %} 
+          {% if page.permalink !='404.html' %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
           {% endif %}
           {% endif %}
         {% endfor %}

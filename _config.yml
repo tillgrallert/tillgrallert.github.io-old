@@ -4,7 +4,7 @@ email: grallert@orient-institut.org
 description: > # A blog on all things related to late Ottoman *Bilād al-Shām*, Arabic and Ottoman newspapers, and digital humanities
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://tillgrallert.github.io" # the base hostname & protocol for your site
-header-img: images/header-img.jpg
+header-img: assets/header-img.jpg
 
 
 # author information
@@ -24,6 +24,7 @@ paginate_path: /page:num
 timezone:    null
 quiet:    false
 defaults: []
+# excerpt_separator: <!--more-->
 
 # Markdown settings
 markdown: kramdown # pandoc

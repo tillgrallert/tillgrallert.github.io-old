@@ -3,6 +3,10 @@ layout: post
 title: "Current projects"
 author: Till Grallert
 date: 2011-03-27
+categories:
+- blog
+tags:
+- status update
 ---
 
 In the future a section of this website will be populated with some information on research related projects. But for the moment I will briefly introduce a few of them .

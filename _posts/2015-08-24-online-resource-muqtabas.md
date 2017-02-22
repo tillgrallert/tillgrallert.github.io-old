@@ -3,6 +3,10 @@ layout: post
 title: "*Majallat al-Muqtabas*: one of the most important journals of late Ottoman *Bilād al-Shām* as open, collaborative, scholarly digital edition"
 author: Till Grallert
 date: 2015-11-13 17:01:16
+categories:
+- blog
+- project_dh
+- project_dape
 tags:
 - 20th century
 - arabic newspapers
@@ -17,6 +21,8 @@ tags:
 - xml
 published: true
 ---
+
+[*Update*: the project has it's [own blog](https://tillgrallert.github.io/digital-muqtabas)]
 
 In the context of the current onslaught cultural artifacts in the Middle East face from the iconoclasts of the Islamic State, from the institutional neglect of states and elites, and from poverty and war, digital preservation efforts promise some relief as well as potential counter narratives. They might also be the only resolve for future education and rebuilding efforts once the wars in Syria, Iraq or Yemen come to an end. 
 

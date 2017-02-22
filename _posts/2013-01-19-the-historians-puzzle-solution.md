@@ -3,6 +3,8 @@ layout: post
 title: "Solution to the historian's puzzle?"
 author: Till Grallert
 date: 2013-01-19
+categories:
+- blog
 tags:
 - 19th century
 - history of press

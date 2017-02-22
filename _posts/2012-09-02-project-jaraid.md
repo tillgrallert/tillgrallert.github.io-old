@@ -3,6 +3,8 @@ layout: post
 title: "Project Jaraid: our new chronology of nineteenth-century Arabic periodicals is online"
 author: Till Grallert
 date: 2012-09-02
+categories:
+- blog
 tags: 
 - 19th century
 - arabic newspapers

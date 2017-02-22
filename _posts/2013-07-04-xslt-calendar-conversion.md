@@ -3,6 +3,8 @@ layout: post
 title: "XSLT functions for converting calendars"
 author: Till Grallert
 date: 2013-07-04
+categories:
+- blog
 tags:
 - calendars
 - tools

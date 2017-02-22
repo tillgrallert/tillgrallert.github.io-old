@@ -3,7 +3,9 @@ layout: post
 title: "Text Encoding Fundamentals and their Application"
 author: Till Grallert
 date: 2015-06-01
-categories: teaching
+categories: 
+- teaching
+- project_dh
 tags: 
 - teaching
 - tei

@@ -15,6 +15,8 @@ $base-line-height: 1.5;
 
 $spacing-unit: 2em;
 
+// colours
+
 $white-color: white;
 
 $grey-color:       #828282;
@@ -26,18 +28,19 @@ $text-color:       #111;
 $background-color: $white-color;
 
 // header image
-$header-img: url(../images/header-img.jpg);
+$header-img: url(../assets/header-img.jpg);
 // This is the base colour for the entire site
 //$brand-color:      #2a7ae2;
 $brand-color: #F46A00;
+$highlight-color:#8DB300;
 
 
 // Width of the content area
 //$content-width:    1000px;
-$content-width:    1000px;
+$content-width:    1200px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        1000px;
 
 
 

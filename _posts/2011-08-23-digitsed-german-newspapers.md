@@ -3,6 +3,8 @@ layout: post
 title: "Digitised German newspapers"
 author: Till Grallert
 date: 2011-08-23 22:00:34
+categories:
+- blog
 tags: 
 - newspapers
 - digitized resources
