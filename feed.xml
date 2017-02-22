@@ -5,9 +5,174 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Oct 2016 13:20:57 +0200</pubDate>
-    <lastBuildDate>Wed, 26 Oct 2016 13:20:57 +0200</lastBuildDate>
+    <pubDate>Wed, 22 Feb 2017 17:28:24 +0100</pubDate>
+    <lastBuildDate>Wed, 22 Feb 2017 17:28:24 +0100</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Introduction to Plain Text Workflows and Sustainable Publishing</title>
+        <description>&lt;p&gt;Disclaimer: many of the ideas have been inspired by the work of Alex Gil and Denis Tenen&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.&lt;/p&gt;
+
+&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
+
+&lt;p&gt;In the world of (academic) publishing, large aggregators and indexers {»could be named here«} have turned into and acquired publishing presses and generate obscene profits by charging the public (every tax-payer worldwide) multiple times over. First by charging the predominantly publicly-funded academic for publishing the results of her publicly-funded research and by enforcing a culture of &lt;em&gt;pro bono&lt;/em&gt; labour among academic reviewers and editors; second by selling this content to equally predominantly publicly-funded libraries, which then increasingly demand access fees from members of the public, who want to access their collections; and third by offloading the cost of long-term preservation to, again, publicly-funded institutions. This system not only created a hierarchy of academics and institutions in the relatively well-off “West”—two classes divided by their ability to pay for being published and accessing publications (their own and others). It also increasingly prevents anybody outside western academia from accessing cutting-edge research and participating in intellectual discourse.&lt;/p&gt;
+
+&lt;p&gt;One of the opportunities afforded by the &lt;em&gt;digital humanities&lt;/em&gt; and the stated goal of this {==course==}{»workshop«} is to remove the middlemen—be they technical or entrepreneurial—between authors, readers, and the library-cum-archive. There are two main obstacles to this aim:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;copyright laws and&lt;/li&gt;
+  &lt;li&gt;the alienation of us, authors and academics, from the means of production.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We will not be able to change copyright legislation and the vested business interests in sustaining and expanding the regime of profit-generating copy and distribution rights in the foreseeable future, but we can all provide our knowledge under a &lt;a href=&quot;https://creativecommons.org/&quot;&gt;creative commons licence&lt;/a&gt;. In order to do so, we need to re-claim the means of production. 
+We argue that by doing so the main argument for restrictive copyright—namely, the provision of allegedly expensive services such as quality control and metadata curation—collapses. By the time of writing, printing costs and the global distribution of heavy and voluminous books are already negligible as the main avenue of scholarly publication, the journal, has already moved to digital online publication.&lt;/p&gt;
+
+&lt;h1 id=&quot;principles&quot;&gt;Principles&lt;/h1&gt;
+
+&lt;p&gt;The main principles in our effort to (re)claim the means of production are: accessibility, simplicity, sustainability, and credibility. They shall pertain both to the intellectual endeavour and to the tools employed.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;Accessibility&lt;/em&gt;. Accessible means first of all free and open to use and re-purpose for all that have the technical ability to do. Therefore we will have to forfeit all proprietary software and formats. From the imperative of openness and accessibility derive the second and third principles:&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Simplicity&lt;/em&gt;: apart from the necessity to be able read and right in a specific human language, there should be as few tools, hardware and software requirements as possible. Ideally everything should work on ten-year old hardware and nothing but the software packaged with the operating system.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Sustainability&lt;/em&gt;: only simple systems adhering to widely accepted standards can be sustained with minimal / reasonable effort.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Credibility&lt;/em&gt;: Credibility is at the core of scholarly production. In addition to transparency as to the sources, methodology, and tools used, authorship needs to be ascertained and acknowledged as the main tool of scholarly quality control.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;tools--formats&quot;&gt;Tools / formats&lt;/h1&gt;
+
+&lt;h2 id=&quot;writing&quot;&gt;1. Writing&lt;/h2&gt;
+
+&lt;p&gt;Looking at the most broadly-employed software in academic contexts and beyond, Microsoft’s Word, a piece of bloated and expensive proprietary software, what are the functions we need to replace?&lt;/p&gt;
+
+&lt;h3 id=&quot;composition--authoring&quot;&gt;1. composition / authoring&lt;/h3&gt;
+
+&lt;p&gt;To avoid overtly complex software and proprietary formats, form and content must be separated. Structural / semantic information as well as metadata must be embedded in the text itself in order to be inseparable. We suggest using plain text with rudimentary structural markup following the conventions of MarkDown and a short block of metadata written in Yaml as the format of choice.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Format&lt;/em&gt;: plain text. At their core, all files are simple strings of letters. In the case of plain text files (&lt;code class=&quot;highlighter-rouge&quot;&gt;TXT&lt;/code&gt;), this string of letters happens to be human readable. Plain text has been with us since the early days of computing and &lt;code class=&quot;highlighter-rouge&quot;&gt;TXT&lt;/code&gt; files could be viewed and edited with 1980s hard- and software. We can therefore assume that this basic format will remain accessible for the years to come.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Syntax&lt;/em&gt;: &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;MarkDown&lt;/a&gt; and its derivatives provide a simple but formal way of providing structural (headings, lists, notes, block quotes etc.) and formating (italics, bold) information that is both human and machine readable. Think of it as the old way of underlining a line of text on a type-writer to indicate a heading.&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Metadata&lt;/em&gt;: &lt;a href=&quot;http://yaml.org/&quot;&gt;Yaml (Yaml ain’t markup language)&lt;/a&gt; provides a simple way of including structured metadata (data about data) at the beginning of a text file recording information on authors, title, date etc..&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Tools&lt;/em&gt;: All major operating systems come with basic text editors sufficient for reading and editing plain text files (“Notepad” on Windows, “TextEdit” on Mac{» comment on Linux«}). However, some additional features, such as syntax highlighting and basic customisation of the writing interface (you have to look at it for substantial periods of time), will significantly enhance the writing experience.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; (Windows, Mac, Linux)&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://notepad-plus-plus.org/&quot;&gt;NotePad++&lt;/a&gt; (Windows only)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ascertaining-authorship-version-control-and-archiving&quot;&gt;2. ascertaining authorship, version control, and archiving&lt;/h3&gt;
+
+&lt;p&gt;Writing is a process and subject to change. We need to be able to try out different structures and formulations and, more often than one would like to, we discover that yesterday’s deletions would have been worth keeping. Not to mention an external editor or collaborators that quickly make any approach involving ever-longer file names futile (we all have our folders full of &lt;code class=&quot;highlighter-rouge&quot;&gt;text.docx&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;text-new-version.docx&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;text-new-version-2004-01-01.docx&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;text-new-version-2004-01-01-comments-by-tg-2.docx&lt;/code&gt; etc.).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/&quot;&gt;&lt;em&gt;git&lt;/em&gt;&lt;/a&gt;: git is an open &lt;em&gt;version control system&lt;/em&gt; (vcs) that works with any file type. It traces every change with clear information on author and a timestamp.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.github.com&quot;&gt;&lt;em&gt;GitHub&lt;/em&gt;&lt;/a&gt;: GitHub is probably the most popular &lt;em&gt;distributed version control system&lt;/em&gt; (dvcs) and code-sharing platform based on git.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; While GitHub is a commercial company, it offers free accounts and unlimited public repositories to everyone and free private repositories to academics. Once a change has been committed to a GitHub repository, authors have a public proof of their authorship with a unique identifier that can be referenced. In addition, the repository forms a redundant online back-up of your work.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;ssh&lt;/em&gt; (secure shell): in order to communicate with a server without a local client software, some knowledge of ssh is necessary. To avoid this, one can use any of the numerous GitHub clients.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zenodo.org/&quot;&gt;&lt;em&gt;Zenodo&lt;/em&gt;&lt;/a&gt;: Zenodo is an open science platform developed and operated by CERN. Some of its many features are the provision of DOIs (&lt;a href=&quot;https://www.doi.org/&quot;&gt;&lt;em&gt;digital object identifiers&lt;/em&gt;&lt;/a&gt;) and long-term storage thus providing stable links and protection against &lt;a href=&quot;https://en.wikipedia.org/wiki/Link_rot&quot;&gt;link-rot&lt;/a&gt;. It also hooks into GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;collaboration--external-review&quot;&gt;3. collaboration / external review&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git / GitHub: git allows for branching and forking of text. All changes / suggestions can be reviewed and the author can decide whether to accept or reject them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;{»We need additional collaborative tools«}
+- &lt;em&gt;&lt;a href=&quot;http://prose.io/&quot;&gt;prose.io&lt;/a&gt;&lt;/em&gt;: author text on GitHub online.&lt;/p&gt;
+
+&lt;h2 id=&quot;publishing&quot;&gt;2. Publishing&lt;/h2&gt;
+
+&lt;h3 id=&quot;generate-an-accessible-representation-of-your-text&quot;&gt;1. Generate an accessible representation of your text&lt;/h3&gt;
+
+&lt;p&gt;While it would be absolutely sufficient to publish / distribute the plain-text files by means of a USB key, a graphical user interface (GUI) that translates the structural information into a formatted and aesthetically pleasing layout is often {==advisable==}{»better wording?«}—be they a printed paper copy or a website:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pandoc.org/&quot;&gt;&lt;em&gt;Pandoc&lt;/em&gt;&lt;/a&gt;: Pandoc is a tool for converting plain text and markdown into multiple (hence &lt;em&gt;pan&lt;/em&gt;) target formats (thus &lt;em&gt;doc&lt;/em&gt;), such as, but not limited to &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;DOCX&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;PDF&lt;/code&gt;. Pandoc, which is under active development by John MacFarlane, a professor of philosophy at UC Berkeley, also supports the formatting of references using &lt;a href=&quot;http://www.bibtex.org/&quot;&gt;BibTeX&lt;/a&gt; (another plain text format for storing structured bibliographic information) and &lt;a href=&quot;http://citationstyles.org/&quot;&gt;CSL (citation style language)&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt;&lt;/em&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt; are well-established standards to separate form and content maintained by the &lt;a href=&quot;https://www.w3.org/&quot;&gt;World Wide Web Consortium (W3C)&lt;/a&gt;. While the &lt;em&gt;hyper text markup language&lt;/em&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt;) carries the content of our text as well as all the structural and formating information and the metadata, &lt;em&gt;cascading stylesheets&lt;/em&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt;) provide the actual layout. This combination allows to provide different layouts for different contexts and devices using the same content.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Metadata&lt;/em&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML5&lt;/code&gt; supports semantic tags and machine-readable metadata following various standards, such as those provided by &lt;a href=&quot;http://dublincore.org/&quot;&gt;Dublin Core (DC)&lt;/a&gt; or &lt;a href=&quot;https://schema.org&quot;&gt;schema.org&lt;/a&gt;. If one includes Dublin Core metadata in the head of &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; files, aggregators, search engines, and reference managers can find and extract the structured information on author, title, publication date, keywords, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;think-about-and-provide-a-licence&quot;&gt;2. Think about and provide a licence&lt;/h3&gt;
+
+&lt;p&gt;{»mention copyright«}&lt;/p&gt;
+
+&lt;p&gt;A licence is formal agreement that specifies the rights and duties of both the &lt;em&gt;licensor&lt;/em&gt; (e.g. us as authors) and the &lt;em&gt;licencee&lt;/em&gt; (e.g. us as readers). Its most important purpose within our discussion is to assure the readers of our texts of their rights to read, copy, and cite them. An open licence might for instance allow reproduction of the text but might prohibit charging for accessing the reproduction.&lt;/p&gt;
+
+&lt;p&gt;Formulating one’s own licence text is a challenge and one might not be familiar enough with the necessary “legalese” to write a text readers can rely on. In consequence we suggest looking at established licences and having made a case for open access {»open science, open knowledge etc.«}, we suggest to start with &lt;a href=&quot;https://creativecommons.org/&quot;&gt;creative commons licences&lt;/a&gt;.&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;publish--distribute-the-content&quot;&gt;3. Publish / distribute the content&lt;/h3&gt;
+
+&lt;p&gt;Websites of more than a single page of text tend to be technically complex and require an infrastructure of data storage, internet connections, web addresses, some &lt;em&gt;content management system&lt;/em&gt; (cms), and databases that rarely come for free and without the need of maintenance. In addition, contemporary dynamic websites are almost impossible to archive or download in their entirety.
+To reduce complexity and the number of technologies, we suggest using static, self-contained websites without a content management system and no database.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;jekyll&lt;/em&gt;: &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is currently one of the most popular open tools to generate “dynamic” static, self-contained websites from plain text files containing MarkDown and Yaml, using nothing but &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt; and nested files and folders. These can either be hosted online or distributed on a USB key.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;GitHub pages&lt;/em&gt;: There are, of course, plenty of open, free or commercial providers to host your website. But having already signed up to GitHub and keeping all our texts in a GitHub repository, it is worthwhile to look at &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub pages&lt;/a&gt;, which provide free hosting of version-controlled content and supports jekyll out of the box. This means one can directly publish Markdown-formatted plain text files through GitHub pages and jekyll.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;challenges&quot;&gt;Challenges:&lt;/h1&gt;
+
+&lt;p&gt;How to deal with sensitive data / material, that should not be publicly accessible, such as ethnographic field notes?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://openpgp.org/&quot;&gt;OpenPGP&lt;/a&gt;: PGP stands for “pretty good privacy” and is widely used for encrypting emails. OpenPGP is a proposed standard in &lt;a href=&quot;https://tools.ietf.org/html/rfc4880&quot;&gt;RFC 4480&lt;/a&gt;. It works with plain text and thus with all the tools covered in this {==course==}{»workshop«}.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources--literature&quot;&gt;Resources / literature:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://programminghistorian.org/&quot;&gt;The Programming Historian&lt;/a&gt;: open-access, peer-reviewed suite of tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;{»add relevant literature«}&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Tenen, Dennis and Grant Wythoff. “Sustainable Authorship in Plain Text Using Pandoc and Markdown.” &lt;a href=&quot;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown&quot;&gt;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;MarkDown really is only a convention and &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;John Gruber’s (and Adam Swartz’ [yes, &lt;em&gt;the&lt;/em&gt; Adam Swartz]) canonical description of the Markdown syntax&lt;/a&gt; is at least partially ambiguous and and lacks some core functionality for academic writing, such as support for tables and footnotes. In consequence, a plethora of formats (MultiMarkdown, GitHub flavored markdown, etc.) and software implementations have proliferated inspired by and based on Markdown that make the actual rendering of Markdown in &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; beyond the core functionality rather unpredictable. In recent years, a group of people involving &lt;a href=&quot;http://johnmacfarlane.net/&quot;&gt;John MacFarlane&lt;/a&gt;, professor of philosophy at UC Berkeley and author of Pandoc, proposed and developed are more rigid standard which they call &lt;a href=&quot;http://commonmark.org/&quot;&gt;CommonMark&lt;/a&gt;. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Other options based on git are &lt;a href=&quot;https://bitbucket.org/&quot;&gt;BitBucket&lt;/a&gt; and &lt;a href=&quot;https://about.gitlab.com/&quot;&gt;GitLab&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;GitHub provides its own clients for &lt;a href=&quot;https://central.github.com/mac/latest&quot;&gt;Mac&lt;/a&gt; and &lt;a href=&quot;https://github-windows.s3.amazonaws.com/GitHubSetup.exe&quot;&gt;Windows&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;There is a great list of open source licences, including links to their full texts, at &lt;a href=&quot;https://opensource.org/licenses/category&quot;&gt;opensource.org&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 22 Feb 2017 17:13:32 +0100</pubDate>
+        <link>https://tillgrallert.github.io/blog/2017/02/22/plain-text-at-dhib/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2017/02/22/plain-text-at-dhib/</guid>
+        
+        <category>teaching</category>
+        
+        <category>tools</category>
+        
+        <category>plain text</category>
+        
+        <category>markdown</category>
+        
+        <category>pandoc</category>
+        
+        <category>git</category>
+        
+        <category>github</category>
+        
+        <category>jekyll</category>
+        
+        
+        <category>teaching</category>
+        
+      </item>
     
       <item>
         <title>The difficulty of establishing publication dates for books from late Ottoman *Bilād al-Shām*</title>
@@ -890,47 +1055,6 @@ Note: There are no restrictions on use of text transcribed from the images, or p
         <category>newspapers</category>
         
         <category>arabic newspapers</category>
-        
-        
-        <category>teaching</category>
-        
-        <category>project_dh</category>
-        
-      </item>
-    
-      <item>
-        <title>From analogue documents to electronic texts: Introduction to TEI XML editing in multilingual environments</title>
-        <description>&lt;p&gt;Context: &lt;a href=&quot;https://dhibeirut.wordpress.com&quot;&gt;Digital Humanities Institute - Beirut&lt;/a&gt; 2015, AUB, 2-6 March 2015&lt;/p&gt;
-
-&lt;p&gt;Material: The complete material for this course is available on &lt;a href=&quot;https://github.com/tillgrallert/TeachingTei&quot;&gt;GitHub&lt;/a&gt; for download and reuse. Functional slides are available &lt;a href=&quot;http://tillgrallert.github.io/TeachingTei/slides/slidesDHIB2015/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;course-description&quot;&gt;Course description&lt;/h2&gt;
-
-&lt;p&gt;This five-day course will provide a hands-on introduction to digital editing practices and tools employing a set of XML-based technologies: The Extensible Markup Language (XML) istself (&lt;a href=&quot;http://www.w3.org/TR/xml11&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;Wikipedia&lt;/a&gt;.), the XPath data model (&lt;a href=&quot;http://www.w3.org/TR/xpath-datamodel/.&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XPath&quot;&gt;Wikipedia&lt;/a&gt;.), the declarative language to transform XML (Extensible Stylesheet Language Transformations, XSLT, &lt;a href=&quot;http://www.w3.org/TR/xslt20/&quot;&gt;specifications&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;Wikipedia&lt;/a&gt;), and finally a specific “dialect” of XML, the &lt;a href=&quot;http://www.tei-c.org/index.xml&quot; title=&quot;the TEI Consortium&#39;s Website&quot;&gt;Text Encoding Initiative’s TEI P5&lt;/a&gt;. The course will cover the process from the original creation of digital files using TEI XML to the publication of XML files using XSLT. To do so in a meaningful way, each participant will encode a single issue of one of Beirut’s many newspapers covering the restoration of the Ottoman constitution in summer 1908.Finally, we will problematise the applicability of the TEI to non-European languages written in non-Latin scripts, particularly Arabic and Ottoman.&lt;/p&gt;
-
-&lt;p&gt;No previous programming skills or knowledge of mark-up languages is required, even though previous experiences are an advantage. The course will be adapted to the needs of registered participants.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Mar 2015 00:00:00 +0100</pubDate>
-        <link>https://tillgrallert.github.io/blog/2015/03/02/TEI-at-DHIB/</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/03/02/TEI-at-DHIB/</guid>
-        
-        <category>teaching</category>
-        
-        <category>tei</category>
-        
-        <category>xml</category>
-        
-        <category>xslt</category>
-        
-        <category>markup</category>
-        
-        <category>newspapers</category>
-        
-        <category>arabic newspapers</category>
-        
-        <category>manuscripts</category>
         
         
         <category>teaching</category>
