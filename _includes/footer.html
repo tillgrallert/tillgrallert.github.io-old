@@ -2,11 +2,18 @@
 
   <div class="wrapper">
     <div class="footer-col-wrapper">
+      {% if site.email %}
       <div class="footer-col">
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </div>
+      {% endif %}
+      {% if site.orcid %}
       <div class="footer-col">
-          {% if site.github_username %}
+        <a href="https://orcid.org/{{ site.orcid }}">ORCID</a>
+      </div>
+      {% endif %}
+      {% if site.github_username %}
+      <div class="footer-col">
             <a href="https://github.com/{{ site.github_username }}">
               <span class="icon  icon--github">
                 <svg viewBox="0 0 16 16">
@@ -16,11 +23,10 @@
 
               <span class="username">{{ site.github_username }}</span>
             </a>
-          {% endif %}
       </div>
-
+      {% endif %}
+      {% if site.twitter_username %}
       <div class="footer-col">
-        {% if site.twitter_username %}
             <a href="https://twitter.com/{{ site.twitter_username }}">
               <span class="icon  icon--twitter">
                 <svg viewBox="0 0 16 16">
@@ -31,8 +37,8 @@
 
               <span class="username">{{ site.twitter_username }}</span>
             </a>
-          {% endif %}
       </div>
+      {% endif %}
     </div>
 
   </div>
