@@ -361,10 +361,12 @@ a.post-more {
     font-size: 0.8em;
 }
 
-/* .tag-index, .date-index{
-    float: left;
-    position: relative;
-} */
+// panels with profiles, tag cloud, lists of dates
+div.c_index{
+    // float: left;
+    // position: relative;
+    padding-bottom: $spacing-unit;
+}
 
 .main-column {
     max-width: $content-width - 400px;
