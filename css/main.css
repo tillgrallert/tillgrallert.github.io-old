@@ -286,8 +286,8 @@ pre {
   /* added to original theme */
   text-align: center;
   font-size: inherit;
-  width: -webkit-calc(30% - (2em / 2));
-  width: calc(30% - (2em / 2)); }
+  width: -webkit-calc(25% - (2em / 2));
+  width: calc(25% - (2em / 2)); }
 
 .footer-col-1 {
   width: -webkit-calc(35% - (2em / 2));
@@ -467,10 +467,9 @@ a.post-more {
   margin-bottom: 2em;
   font-size: 0.8em; }
 
-/* .tag-index, .date-index{
-    float: left;
-    position: relative;
-} */
+div.c_index {
+  padding-bottom: 2em; }
+
 .main-column {
   max-width: 800px;
   position: relative;
