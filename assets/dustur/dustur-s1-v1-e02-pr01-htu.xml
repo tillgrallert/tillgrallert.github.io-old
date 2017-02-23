@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Düstur: kavanin ve nizamat ve muahedat ile umuma ait mukavelat ve iradat-i seniyeyi muhtevidir.</title>
+                  <imprint>
+                     <publisher>Maṭbaʿa-yi ʿĀmire</publisher>
+                     <pubPlace>Der-i Saʿadet</pubPlace>
+                     <date calendar="Gregorian" when="1872-01-01">1872</date>
+                     <date type="Hijri" calendar="Islamic">1289</date>
+                     <biblScope type="vol">1</biblScope>
+                  </imprint>
+               </monogr>
+               <series>Tertip I</series>
+               <idno type="SenteUUID">BA871126-EE4F-4120-A8C3-7428A9D67355</idno>
+               <idno type="callNumber">EC87.109 /77862</idno>
+               <idno type="CitationID">DüsturKavaninVeNizamat 1872b</idno>
+               <idno type="OCLCID">81476270</idno>
+               <idno type="RIS">81476270</idno>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="tr-ar">Ottoman Turkish</language>
+        </langUsage>
+     </profileDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <pb n="1" xml:id="p0001" facs=".//img/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0001.tif"/>
+       <div type="contents">
+          <head>(دستورك جلداولى فهرسي)</head>
+          <list>
+             <head>صحيفة</head>
+             <item n="1"><ref target="#p0004">٤</ref> كلخانه ده قراءت اولنان خط همايون</item>
+             <item n="2"><ref target="#p0007">٧</ref>اصلاحات فرمان عاليسى</item>
+             <item n="3"><ref target="#p0014">١٤</ref>جلوس همايون عقيبنده شرف صدور ايدن خط همايون</item>
+             <item n="4"><ref target="#p0016">١٦</ref>نابعيت عثمانيه قانوننامه سى</item>
+             <item n="5"><ref target="#p0020">٢٠</ref>	احكام عدليه مجله لرينك برنجيسى كتاب البيوغ</item>
+             <item n="6"><ref target="#p0080">٨٠</ref>ايكنجيسى كتاب الاجاره</item>
+             <item n="7"><ref target="#p0112">١١٢</ref>اوچنجيسى كتاب الكفاله</item>
+             <item n="8"><ref target="#p0122">١٢٢</ref>دردنجيسى كتاب الحواله</item>
+             <item n="9"><ref target="#p0126">١٢٦</ref>بشنجيسى كتاب الرهن</item>
+             <item n="10"><ref target="#p0136">١٣٦</ref>التنجيسى كتاب الامانات</item>
+             <item n="11"><ref target="#p0148">١٤٨</ref>يدنجيسى كتاب الهبه</item>
+             <item n="12"><ref target="#p0153">١٥٣</ref>سكزنجيسى كتاب الغصب</item>
+             <item n="13"><ref target="#p0165">١٦٥</ref>اراضى قانوننامه سى وذيلى</item>
+             <item n="14"><ref target="#p0200">٢٠٠</ref>طاپو نظامنامه سى وذيلى</item>
+             <item n="15"><ref target="#p0209">٢٠٩</ref>طاپوسنداتى حقنده تعليمات</item>
+             <item n="16"><ref target="#p0212">٢١٢</ref>طاپوسنداتى حقنده تعريفنامه</item>
+             <item n="17"><ref target="#p0223">٢٢٣</ref>اراضئ اميريه وموقوفه نك توسيع انتقالاتنه دائر نظامنامه وذيلى</item>
+             <item n="18"><ref target="#p0225">٢٢٥</ref>بالاجارتين تصرف اولنان مسقفات مستغلاتك توسيع انتقالاتنه دائر</item>
+             <item n="19"><ref target="#p0230">٢٣٠</ref>تبعه اجنبيه نك املاك استملاكنه دائر نظامنامه</item>
+             <item n="20"><ref target="#p0237">٢٣٧</ref>ترهين املاك حقنده مواد نظاميه</item>
+             <item n="21"><ref target="#p0238">٢٣٨</ref>دين ايچون اموال غير منقوله نك فروختى حقنده نظامنامه</item>
+             <item n="22"><ref target="#p0242">٢٤٢</ref>اراضئ اميريه وموقوفه ومسقفات ومستغلات وقفيه نك بعد الوفات
+                ٠٠٥ تأمين دين ايتمسنه دائر نظامنامه</item>
+             <item n="23"><ref target="#p0244">٢٤٤</ref>مديون عهده سنده بولنان اراضينك صورت فروختنه دائر فقرات نظاميه</item>
+             <item n="24"><ref target="#p0245">٢٤٥</ref>طشره لرده بولنان مسقفات ومستغلات ايچون ويريله جك قوچانلى
+                ٠٠٠ علم وخبرلره دائر تعليمات</item>
+             <item n="25"><ref target="#p0251">٢٥١</ref>طشره لرده مسقفات ومستغلات ايچون ويريله جك علم وخبرلرك
+                ٠٠٠ تعريفنامه سى</item>
+             
+             <pb n="2" xml:id="p0002" facs=".//img/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0002.tif"/>
+             
+             <item n="26"><ref target="#p02"></ref>test</item>
+             <item n="27"><ref target="#p02"></ref>test</item>
+             
+             <pb n="3" xml:id="p0003" facs=".//img/s1/v1/e02/pr01/htu/dustur-s1-v1-e02-pr01-htu-p0003.tif"/>
+             
+          </list> 
+       </div>
+     </front>
+     <body>
+        <pb n="4" xml:id="p0004"/>
+        <div>
+           <head>كلخانه ده قراءت اولنان خط همايون</head>
+        </div>
+        <pb n="7" xml:id="p0007"/>
+        <div>
+           <head>اصلاحات فرمان عاليسى</head>
+        </div>
+        <pb n="14" xml:id="p0014"/>
+        <div>
+           <head>جلوس همايون عقيبنده شرف صدور ايدن خط همايون</head>
+        </div>
+        <pb n="16" xml:id="p0016"/>
+        <div>
+           <head>نابعيت عثمانيه قانوننامه سى</head>
+        </div>
+        <pb n="20" xml:id="p0020"/>
+        <div>
+           <head>احكام عدليه مجله لرينك برنجيسى كتاب البيوغ</head>
+        </div>
+        <pb n="80" xml:id="p0080"/>
+        <div>
+           <head>ايكنجيسى كتاب الاجاره</head>
+        </div>
+        <pb n="112" xml:id="p0112"/>
+        <div>
+           <head>اوچنجيسى كتاب الكفاله</head>
+        </div>
+        <pb n="122" xml:id="p0122"/>
+        <div>
+           <head>دردنجيسى كتاب الحواله</head>
+        </div>
+        <pb n="126" xml:id="p0126"/>
+        <div>
+           <head>بشنجيسى كتاب الرهن</head>
+        </div>
+        <pb n="136" xml:id="p0136"/>
+        <div>
+           <head>التنجيسى كتاب الامانات</head>
+        </div>
+        <pb n="148" xml:id="p0148"/>
+        <div>
+           <head>يدنجيسى كتاب الهبه</head>
+        </div>
+        <pb n="153" xml:id="p0153"/>
+        <div>
+           <head>سكزنجيسى كتاب الغصب</head>
+        </div>
+        <pb n="165" xml:id="p0165"/>
+        <div>
+           <head>اراضى قانوننامه سى وذيلى</head>
+        </div>
+        <pb n="200" xml:id="p0200"/>
+        <div>
+           <head>طاپو نظامنامه سى وذيلى</head>
+        </div>
+        <pb n="209" xml:id="p0209"/>
+        <div>
+           <head>طاپوسنداتى حقنده تعليمات</head>
+        </div>
+        <pb n="212" xml:id="p0212"/>
+        <div>
+           <head>طاپوسنداتى حقنده تعريفنامه</head>
+        </div>
+        <pb n="223" xml:id="p0223"/>
+        <div>
+           <head>اراضئ اميريه وموقوفه نك توسيع انتقالاتنه دائر نظامنامه وذيلى</head>
+        </div>
+        <pb n="225" xml:id="p0225"/>
+        <div>
+           <head>بالاجارتين تصرف اولنان مسقفات مستغلاتك توسيع انتقالاتنه دائر</head>
+        </div>
+        <pb n="230" xml:id="p0230"/>
+        <div>
+           <head>تبعه اجنبيه نك املاك استملاكنه دائر نظامنامه</head>
+        </div>
+        <pb n="237" xml:id="p0237"/>
+        <div>
+           <head>ترهين املاك حقنده مواد نظاميه</head>
+        </div>
+        <pb n="238" xml:id="p0238"/>
+        <div>
+           <head>دين ايچون اموال غير منقوله نك فروختى حقنده نظامنامه</head>
+        </div>
+        <pb n="242" xml:id="p0242"/>
+        <div>
+           <head>اراضئ اميريه وموقوفه ومسقفات ومستغلات وقفيه نك بعد الوفات تأمين دين ايتمسنه دائر نظامنامه</head>
+        </div>
+        <pb n="244" xml:id="p0244"/>
+        <div>
+           <head>مديون عهده سنده بولنان اراضينك صورت فروختنه دائر فقرات نظاميه</head>
+        </div>
+        <pb n="245" xml:id="p0245"/>
+        <div>
+           <head>طشره لرده بولنان مسقفات ومستغلات ايچون ويريله جك قوچانلى علم وخبرلره دائر تعليمات</head>
+        </div>
+        <pb n="251" xml:id="p0251"/>
+        <div>
+           <head>طشره لرده مسقفات ومستغلات ايچون ويريله جك علم وخبرلرك تعريفنامه سى</head>
+        </div>
+
+      </body>
+  </text>
+</TEI>
