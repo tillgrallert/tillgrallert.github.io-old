@@ -1,0 +1,6 @@
+<div id="date-index" class="c_index">
+	<h4>Latest posts:</h4>
+    {% for post in site.posts %}
+    	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+    {% endfor %}
+</div>
