@@ -114,6 +114,17 @@ How to deal with sensitive data / material, that should not be publicly accessib
 
 {>>add relevant literature<<}
 
+## Use of git and GitHub in the humanities
+
+- Chad Black's [getting started with github and prose.io](https://parezcoydigo.wordpress.com/2013/08/26/getting-started-with-github-and-prose-io/) on using a combination of GitHub, jekyll, and prose.io for a collaborative seminar [blog](http://dh.chadblack.net/info/all_posts/).
+- [GitHub, Academia, and Collaborative Writing](http://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing)
+- [Push, Pull, Fork: GitHub for Academics](http://www.hybridpedagogy.com/journal/push-pull-fork-github-for-academics/)
+- [GitHub for Academics: the open-source way to host, create and curate knowledge](http://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics/)
+- [Living in a Plain Text World (Tools We Use)](http://savageminds.org/2013/02/15/living-in-a-plain-text-world-tools-we-use/)
+- [This software for academic paper writing is inspired by Git](http://technical.ly/brooklyn/2014/09/12/authorea-software-for-academic-paper-writing-is-inspired-by-git/)
+- [How To: Use Git to Version Your Writing](http://www.lifehack.org/articles/technology/how-to-use-git-to-version-your-writing.html)
+- [Using git in my writing workflow](https://www.martineve.com/2013/08/18/using-git-in-my-writing-workflow/)
+
 
 [^1]: Tenen, Dennis and Grant Wythoff. "Sustainable Authorship in Plain Text Using Pandoc and Markdown." <http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown>.
 [^2]: Other options based on git are [BitBucket](https://bitbucket.org/) and [GitLab](https://about.gitlab.com/).
