@@ -36,7 +36,7 @@ We argue that by doing so the main argument for restrictive copyright---namely, 
 The main principles in our effort to (re)claim the means of production are: accessibility, simplicity, sustainability, and credibility. They shall pertain both to the intellectual endeavour and to the tools employed.
 
 1. *Accessibility*. Accessible means first of all free and open to use and re-purpose for all that have the technical ability to do. Therefore we will have to forfeit all proprietary software and formats. From the imperative of openness and accessibility derive the second and third principles:
-2. *Simplicity*: apart from the necessity to be able read and right in a specific human language, there should be as few tools, hardware and software requirements as possible. Ideally everything should work on ten-year old hardware and nothing but the software packaged with the operating system.
+2. *Simplicity*: apart from the necessity to be able read and write in a specific human language, there should be as few tools, hardware and software requirements as possible. Ideally everything should work on ten-year old hardware and nothing but the software packaged with the operating system.
 3. *Sustainability*: only simple systems adhering to widely accepted standards can be sustained with minimal / reasonable effort.
 4. *Credibility*: Credibility is at the core of scholarly production. In addition to transparency as to the sources, methodology, and tools used, authorship needs to be ascertained and acknowledged as the main tool of scholarly quality control.
 
