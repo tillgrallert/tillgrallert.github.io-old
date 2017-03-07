@@ -5,13 +5,15 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Feb 2017 12:28:20 +0100</pubDate>
-    <lastBuildDate>Sat, 25 Feb 2017 12:28:20 +0100</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <pubDate>Tue, 07 Mar 2017 12:38:02 +0100</pubDate>
+    <lastBuildDate>Tue, 07 Mar 2017 12:38:02 +0100</lastBuildDate>
+    <generator>Jekyll v3.4.1</generator>
     
       <item>
         <title>Introduction to Plain Text Workflows and Sustainable Publishing</title>
-        <description>&lt;p&gt;Disclaimer: many of the ideas have been inspired by the work of Alex Gil and Denis Tenen&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;THIS IS A DRAFT O&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: many of the ideas have been inspired by the work of Alex Gil and Denis Tenen&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.&lt;/p&gt;
 
 &lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
 
@@ -40,13 +42,13 @@ We argue that by doing so the main argument for restrictive copyright—namely, 
 
 &lt;h1 id=&quot;tools--formats&quot;&gt;Tools / formats&lt;/h1&gt;
 
-&lt;h2 id=&quot;writing&quot;&gt;1. Writing&lt;/h2&gt;
+&lt;h2 id=&quot;1-writing&quot;&gt;1. Writing&lt;/h2&gt;
 
 &lt;p&gt;Looking at the most broadly-employed software in academic contexts and beyond, Microsoft’s Word, a piece of bloated and expensive proprietary software, what are the functions we need to replace?&lt;/p&gt;
 
-&lt;h3 id=&quot;composition--authoring&quot;&gt;1. composition / authoring&lt;/h3&gt;
+&lt;h3 id=&quot;1-composition--authoring&quot;&gt;1. composition / authoring&lt;/h3&gt;
 
-&lt;p&gt;To avoid overtly complex software and proprietary formats, form and content must be separated. Structural / semantic information as well as metadata must be embedded in the text itself in order to be inseparable. We suggest using plain text with rudimentary structural markup following the conventions of MarkDown and a short block of metadata written in Yaml as the format of choice.&lt;/p&gt;
+&lt;p&gt;To avoid overtly complex software and proprietary formats, form and content must be separated. Structural / semantic &lt;!-- (e.g. header, list, block quote) --&gt; and representational &lt;!-- (e.g. bold, italics) --&gt; information as well as metadata must be embedded in the text itself in order to be inseparable. We suggest using plain text with rudimentary markup following the conventions of MarkDown and a short block of metadata written in Yaml as the format of choice.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;Format&lt;/em&gt;: plain text. At their core, all files are simple strings of letters. In the case of plain text files (&lt;code class=&quot;highlighter-rouge&quot;&gt;TXT&lt;/code&gt;), this string of letters happens to be human readable. Plain text has been with us since the early days of computing and &lt;code class=&quot;highlighter-rouge&quot;&gt;TXT&lt;/code&gt; files could be viewed and edited with 1980s hard- and software. We can therefore assume that this basic format will remain accessible for the years to come.&lt;/li&gt;
@@ -60,7 +62,7 @@ We argue that by doing so the main argument for restrictive copyright—namely, 
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;ascertaining-authorship-version-control-and-archiving&quot;&gt;2. ascertaining authorship, version control, and archiving&lt;/h3&gt;
+&lt;h3 id=&quot;2-ascertaining-authorship-version-control-and-archiving&quot;&gt;2. ascertaining authorship, version control, and archiving&lt;/h3&gt;
 
 &lt;p&gt;Writing is a process and subject to change. We need to be able to try out different structures and formulations and, more often than one would like to, we discover that yesterday’s deletions would have been worth keeping. Not to mention an external editor or collaborators that quickly make any approach involving ever-longer file names futile (we all have our folders full of &lt;code class=&quot;highlighter-rouge&quot;&gt;text.docx&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;text-new-version.docx&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;text-new-version-2004-01-01.docx&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;text-new-version-2004-01-01-comments-by-tg-2.docx&lt;/code&gt; etc.).&lt;/p&gt;
 
@@ -74,18 +76,20 @@ We argue that by doing so the main argument for restrictive copyright—namely, 
   &lt;li&gt;&lt;a href=&quot;https://zenodo.org/&quot;&gt;&lt;em&gt;Zenodo&lt;/em&gt;&lt;/a&gt;: Zenodo is an open science platform developed and operated by CERN. Some of its many features are the provision of DOIs (&lt;a href=&quot;https://www.doi.org/&quot;&gt;&lt;em&gt;digital object identifiers&lt;/em&gt;&lt;/a&gt;) and long-term storage thus providing stable links and protection against &lt;a href=&quot;https://en.wikipedia.org/wiki/Link_rot&quot;&gt;link-rot&lt;/a&gt;. It also hooks into GitHub.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;collaboration--external-review&quot;&gt;3. collaboration / external review&lt;/h3&gt;
+&lt;h3 id=&quot;3-collaboration--external-review&quot;&gt;3. collaboration / external review&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;git / GitHub: git allows for branching and forking of text. All changes / suggestions can be reviewed and the author can decide whether to accept or reject them.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;{»We need additional collaborative tools«}
-- &lt;em&gt;&lt;a href=&quot;http://prose.io/&quot;&gt;prose.io&lt;/a&gt;&lt;/em&gt;: author text on GitHub online.&lt;/p&gt;
+&lt;p&gt;{»We need additional collaborative tools«}&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://prose.io/&quot;&gt;prose.io&lt;/a&gt;&lt;/em&gt;: author text on GitHub online.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;publishing&quot;&gt;2. Publishing&lt;/h2&gt;
+&lt;h2 id=&quot;2-publishing&quot;&gt;2. Publishing&lt;/h2&gt;
 
-&lt;h3 id=&quot;generate-an-accessible-representation-of-your-text&quot;&gt;1. Generate an accessible representation of your text&lt;/h3&gt;
+&lt;h3 id=&quot;1-generate-an-accessible-representation-of-your-text&quot;&gt;1. Generate an accessible representation of your text&lt;/h3&gt;
 
 &lt;p&gt;While it would be absolutely sufficient to publish / distribute the plain-text files by means of a USB key, a graphical user interface (GUI) that translates the structural information into a formatted and aesthetically pleasing layout is often {==advisable==}{»better wording?«}—be they a printed paper copy or a website:&lt;/p&gt;
 
@@ -95,7 +99,7 @@ We argue that by doing so the main argument for restrictive copyright—namely, 
   &lt;li&gt;&lt;em&gt;Metadata&lt;/em&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML5&lt;/code&gt; supports semantic tags and machine-readable metadata following various standards, such as those provided by &lt;a href=&quot;http://dublincore.org/&quot;&gt;Dublin Core (DC)&lt;/a&gt; or &lt;a href=&quot;https://schema.org&quot;&gt;schema.org&lt;/a&gt;. If one includes Dublin Core metadata in the head of &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; files, aggregators, search engines, and reference managers can find and extract the structured information on author, title, publication date, keywords, etc.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;think-about-and-provide-a-licence&quot;&gt;2. Think about and provide a licence&lt;/h3&gt;
+&lt;h3 id=&quot;2-think-about-and-provide-a-licence&quot;&gt;2. Think about and provide a licence&lt;/h3&gt;
 
 &lt;p&gt;{»mention copyright«}&lt;/p&gt;
 
@@ -103,7 +107,7 @@ We argue that by doing so the main argument for restrictive copyright—namely, 
 
 &lt;p&gt;Formulating one’s own licence text is a challenge and one might not be familiar enough with the necessary “legalese” to write a text readers can rely on. In consequence we suggest looking at established licences and having made a case for open access {»open science, open knowledge etc.«}, we suggest to start with &lt;a href=&quot;https://creativecommons.org/&quot;&gt;creative commons licences&lt;/a&gt;.&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;publish--distribute-the-content&quot;&gt;3. Publish / distribute the content&lt;/h3&gt;
+&lt;h3 id=&quot;3-publish--distribute-the-content&quot;&gt;3. Publish / distribute the content&lt;/h3&gt;
 
 &lt;p&gt;Websites of more than a single page of text tend to be technically complex and require an infrastructure of data storage, internet connections, web addresses, some &lt;em&gt;content management system&lt;/em&gt; (cms), and databases that rarely come for free and without the need of maintenance. In addition, contemporary dynamic websites are almost impossible to archive or download in their entirety.
 To reduce complexity and the number of technologies, we suggest using static, self-contained websites without a content management system and no database.&lt;/p&gt;
@@ -132,6 +136,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
 &lt;h2 id=&quot;use-of-git-and-github-in-the-humanities&quot;&gt;Use of git and GitHub in the humanities&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;makerlab at UVic: &lt;a href=&quot;https://github.com/uvicmakerlab/dhsi2015/blob/master/git.md&quot;&gt;git/github in 20 steps&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Chad Black’s &lt;a href=&quot;https://parezcoydigo.wordpress.com/2013/08/26/getting-started-with-github-and-prose-io/&quot;&gt;getting started with github and prose.io&lt;/a&gt; on using a combination of GitHub, jekyll, and prose.io for a collaborative seminar &lt;a href=&quot;http://dh.chadblack.net/info/all_posts/&quot;&gt;blog&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing&quot;&gt;GitHub, Academia, and Collaborative Writing&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.hybridpedagogy.com/journal/push-pull-fork-github-for-academics/&quot;&gt;Push, Pull, Fork: GitHub for Academics&lt;/a&gt;&lt;/li&gt;
@@ -145,26 +150,28 @@ To reduce complexity and the number of technologies, we suggest using static, se
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Tenen, Dennis and Grant Wythoff. “Sustainable Authorship in Plain Text Using Pandoc and Markdown.” &lt;a href=&quot;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown&quot;&gt;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Tenen, Dennis and Grant Wythoff. “Sustainable Authorship in Plain Text Using Pandoc and Markdown.” &lt;a href=&quot;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown&quot;&gt;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;MarkDown really is only a convention and &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;John Gruber’s (and Adam Swartz’ [yes, &lt;em&gt;the&lt;/em&gt; Adam Swartz]) canonical description of the Markdown syntax&lt;/a&gt; is at least partially ambiguous and and lacks some core functionality for academic writing, such as support for tables and footnotes. In consequence, a plethora of formats (MultiMarkdown, GitHub flavored markdown, etc.) and software implementations have proliferated inspired by and based on Markdown that make the actual rendering of Markdown in &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; rather unpredictable beyond the core functionality. In recent years, a group of people involving &lt;a href=&quot;http://johnmacfarlane.net/&quot;&gt;John MacFarlane&lt;/a&gt;, professor of philosophy at UC Berkeley and author of Pandoc, proposed and developed are more rigid standard which they call &lt;a href=&quot;http://commonmark.org/&quot;&gt;CommonMark&lt;/a&gt;. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;MarkDown really is only a convention and &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;John Gruber’s (and Adam Swartz’ [yes, &lt;em&gt;the&lt;/em&gt; Adam Swartz]) canonical description of the Markdown syntax&lt;/a&gt; is at least partially ambiguous and and lacks some core functionality for academic writing, such as support for tables and footnotes. In consequence, a plethora of formats (MultiMarkdown, GitHub flavored markdown, etc.) and software implementations have proliferated inspired by and based on Markdown that make the actual rendering of Markdown in &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; rather unpredictable beyond the core functionality. In recent years, a group of people involving &lt;a href=&quot;http://johnmacfarlane.net/&quot;&gt;John MacFarlane&lt;/a&gt;, professor of philosophy at UC Berkeley and author of Pandoc, proposed and developed are more rigid standard which they call &lt;a href=&quot;http://commonmark.org/&quot;&gt;CommonMark&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Other options based on git are &lt;a href=&quot;https://bitbucket.org/&quot;&gt;BitBucket&lt;/a&gt; and &lt;a href=&quot;https://about.gitlab.com/&quot;&gt;GitLab&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Other options based on git are &lt;a href=&quot;https://bitbucket.org/&quot;&gt;BitBucket&lt;/a&gt; and &lt;a href=&quot;https://about.gitlab.com/&quot;&gt;GitLab&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;GitHub provides its own clients for &lt;a href=&quot;https://central.github.com/mac/latest&quot;&gt;Mac&lt;/a&gt; and &lt;a href=&quot;https://github-windows.s3.amazonaws.com/GitHubSetup.exe&quot;&gt;Windows&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;GitHub provides its own clients for &lt;a href=&quot;https://central.github.com/mac/latest&quot;&gt;Mac&lt;/a&gt; and &lt;a href=&quot;https://github-windows.s3.amazonaws.com/GitHubSetup.exe&quot;&gt;Windows&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;There is a great list of open source licences, including links to their full texts, at &lt;a href=&quot;https://opensource.org/licenses/category&quot;&gt;opensource.org&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;There is a great list of open source licences, including links to their full texts, at &lt;a href=&quot;https://opensource.org/licenses/category&quot;&gt;opensource.org&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 22 Feb 2017 17:13:32 +0100</pubDate>
-        <link>https://tillgrallert.github.io/blog/2017/02/22/plain-text-at-dhib/</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2017/02/22/plain-text-at-dhib/</guid>
+        <link>https://tillgrallert.github.io/blog/2017/02/22/plain-text/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2017/02/22/plain-text/</guid>
+        
+        <category>draft</category>
         
         <category>teaching</category>
         
@@ -190,7 +197,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
       </item>
     
       <item>
-        <title>Presentation at &#39;Dangerous Classes&#39; conference in Oxford</title>
+        <title>Presentation at 'Dangerous Classes' conference in Oxford</title>
         <description>&lt;p&gt;On 26 January this year I had a chance to present a paper on food riots titled “Women in the streets! Urban food riots in late Ottoman &lt;em&gt;Bilād al-Shām&lt;/em&gt;” at the conference &lt;a href=&quot;https://www.sant.ox.ac.uk/events/conference-%E2%80%9Cdangerous-classes%E2%80%9D-middle-east-and-north-africa&quot;&gt;“The ‘Dangerous Classes’ in the Middle East and North Africa”&lt;/a&gt; organised by Stephanie Cronin at St. Antony’s college, University of Oxford.&lt;/p&gt;
 
 &lt;p&gt;As always, I have made the slides available on &lt;a href=&quot;https://tillgrallert.github.io/Slides/2017-Oxford&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
@@ -303,22 +310,22 @@ To reduce complexity and the number of technologies, we suggest using static, se
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Nawfal, Nawfal Efendi Niʿmat Allāh. &lt;em&gt;Al-dustūr: Tarjamahu min al-lughat al-turkiyya ilā al-ʿarabiyya Nawfal Niʿmat Allāh Nawfal bāshkātib kamāruk ʿArabistān sābiqan; bi-murājaʿa wa tadqīq Khalīl al-Khūrī mudīr maṭbūʿāt Wilāyat Sūriyya&lt;/em&gt;. Edited by Khalīl Efendi al-Khūrī. Vol.2. Bayrūt: al-Maṭbaʿa al-adabiyya, 1301. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Nawfal, Nawfal Efendi Niʿmat Allāh. &lt;em&gt;Al-dustūr: Tarjamahu min al-lughat al-turkiyya ilā al-ʿarabiyya Nawfal Niʿmat Allāh Nawfal bāshkātib kamāruk ʿArabistān sābiqan; bi-murājaʿa wa tadqīq Khalīl al-Khūrī mudīr maṭbūʿāt Wilāyat Sūriyya&lt;/em&gt;. Edited by Khalīl Efendi al-Khūrī. Vol.2. Bayrūt: al-Maṭbaʿa al-adabiyya, 1301.&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;c.f. MWT Salname Suriye 13 1298 aH [Dec. 1880]:247, UBTüb Salname Suriye 17 1302 aH [Oct. 1884]:250. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;c.f. MWT Salname Suriye 13 1298 aH [Dec. 1880]:247, UBTüb Salname Suriye 17 1302 aH [Oct. 1884]:250.&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Lisān al-Hāl 26 May 1887 (#959):1, Thamarāt al-Funūn 30 May 1887 (#633):1 advertised the book at a price of 2 mecidiye or Ps 40. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Lisān al-Hāl 26 May 1887 (#959):1, Thamarāt al-Funūn 30 May 1887 (#633):1 advertised the book at a price of 2 mecidiye or Ps 40.&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;e.g. Lisān al-Ḥāl 13 Oct. 1887 (#999):4.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;Vāḥān, Ohan. &lt;em&gt;Sharḥ Qānūn al-Tijārah.&lt;/em&gt; Translated by Niqūlā Efendi Naqqāsh. Bayrūt: al-Maṭbaʿa al-ʿUmūmiyya, 1880. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Vāḥān, Ohan. &lt;em&gt;Sharḥ Qānūn al-Tijārah.&lt;/em&gt; Translated by Niqūlā Efendi Naqqāsh. Bayrūt: al-Maṭbaʿa al-ʿUmūmiyya, 1880.&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;Auji, Hala. &lt;em&gt;Printing Arab Modernity: Book Culture and the American Press in Nineteenth-Century Beirut.&lt;/em&gt; Leiden: Brill, 2016. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Auji, Hala. &lt;em&gt;Printing Arab Modernity: Book Culture and the American Press in Nineteenth-Century Beirut.&lt;/em&gt; Leiden: Brill, 2016.&amp;nbsp;&lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -341,7 +348,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
       </item>
     
       <item>
-        <title>Essay published in edited volume &#39;Digital Humanities and Islamic &amp; Middle East Studies&#39;</title>
+        <title>Essay published in edited volume 'Digital Humanities and Islamic &amp; Middle East Studies'</title>
         <description>&lt;p&gt;After more than two years the proceedings of the conference “Digital Humanities and Islamic &amp;amp; Middle East Studies” including my methodological essay on mapping newspaper discourses on the topography of late Ottoman Damascus have been published under the same title with de Gruyter. Elias Muhanna, who had organised the conference held between October 2013 at Brown University, did a great job as editor of the volume which is now available &lt;a href=&quot;http://www.degruyter.com/viewbooktoc/product/432146&quot;&gt;online&lt;/a&gt; and—ironically—in print for the substantial price of € 99.95 / USD 140.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; It &lt;a href=&quot;http://www.degruyter.com/view/books/9783110376517/9783110376517-toc/9783110376517-toc.xml&quot;&gt;comprises&lt;/a&gt; essays by Elias Muhanna, Travis Zadeh, Dagmar Riedel, Chip Rosetti, Nadia Yaqub, Maxim Romanov, Alex Bley, José Haro Peralta and Peter Verkinderen, Joel Blecher, Dwight F. Reynolds, and myself.&lt;/p&gt;
 
 &lt;p&gt;We are not allowed to share digital galley proofs of our essays, but I will make the text available here in the near future. The &lt;a href=&quot;https://tillgrallert.github.io/MappingOttomanDamascus2014&quot;&gt;maps accompanying my essay&lt;/a&gt; and the &lt;a href=&quot;https://github.com/tillgrallert/MappingOttomanDamascus2014&quot;&gt;code&lt;/a&gt; is already available on GitHub.&lt;/p&gt;
@@ -349,14 +356,14 @@ To reduce complexity and the number of technologies, we suggest using static, se
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Muhanna, Elias (ed.). &lt;em&gt;Digital Humanities and Islamic &amp;amp; Middle East Studies.&lt;/em&gt; Boston, Berlin: De Gruyter, 2016; Grallert, Till. “Mapping Ottoman Damascus Through News Reports: A Practical Approach.” In &lt;em&gt;Digital Humanities and Islamic &amp;amp; Middle East Studies.&lt;/em&gt; Edited by Elias Muhanna. Boston, Berlin: De Gruyter, 2016: 175–98. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Muhanna, Elias (ed.). &lt;em&gt;Digital Humanities and Islamic &amp;amp; Middle East Studies.&lt;/em&gt; Boston, Berlin: De Gruyter, 2016; Grallert, Till. “Mapping Ottoman Damascus Through News Reports: A Practical Approach.” In &lt;em&gt;Digital Humanities and Islamic &amp;amp; Middle East Studies.&lt;/em&gt; Edited by Elias Muhanna. Boston, Berlin: De Gruyter, 2016: 175–98.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 20 May 2016 23:55:20 +0200</pubDate>
-        <link>https://tillgrallert.github.io/blog/2016/05/20/mapping-ottoman-damascus-through-newsreports/</link>
-        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/05/20/mapping-ottoman-damascus-through-newsreports/</guid>
+        <link>https://tillgrallert.github.io/blog/2016/05/21/mapping-ottoman-damascus-through-newsreports/</link>
+        <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/05/21/mapping-ottoman-damascus-through-newsreports/</guid>
         
         <category>presentation</category>
         
@@ -388,7 +395,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
       </item>
     
       <item>
-        <title>Presentation of *Digital Muqtabas* at conference &#39;Books in Motion&#39; in Beirut</title>
+        <title>Presentation of *Digital Muqtabas* at conference 'Books in Motion' in Beirut</title>
         <description>&lt;p&gt;I was invited to present &lt;em&gt;Digital Muqtabas&lt;/em&gt; at the conference “Books in Motion: Exploring concepts of mobility in cross-cultural studies of the book” organised by Sonja Mejcher-Atassi, Hala Auji and James Hodapp (all AUB) that took place at AUB and OIB between 5-7 May 2016. The beautiful conference poster-cum-programme is available as &lt;a href=&quot;http://www.aub.edu.lb/fas/english/Documents/BOOKSinMOTION.pdf&quot;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My paper was titled: “&lt;em&gt;Majallat al-Muqtabas&lt;/em&gt; between gray online libraries, large-scale scanning efforts, and programming tools: producing fully open, collaborative, and scholarly editions of early Arabic periodicals” and you can find the abstract below. It was part of a panel on digital remediation of the book on Saturday, 7 May, which I shared with David Wrisley (AUB) and Torsten Wollina (OIB). Torsten spoke on the challenges posed by the current state of digitization of books, manuscripts, and catelogues to researchers of the Islamicate world. David presented the fascinating results of course he taught on mapping Beirut’s publishing industry. The &lt;a href=&quot;http://djwrisley.com/?p=307&quot;&gt;abstract to his paper is online&lt;/a&gt; as is the &lt;a href=&quot;http://litmap.djwrisley.com/&quot;&gt;project website&lt;/a&gt;.&lt;/p&gt;
@@ -427,7 +434,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
       </item>
     
       <item>
-        <title>Archive.sakhrit.co&#39;s failure as a source for digitsed imagery of Arabic journals</title>
+        <title>Archive.sakhrit.co's failure as a source for digitsed imagery of Arabic journals</title>
         <description>&lt;p&gt;Recently, a colleague pointed me to yet another gray online library of Arabic material—one that was entirely dedicated to cultural and litrary journals. &lt;a href=&quot;archive.sakhrit.co&quot;&gt;Arshīf al-majallāt al-adabiyya wa-l-thaqafiyya al-ʿarabiyya (archive.sakhrit.co)&lt;/a&gt; presents a large number of Arabic journals over very long publication periods, providing:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -522,10 +529,10 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;I have cross-posted this post to the &lt;em&gt;Digital Muqtabas&lt;/em&gt;’ project &lt;a href=&quot;https://tillgrallert.github.io/digital-muqtabas/blog/2016/04/22/review-archive-sakhrit/&quot;&gt;blog&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;I have cross-posted this post to the &lt;em&gt;Digital Muqtabas&lt;/em&gt;’ project &lt;a href=&quot;https://tillgrallert.github.io/digital-muqtabas/blog/2016/04/22/review-archive-sakhrit/&quot;&gt;blog&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;I found at least one university library’s website linking to al-Muqtabas on &lt;em&gt;archive.sakhrit&lt;/em&gt;, &lt;a href=&quot;http://libguides.aucegypt.edu/content.php?pid=574389&amp;amp;sid=4774255&quot;&gt;AUC&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;I found at least one university library’s website linking to al-Muqtabas on &lt;em&gt;archive.sakhrit&lt;/em&gt;, &lt;a href=&quot;http://libguides.aucegypt.edu/content.php?pid=574389&amp;amp;sid=4774255&quot;&gt;AUC&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -577,7 +584,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
       </item>
     
       <item>
-        <title>The historian&#39;s puzzle: various differences between copies of printed periodicals that ought to be similar. The case of *Dūstur*</title>
+        <title>The historian's puzzle: various differences between copies of printed periodicals that ought to be similar. The case of *Dūstur*</title>
         <description>&lt;p&gt;During the last years I have sprodically written about the various surprises of early Arabic and Ottoman printed books and particularly the vast differences in pagination, spelling, and even content between copies that ought to be identical if one was to believe the information on the cover or the metadata provided by library catalogues (on this blog: &lt;a href=&quot;/blog/2012/12/29/the-historians-puzzle/&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;/blog/2013/08/19/the-puzzle-continues/&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;/blog/2014/01/19/the-puzzle-continues-2/&quot;&gt;here&lt;/a&gt;). This post is a first attempt to summarise my findings on the publication history of the first series (&lt;em&gt;tertib-i evvel&lt;/em&gt;) of &lt;em&gt;Düstur&lt;/em&gt;, the officially sanctioned collection of Ottoman laws and regulations, published in Istanbul between 1872 and 1879.&lt;/p&gt;
 
 &lt;p&gt;I discovered that, contrary to my expectations, libraries around the world hold numerous unmarked editions and print-runs of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;. Copies vary in pagination, spelling, and content. Yet, neither the people I asked nor the scholarly works citing copies of &lt;em&gt;Düstur&lt;/em&gt;, seem to be aware of significant differences between copies of the same volume—which is not too unexpected an outcome when one considers that most scholars would not consult more than a single copy of every work at a single library; and once you read and / or copied a work, you would not consult another copy at another library with the explicit purpose of comparing the two for dissimilarities. I had also &lt;a href=&quot;/blog/2013/01/12/the-historians-puzzle-update/&quot;&gt;noted&lt;/a&gt; that an 1891 index to the first series of &lt;em&gt;Düstur&lt;/em&gt;&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; does not contain any information on divergent print-runs and editions.&lt;/p&gt;
@@ -589,7 +596,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
 
 &lt;p&gt;As I could not readily find any concordance or works dealing with this issue (which by the way also pertains to nineteenth-century Arabic monthly journals), I wondered whether anybody on various mailing lists could point me to relevant information. &lt;em&gt;Düstur&lt;/em&gt; was the official collection of Ottoman legal texts at the time and the differences between the various print-runs had potentially grave consequences. Yet, to my surprise (again) almost nobody in the scholarly community of Ottomanists seemed to be aware of these puzzling divergences and no reply had any answers to offer.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-first-volume-of-dstur-tertib-i-evvel8&quot;&gt;The first volume of &lt;em&gt;Düstur, tertib-i evvel&lt;/em&gt;&lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-first-volume-of-düstur-tertib-i-evvel&quot;&gt;The first volume of &lt;em&gt;Düstur, tertib-i evvel&lt;/em&gt;&lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;In late 2012, I had had access to what I thought were &lt;a href=&quot;http://sitzextase.de/dustur/dustur-v01.html&quot; target=&quot;_blank&quot;&gt;four different copies of volume 1 of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt;. Two were held at the &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/&quot;&gt;Hakki Tarık Us Collection (HTU)&lt;/a&gt; at the Beyazit Devlet Kütüphanesi&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;, and one each at the University of California, Berkeley and the School of Oriental and African Studies (SOAS), London. I grouped these four copies into two editions, based on the substantial differences in both layout and content. I further subdivided the second edition into three print-runs, which differ in spelling and printing errors (for the lack of a better term).
 &lt;a href=&quot;http://www.bloomu.edu/saracoglu&quot;&gt;Safa Saraçoğlu of Bloomsburg University, PA,&lt;/a&gt; solved at least part of the riddle in early 2013. He pointed out via email that, before &lt;em&gt;Düstur&lt;/em&gt; became a series from 1872 onwards, three independent volumes were published under the same title of &lt;em&gt;Düstūr&lt;/em&gt; in 1851&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;, 1863&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;, and 1866&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;.  Hence, what I thought of as the first edition of the first volume of the first series (&lt;em&gt;tertib-i evvel&lt;/em&gt;) of &lt;em&gt;Düstur&lt;/em&gt; turned out to be the 1863 volume&lt;sup id=&quot;fnref:6:1&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;. Nevertheless, the issue remains that there are at least three print-runs of the first volume that differ in spelling and printing errors. Two of them are availabe online: one at &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-01/index.djvu&quot;&gt;HTU&lt;/a&gt; and the UC Berkeley copy through &lt;a href=&quot;http://hdl.handle.net/2027/uc1.b3094979&quot;&gt;HathiTrust&lt;/a&gt; (if one has an American IP, that is). A fourth copy is available through the &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609231-c1.pdf&quot;&gt;digital collections of Türk Büyük Millet Meclisi Kütüphanesi Açık Erişim Koleksiyonu (TBMM)&lt;/a&gt; but I have not yet checked it against the other three.&lt;/p&gt;
@@ -628,7 +635,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
     
 &lt;/figure&gt;
 
-&lt;h2 id=&quot;the-second-volume11&quot;&gt;The second volume&lt;sup id=&quot;fnref:11&quot;&gt;&lt;a href=&quot;#fn:11&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-second-volume&quot;&gt;The second volume&lt;sup id=&quot;fnref:11&quot;&gt;&lt;a href=&quot;#fn:11&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;I have currently three digital copies of the second volume of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;: from [HTU], &lt;a href=&quot;http://hdl.handle.net/2027/uc1.b3094980&quot;&gt;UC Berkeley&lt;/a&gt;, and &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609234-c2.pdf&quot;&gt;TBMM&lt;/a&gt;. In addition, I have seen the physical copy at SOAS. The difference in the shape of the number 6 (or rather “٦”) and the different font width in the UC Berkeley copy indicate two independently type-set print-runs. Pagination is seemingly identical.&lt;/p&gt;
 
@@ -652,7 +659,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
     
 &lt;/figure&gt;
 
-&lt;h2 id=&quot;the-third-volume12&quot;&gt;The third volume&lt;sup id=&quot;fnref:12&quot;&gt;&lt;a href=&quot;#fn:12&quot; class=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-third-volume&quot;&gt;The third volume&lt;sup id=&quot;fnref:12&quot;&gt;&lt;a href=&quot;#fn:12&quot; class=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;There are at least two editions or print-runs of the &lt;a href=&quot;http://sitzextase.de/dustur/dustur-v03.html&quot; target=&quot;_blank&quot;&gt;third volume of &lt;em&gt;tertib-i evvel&lt;/em&gt; of &lt;em&gt;Düstur&lt;/em&gt;&lt;/a&gt; that differ in spelling and a marginally different page layout. The first can be found at SOAS and &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-05/index.djvu&quot;&gt;HTU&lt;/a&gt; and the second at &lt;a href=&quot;http://hdl.handle.net/2027/uc1.b3094981&quot;&gt;UC Berkeley&lt;/a&gt; and &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609242-c3.pdf&quot;&gt;TBMM&lt;/a&gt;.&lt;/p&gt;
 
@@ -676,7 +683,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
     
 &lt;/figure&gt;
 
-&lt;h2 id=&quot;the-fourth-volume13&quot;&gt;The fourth volume&lt;sup id=&quot;fnref:13&quot;&gt;&lt;a href=&quot;#fn:13&quot; class=&quot;footnote&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-fourth-volume&quot;&gt;The fourth volume&lt;sup id=&quot;fnref:13&quot;&gt;&lt;a href=&quot;#fn:13&quot; class=&quot;footnote&quot;&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;At a workshop on Ottoman municipalities at the Istanbul Şerhir Üniversitesi in November 2015, I finally met Safa Saraçoğlu in person. We had long and interesting discussions on Ottoman legal history, digitisation efforts, and translations of Ottoman legislation into the various languages of the empire. We also shamelessly shared our private copies of Ottoman texts, among them Mīltiyādī Ḳārāvokīros’s Ottoman legal dictionary. To my surprise, the entry on expropriation of real-estate (&lt;em&gt;istimlāk&lt;/em&gt;) references two print-runs of the fourth volume of the first series of &lt;em&gt;Düstur&lt;/em&gt; with different paginations.&lt;sup id=&quot;fnref:10&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot;&gt;12&lt;/a&gt;&lt;/sup&gt; According to this entry, among the copies I have seen, the one at SOAS would have originated in the first print-run, while those at Staatsbibliothek zu Berlin (SBB) and &lt;a href=&quot;http://acikerisim.tbmm.gov.tr:8080/xmlui/bitstream/handle/11543/67/199609245-c4.pdf&quot;&gt;TBMM&lt;/a&gt; are part of the second print-run.&lt;/p&gt;
 
@@ -706,40 +713,40 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Ḳaraḳoç, Sarkiz. &lt;em&gt;Miftāḥ-i Ḳavānīn-i ʿOŝmāniye&lt;/em&gt;. Der-i Saʿādet: Maḥmūd Bey Maṭbaʿası, 1309 aH [1891]. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Ḳaraḳoç, Sarkiz. &lt;em&gt;Miftāḥ-i Ḳavānīn-i ʿOŝmāniye&lt;/em&gt;. Der-i Saʿādet: Maḥmūd Bey Maṭbaʿası, 1309 aH [1891].&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Aristarchēs, Grēgorios Bey. &lt;em&gt;Législation Ottomane, Ou Recueil des Lois, Réglements, Ordonnances, Traités, Capitulations et Autres Documents Officiels de L’Empire Ottoman&lt;/em&gt;. Edited by Dēmētrios Nikolaides. Vol.1-7. Constantinople: Imprimerie Frères Nicolaides / Bureau du Journal Thraky, 1873–88. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Aristarchēs, Grēgorios Bey. &lt;em&gt;Législation Ottomane, Ou Recueil des Lois, Réglements, Ordonnances, Traités, Capitulations et Autres Documents Officiels de L’Empire Ottoman&lt;/em&gt;. Edited by Dēmētrios Nikolaides. Vol.1-7. Constantinople: Imprimerie Frères Nicolaides / Bureau du Journal Thraky, 1873–88.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Young, George. &lt;em&gt;Corps de Droit Ottoman: Recueil des Codes, Lois, Règlements, Ordonnances et Actes les Plus Importants du Droit Intérieur, et D’Études Sur le Droit Coutumier de L’Empire Ottoman&lt;/em&gt;. Vol.I-VII. Oxford: Clarendon Press, 1905–06. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Young, George. &lt;em&gt;Corps de Droit Ottoman: Recueil des Codes, Lois, Règlements, Ordonnances et Actes les Plus Importants du Droit Intérieur, et D’Études Sur le Droit Coutumier de L’Empire Ottoman&lt;/em&gt;. Vol.I-VII. Oxford: Clarendon Press, 1905–06.&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:8&quot;&gt;
-      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.1 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1289 aH [1872]. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.1 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1289 aH [1872].&amp;nbsp;&lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;Large parts of this collection were digitised in a cooperation with the Tokyo University of Foreign Studies. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Large parts of this collection were digitised in a cooperation with the Tokyo University of Foreign Studies.&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;N.N. &lt;em&gt;Düstūr&lt;/em&gt;. Vol.[1]. [Der-i Saʿādet]: Taḳvīmḫāne-yi ʿĀmire, 15 Rab II 1267 aH [17 Feb. 1851]. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstūr&lt;/em&gt;. Vol.[1]. [Der-i Saʿādet]: Taḳvīmḫāne-yi ʿĀmire, 15 Rab II 1267 aH [17 Feb. 1851].&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;N.N. &lt;em&gt;Düstur: Ḳavānīn Ve Niẓāmātıñ Münderic Olduġu Mecmūʿa&lt;/em&gt;. Vol.[2]. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, Shaʿ 1279 aH [Feb. 1863]. This volume is available online from the &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-06/index.djvu&quot;&gt;Hakkı Tarık Us Collection, where it is wrongly catalogued as volume four of the first series&lt;/a&gt;. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:6:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Ḳavānīn Ve Niẓāmātıñ Münderic Olduġu Mecmūʿa&lt;/em&gt;. Vol.[2]. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, Shaʿ 1279 aH [Feb. 1863]. This volume is available online from the &lt;a href=&quot;http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-06/index.djvu&quot;&gt;Hakkı Tarık Us Collection, where it is wrongly catalogued as volume four of the first series&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:6:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:7&quot;&gt;
-      &lt;p&gt;N.N. &lt;em&gt;Düstur: Ḳavānīn Ve Niẓāmātıñ Münderic Olduġu Mecmūʿa&lt;/em&gt;. Vol.[3]. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1866. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Ḳavānīn Ve Niẓāmātıñ Münderic Olduġu Mecmūʿa&lt;/em&gt;. Vol.[3]. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1866.&amp;nbsp;&lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:11&quot;&gt;
-      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.2 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1289 aH [1872]. &lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.2 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1289 aH [1872].&amp;nbsp;&lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:12&quot;&gt;
-      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.3 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1289 aH [1876]. &lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.3 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1289 aH [1876].&amp;nbsp;&lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:13&quot;&gt;
-      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.4 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1295 aH [1879]. &lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;N.N. &lt;em&gt;Düstur: Kavanin Ve Nizamat Ve Muahedat Ile Umuma Ait Mukavelat Ve Iradat-i Seniyeyi Muhtevidir&lt;/em&gt;. Vol.4 Tertip I. Der-i Saʿādet: Maṭbaʿa-yi ʿĀmire, 1295 aH [1879].&amp;nbsp;&lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:10&quot;&gt;
-      &lt;p&gt;Ḳārāvokīros, Mīltiyādī. Lüġat Ḳavānīn-i ʿOŝmāniye. Istānbūl: “A. Aṣādūriyān” Şereket-i Mürettebe Maṭbaʿası, 1310 R [1894/95], p.79 &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Ḳārāvokīros, Mīltiyādī. Lüġat Ḳavānīn-i ʿOŝmāniye. Istānbūl: “A. Aṣādūriyān” Şereket-i Mürettebe Maṭbaʿası, 1310 R [1894/95], p.79&amp;nbsp;&lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -872,7 +879,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;Somebody took the pains to create fully searchable text files and uploaded everything to &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;al-Maktaba al-Shamela&lt;/a&gt; and  &lt;a href=&quot;https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1&quot;&gt;WikiSource&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;al-maktaba-al-shmilahttpwwwshamelaws&quot;&gt;&lt;a href=&quot;http://www.shamela.ws&quot;&gt;al-Maktaba al-Shāmila&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;al-maktaba-al-shāmila&quot;&gt;&lt;a href=&quot;http://www.shamela.ws&quot;&gt;al-Maktaba al-Shāmila&lt;/a&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Extent: According to the main &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;entry&lt;/a&gt;, &lt;em&gt;shamela&lt;/em&gt; has all 96 issues.&lt;/li&gt;
@@ -890,7 +897,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;It seems that somebody took the pains to upload the tet from &lt;em&gt;shamela&lt;/em&gt; to WikiSource. Unfortunately it is impossible to browse the entire journal. Instead one has to adress each individual and consecutively numbered issue, e.g. Vol. 4, No. 1 is listed as &lt;a href=&quot;https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_37&quot;&gt;No. 37&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;tei-edition-of-al-muqtabashttpsgithubcomtillgrallertdigital-muqtabas&quot;&gt;&lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot;&gt;TEI edition of &lt;em&gt;al-Muqtabas&lt;/em&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;tei-edition-of-al-muqtabas&quot;&gt;&lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot;&gt;TEI edition of &lt;em&gt;al-Muqtabas&lt;/em&gt;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;The main challenge is to combine the full text and the images in a digital XML edition following the &lt;a href=&quot;https://www.tei-c.org&quot;&gt;TEI&lt;/a&gt;. As &lt;em&gt;al-maktabat al-shāmila&lt;/em&gt; did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.&lt;/p&gt;
 
