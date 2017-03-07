@@ -5,15 +5,17 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Mar 2017 12:38:02 +0100</pubDate>
-    <lastBuildDate>Tue, 07 Mar 2017 12:38:02 +0100</lastBuildDate>
+    <pubDate>Tue, 07 Mar 2017 13:45:42 +0100</pubDate>
+    <lastBuildDate>Tue, 07 Mar 2017 13:45:42 +0100</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
         <title>Introduction to Plain Text Workflows and Sustainable Publishing</title>
-        <description>&lt;p&gt;&lt;em&gt;THIS IS A DRAFT O&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;DRAFT&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Disclaimer: many of the ideas have been inspired by the work of Alex Gil and Denis Tenen&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.&lt;/p&gt;
+&lt;p&gt;Disclaimer 1: many of the ideas have been inspired by the work of Alex Gil (@&lt;a href=&quot;https://twitter.com/elotroalex&quot;&gt;elotroalex&lt;/a&gt;) and Denis Tenen (@&lt;a href=&quot;https://twitter.com//dennistenen&quot;&gt;dennistenen&lt;/a&gt;)&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.&lt;/p&gt;
+
+&lt;p&gt;Disclaimer 2: I am teaching a short workshop on some of the ideas in this post at &lt;a href=&quot;https://dhibeirut.wordpress.com/&quot;&gt;Digital Humanities Institute - Beirut&lt;/a&gt; on Friday, 10 March 2017. Basic slides will be made available &lt;a href=&quot;https://tillgrallert.github.io/Slides/2017-dhi-beirut/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
 
