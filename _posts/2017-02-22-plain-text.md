@@ -18,9 +18,9 @@ tags:
 - jekyll
 ---
 
-*THIS IS A DRAFT O*
+*DRAFT*
 
-Disclaimer: many of the ideas have been inspired by the work of Alex Gil and Denis Tenen[^1] and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.
+Disclaimer: many of the ideas have been inspired by the work of Alex Gil (@[elotroalex](https://twitter.com/elotroalex)) and Denis Tenen (@[dennistenen](https://twitter.com//dennistenen))[^1] and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.
 
 # Intro
 
