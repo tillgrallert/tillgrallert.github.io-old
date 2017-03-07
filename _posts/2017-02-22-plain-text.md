@@ -7,6 +7,7 @@ categories:
 - project_dh
 - teaching
 tags:
+- draft
 - teaching
 - tools
 - plain text
@@ -16,6 +17,8 @@ tags:
 - github
 - jekyll
 ---
+
+*THIS IS A DRAFT O*
 
 Disclaimer: many of the ideas have been inspired by the work of Alex Gil and Denis Tenen[^1] and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.
 
@@ -48,7 +51,7 @@ Looking at the most broadly-employed software in academic contexts and beyond, M
 
 ### 1. composition / authoring
 
-To avoid overtly complex software and proprietary formats, form and content must be separated. Structural / semantic information as well as metadata must be embedded in the text itself in order to be inseparable. We suggest using plain text with rudimentary structural markup following the conventions of MarkDown and a short block of metadata written in Yaml as the format of choice.
+To avoid overtly complex software and proprietary formats, form and content must be separated. Structural / semantic <!-- (e.g. header, list, block quote) --> and representational <!-- (e.g. bold, italics) --> information as well as metadata must be embedded in the text itself in order to be inseparable. We suggest using plain text with rudimentary markup following the conventions of MarkDown and a short block of metadata written in Yaml as the format of choice.
 
 - *Format*: plain text. At their core, all files are simple strings of letters. In the case of plain text files (`TXT`), this string of letters happens to be human readable. Plain text has been with us since the early days of computing and `TXT` files could be viewed and edited with 1980s hard- and software. We can therefore assume that this basic format will remain accessible for the years to come.
 - *Syntax*: [MarkDown](http://daringfireball.net/projects/markdown/syntax) and its derivatives provide a simple but formal way of providing structural (headings, lists, notes, block quotes etc.) and formating (italics, bold) information that is both human and machine readable. Think of it as the old way of underlining a line of text on a type-writer to indicate a heading.[^4]
@@ -116,6 +119,7 @@ How to deal with sensitive data / material, that should not be publicly accessib
 
 ## Use of git and GitHub in the humanities
 
+- makerlab at UVic: [git/github in 20 steps](https://github.com/uvicmakerlab/dhsi2015/blob/master/git.md)
 - Chad Black's [getting started with github and prose.io](https://parezcoydigo.wordpress.com/2013/08/26/getting-started-with-github-and-prose-io/) on using a combination of GitHub, jekyll, and prose.io for a collaborative seminar [blog](http://dh.chadblack.net/info/all_posts/).
 - [GitHub, Academia, and Collaborative Writing](http://www.hastac.org/blogs/harrisonm/2013/10/12/github-academia-and-collaborative-writing)
 - [Push, Pull, Fork: GitHub for Academics](http://www.hybridpedagogy.com/journal/push-pull-fork-github-for-academics/)
