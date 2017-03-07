@@ -20,7 +20,9 @@ tags:
 
 *DRAFT*
 
-Disclaimer: many of the ideas have been inspired by the work of Alex Gil (@[elotroalex](https://twitter.com/elotroalex)) and Denis Tenen (@[dennistenen](https://twitter.com//dennistenen))[^1] and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.
+Disclaimer 1: many of the ideas have been inspired by the work of Alex Gil (@[elotroalex](https://twitter.com/elotroalex)) and Denis Tenen (@[dennistenen](https://twitter.com//dennistenen))[^1] and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.
+
+Disclaimer 2: I am teaching a short workshop on some of the ideas in this post at [Digital Humanities Institute - Beirut](https://dhibeirut.wordpress.com/) on Friday, 10 March 2017. Basic slides will be made available [here](https://tillgrallert.github.io/Slides/2017-dhi-beirut/).
 
 # Intro
 
