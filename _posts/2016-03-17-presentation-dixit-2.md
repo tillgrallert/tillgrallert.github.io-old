@@ -4,7 +4,6 @@ title: "Presentation of *Digital Muqtabas* at DiXiT Convention 2 in Cologne"
 author: Till Grallert
 date: 2016-03-17 19:28:14 +0300
 categories:
-- blog
 - presentation
 - project_dh
 - project_dape

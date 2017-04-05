@@ -58,7 +58,7 @@ In May this year, I participated in a conference titled ["Books in Motion" in Be
 
 {% include image.html url="/assets/mutanabbi-1866-diwan-stamp.jpg" description="Ownership stamp of Librairie Générale Beyrouth. Courtesy of Hala Auji" %}
 
-It is not entirely clear how Auji arrived at the conclusion that this edition was printed in Calcutta. Comparing the frontispieces it seems that a copy at University of Michigan, [freely available through HathiTrust](http://hdl.handle.net/2027/mdp.39015024525357), is indeed the same edition. [Its final page (292)](http://hdl.handle.net/2027/mdp.39015024525357?urlappend=%3Bseq=298) states that Shaykh ʿUmar al-Rāfiʿī confirms the veracity of this print edition that was completed in 1283 aH [1866]. According to Ilyān Sarkīs' union catalogue of Arabic printed works (*Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba*) this edition of 292 pages was printed on a lithographic printing press in Cairo.
+It is not entirely clear how Auji arrived at the conclusion that this edition was printed in Calcutta. Comparing the frontispieces it seems that a copy at University of Michigan, [freely available through HathiTrust](http://hdl.handle.net/2027/mdp.39015024525357), is indeed the same edition. [Its final page (292)](http://hdl.handle.net/2027/mdp.39015024525357?urlappend=%3Bseq=298) states that Shaykh ʿUmar al-Rāfiʿī confirms the veracity of this print edition that was completed in 1283 aH [1866]. According to Ilyān Sarkīs' union catalogue of Arabic printed works (*[Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba](http://shamela.ws/browse.php/book-1242#page-1622 "full text at shamela.ws")*) this edition of 292 pages was printed on a lithographic printing press in Cairo.[^7]
 
 
 
@@ -69,3 +69,4 @@ It is not entirely clear how Auji arrived at the conclusion that this edition wa
 [^4]: c.f. MWT Salname Suriye 13 1298 aH [Dec. 1880]:247, UBTüb Salname Suriye 17 1302 aH [Oct. 1884]:250.
 [^5]: Vāḥān, Ohan. *Sharḥ Qānūn al-Tijārah.* Translated by Niqūlā Efendi Naqqāsh. Bayrūt: al-Maṭbaʿa al-ʿUmūmiyya, 1880.
 [^6]: Auji, Hala. *Printing Arab Modernity: Book Culture and the American Press in Nineteenth-Century Beirut.* Leiden: Brill, 2016.
+[^7]: Sarkīs, Yūsuf Ilyān. *Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba: wa-huwa shāmil li-asmāʾ al-kutub al-maṭbūʿa fī al-aqtar al-sharqiyya wa-l-gharbiyya, maʿa dhikr asmāʾ muʾallifiha wa-lumʿa min tarjamātihim; wa-dhalik min yawm ẓuhūr al-ṭabaʿa ilā nihāyat al-sanat al-Hijriyya 1339 al-muwāfiqa li-sanat 1919 milādiyya.* 2 vols. Vol.2. Miṣr: Maṭbaʿat Sarkīs, 1928; p.1616.

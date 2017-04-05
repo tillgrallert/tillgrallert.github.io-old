@@ -9,9 +9,9 @@ categories:
 - blog
 tags:
 - project description
-- Damascus
+- damascus
 - research
-- Ottoman Empire
+- ottoman empire
 - urban history
 excerpt_separator: <!--more-->
 ---

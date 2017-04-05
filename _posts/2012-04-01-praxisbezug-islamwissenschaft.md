@@ -7,8 +7,8 @@ categories:
 - teaching
 tags:
 - teaching
-- Islamwissenschaft
-- Orientalism
+- islamwissenschaft
+- orientalism
 - methodology
 ---
 

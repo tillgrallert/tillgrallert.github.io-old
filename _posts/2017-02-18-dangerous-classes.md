@@ -4,7 +4,7 @@ title: "Presentation at 'Dangerous Classes' conference in Oxford"
 author: Till Grallert
 date: 2017-02-18 18:06:47 +0100
 categories:
-- blog
+- presentation
 - project_food-riots
 tags:
 - presentation

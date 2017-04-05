@@ -4,7 +4,6 @@ title: "Presentation of *Digital Muqtabas* at conference 'Books in Motion' in Be
 author: Till Grallert
 date: 2016-05-10 23:51:22 +0300
 categories:
-- blog
 - presentation
 - project_dh
 - project_dape

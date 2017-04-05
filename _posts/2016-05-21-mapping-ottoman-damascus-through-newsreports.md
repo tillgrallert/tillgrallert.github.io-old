@@ -14,9 +14,9 @@ tags:
 - digital editions
 - arabic periodicals
 - arabic newspapers
-- GIS
+- xml
 - methods
-- XML
+- xml
 - geo-tagging
 ---
 
