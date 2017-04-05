@@ -8,7 +8,7 @@
 
   <title>Introduction to Plain Text Workflows and Sustainable Publishing</title>
   <!-- metadata --> 
-  <meta name="description" content="DRAFT"/>
+  <meta name="description" content="DRAFTDisclaimer 1: many of the ideas have been inspired by the work of Alex Gil (@elotroalex) and Denis Tenen (@dennistenen)1 and discussions with the two of..."/>
   <!-- additional metadata -->
   <meta name="author" content="Till Grallert" />
   <meta name="date" content="2017-02-22" />
@@ -18,7 +18,7 @@
 <meta name="DC.title" content="Introduction to Plain Text Workflows and Sustainable Publishing"/>
 <meta name="DC.creator" content="Till Grallert" />
 <meta name="DC.date" scheme="W3CDTF" content="2017-02-22" />
-<meta name="DC.description" content="DRAFT"/>
+<meta name="DC.description" content="DRAFTDisclaimer 1: many of the ideas have been inspired by the work of Alex Gil (@elotroalex) and Denis Tenen (@dennistenen)1 and discussions with the two of..."/>
 <meta name="DC.keywords" content="draft, teaching, tools, plain text, markdown, pandoc, git, github, jekyll, " />
 
   <!-- linked scripts and stylesheets etc. -->
@@ -395,26 +395,6 @@
           
           
         
-          
-          <!-- this condition removes the links to the tag index pages -->
-          
-          
-        
-          
-          <!-- this condition removes the links to the tag index pages -->
-          
-          
-        
-          
-          <!-- this condition removes the links to the tag index pages -->
-          
-          
-        
-          
-          <!-- this condition removes the links to the tag index pages -->
-          
-          
-        
       </div>
     </nav>
   </div>
@@ -438,13 +418,15 @@
 
 <p>Disclaimer 1: many of the ideas have been inspired by the work of Alex Gil (@<a href="https://twitter.com/elotroalex">elotroalex</a>) and Denis Tenen (@<a href="https://twitter.com//dennistenen">dennistenen</a>)<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.</p>
 
-<p>Disclaimer 2: I am teaching a short workshop on some of the ideas in this post at <a href="https://dhibeirut.wordpress.com/">Digital Humanities Institute - Beirut</a> on Friday, 10 March 2017. Basic slides will be made available <a href="https://tillgrallert.github.io/Slides/2017-dhi-beirut/">here</a>.</p>
+<p>Disclaimer 2: I am teaching short workshops on some of the ideas outlined in this post at <a href="https://dhibeirut.wordpress.com/">Digital Humanities Institute - Beirut</a> on 10 March 2017 and at <a href="https://wp.nyu.edu/dhad/">DH Abu Dhabi</a> on 10 April 2017. Basic slides are available <a href="https://tillgrallert.github.io/Slides/2017-dhi-beirut/">here</a> and <a href="https://tillgrallert.github.io/Slides/2017-dhad/">here</a>.</p>
 
 <h1 id="intro">Intro</h1>
 
-<p>In the world of (academic) publishing, large aggregators and indexers {»could be named here«} have turned into and acquired publishing presses and generate obscene profits by charging the public (every tax-payer worldwide) multiple times over. First by charging the predominantly publicly-funded academic for publishing the results of her publicly-funded research and by enforcing a culture of <em>pro bono</em> labour among academic reviewers and editors; second by selling this content to equally predominantly publicly-funded libraries, which then increasingly demand access fees from members of the public, who want to access their collections; and third by offloading the cost of long-term preservation to, again, publicly-funded institutions. This system not only created a hierarchy of academics and institutions in the relatively well-off “West”—two classes divided by their ability to pay for being published and accessing publications (their own and others). It also increasingly prevents anybody outside western academia from accessing cutting-edge research and participating in intellectual discourse.</p>
+<p>In the world of (academic) publishing, large aggregators and indexers <!--could be named here--> have turned into and acquired publishing presses and generate obscene profits by charging the public (every tax-payer worldwide) multiple times over. First by charging the predominantly publicly-funded academic for publishing the results of her publicly-funded research and by enforcing a culture of <em>pro bono</em> labour among academic reviewers and editors; second by selling this content to equally predominantly publicly-funded libraries, which then increasingly demand access fees from members of the public, who want to access their collections; and third by offloading the cost of long-term preservation to, again, publicly-funded institutions. This system not only created a hierarchy of academics and institutions in the relatively well-off “West”—two classes divided by their ability to pay for being published and accessing publications (their own and others). It also increasingly prevents anybody outside western academia from accessing cutting-edge research and participating in intellectual discourse.</p>
 
-<p>One of the opportunities afforded by the <em>digital humanities</em> and the stated goal of this {==course==}{»workshop«} is to remove the middlemen—be they technical or entrepreneurial—between authors, readers, and the library-cum-archive. There are two main obstacles to this aim:</p>
+<!--more-->
+
+<p>One of the opportunities afforded by the <em>digital humanities</em> and the stated goal of this endeavour is to remove the middlemen—be they technical or entrepreneurial—between authors, readers, and the library-cum-archive. There are two main obstacles to this aim:</p>
 
 <ol>
   <li>copyright laws and</li>
@@ -460,7 +442,7 @@ We argue that by doing so the main argument for restrictive copyright—namely, 
 
 <ol>
   <li><em>Accessibility</em>. Accessible means first of all free and open to use and re-purpose for all that have the technical ability to do. Therefore we will have to forfeit all proprietary software and formats. From the imperative of openness and accessibility derive the second and third principles:</li>
-  <li><em>Simplicity</em>: apart from the necessity to be able read and write in a specific human language, there should be as few tools, hardware and software requirements as possible. Ideally everything should work on ten-year old hardware and nothing but the software packaged with the operating system.</li>
+  <li><em>Simplicity</em>: apart from the necessity to be able read and write in a specific human language, there should be as few tools, hardware and software requirements as possible. Ideally everything should work on ten-year old hardware and nothing but the software packaged with the operating system—or even better: the core technologies should work without a computer.</li>
   <li><em>Sustainability</em>: only simple systems adhering to widely accepted standards can be sustained with minimal / reasonable effort.</li>
   <li><em>Credibility</em>: Credibility is at the core of scholarly production. In addition to transparency as to the sources, methodology, and tools used, authorship needs to be ascertained and acknowledged as the main tool of scholarly quality control.</li>
 </ol>
@@ -575,7 +557,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>Tenen, Dennis and Grant Wythoff. “Sustainable Authorship in Plain Text Using Pandoc and Markdown.” <a href="http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown</a>.&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+      <p>Tenen, Dennis and Grant Wythoff. “<a href="http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">Sustainable Authorship in Plain Text Using Pandoc and Markdown</a>.”&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:4">
       <p>MarkDown really is only a convention and <a href="http://daringfireball.net/projects/markdown/syntax">John Gruber’s (and Adam Swartz’ [yes, <em>the</em> Adam Swartz]) canonical description of the Markdown syntax</a> is at least partially ambiguous and and lacks some core functionality for academic writing, such as support for tables and footnotes. In consequence, a plethora of formats (MultiMarkdown, GitHub flavored markdown, etc.) and software implementations have proliferated inspired by and based on Markdown that make the actual rendering of Markdown in <code class="highlighter-rouge">HTML</code> rather unpredictable beyond the core functionality. In recent years, a group of people involving <a href="http://johnmacfarlane.net/">John MacFarlane</a>, professor of philosophy at UC Berkeley and author of Pandoc, proposed and developed are more rigid standard which they call <a href="http://commonmark.org/">CommonMark</a>.&nbsp;<a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
@@ -735,48 +717,6 @@ To reduce complexity and the number of technologies, we suggest using static, se
 </span>
 
  <span class="site-tag">
-    <a href="/tag/Damascus/"
-        style="font-size: 90%">
-            Damascus (2)
-    </a>
-</span>
-
- <span class="site-tag">
-    <a href="/tag/GIS/"
-        style="font-size: 85%">
-            GIS (1)
-    </a>
-</span>
-
- <span class="site-tag">
-    <a href="/tag/Islamwissenschaft/"
-        style="font-size: 85%">
-            Islamwissenschaft (1)
-    </a>
-</span>
-
- <span class="site-tag">
-    <a href="/tag/Orientalism/"
-        style="font-size: 85%">
-            Orientalism (1)
-    </a>
-</span>
-
- <span class="site-tag">
-    <a href="/tag/Ottoman Empire/"
-        style="font-size: 90%">
-            Ottoman Empire (2)
-    </a>
-</span>
-
- <span class="site-tag">
-    <a href="/tag/XML/"
-        style="font-size: 85%">
-            XML (1)
-    </a>
-</span>
-
- <span class="site-tag">
     <a href="/tag/arabic newspapers/"
         style="font-size: 120%">
             arabic newspapers (8)
@@ -820,8 +760,8 @@ To reduce complexity and the number of technologies, we suggest using static, se
 
  <span class="site-tag">
     <a href="/tag/damascus/"
-        style="font-size: 85%">
-            damascus (1)
+        style="font-size: 95%">
+            damascus (3)
     </a>
 </span>
 
@@ -910,6 +850,13 @@ To reduce complexity and the number of technologies, we suggest using static, se
 </span>
 
  <span class="site-tag">
+    <a href="/tag/islamwissenschaft/"
+        style="font-size: 85%">
+            islamwissenschaft (1)
+    </a>
+</span>
+
+ <span class="site-tag">
     <a href="/tag/jekyll/"
         style="font-size: 85%">
             jekyll (1)
@@ -987,9 +934,16 @@ To reduce complexity and the number of technologies, we suggest using static, se
 </span>
 
  <span class="site-tag">
+    <a href="/tag/orientalism/"
+        style="font-size: 85%">
+            orientalism (1)
+    </a>
+</span>
+
+ <span class="site-tag">
     <a href="/tag/ottoman empire/"
-        style="font-size: 90%">
-            ottoman empire (2)
+        style="font-size: 100%">
+            ottoman empire (4)
     </a>
 </span>
 
@@ -1142,8 +1096,8 @@ To reduce complexity and the number of technologies, we suggest using static, se
 
  <span class="site-tag">
     <a href="/tag/xml/"
-        style="font-size: 115%">
-            xml (7)
+        style="font-size: 125%">
+            xml (9)
     </a>
 </span>
 

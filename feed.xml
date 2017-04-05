@@ -5,9 +5,9 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Mar 2017 13:45:42 +0100</pubDate>
-    <lastBuildDate>Tue, 07 Mar 2017 13:45:42 +0100</lastBuildDate>
-    <generator>Jekyll v3.4.1</generator>
+    <pubDate>Wed, 05 Apr 2017 21:50:31 +0200</pubDate>
+    <lastBuildDate>Wed, 05 Apr 2017 21:50:31 +0200</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Introduction to Plain Text Workflows and Sustainable Publishing</title>
@@ -15,13 +15,15 @@
 
 &lt;p&gt;Disclaimer 1: many of the ideas have been inspired by the work of Alex Gil (@&lt;a href=&quot;https://twitter.com/elotroalex&quot;&gt;elotroalex&lt;/a&gt;) and Denis Tenen (@&lt;a href=&quot;https://twitter.com//dennistenen&quot;&gt;dennistenen&lt;/a&gt;)&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.&lt;/p&gt;
 
-&lt;p&gt;Disclaimer 2: I am teaching a short workshop on some of the ideas in this post at &lt;a href=&quot;https://dhibeirut.wordpress.com/&quot;&gt;Digital Humanities Institute - Beirut&lt;/a&gt; on Friday, 10 March 2017. Basic slides will be made available &lt;a href=&quot;https://tillgrallert.github.io/Slides/2017-dhi-beirut/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Disclaimer 2: I am teaching short workshops on some of the ideas outlined in this post at &lt;a href=&quot;https://dhibeirut.wordpress.com/&quot;&gt;Digital Humanities Institute - Beirut&lt;/a&gt; on 10 March 2017 and at &lt;a href=&quot;https://wp.nyu.edu/dhad/&quot;&gt;DH Abu Dhabi&lt;/a&gt; on 10 April 2017. Basic slides are available &lt;a href=&quot;https://tillgrallert.github.io/Slides/2017-dhi-beirut/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://tillgrallert.github.io/Slides/2017-dhad/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
 
-&lt;p&gt;In the world of (academic) publishing, large aggregators and indexers {»could be named here«} have turned into and acquired publishing presses and generate obscene profits by charging the public (every tax-payer worldwide) multiple times over. First by charging the predominantly publicly-funded academic for publishing the results of her publicly-funded research and by enforcing a culture of &lt;em&gt;pro bono&lt;/em&gt; labour among academic reviewers and editors; second by selling this content to equally predominantly publicly-funded libraries, which then increasingly demand access fees from members of the public, who want to access their collections; and third by offloading the cost of long-term preservation to, again, publicly-funded institutions. This system not only created a hierarchy of academics and institutions in the relatively well-off “West”—two classes divided by their ability to pay for being published and accessing publications (their own and others). It also increasingly prevents anybody outside western academia from accessing cutting-edge research and participating in intellectual discourse.&lt;/p&gt;
+&lt;p&gt;In the world of (academic) publishing, large aggregators and indexers &lt;!--could be named here--&gt; have turned into and acquired publishing presses and generate obscene profits by charging the public (every tax-payer worldwide) multiple times over. First by charging the predominantly publicly-funded academic for publishing the results of her publicly-funded research and by enforcing a culture of &lt;em&gt;pro bono&lt;/em&gt; labour among academic reviewers and editors; second by selling this content to equally predominantly publicly-funded libraries, which then increasingly demand access fees from members of the public, who want to access their collections; and third by offloading the cost of long-term preservation to, again, publicly-funded institutions. This system not only created a hierarchy of academics and institutions in the relatively well-off “West”—two classes divided by their ability to pay for being published and accessing publications (their own and others). It also increasingly prevents anybody outside western academia from accessing cutting-edge research and participating in intellectual discourse.&lt;/p&gt;
 
-&lt;p&gt;One of the opportunities afforded by the &lt;em&gt;digital humanities&lt;/em&gt; and the stated goal of this {==course==}{»workshop«} is to remove the middlemen—be they technical or entrepreneurial—between authors, readers, and the library-cum-archive. There are two main obstacles to this aim:&lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;p&gt;One of the opportunities afforded by the &lt;em&gt;digital humanities&lt;/em&gt; and the stated goal of this endeavour is to remove the middlemen—be they technical or entrepreneurial—between authors, readers, and the library-cum-archive. There are two main obstacles to this aim:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;copyright laws and&lt;/li&gt;
@@ -37,7 +39,7 @@ We argue that by doing so the main argument for restrictive copyright—namely, 
 
 &lt;ol&gt;
   &lt;li&gt;&lt;em&gt;Accessibility&lt;/em&gt;. Accessible means first of all free and open to use and re-purpose for all that have the technical ability to do. Therefore we will have to forfeit all proprietary software and formats. From the imperative of openness and accessibility derive the second and third principles:&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Simplicity&lt;/em&gt;: apart from the necessity to be able read and write in a specific human language, there should be as few tools, hardware and software requirements as possible. Ideally everything should work on ten-year old hardware and nothing but the software packaged with the operating system.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Simplicity&lt;/em&gt;: apart from the necessity to be able read and write in a specific human language, there should be as few tools, hardware and software requirements as possible. Ideally everything should work on ten-year old hardware and nothing but the software packaged with the operating system—or even better: the core technologies should work without a computer.&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Sustainability&lt;/em&gt;: only simple systems adhering to widely accepted standards can be sustained with minimal / reasonable effort.&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Credibility&lt;/em&gt;: Credibility is at the core of scholarly production. In addition to transparency as to the sources, methodology, and tools used, authorship needs to be ascertained and acknowledged as the main tool of scholarly quality control.&lt;/li&gt;
 &lt;/ol&gt;
@@ -152,7 +154,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Tenen, Dennis and Grant Wythoff. “Sustainable Authorship in Plain Text Using Pandoc and Markdown.” &lt;a href=&quot;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown&quot;&gt;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Tenen, Dennis and Grant Wythoff. “&lt;a href=&quot;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown&quot;&gt;Sustainable Authorship in Plain Text Using Pandoc and Markdown&lt;/a&gt;.”&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
       &lt;p&gt;MarkDown really is only a convention and &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;John Gruber’s (and Adam Swartz’ [yes, &lt;em&gt;the&lt;/em&gt; Adam Swartz]) canonical description of the Markdown syntax&lt;/a&gt; is at least partially ambiguous and and lacks some core functionality for academic writing, such as support for tables and footnotes. In consequence, a plethora of formats (MultiMarkdown, GitHub flavored markdown, etc.) and software implementations have proliferated inspired by and based on Markdown that make the actual rendering of Markdown in &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; rather unpredictable beyond the core functionality. In recent years, a group of people involving &lt;a href=&quot;http://johnmacfarlane.net/&quot;&gt;John MacFarlane&lt;/a&gt;, professor of philosophy at UC Berkeley and author of Pandoc, proposed and developed are more rigid standard which they call &lt;a href=&quot;http://commonmark.org/&quot;&gt;CommonMark&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
@@ -192,6 +194,8 @@ To reduce complexity and the number of technologies, we suggest using static, se
         <category>jekyll</category>
         
         
+        <category>blog</category>
+        
         <category>project_dh</category>
         
         <category>teaching</category>
@@ -215,7 +219,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
         <category>food riots</category>
         
         
-        <category>blog</category>
+        <category>presentation</category>
         
         <category>project_food-riots</category>
         
@@ -307,7 +311,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
     
 &lt;/figure&gt;
 
-&lt;p&gt;It is not entirely clear how Auji arrived at the conclusion that this edition was printed in Calcutta. Comparing the frontispieces it seems that a copy at University of Michigan, &lt;a href=&quot;http://hdl.handle.net/2027/mdp.39015024525357&quot;&gt;freely available through HathiTrust&lt;/a&gt;, is indeed the same edition. &lt;a href=&quot;http://hdl.handle.net/2027/mdp.39015024525357?urlappend=%3Bseq=298&quot;&gt;Its final page (292)&lt;/a&gt; states that Shaykh ʿUmar al-Rāfiʿī confirms the veracity of this print edition that was completed in 1283 aH [1866]. According to Ilyān Sarkīs’ union catalogue of Arabic printed works (&lt;em&gt;Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba&lt;/em&gt;) this edition of 292 pages was printed on a lithographic printing press in Cairo.&lt;/p&gt;
+&lt;p&gt;It is not entirely clear how Auji arrived at the conclusion that this edition was printed in Calcutta. Comparing the frontispieces it seems that a copy at University of Michigan, &lt;a href=&quot;http://hdl.handle.net/2027/mdp.39015024525357&quot;&gt;freely available through HathiTrust&lt;/a&gt;, is indeed the same edition. &lt;a href=&quot;http://hdl.handle.net/2027/mdp.39015024525357?urlappend=%3Bseq=298&quot;&gt;Its final page (292)&lt;/a&gt; states that Shaykh ʿUmar al-Rāfiʿī confirms the veracity of this print edition that was completed in 1283 aH [1866]. According to Ilyān Sarkīs’ union catalogue of Arabic printed works (&lt;em&gt;&lt;a href=&quot;http://shamela.ws/browse.php/book-1242#page-1622&quot; title=&quot;full text at shamela.ws&quot;&gt;Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba&lt;/a&gt;&lt;/em&gt;) this edition of 292 pages was printed on a lithographic printing press in Cairo.&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -328,6 +332,9 @@ To reduce complexity and the number of technologies, we suggest using static, se
     &lt;/li&gt;
     &lt;li id=&quot;fn:6&quot;&gt;
       &lt;p&gt;Auji, Hala. &lt;em&gt;Printing Arab Modernity: Book Culture and the American Press in Nineteenth-Century Beirut.&lt;/em&gt; Leiden: Brill, 2016.&amp;nbsp;&lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;Sarkīs, Yūsuf Ilyān. &lt;em&gt;Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba: wa-huwa shāmil li-asmāʾ al-kutub al-maṭbūʿa fī al-aqtar al-sharqiyya wa-l-gharbiyya, maʿa dhikr asmāʾ muʾallifiha wa-lumʿa min tarjamātihim; wa-dhalik min yawm ẓuhūr al-ṭabaʿa ilā nihāyat al-sanat al-Hijriyya 1339 al-muwāfiqa li-sanat 1919 milādiyya.&lt;/em&gt; 2 vols. Vol.2. Miṣr: Maṭbaʿat Sarkīs, 1928; p.1616.&amp;nbsp;&lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -377,11 +384,11 @@ To reduce complexity and the number of technologies, we suggest using static, se
         
         <category>arabic newspapers</category>
         
-        <category>GIS</category>
+        <category>xml</category>
         
         <category>methods</category>
         
-        <category>XML</category>
+        <category>xml</category>
         
         <category>geo-tagging</category>
         
@@ -424,8 +431,6 @@ To reduce complexity and the number of technologies, we suggest using static, se
         
         <category>arabic periodicals</category>
         
-        
-        <category>blog</category>
         
         <category>presentation</category>
         
@@ -574,8 +579,6 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
         
         <category>arabic periodicals</category>
         
-        
-        <category>blog</category>
         
         <category>presentation</category>
         
