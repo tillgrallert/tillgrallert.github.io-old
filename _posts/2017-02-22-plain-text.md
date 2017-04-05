@@ -4,6 +4,7 @@ title: "Introduction to Plain Text Workflows and Sustainable Publishing"
 author: Till Grallert
 date: 2017-02-22 17:13:32 +0100
 categories:
+- blog
 - project_dh
 - teaching
 tags:
@@ -16,19 +17,22 @@ tags:
 - git
 - github
 - jekyll
+excerpt_separator: <!--more-->
 ---
 
 *DRAFT*
 
 Disclaimer 1: many of the ideas have been inspired by the work of Alex Gil (@[elotroalex](https://twitter.com/elotroalex)) and Denis Tenen (@[dennistenen](https://twitter.com//dennistenen))[^1] and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.
 
-Disclaimer 2: I am teaching a short workshop on some of the ideas in this post at [Digital Humanities Institute - Beirut](https://dhibeirut.wordpress.com/) on Friday, 10 March 2017. Basic slides will be made available [here](https://tillgrallert.github.io/Slides/2017-dhi-beirut/).
+Disclaimer 2: I am teaching short workshops on some of the ideas outlined in this post at [Digital Humanities Institute - Beirut](https://dhibeirut.wordpress.com/) on 10 March 2017 and at [DH Abu Dhabi](https://wp.nyu.edu/dhad/) on 10 April 2017. Basic slides are available [here](https://tillgrallert.github.io/Slides/2017-dhi-beirut/) and [here](https://tillgrallert.github.io/Slides/2017-dhad/).
 
 # Intro
 
-In the world of (academic) publishing, large aggregators and indexers {>>could be named here<<} have turned into and acquired publishing presses and generate obscene profits by charging the public (every tax-payer worldwide) multiple times over. First by charging the predominantly publicly-funded academic for publishing the results of her publicly-funded research and by enforcing a culture of *pro bono* labour among academic reviewers and editors; second by selling this content to equally predominantly publicly-funded libraries, which then increasingly demand access fees from members of the public, who want to access their collections; and third by offloading the cost of long-term preservation to, again, publicly-funded institutions. This system not only created a hierarchy of academics and institutions in the relatively well-off "West"---two classes divided by their ability to pay for being published and accessing publications (their own and others). It also increasingly prevents anybody outside western academia from accessing cutting-edge research and participating in intellectual discourse.
+In the world of (academic) publishing, large aggregators and indexers <!--could be named here--> have turned into and acquired publishing presses and generate obscene profits by charging the public (every tax-payer worldwide) multiple times over. First by charging the predominantly publicly-funded academic for publishing the results of her publicly-funded research and by enforcing a culture of *pro bono* labour among academic reviewers and editors; second by selling this content to equally predominantly publicly-funded libraries, which then increasingly demand access fees from members of the public, who want to access their collections; and third by offloading the cost of long-term preservation to, again, publicly-funded institutions. This system not only created a hierarchy of academics and institutions in the relatively well-off "West"---two classes divided by their ability to pay for being published and accessing publications (their own and others). It also increasingly prevents anybody outside western academia from accessing cutting-edge research and participating in intellectual discourse.
 
-One of the opportunities afforded by the *digital humanities* and the stated goal of this {==course==}{>>workshop<<} is to remove the middlemen---be they technical or entrepreneurial---between authors, readers, and the library-cum-archive. There are two main obstacles to this aim: 
+<!--more-->
+
+One of the opportunities afforded by the *digital humanities* and the stated goal of this endeavour is to remove the middlemen---be they technical or entrepreneurial---between authors, readers, and the library-cum-archive. There are two main obstacles to this aim: 
 
 1. copyright laws and 
 2. the alienation of us, authors and academics, from the means of production.
@@ -41,7 +45,7 @@ We argue that by doing so the main argument for restrictive copyright---namely, 
 The main principles in our effort to (re)claim the means of production are: accessibility, simplicity, sustainability, and credibility. They shall pertain both to the intellectual endeavour and to the tools employed.
 
 1. *Accessibility*. Accessible means first of all free and open to use and re-purpose for all that have the technical ability to do. Therefore we will have to forfeit all proprietary software and formats. From the imperative of openness and accessibility derive the second and third principles:
-2. *Simplicity*: apart from the necessity to be able read and write in a specific human language, there should be as few tools, hardware and software requirements as possible. Ideally everything should work on ten-year old hardware and nothing but the software packaged with the operating system.
+2. *Simplicity*: apart from the necessity to be able read and write in a specific human language, there should be as few tools, hardware and software requirements as possible. Ideally everything should work on ten-year old hardware and nothing but the software packaged with the operating system---or even better: the core technologies should work without a computer.
 3. *Sustainability*: only simple systems adhering to widely accepted standards can be sustained with minimal / reasonable effort.
 4. *Credibility*: Credibility is at the core of scholarly production. In addition to transparency as to the sources, methodology, and tools used, authorship needs to be ascertained and acknowledged as the main tool of scholarly quality control.
 
@@ -132,7 +136,7 @@ How to deal with sensitive data / material, that should not be publicly accessib
 - [Using git in my writing workflow](https://www.martineve.com/2013/08/18/using-git-in-my-writing-workflow/)
 
 
-[^1]: Tenen, Dennis and Grant Wythoff. "Sustainable Authorship in Plain Text Using Pandoc and Markdown." <http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown>.
+[^1]: Tenen, Dennis and Grant Wythoff. "[Sustainable Authorship in Plain Text Using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)."
 [^2]: Other options based on git are [BitBucket](https://bitbucket.org/) and [GitLab](https://about.gitlab.com/).
 [^3]: GitHub provides its own clients for [Mac](https://central.github.com/mac/latest) and [Windows](https://github-windows.s3.amazonaws.com/GitHubSetup.exe)
 [^4]: MarkDown really is only a convention and [John Gruber's (and Adam Swartz' [yes, *the* Adam Swartz]) canonical description of the Markdown syntax](http://daringfireball.net/projects/markdown/syntax) is at least partially ambiguous and and lacks some core functionality for academic writing, such as support for tables and footnotes. In consequence, a plethora of formats (MultiMarkdown, GitHub flavored markdown, etc.) and software implementations have proliferated inspired by and based on Markdown that make the actual rendering of Markdown in `HTML` rather unpredictable beyond the core functionality. In recent years, a group of people involving [John MacFarlane](http://johnmacfarlane.net/), professor of philosophy at UC Berkeley and author of Pandoc, proposed and developed are more rigid standard which they call [CommonMark](http://commonmark.org/).
