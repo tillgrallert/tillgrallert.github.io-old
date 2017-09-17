@@ -1,0 +1,146 @@
+/* general settings for the whole page */
+
+body {
+	background-color: white;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+	min-width: 200px;
+	word-wrap: break-word;
+	/* counters */
+	counter-reset: p;
+}
+/* automatic numbering */
+p{
+    counter-increment: p;
+}
+body > p:before {
+	content: "§ " counter(p) " ";
+	direction:ltr;
+	vertical-align:top;
+	font-size: 0.5em;
+	color: orange;
+	display: block;
+	float: left;
+}
+/* section headings */
+h1, h2, h3, h4, h5 {
+	font-family: Optima, sans-serif;
+}
+
+/* spacing / padding between paragraphs */
+p, ol, ul, li {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	line-height: 1.2;
+}
+div.footnotes p {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+/* images */
+
+img {
+	width: 80%;
+	display: block;
+	margin-left: 10%;
+	margin-top: 1em;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #000;
+    border:gray solid 1px;
+}
+
+/* what about captions? */
+/* they are provided in @alt (inline images) and <figcaption/> (images separated by empty lines) */
+/* if I render HMTL with Pandoc and Marked, images are rendered as <div class="figure">
+<img src="img0030.jpg" alt="Fig. 1, Construction works at the new municipality." /><p class="caption">Fig. 1, Construction works at the new municipality.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
+</div>
+ */
+figure, 
+div.figure {
+    width: 80%;
+    display: block;
+    clear: both;
+    margin-top: 1em;
+    margin-left: 10%;
+  }
+figure > img, 
+div.figure img {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      position: relative;
+      background-color: rgba(0,0,0,0.04);
+      border-radius: 15px;
+      box-shadow: 2px 2px 5px #000;
+      border:gray solid 1px;
+  }
+figcaption,
+p.caption {
+      width:100%;
+      position:relative;
+      display: block;
+      margin-top: 1em;
+      font-size:0.8em;
+      text-align: right;
+      font-weight:lighter;
+  }   
+  
+/* tables */
+
+table {
+	border-collapse: collapse;
+	width:inherit;
+	padding-top: inherit;
+	padding-bottom: inherit;
+}
+
+tr.header {
+	border-bottom: double black;
+}
+
+td {
+	border-bottom: 1px solid black;
+	padding-bottom: 0.1em;
+	padding-top: 0.1em;
+}
+
+/* links */
+
+a {
+	color: orange;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #AB1733;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #E62347;
+	text-decoration: underline;
+}
+/* footnotes */
+a.footnote {
+	font-size: 0.7em;
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 0.3em;
+}
+/* in case of transcriptions, the html might contain pb elements to indicate page breaks in the original */
+pb:before {
+  	content: " [page " attr(n) "] ";
+  	font-size: 0.5em;
+  	color:#959595;
+  	vertical-align: top;
+  	position: relative;
+  	display: block;
+  	padding: 0.5em;
+  }
