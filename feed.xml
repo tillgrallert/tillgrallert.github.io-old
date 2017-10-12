@@ -5,8 +5,8 @@
     <description></description>
     <link>https://tillgrallert.github.io/</link>
     <atom:link href="https://tillgrallert.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Apr 2017 21:50:31 +0200</pubDate>
-    <lastBuildDate>Wed, 05 Apr 2017 21:50:31 +0200</lastBuildDate>
+    <pubDate>Thu, 12 Oct 2017 15:35:58 +0300</pubDate>
+    <lastBuildDate>Thu, 12 Oct 2017 15:35:58 +0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -171,7 +171,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 22 Feb 2017 17:13:32 +0100</pubDate>
+        <pubDate>Wed, 22 Feb 2017 18:13:32 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2017/02/22/plain-text/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2017/02/22/plain-text/</guid>
         
@@ -208,7 +208,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
 
 &lt;p&gt;As always, I have made the slides available on &lt;a href=&quot;https://tillgrallert.github.io/Slides/2017-Oxford&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Feb 2017 18:06:47 +0100</pubDate>
+        <pubDate>Sat, 18 Feb 2017 19:06:47 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2017/02/18/dangerous-classes/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2017/02/18/dangerous-classes/</guid>
         
@@ -339,7 +339,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 12 Oct 2016 12:13:53 +0200</pubDate>
+        <pubDate>Wed, 12 Oct 2016 13:13:53 +0300</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/10/12/dating-books/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/10/12/dating-books/</guid>
         
@@ -370,7 +370,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Fri, 20 May 2016 23:55:20 +0200</pubDate>
+        <pubDate>Sat, 21 May 2016 00:55:20 +0300</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/05/21/mapping-ottoman-damascus-through-newsreports/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/05/21/mapping-ottoman-damascus-through-newsreports/</guid>
         
@@ -419,7 +419,7 @@ To reduce complexity and the number of technologies, we suggest using static, se
 
 &lt;p&gt;With the &lt;a href=&quot;https://github.com/tillgrallert/digital-muqtabas&quot; title=&quot;current state of the project&quot;&gt;open digital edition of Muḥammad Kurd ʿAlī’s &lt;em&gt;Majallat al-Muqtabas&lt;/em&gt; (1906–18)&lt;/a&gt; we want to show that through re-purposing well-established open software and by bridging the gap between immensely popular but non-academic online-libraries of volunteers and academic scanning efforts as well as editorial expertise, one can produce scholarly editions that remedy the short-comings of either world with very small funds: We use &lt;a href=&quot;http://shamela.ws/index.php/book/26523&quot;&gt;digital texts from &lt;em&gt;shamela.ws&lt;/em&gt;&lt;/a&gt;, transform them into TEI XML—the quasi-standard for digital scholarly editions—add light structural mark-up, bibliographic meta-data, and link each page to facsimiles provided through &lt;a href=&quot;http://eap.bl.uk/database/overview_project.a4d?projID=EAP119;r=63&quot;&gt;EAP&lt;/a&gt; and &lt;a href=&quot;http://catalog.hathitrust.org/Record/100658549&quot;&gt;HathiTrust&lt;/a&gt;. The digital edition (TEI XML and a basic web display) is then hosted as a public GitHub repository with a &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;Creative Commons BY-SA 4.0 licence&lt;/a&gt;. Improvements  can be crowd-sourced with clear attribution of authorship and version control using  GitHub’s core functionality. Editions are referencable down to the word level for scholarly citations, annotation layers, and web-applications through a documented URI scheme. The &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;web-display&lt;/a&gt;  can be downloaded and run locally without an internet connection—a necessity for societies outside the global North, which again transforms the book into a highly mobile cultural artifact to be shared among intellectual networks across borders.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 May 2016 22:51:22 +0200</pubDate>
+        <pubDate>Tue, 10 May 2016 23:51:22 +0300</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/05/10/presentation-books-in-motion/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/05/10/presentation-books-in-motion/</guid>
         
@@ -544,7 +544,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Fri, 22 Apr 2016 22:44:55 +0200</pubDate>
+        <pubDate>Fri, 22 Apr 2016 23:44:55 +0300</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/04/22/review-archive-sakhrit/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/04/22/review-archive-sakhrit/</guid>
         
@@ -567,7 +567,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
 
 &lt;p&gt;Slides can be found &lt;a href=&quot;https://www.tillgrallert.github.io/Slides/Dixit2&quot;&gt;here&lt;/a&gt; and the abstract &lt;a href=&quot;http://dixit.uni-koeln.de/convention-2-abstracts/#grallert&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 17 Mar 2016 17:28:14 +0100</pubDate>
+        <pubDate>Thu, 17 Mar 2016 18:28:14 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/03/17/presentation-dixit-2/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/03/17/presentation-dixit-2/</guid>
         
@@ -756,7 +756,7 @@ The second issue relates to the publication dates. For &lt;em&gt;al-Muqtabas&lt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Fri, 29 Jan 2016 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 29 Jan 2016 00:00:00 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2016/01/29/the-puzzle-of-dustur/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2016/01/29/the-puzzle-of-dustur/</guid>
         
@@ -920,7 +920,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 
 &lt;p&gt;To allow a quick review of the mark-up and read the journal’s content, I decided to customise &lt;a href=&quot;http://dcl.slis.indiana.edu/teibp/&quot;&gt;TEI Boilerplate&lt;/a&gt; for a first display of the TEI files in the browser without need for pre-processed HTML and host this heavily customised boilerplate view as a seperate branch of the GitHub repository. For a first impression see &lt;a href=&quot;https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_60.TEIP5.xml&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 13 Nov 2015 18:01:16 +0100</pubDate>
+        <pubDate>Fri, 13 Nov 2015 19:01:16 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/13/online-resource-muqtabas/</guid>
         
@@ -1059,7 +1059,7 @@ Note: There are no restrictions on use of text transcribed from the images, or p
 &lt;/figure&gt;
 
 </description>
-        <pubDate>Thu, 12 Nov 2015 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
         <link>https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</link>
         <guid isPermaLink="true">https://tillgrallert.github.io/blog/2015/11/12/middle-eastern-graffiti/</guid>
         
