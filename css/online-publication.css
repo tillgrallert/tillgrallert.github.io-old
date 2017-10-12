@@ -42,6 +42,10 @@ div.footnotes p {
 	padding-bottom: 0;
 	padding-top: 0;
 }
+/* code */
+code {
+	font-size: 0.8em;
+}
 
 /* images */
 
