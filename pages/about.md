@@ -2,16 +2,16 @@
 layout: page
 title: About
 author: "Till Grallert"
-date: 2016-06-05 19:24:29 +0300
+date: 2018-12-11
 categories: page
 tags:
 - cv
 - profile
 ---
 
-For the time being, a short introduction to both the name of the page and the person(s) behind shall suffice. 
+For the time being, a short introduction to both the name of the page and the person(s) behind shall suffice.
 
-**Sitzextase** is a German neologism translating into the ecstasy of sitting. Some years ago we sat around the kitchen table with some drinks (and in one case without) and had a splendid discussion on a topic long since forgotten. Suddenly we felt the urge to label our evening endeavours appropriately. And there we go. "Sitzextase" was a term too good to vanish with the evening and the pertinent illustration for the historian’s work and thus a domain was ever since duely paid for. Recently, the site was converted to a static page with the help [jekyll](https://jekyllrb.com/) and moved to [GitHub pages](https://help.github.com/articles/about-github-pages-and-jekyll/). 
+**Sitzextase** is a German neologism translating into the ecstasy of sitting. Some years ago we sat around the kitchen table with some drinks (and in one case without) and had a splendid discussion on a topic long since forgotten. Suddenly we felt the urge to label our evening endeavours appropriately. And there we go. "Sitzextase" was a term too good to vanish with the evening and the pertinent illustration for the historian’s work and thus a domain was ever since duely paid for. Recently, the site was converted to a static page with the help [jekyll](https://jekyllrb.com/) and moved to [GitHub pages](https://help.github.com/articles/about-github-pages-and-jekyll/).
 
 <!-- So, who sat around the kitchen table then?
 
@@ -55,7 +55,7 @@ The hat tip for coining the term goes to Christoph.  The historian who ever sinc
 - Guest lecture: "Food riots as part of a repertoire of contention in late Ottoman Greater Syria" as part of the workshop "Are knowledges and disciplinary / interdisciplinary knowledge", Max-Weber-Kolleg, Erfurt, June 2018.
 - Workshop: "Textual Analysis Using Stylometry", American University of Beirut (AUB), Beirut, April 2018.
 
-- Workshop: "Digitalität managen"; Arbeitskreis Digital Humanities der Max Weber Stiftung (MWS), MWS, Bonn; December 2017. 
+- Workshop: "Digitalität managen"; Arbeitskreis Digital Humanities der Max Weber Stiftung (MWS), MWS, Bonn; December 2017.
 - Workshop: "Nachhaltiges OA[Open Access]-Publizieren in den Area Studies: Wie offen sind die Nahoststudien?"; Center for Near and Middle East Studies, Philipps Universität Marburg; December 2017.
 - Paper: "Authoritarianism versus liberty of speech? The theory and practices of press censorship in *Bilād al-Shām* (1875--1914)" as part of the panel "Regulating Print in the late Ottoman Empire: a new look into the question of censorship", co-organised with Kathryn Schwartz at Middle East Studies Association (MESA), Annual Meeting, Washington, DC, November 2017.
 - Paper: with Jochen Tiepmar, Thomas Eckart, Dirk Goldhan, and Christoph Kuras: "Digital muqtabas CTS integration in CLARIN" at CLARIN Annual Conference 2017, Budapest, September 2017.
