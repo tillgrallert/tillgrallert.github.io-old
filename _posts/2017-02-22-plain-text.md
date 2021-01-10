@@ -24,7 +24,7 @@ excerpt_separator: <!--more-->
 
 Disclaimer 1: many of the ideas have been inspired by the work of Alex Gil (@[elotroalex](https://twitter.com/elotroalex)) and Denis Tenen (@[dennistenen](https://twitter.com//dennistenen))[^1] and discussions with the two of them and others at DHI Beirut, THATCamp Beirut, and DHSI.
 
-Disclaimer 2: I am teaching short workshops on some of the ideas outlined in this post at [Digital Humanities Institute - Beirut](https://dhibeirut.wordpress.com/) on 10 March 2017 and at [DH Abu Dhabi](https://wp.nyu.edu/dhad/) on 10 April 2017. Basic slides are available [here](https://tillgrallert.github.io/Slides/2017-dhi-beirut/) and [here](https://tillgrallert.github.io/Slides/2017-dhad/).
+Disclaimer 2: I am teaching short workshops on some of the ideas outlined in this post at [Digital Humanities Institute - Beirut](https://dhibeirut.wordpress.com/) on 10 March 2017 and at [DH Abu Dhabi](https://wp.nyu.edu/dhad/) on 10 April 2017. Basic slides are available [here](https://tillgrallert.github.io/slides/2017-dhi-beirut/) and [here](https://tillgrallert.github.io/slides/2017-dhad/).
 
 # Intro
 
@@ -32,12 +32,12 @@ In the world of (academic) publishing, large aggregators and indexers <!--could 
 
 <!--more-->
 
-One of the opportunities afforded by the *digital humanities* and the stated goal of this endeavour is to remove the middlemen---be they technical or entrepreneurial---between authors, readers, and the library-cum-archive. There are two main obstacles to this aim: 
+One of the opportunities afforded by the *digital humanities* and the stated goal of this endeavour is to remove the middlemen---be they technical or entrepreneurial---between authors, readers, and the library-cum-archive. There are two main obstacles to this aim:
 
-1. copyright laws and 
+1. copyright laws and
 2. the alienation of us, authors and academics, from the means of production.
 
-We will not be able to change copyright legislation and the vested business interests in sustaining and expanding the regime of profit-generating copy and distribution rights in the foreseeable future, but we can all provide our knowledge under a [creative commons licence](https://creativecommons.org/). In order to do so, we need to re-claim the means of production. 
+We will not be able to change copyright legislation and the vested business interests in sustaining and expanding the regime of profit-generating copy and distribution rights in the foreseeable future, but we can all provide our knowledge under a [creative commons licence](https://creativecommons.org/). In order to do so, we need to re-claim the means of production.
 We argue that by doing so the main argument for restrictive copyright---namely, the provision of allegedly expensive services such as quality control and metadata curation---collapses. By the time of writing, printing costs and the global distribution of heavy and voluminous books are already negligible as the main avenue of scholarly publication, the journal, has already moved to digital online publication.
 
 # Principles
@@ -53,7 +53,7 @@ The main principles in our effort to (re)claim the means of production are: acce
 
 ## 1. Writing
 
-Looking at the most broadly-employed software in academic contexts and beyond, Microsoft's Word, a piece of bloated and expensive proprietary software, what are the functions we need to replace? 
+Looking at the most broadly-employed software in academic contexts and beyond, Microsoft's Word, a piece of bloated and expensive proprietary software, what are the functions we need to replace?
 
 ### 1. composition / authoring
 
@@ -68,7 +68,7 @@ To avoid overtly complex software and proprietary formats, form and content must
 
 ### 2. ascertaining authorship, version control, and archiving
 
-Writing is a process and subject to change. We need to be able to try out different structures and formulations and, more often than one would like to, we discover that yesterday's deletions would have been worth keeping. Not to mention an external editor or collaborators that quickly make any approach involving ever-longer file names futile (we all have our folders full of `text.docx`, `text-new-version.docx`, `text-new-version-2004-01-01.docx`, `text-new-version-2004-01-01-comments-by-tg-2.docx` etc.). 
+Writing is a process and subject to change. We need to be able to try out different structures and formulations and, more often than one would like to, we discover that yesterday's deletions would have been worth keeping. Not to mention an external editor or collaborators that quickly make any approach involving ever-longer file names futile (we all have our folders full of `text.docx`, `text-new-version.docx`, `text-new-version-2004-01-01.docx`, `text-new-version-2004-01-01-comments-by-tg-2.docx` etc.).
 
 - [*git*](https://git-scm.com/): git is an open *version control system* (vcs) that works with any file type. It traces every change with clear information on author and a timestamp.
 - [*GitHub*](https://www.github.com): GitHub is probably the most popular *distributed version control system* (dvcs) and code-sharing platform based on git.[^2] While GitHub is a commercial company, it offers free accounts and unlimited public repositories to everyone and free private repositories to academics. Once a change has been committed to a GitHub repository, authors have a public proof of their authorship with a unique identifier that can be referenced. In addition, the repository forms a redundant online back-up of your work.
@@ -77,7 +77,7 @@ Writing is a process and subject to change. We need to be able to try out differ
 
 ### 3. collaboration / external review
 
-- git / GitHub: git allows for branching and forking of text. All changes / suggestions can be reviewed and the author can decide whether to accept or reject them. 
+- git / GitHub: git allows for branching and forking of text. All changes / suggestions can be reviewed and the author can decide whether to accept or reject them.
 
 {>>We need additional collaborative tools<<}
 - *[prose.io](http://prose.io/)*: author text on GitHub online.
@@ -96,7 +96,7 @@ While it would be absolutely sufficient to publish / distribute the plain-text f
 
 {>>mention copyright<<}
 
-A licence is formal agreement that specifies the rights and duties of both the *licensor* (e.g. us as authors) and the *licencee* (e.g. us as readers). Its most important purpose within our discussion is to assure the readers of our texts of their rights to read, copy, and cite them. An open licence might for instance allow reproduction of the text but might prohibit charging for accessing the reproduction. 
+A licence is formal agreement that specifies the rights and duties of both the *licensor* (e.g. us as authors) and the *licencee* (e.g. us as readers). Its most important purpose within our discussion is to assure the readers of our texts of their rights to read, copy, and cite them. An open licence might for instance allow reproduction of the text but might prohibit charging for accessing the reproduction.
 
 Formulating one's own licence text is a challenge and one might not be familiar enough with the necessary "legalese" to write a text readers can rely on. In consequence we suggest looking at established licences and having made a case for open access {>>open science, open knowledge etc.<<}, we suggest to start with [creative commons licences](https://creativecommons.org/).[^5]
 

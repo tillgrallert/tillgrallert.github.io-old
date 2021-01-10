@@ -16,4 +16,4 @@ tags:
 
 I was invited to present Digital Muqtabas at DiXiT's second convention on ["Academia, Cultural Heritage, Society"](http://dixit.uni-koeln.de/programme/convention-2/) that took place in Cologne between 14--18 March. The paper, titled: "The journal *al-Muqtabas* between Shamela.ws, HathiTrust, and GitHub: producing open, collaborative, and fully-referencable digital editions of early Arabic periodicals—with almost no funds", was part of a panel on "Social Editing & Funding", which I was lucky to share with Ray Siemens, who skyped in from Victoria, and Misha Misha Broughton.
 
-Slides can be found [here](https://www.tillgrallert.github.io/Slides/Dixit2) and the abstract [here](http://dixit.uni-koeln.de/convention-2-abstracts/#grallert).
+Slides can be found [here](https://tillgrallert.github.io/slides/Dixit2) and the abstract [here](http://dixit.uni-koeln.de/convention-2-abstracts/#grallert).
